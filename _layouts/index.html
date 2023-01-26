@@ -1,0 +1,45 @@
+{% assign current_page = 'index' %}
+{% assign page_title = 'Welcome' %}
+{% include head.html %}
+{% include nav.html %}
+
+<main>
+  <div class="cover-image">
+    <div class="container mt-20 mx-auto h-full flex flex-col justify-center">
+      <h1 class="homepage-title flex flex-col">
+        <span class="transparent-word" data-text="Činimo ljude"></span>
+        <div class="white-word">
+          <span>Zdravijim</span>
+        </div>
+        <div class="white-word">
+          <span>Sposobnijim</span>
+        </div>
+        <div class="white-word">
+          <span>Srećnijim</span>
+        </div>
+      </h1>
+
+      <div class="mt-32 bg-sinergija-red rounded-full w-48 py-2 text-white uppercase text-center text-xl cursor-pointer">
+        dugme
+      </div>
+    </div>
+  </div>
+
+  {% include our_concept_cta.html %}
+
+  {% include free_training_cta.html %}
+
+  {% include our_concept_section.html %}
+
+  {% include contact_cta.html %}
+
+  {% include galery_cta.html %}
+
+  {% include testimonials.html %}
+
+  {% include location.html %}
+
+</main>
+
+
+{% include footer.html %}
