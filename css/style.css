@@ -47,6 +47,12 @@ h3 {
   text-transform: uppercase;
 }
 
+.gallery-section
+img {
+  /*height: 500px;
+  object-fit: cover*/
+}
+
 /*   H E A D E R   */
 header {
   background-color: transparent;
@@ -80,6 +86,32 @@ header nav .nav-item {
   margin-bottom: 32px;
 }
 
+.section-little-title {
+  font-size: 50px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.pricing-table p {
+  font-weight: 300;
+}
+
+.pricing-section {
+  background-image: url('/img/test-final_165.jpg');
+  background-size: cover;
+  background-position: 40%; 
+  box-shadow: inset -400px 0 250px -50px #161616;;
+}
+
+
+.section-text {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 16px;
+  line-height: 36px;
+  font-weight: 300;
+}
 
 /*   H O M E P A G E   */
 
@@ -446,7 +478,21 @@ header nav .nav-item {
 }
 
 
+/*page menu*/
 
+.menu-dot {
+  background-color:  #464646;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+}
+
+.price-dot {
+  background-color: #ED1C24;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+}
 
 
 
