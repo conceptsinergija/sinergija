@@ -1,0 +1,27 @@
+<section>
+    <div class="container mx-auto">
+        <div class="flex justify-between pt-24">
+            <div class="w-1/5">
+              <ul class="filters__list">
+                {% for mission in page.our_mission %}
+                <li class="filter flex  mb-3 items-center">
+                    <div class="menu-dot mr-8"></div>
+                    <p class="filter__name">{{ mission.title }}</p>
+                  </li>
+                  {% endfor %}
+                  </ul>
+                </div>    
+
+            <div class="w-4/5">    
+        {% for mission in page.our_mission %}
+            <div class="flex mb-16 mission-box">
+              <img class="w-1/2 mission-img" src="{{ mission.image }}" />
+              <div class="w-1/2 mission-text">
+                <h2 class="section-little-title">{{mission.title}}</h2>
+                <p class="4">{{ mission.description }}
+               </p>
+              </div>
+            </div>
+        {% endfor %}
+    </div>
+</section>

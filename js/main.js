@@ -9,7 +9,7 @@ import SmoothScroll from './smoothScroll.js'
 
 
   if(document.querySelector('#concept-section-cta')){
-    const autoplaySpeed = 333000
+    const autoplaySpeed = 4000
 
     // Our concept images Slider
     let ourConceptSliderImages = new Swiper(".conceptSwiperImages", {
@@ -91,6 +91,26 @@ import SmoothScroll from './smoothScroll.js'
       },
     })
   }
+
+
+   var swiper = new Swiper(".topSwiper", {
+      loop: true,
+      spaceBetween: 10,
+      slidesPerView: 5,
+      freeMode: true,
+      watchSlidesProgress: true,
+    });
+    var swiper2 = new Swiper(".topSwiper2", {
+      loop: true,
+      spaceBetween: 10,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      thumbs: {
+        swiper: swiper,
+      },
+    });
 
 
 
