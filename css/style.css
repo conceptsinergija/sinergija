@@ -489,6 +489,17 @@ header nav .nav-item {
   border-radius: 50%;
 }
 
+.mission-container {
+  position: relative;
+}
+
+.filters {
+  height: 350px;
+  top: 70px;
+  left:0;
+  position: sticky;
+}
+
 
 /*slider swiper*/
 
