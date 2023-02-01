@@ -447,6 +447,60 @@ header nav .nav-item {
 
 
 
+/*      F A Q      */
+
+#faq .section-subtitle {
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 36px;
+  text-align: center;
+  color: #464646;
+  text-transform: uppercase;
+}
+
+#faq .faq-category {
+  text-transform: uppercase;
+  font-family: Montserrat, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  padding: 6px 24px;
+  margin-right: 20px;
+  background-color: #464646;
+  color: white;
+  border-radius: 30px;
+  transition: all .2s ease-in-out;
+  cursor: pointer;
+}
+#faq .faq-category:hover {
+  opacity: .75;
+}
+
+#faq .faq-category.active {
+  background-color: #ED1C24;
+  opacity: 1;
+}
+
+#faq .faq-question-question,
+#faq .faq-question-question span, 
+#faq .faq-question-answer, 
+#faq .faq-question-answer a{
+  font-family: Helvetica Neue;
+  font-size: 24px;
+  line-height: 36px;
+}
+#faq .faq-question-question span {
+  font-weight: 700;
+}
+#faq .faq-question-answer a {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 1px;
+}
+#faq .faq-question-answer {
+  font-weight: 300;
+  margin-bottom: 40px;
+}
 
 
 
