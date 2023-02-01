@@ -47,19 +47,24 @@ h3 {
   text-transform: uppercase;
 }
 
+.inner-container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /*   H E A D E R   */
 header {
   background-color: transparent;
-  /*position: absolute;
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1000;*/
+  z-index: 1000;
 }
 
 header .header-logo {
-  width: 300px;
+  width: 260px;
 }
 
 header nav .nav-item {
@@ -654,7 +659,7 @@ padding-right: 50px;
 .mission-box:nth-child(even)  .mission-text {
   margin-left: auto;
   padding-right: 50px;
-  }  
+}
 
 
 
@@ -740,6 +745,35 @@ footer a {
   color: #ED1C24;
   margin-left: 12px;
 }
+
+/* S I N G L E    P R O G R A M    P A G E */
+
+h1.program-title {
+  font-family: Oswald;
+  font-size: 72px;
+  line-height: 80px; 
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+
+#program-hero-slider {
+  max-width: 75%;
+  aspect-ratio: 16/9;
+  overflow: hidden;
+  border-radius: 30px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#singleProgramHeroSlider,
+#program-hero-slider .swiper-slide img {
+  height: 100%;
+}
+
 
 
 

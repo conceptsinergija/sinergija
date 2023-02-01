@@ -125,24 +125,48 @@ import SmoothScroll from './smoothScroll.js'
       })
     })
   }
-   var swiper = new Swiper(".topSwiper", {
+
+  if(document.querySelector('.single-program-page') && document.querySelector('#program-hero-slider')) {
+    new Swiper('#singleProgramHeroSlider', {
+      cssMode: true,
       loop: true,
-      spaceBetween: 10,
-      slidesPerView: 5,
-      freeMode: true,
-      watchSlidesProgress: true,
-    });
-    var swiper2 = new Swiper(".topSwiper2", {
-      loop: true,
-      spaceBetween: 10,
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
+      responsive: true,
+      autoplay: {
+        delay: 2500,
+        loop: true,
+        disableOnInteraction: false,
+        // waitForTransition: false
       },
-      thumbs: {
-        swiper: swiper,
-      },
-    });
+      keyboard: true,
+    })
+  }
+
+
+
+
+
+
+
+
+
+  //  var swiper = new Swiper(".topSwiper", {
+  //     loop: true,
+  //     spaceBetween: 10,
+  //     slidesPerView: 5,
+  //     freeMode: true,
+  //     watchSlidesProgress: true,
+  //   });
+  //   var swiper2 = new Swiper(".topSwiper2", {
+  //     loop: true,
+  //     spaceBetween: 10,
+  //     navigation: {
+  //       nextEl: ".swiper-button-next",
+  //       prevEl: ".swiper-button-prev",
+  //     },
+  //     thumbs: {
+  //       swiper: swiper,
+  //     },
+  //   });
 
 
 

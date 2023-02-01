@@ -1,0 +1,22 @@
+
+{% assign current_page = 'gym' %}
+{% assign page_title = 'Gym' %}
+{% include head.html %}
+{% include nav.html %}
+
+
+<main class="single-program-page pt-40">
+  <div class="container mx-auto">
+    {% include program_hero_slider.html %}
+
+    <h1 class="program-title">{{ page.title }}</h1>
+    {% include our_mission.html  %}
+  </div>
+  
+  {% include pricing.html %}
+
+  {% include location.html %}
+</main>
+
+
+{% include footer.html %}

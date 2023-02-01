@@ -1,0 +1,12 @@
+<section id="program-hero-slider">
+  <div id="singleProgramHeroSlider" class="swiper">
+    <div class="swiper-wrapper">
+      {% for image in page.hero_images %}
+        <div class="swiper-slide">
+          <img src="{{ image }}" alt="{{ page.title }} image  {{ forloop.index }}" width="100%">
+          <!-- tst {{forloop.index}} -->
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
