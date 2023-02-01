@@ -149,28 +149,72 @@ import SmoothScroll from './smoothScroll.js'
 
 
 
-  //  var swiper = new Swiper(".topSwiper", {
-  //     loop: true,
-  //     spaceBetween: 10,
-  //     slidesPerView: 5,
-  //     freeMode: true,
-  //     watchSlidesProgress: true,
-  //   });
-  //   var swiper2 = new Swiper(".topSwiper2", {
-  //     loop: true,
-  //     spaceBetween: 10,
-  //     navigation: {
-  //       nextEl: ".swiper-button-next",
-  //       prevEl: ".swiper-button-prev",
-  //     },
-  //     thumbs: {
-  //       swiper: swiper,
-  //     },
-  //   });
+   var swiper = new Swiper(".topSwiper", {
+      loop: true,
+      spaceBetween: 10,
+      slidesPerView: 5,
+      freeMode: true,
+      watchSlidesProgress: true,
+    });
+    var swiper2 = new Swiper(".topSwiper2", {
+      loop: true,
+      spaceBetween: 10,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      thumbs: {
+        swiper: swiper,
+      },
+    });
 
 
+  //mission scroll menu
 
 
+  if (document.querySelector('#our_mission')) {
+
+  let filterBox = document.querySelector('.filters')
+  let filterItems = document.querySelectorAll('.filter-link')
+  filterBox.addEventListener('click', (e) => {
+   
+    filterItems.forEach(fn => {
+
+      if(fn.classList.contains('active')) {
+        fn.classList.remove('active')
+      }    
+    })
+    let closestItem = e.target.closest('.filter-link')
+  if (closestItem)  {
+    closestItem.classList.add('active')
+    }
+  })
+
+
+  //if one of the mission boxes will get to the top of the page, 
+  //filter link with the same dataset.category will get an 'active' class and the dot will get red background
+
+  let missionBoxes = document.querySelectorAll('.mission-box');
+
+  window.onscroll = function () {
+   missionBoxes.forEach(box => {
+        if(box.getBoundingClientRect().top < 15) {
+          //box.classList.add('active')
+          filterItems.forEach( item => {
+            if( box.dataset.category == item.dataset.category) { //box.classList.contains('active')
+              item.classList.add('active')
+            } 
+            if(box.dataset.category !== item.dataset.category) { //box.classList.contains('active') && 
+              item.classList.remove('active')
+            } 
+          })
+        } 
+        //if(box.getBoundingClientRect().top > 15) {
+         //box.classList.remove('active') 
+        //}
+      })        
+  }
+}
 
 
 

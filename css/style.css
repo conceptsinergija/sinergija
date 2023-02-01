@@ -480,13 +480,6 @@ header nav .nav-item {
 
 /*page menu*/
 
-.menu-dot {
-  background-color:  #464646;
-  height: 15px;
-  width: 15px;
-  border-radius: 50%;
-}
-
 .price-dot {
   background-color: #ED1C24;
   height: 15px;
@@ -505,6 +498,24 @@ header nav .nav-item {
   position: sticky;
 }
 
+.active .menu-dot {
+  background-color:  #ED1C24;;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+}
+
+.red {
+  background-color: #ED1C24;
+}
+
+
+.menu-dot {
+  background-color:  #464646;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+}
 /*      F A Q      */
 
 #faq .section-subtitle {
