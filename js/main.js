@@ -93,6 +93,38 @@ import SmoothScroll from './smoothScroll.js'
   }
 
 
+  if(document.querySelector('#faq')) {
+    const faqTitlesItems = document.querySelectorAll('.faq-category')
+    const faqCategorySections = document.querySelectorAll('.faq-category-section')
+
+    // set all 'hidden' except 1st
+    faqCategorySections.forEach((fcs, index) => {
+      if(index !== 0) {
+        fcs.classList.add('hidden')
+      }
+    })
+
+    faqTitlesItems.forEach((fi) => {
+      fi.addEventListener('click', () => {
+        faqTitlesItems.forEach(fit => {
+          if(fit.classList.contains('active'))
+            fit.classList.remove('active')
+        })
+
+        const activeCategory = fi.dataset.categoryName
+
+        faqCategorySections.forEach((fcs) => {
+          if(fcs.id === activeCategory){
+            if(fcs.classList.contains('hidden'))
+              fcs.classList.remove('hidden')
+          } else {
+            fcs.classList.add('hidden')
+          }
+        })
+        fi.classList.add('active')
+      })
+    })
+  }
    var swiper = new Swiper(".topSwiper", {
       loop: true,
       spaceBetween: 10,
