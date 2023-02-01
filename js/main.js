@@ -125,6 +125,30 @@ import SmoothScroll from './smoothScroll.js'
       })
     })
   }
+
+  if(document.querySelector('.single-program-page') && document.querySelector('#program-hero-slider')) {
+    new Swiper('#singleProgramHeroSlider', {
+      cssMode: true,
+      loop: true,
+      responsive: true,
+      autoplay: {
+        delay: 2500,
+        loop: true,
+        disableOnInteraction: false,
+        // waitForTransition: false
+      },
+      keyboard: true,
+    })
+  }
+
+
+
+
+
+
+
+
+
    var swiper = new Swiper(".topSwiper", {
       loop: true,
       spaceBetween: 10,
