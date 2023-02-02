@@ -757,6 +757,15 @@ footer a {
   margin-left: 12px;
 }
 
+/*vaucher*/
+
+.vaucher-img {
+    background-image: url('/img/vaucer.jpeg');
+    background-size: cover;
+    background-position: 40%; 
+    box-shadow: inset 200px 0 150px 50px #161616;;
+}
+
 /* S I N G L E    P R O G R A M    P A G E */
 
 h1.program-title {
