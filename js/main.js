@@ -198,7 +198,7 @@ import SmoothScroll from './smoothScroll.js'
 
   window.onscroll = function () {
    missionBoxes.forEach(box => {
-        if(box.getBoundingClientRect().top < 15) {
+        if(box.getBoundingClientRect().top < 220) {
           //box.classList.add('active')
           filterItems.forEach( item => {
             if( box.dataset.category == item.dataset.category) { //box.classList.contains('active')
