@@ -1,7 +1,11 @@
 backend:
   name: git-gateway
   branch: main # Branch to update (optional; defaults to master)
-media_folder: 'assets/uploads'
+  identity_url: "https://yoursite.com/.netlify/identity"
+media_folder: 'img/uploads'
+publish_mode: editorial_workflow
+site_url: https://yoursite.com
+logo_url: 'img/logo.png'
 collections:
   - name: 'blog'
     label: 'Blog'

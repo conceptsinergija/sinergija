@@ -216,6 +216,34 @@ import SmoothScroll from './smoothScroll.js'
   }
 }
 
+  if(document.querySelector('#membership-section') && document.querySelector('.custom-membership-left-margin')) {
+    defineCustomMargin({ domElementIdentify: '.custom-membership-left-margin', left: true })
+
+    window.addEventListener('resize', () => defineCustomMargin({ domElementIdentify: '.custom-membership-left-margin', left: true }))
+  }
+
+  if(document.querySelector('#vaucher-section') && document.querySelector('.custom-vaucher-left-margin')) {
+    defineCustomMargin({ domElementIdentify: '.custom-vaucher-left-margin', left: true })
+
+    window.addEventListener('resize', () => defineCustomMargin({ domElementIdentify: '.custom-vaucher-left-margin', left: true }))
+  }
+
+  function defineCustomMargin({ domElementIdentify, left, right }){
+    if(!domElementIdentify) return 
+    const domElement = document.querySelector(domElementIdentify)
+
+    const windowWidth = innerWidth
+    const containerWidth = document.querySelector('.container').offsetWidth
+
+    const marginValue = (windowWidth - containerWidth) / 2 
+
+    if(left)
+      domElement.style.marginLeft = marginValue + 'px'
+
+    if(right)
+      domElement.style.marginRight = marginValue + 'px'
+  }
+
 
 
   // document.body.addEventListener('onload', init())

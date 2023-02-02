@@ -5,7 +5,8 @@
 
 <main>
   <div class="cover-image">
-    <div class="container mt-20 mx-auto h-full flex flex-col justify-center">
+    <!-- mt-20 -->
+    <div class="container mx-auto h-full flex flex-col justify-center">
       <h1 class="homepage-title flex flex-col">
         <span class="transparent-word" data-text="Činimo ljude"></span>
         <div class="white-word">
@@ -19,9 +20,9 @@
         </div>
       </h1>
 
-      <div class="mt-32 bg-sinergija-red rounded-full w-48 py-2 text-white uppercase text-center text-xl cursor-pointer">
+      <!-- <div class="mt-32 bg-sinergija-red rounded-full w-48 py-2 text-white uppercase text-center text-xl cursor-pointer">
         dugme
-      </div>
+      </div> -->
     </div>
   </div>
 
@@ -29,8 +30,12 @@
 
   {% include free_training_cta.html %}
 
-  {% include our_concept_section.html %}
+  {% include meet_the_team.html %}
 
+  {% include membership_section.html %}
+
+  {% include working_hours.html %}
+  
   {% include contact_cta.html %}
 
   {% include galery_cta.html %}

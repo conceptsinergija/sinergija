@@ -102,7 +102,7 @@ header nav .nav-item {
   background-image: url('/img/test-final_165.jpg');
   background-size: cover;
   background-position: 40%; 
-  box-shadow: inset -400px 0 250px -50px #161616;;
+  box-shadow: inset -300px 0 250px -50px #161616;
 }
 
 
@@ -188,14 +188,14 @@ header nav .nav-item {
   display: block;
   transform: translate(0, 120px);
   animation: jumpUp 1s forwards; 
-  animation-delay: 1500ms;
+  animation-delay: 1200ms;
 }
 
 .homepage-title .white-word:nth-child(3) span {
-  animation-delay: 2750ms;
+  animation-delay: 2400ms;
 }
 .homepage-title .white-word:nth-child(4) span {
-  animation-delay: 4000ms;
+  animation-delay: 3600ms;
 }
 
 
@@ -336,6 +336,9 @@ header nav .nav-item {
   line-height: 48px;
   min-height: 96px;
   text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 #our-concept-section .concept-box .description{
@@ -492,11 +495,14 @@ header nav .nav-item {
 }
 
 .filters {
-  height: 300px;
+  height: 500px;
   top: 70px;
   left:0;
   position: sticky;
+  /* temp */
+  margin-left: -40px;
 }
+
 
 .active .menu-dot {
   background-color:  #ED1C24;;
@@ -725,7 +731,7 @@ padding-right: 50px;
 #location .locaiton-text a {
   font-size: 20px;
   line-height: 28px;
-  color: #464646;
+  color: white;
 
 }
 
@@ -757,14 +763,190 @@ footer a {
   margin-left: 12px;
 }
 
-/*vaucher*/
+/*   V A U C H E R   */
 
-.vaucher-img {
-    background-image: url('/img/vaucer.jpeg');
-    background-size: cover;
-    background-position: 40%; 
-    box-shadow: inset 200px 0 150px 50px #161616;;
+#vaucher-section .image-section {
+  background-image: url('/img/vaucer.jpeg');
+  background-size: cover;
+  background-position: 40%; 
+  box-shadow: inset 200px 0 150px 50px #161616, 
+              inset 0 -50px 50px 0px #161616;
 }
+
+#vaucher-section .section-title {
+  text-align: left;
+  font-size: 50px;
+}
+
+#vaucher-section .here-btn {
+  color: #ED1C24;
+}
+#vaucher-section .here-btn:hover {
+  text-decoration: underline;
+}
+
+
+#pricelist-section {
+  background-image: url('/img/3Z6A1308.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#pricelist-section .pricelist-overlay {
+  backdrop-filter: blur(6px) opacity(0.85);
+}
+#pricelist-section .price-program-box {
+  padding: 40px 32px;
+  background-color: #161616;
+  border: 2px solid #161616;
+  transition: all .3s ease-in-out;
+  width: 23%;
+  
+}
+
+#pricelist-section .price-program-box:hover {
+  border: 2px solid #ED1C24;
+  transform: scale(1.03);
+}
+
+#pricelist-section .price-program-box .title {
+  font-family: Oswald;
+  font-size: 30px;
+  line-height: 38px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+
+#pricelist-section .price-program-box-item {
+  margin-bottom: 20px;
+}
+
+#pricelist-section .price-program-box-item div {
+  font-family: Helvetica Neue;
+  font-size: 22px;
+  font-weight: 200;
+  line-height: 28px;
+}
+
+#pricelist-section .price-program-box-item:has(.sub-item) {
+  padding-left: 24px;
+  margin-top: -12px;
+}
+
+#pricelist-section .price-box-additional-text {
+  font-weight: 300;
+}
+
+/* temp */
+
+#pricelist-section .price-program-box .col-txt-title {
+  font-family: Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  margin-bottom: 16px;
+
+}
+#pricelist-section .price-program-box .col-txt {
+  font-family: Helvetica Neue;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 29px;
+  margin-bottom: 16px;
+}
+
+
+
+
+/*  M E M B E R S H I P  */
+#membership-section .image-section {
+  background-image: url('/img/test-final_165.jpg');
+  background-size: cover;
+  background-position: 40%; 
+  box-shadow: inset 200px 0 150px 50px #161616, 
+              inset 0 -50px 50px 0px #161616;
+}
+
+#membership-section .section-title {
+  text-align: left;
+}
+
+#membership-section .here-btn {
+  color: #ED1C24;
+}
+#membership-section .here-btn:hover {
+  text-decoration: underline;
+}
+
+#rule-book .section-title {
+  text-align: left;
+}
+
+#rule-book .rule-book-text ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+#rule-book .rule-book-text ul li {
+  margin-bottom: 12px;
+}
+
+#working-hours .section-title {
+  text-align: left;
+}
+
+#working-hours .time {
+  color: #ED1C24;
+  font-weight: 600;
+}
+
+#working-hours .working-hours-text p{
+  margin-bottom: 20px;
+}
+
+#working-hours .circle {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 2px solid #ED1C24;
+  margin: 0 20px;
+  padding-top: 36px;
+}
+
+#working-hours .circle .time {
+  font-family: Helvetica;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 29px;
+  text-align: center;
+  margin-bottom: 8px;
+  color: #fff;
+}
+
+#working-hours .circle .days {
+  font-family: Helvetica Neue;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 20px;
+  letter-spacing: 0em;
+  margin-top: 8px;
+}
+
+
+/*  M E E T   T H E   T E A M   */
+#meet-the-team .meet-team-person-box {
+  width: 30%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  opacity: 0.4;
+}
+#meet-the-team .meet-team-person-box:nth-child(1) {
+  opacity: 1;
+}
+
+
 
 /* S I N G L E    P R O G R A M    P A G E */
 
