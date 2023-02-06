@@ -12,19 +12,19 @@ collections:
         name: 'index'
         file: 'index.md'
         fields:
-          - { label: 'Naslov', name: 'title', widget: 'hidden', default: 'Pocetna' }
+          - { label: 'Naslov', name: 'title', widget: 'string', default: 'Pocetna' }
           - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'index' }
       - label: 'O nama'
         name: 'about'
         file: 'about.md'
         fields:
-          - { label: 'Naslov', name: 'title', widget: 'hidden', default: 'O namaa' }
+          - { label: 'Naslov', name: 'title', widget: 'string', default: 'O namaa' }
           - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about-us' }
       - label: 'FAQ'
         name: 'faq'
         file: 'faq.md'
         fields:
-          - { label: 'Naslov', name: 'title', widget: 'hidden', default: 'FAQ - ČESTA PITANJA <br> I ODGOVORI' }
+          - { label: 'Naslov', name: 'title', widget: 'string', default: 'FAQ - ČESTA PITANJA <br> I ODGOVORI' }
           - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'faq' }
           - { label: 'Podnaslov', name: 'subtitle', widget: 'string', hint: 'Podnaslov'}
           - label: 'Kategorije'
