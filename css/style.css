@@ -60,7 +60,7 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1000;
+  z-index: 10;
 }
 
 header .header-logo {
@@ -144,7 +144,7 @@ header nav .nav-item {
 }
 
 .homepage-title span:nth-child(1) {
-  transform: translate(0, -100px);
+  transform: translate(0, -120px);
   overflow: hidden;
   padding-top: 4px;
   padding-bottom: 4px; 
@@ -163,7 +163,7 @@ header nav .nav-item {
   position: relative;
   z-index: 1;
   transform: translate(0, 120px);
-  animation: jumpUp 1s forwards; 
+  animation: jumpUp 0.8s forwards; 
   animation-delay: 250ms;
 }
 
@@ -187,15 +187,15 @@ header nav .nav-item {
 .homepage-title .white-word span {
   display: block;
   transform: translate(0, 120px);
-  animation: jumpUp 1s forwards; 
-  animation-delay: 1200ms;
+  animation: jumpUp .8s forwards; 
+  animation-delay: 600ms;
 }
 
 .homepage-title .white-word:nth-child(3) span {
-  animation-delay: 2400ms;
+  animation-delay: 1200ms;
 }
 .homepage-title .white-word:nth-child(4) span {
-  animation-delay: 3600ms;
+  animation-delay: 1800ms;
 }
 
 
@@ -380,6 +380,7 @@ header nav .nav-item {
 #contact-cta .title {
   font-weight: 700;
   font-size: 65px;
+  text-transform: uppercase;
 }
 
 #contact-cta .contact-input,
@@ -536,9 +537,9 @@ header nav .nav-item {
 #faq .faq-category {
   text-transform: uppercase;
   font-family: Montserrat, sans-serif;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 700;
-  line-height: 36px;
+  line-height: 28px;
   padding: 6px 24px;
   margin-right: 20px;
   background-color: #464646;
@@ -556,14 +557,19 @@ header nav .nav-item {
   opacity: 1;
 }
 
-#faq .faq-question-question,
-#faq .faq-question-question span, 
 #faq .faq-question-answer, 
 #faq .faq-question-answer a{
-  font-family: Helvetica Neue;
-  font-size: 24px;
-  line-height: 36px;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 20px;
+  line-height: 28px;
 }
+#faq .faq-question-question,
+#faq .faq-question-question span {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 22px;
+  line-height: 32px;
+}
+
 #faq .faq-question-question span {
   font-weight: 700;
 }
@@ -699,6 +705,7 @@ padding-right: 50px;
   line-height: 28px;
   font-weight: 300;
   min-height: 120px;
+  text-align: center;
 }
 
 #testimonials .opening-quote,
@@ -778,12 +785,102 @@ footer a {
   font-size: 50px;
 }
 
-#vaucher-section .here-btn {
+#vaucher-section .open-vaucher-model {
+  display: inline-block;
   color: #ED1C24;
+  cursor: pointer;
 }
-#vaucher-section .here-btn:hover {
+#vaucher-section .open-vaucher-model:hover {
   text-decoration: underline;
 }
+
+#vaucher-model {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0,0,0,0.25);
+  padding: 60px 120px;
+  z-index: 100;
+  animation: smoothLoad 1s forwards;
+}
+
+#vaucher-model .close-btn {
+  transform: translate(-50%, 50%);
+  cursor: pointer;
+}
+
+#successfull-model .close-btn{
+  transform: none;
+}
+.vaucher-model-box {
+  position: relative;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.vaucher-model-box .section-title {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.vaucher-model-box input,
+.vaucher-model-box select {
+  background-color: #464646;
+  padding: 12px 24px;
+  outline: #ED1C24;
+  width: 100%;
+}
+
+.vaucher-model-box input,
+.vaucher-model-box select,
+.vaucher-model-box select option {
+  color: #A3A3A3;
+}
+
+.vaucher-model-box input,
+.vaucher-model-box select {
+  border: 1.5px solid transparent;
+}
+
+.vaucher-model-box input:focus,
+.vaucher-model-box select:focus {
+  border: 1.5px solid red;
+}
+
+.vaucher-model-box .vaucher-text {
+  font-family: Helvetica Neue;
+  font-size: 20px;
+  font-weight: 400;
+  color: #A3A3A3;
+  line-height: 24px;
+}
+
+#successfull-model {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0,0,0,0.8);
+  z-index: 110;
+  animation: smoothLoad 1s forwards;
+}
+
+.successfull-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #161616;
+  border: 2px solid #ED1C24;
+  padding: 40px;
+}
+
+#successfull-model h3.section-title {
+  font-size: 50px;
+  line-height: 60px;
+  margin-bottom: 40px;
+
+}
+
 
 
 #pricelist-section {
@@ -990,6 +1087,10 @@ h1.program-title {
 
 
 
+@keyframes smoothLoad {
+  0% { opacity: 0 }
+  100% { opacity: 1 }
+}
 
 @keyframes jumpUp {
   0% {transform: translate(0, 120px) }

@@ -1,5 +1,6 @@
 ---
 layout: vaucher
+title: Vaučer
 first-title: POKLON VAUčER
 first-text: Uvideli smo da je poklon kao što je članarina kod nas jedna fantastična stvar jer onome koji prima poklon otvara jedan novi prozor u svet zdravlja i fitnesa. Stoga u ponudi imamo vaučere koje možete kupiti za sebi drage ljude. Na taj način, stvarno ćete im pokazati da ih volite! 
 

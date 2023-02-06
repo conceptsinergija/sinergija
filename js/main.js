@@ -3,6 +3,9 @@ import SmoothScroll from './smoothScroll.js'
 (function () {
   const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
+  const queryString = window.location.search
+  const urlParams = new URLSearchParams(queryString)
+
   function init() {
     new SmoothScroll({ target: document, speed: 40, smooth: 16 })
   }
@@ -173,31 +176,30 @@ import SmoothScroll from './smoothScroll.js'
 
 
   if (document.querySelector('#our_mission')) {
+    let filterBox = document.querySelector('.filters')
+    let filterItems = document.querySelectorAll('.filter-link')
 
-  let filterBox = document.querySelector('.filters')
-  let filterItems = document.querySelectorAll('.filter-link')
-  filterBox.addEventListener('click', (e) => {
-   
-    filterItems.forEach(fn => {
+    filterBox.addEventListener('click', (e) => {
+      filterItems.forEach(fn => {
+        if(fn.classList.contains('active')) {
+          fn.classList.remove('active')
+        }    
+      })
 
-      if(fn.classList.contains('active')) {
-        fn.classList.remove('active')
-      }    
+      let closestItem = e.target.closest('.filter-link')
+      if (closestItem)  {
+        closestItem.classList.add('active')
+      }
     })
-    let closestItem = e.target.closest('.filter-link')
-  if (closestItem)  {
-    closestItem.classList.add('active')
-    }
-  })
 
 
-  //if one of the mission boxes will get to the top of the page, 
-  //filter link with the same dataset.category will get an 'active' class and the dot will get red background
+    //if one of the mission boxes will get to the top of the page, 
+    //filter link with the same dataset.category will get an 'active' class and the dot will get red background
 
-  let missionBoxes = document.querySelectorAll('.mission-box');
+    let missionBoxes = document.querySelectorAll('.mission-box');
 
-  window.onscroll = function () {
-   missionBoxes.forEach(box => {
+    window.onscroll = function () {
+    missionBoxes.forEach(box => {
         if(box.getBoundingClientRect().top < 220) {
           //box.classList.add('active')
           filterItems.forEach( item => {
@@ -210,11 +212,55 @@ import SmoothScroll from './smoothScroll.js'
           })
         } 
         //if(box.getBoundingClientRect().top > 15) {
-         //box.classList.remove('active') 
+        //box.classList.remove('active') 
         //}
       })        
+    }
   }
-}
+
+  if(document.querySelector('.open-vaucher-model') && document.querySelector('#vaucher-model')) {
+    const vaucherModel = document.querySelector('#vaucher-model')
+    const vaucherBtn = document.querySelector('.open-vaucher-model')
+    const closeVaucherModels = document.querySelectorAll('.close-btn')
+    const submitVaucher = document.querySelector('#submitVaucher')
+    const successfullModel = document.querySelector('#successfull-model')
+    const closeSuccessfullModel = document.querySelector('#closeSuccessfullModel')
+
+    if(urlParams.has('show-vaucher')){
+      console.log(urlParams.has('product'))
+      vaucherModel.classList.remove('hidden')
+    }
+
+    closeVaucherModels.forEach((cvm) => {
+      cvm.addEventListener('click', () => {
+        vaucherModel.classList.add('hidden')
+        document.body.style.removeProperty('overflow')
+        successfullModel.classList.add('hidden')
+      })
+    })
+
+    submitVaucher.addEventListener('click', () => {
+      successfullModel.classList.remove('hidden')
+    })
+
+    closeSuccessfullModel.addEventListener('click', () => {
+      window.location.assign('/');
+    })
+
+    
+    vaucherBtn.addEventListener('click', () => {
+      vaucherModel.classList.remove('hidden')
+      document.body.style.overflow = 'hidden'
+    })
+
+    vaucherModel.addEventListener('click', (e) => {
+      if(e.target === vaucherModel){
+        vaucherModel.classList.add('hidden')
+        document.body.style.removeProperty('overflow')
+      }
+    })
+  }
+
 
   if(document.querySelector('#membership-section') && document.querySelector('.custom-membership-left-margin')) {
     defineCustomMargin({ domElementIdentify: '.custom-membership-left-margin', left: true })
@@ -227,6 +273,19 @@ import SmoothScroll from './smoothScroll.js'
 
     window.addEventListener('resize', () => defineCustomMargin({ domElementIdentify: '.custom-vaucher-left-margin', left: true }))
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   function defineCustomMargin({ domElementIdentify, left, right }){
     if(!domElementIdentify) return 
