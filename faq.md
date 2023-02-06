@@ -1,5 +1,5 @@
 ---
-title: FAQ - ČESTA PITANJA <br> I ODGOVORI
+title: FAQ - ČESTA PITANJA I ODGOVORI
 layout: faq
 subtitle: Imate pitanja, mi imamo odgovor.
 categories:
