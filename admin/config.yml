@@ -38,7 +38,7 @@ collections:
                 widget: "list"
                 fields: 
                   - { label: "Pitanje", name: "question", widget: "string", hint: "Postavi pitanje"}
-                  - { label: "Odgovor", name: "answer", widget: "answer", hint: "Dodaj odgovor"}
+                  - { label: "Odgovor", name: "answer", widget: "string", hint: "Dodaj odgovor"}
 
 
 
