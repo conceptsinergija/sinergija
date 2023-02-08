@@ -13,7 +13,6 @@ import SmoothScroll from './smoothScroll.js'
 
   if(document.querySelector('#concept-section-cta')){
     const autoplaySpeed = 4000
-
     // Our concept images Slider
     let ourConceptSliderImages = new Swiper(".conceptSwiperImages", {
       slidesPerView: 1.3,
@@ -96,28 +95,15 @@ import SmoothScroll from './smoothScroll.js'
   }
 
   if(document.querySelector('#meet-the-team')) {
-    var swiper = new Swiper('.swiper', {
+    var swiper = new Swiper('.meet-the-team-slider', {
       spaceBetween: 30,
       slidesPerView: 3,
       loop: true,
-      direction: getDirection(),
       navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
       },
-      on: {
-        resize: function () {
-          swiper.changeDirection(getDirection());
-        },
-      },
     });
-
-    function getDirection() {
-      var windowWidth = window.innerWidth;
-      var direction = window.innerWidth <= 780 ? 'vertical' : 'horizontal';
-
-      return direction;
-    }
 };
 
 

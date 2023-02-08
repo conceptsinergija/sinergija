@@ -85,6 +85,11 @@ h3 {
   justify-content: center;
   align-items: center;
 }
+/**/
+
+
+/**/
+
 
 #meet-the-team .swiper  .swiper-slide img {
   height: 425px;
@@ -122,7 +127,7 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1000;
+  z-index: 10;
 }
 
 header .header-logo {
@@ -164,7 +169,7 @@ header nav .nav-item {
   background-image: url('/img/test-final_165.jpg');
   background-size: cover;
   background-position: 40%; 
-  box-shadow: inset -400px 0 250px -50px #161616;;
+  box-shadow: inset -300px 0 250px -50px #161616;;
 }
 
 
@@ -206,7 +211,7 @@ header nav .nav-item {
 }
 
 .homepage-title span:nth-child(1) {
-  transform: translate(0, -100px);
+  transform: translate(0, -120px);
   overflow: hidden;
   padding-top: 4px;
   padding-bottom: 4px; 
@@ -225,7 +230,7 @@ header nav .nav-item {
   position: relative;
   z-index: 1;
   transform: translate(0, 120px);
-  animation: jumpUp 1s forwards; 
+  animation: jumpUp 0.8s forwards; 
   animation-delay: 250ms;
 }
 
@@ -249,15 +254,15 @@ header nav .nav-item {
 .homepage-title .white-word span {
   display: block;
   transform: translate(0, 120px);
-  animation: jumpUp 1s forwards; 
-  animation-delay: 1500ms;
+  animation: jumpUp 0.8s forwards; 
+  animation-delay: 600ms;
 }
 
 .homepage-title .white-word:nth-child(3) span {
-  animation-delay: 2750ms;
+  animation-delay: 1200ms;
 }
 .homepage-title .white-word:nth-child(4) span {
-  animation-delay: 4000ms;
+  animation-delay: 1800ms;
 }
 
 
@@ -398,6 +403,9 @@ header nav .nav-item {
   line-height: 48px;
   min-height: 96px;
   text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 #our-concept-section .concept-box .description{
@@ -439,6 +447,7 @@ header nav .nav-item {
 #contact-cta .title {
   font-weight: 700;
   font-size: 65px;
+  text-transform: uppercase;
 }
 
 #contact-cta .contact-input,
@@ -554,10 +563,12 @@ header nav .nav-item {
 }
 
 .filters {
-  height: 350px;
+  height: 500px;
   top: 70px;
   left:0;
   position: sticky;
+   /* temp */
+  margin-left: -40px;
 }
 
 .active .menu-dot {
@@ -592,9 +603,9 @@ header nav .nav-item {
 #faq .faq-category {
   text-transform: uppercase;
   font-family: Montserrat, sans-serif;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 700;
-  line-height: 36px;
+  line-height: 28px;
   padding: 6px 24px;
   margin-right: 20px;
   background-color: #464646;
@@ -611,18 +622,26 @@ header nav .nav-item {
   background-color: #ED1C24;
   opacity: 1;
 }
-
-#faq .faq-question-question,
-#faq .faq-question-question span, 
+ 
 #faq .faq-question-answer, 
 #faq .faq-question-answer a{
-  font-family: Helvetica Neue;
-  font-size: 24px;
-  line-height: 36px;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 20px;
+  line-height: 28px;
 }
+
+#faq .faq-question-question,
+#faq .faq-question-question span {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 22px;
+  line-height: 32px;
+}
+
 #faq .faq-question-question span {
   font-weight: 700;
 }
+
+#faq .faq-question-question,
 #faq .faq-question-answer a {
   text-decoration: underline;
   text-underline-offset: 4px;
@@ -755,6 +774,7 @@ padding-right: 50px;
   line-height: 28px;
   font-weight: 300;
   min-height: 120px;
+  text-align: center;
 }
 
 #testimonials .opening-quote,
@@ -787,8 +807,7 @@ padding-right: 50px;
 #location .locaiton-text a {
   font-size: 20px;
   line-height: 28px;
-  color: #464646;
-
+  color: white;
 }
 
 #location .location-title {
@@ -821,12 +840,273 @@ footer a {
 
 /*vaucher*/
 
-.vaucher-img {
+/*.vaucher-img {
     background-image: url('/img/vaucer.jpeg');
     background-size: cover;
     background-position: 40%; 
     box-shadow: inset 200px 0 150px 50px #161616;
+}*/
+#vaucher-section .image-section {
+  background-image: url('/img/vaucer.jpeg');
+  background-size: cover;
+  background-position: 40%; 
+  box-shadow: inset 200px 0 150px 50px #161616, 
+              inset 0 -50px 50px 0px #161616;
 }
+
+#vaucher-section .section-title {
+  text-align: left;
+  font-size: 50px;
+}
+
+#vaucher-section .open-vaucher-model {
+  display: inline-block;
+  color: #ED1C24;
+  cursor: pointer;
+}
+#vaucher-section .open-vaucher-model:hover {
+  text-decoration: underline;
+}
+
+#vaucher-model {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0,0,0,0.25);
+  padding: 60px 120px;
+  z-index: 100;
+  animation: smoothLoad 1s forwards;
+}
+
+#vaucher-model .close-btn {
+  transform: translate(-50%, 50%);
+  cursor: pointer;
+}
+
+#successfull-model .close-btn{
+  transform: none;
+}
+.vaucher-model-box {
+  position: relative;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.vaucher-model-box .section-title {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.vaucher-model-box input,
+.vaucher-model-box select {
+  background-color: #464646;
+  padding: 12px 24px;
+  outline: #ED1C24;
+  width: 100%;
+}
+
+.vaucher-model-box input,
+.vaucher-model-box select,
+.vaucher-model-box select option {
+  color: #A3A3A3;
+}
+
+.vaucher-model-box input,
+.vaucher-model-box select {
+  border: 1.5px solid transparent;
+}
+
+.vaucher-model-box input:focus,
+.vaucher-model-box select:focus {
+  border: 1.5px solid red;
+}
+
+.vaucher-model-box .vaucher-text {
+  font-family: Helvetica Neue;
+  font-size: 20px;
+  font-weight: 400;
+  color: #A3A3A3;
+  line-height: 24px;
+}
+
+#successfull-model {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0,0,0,0.8);
+  z-index: 110;
+  animation: smoothLoad 1s forwards;
+}
+
+.successfull-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #161616;
+  border: 2px solid #ED1C24;
+  padding: 40px;
+}
+
+#successfull-model h3.section-title {
+  font-size: 50px;
+  line-height: 60px;
+  margin-bottom: 40px;
+
+}
+
+
+
+#pricelist-section {
+  background-image: url('/img/3Z6A1308.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#pricelist-section .pricelist-overlay {
+  backdrop-filter: blur(6px) opacity(0.85);
+}
+#pricelist-section .price-program-box {
+  padding: 40px 32px;
+  background-color: #161616;
+  border: 2px solid #161616;
+  transition: all .3s ease-in-out;
+  width: 23%;
+
+}
+
+#pricelist-section .price-program-box:hover {
+  border: 2px solid #ED1C24;
+  transform: scale(1.03);
+}
+
+#pricelist-section .price-program-box .title {
+  font-family: Oswald;
+  font-size: 30px;
+  line-height: 38px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+
+#pricelist-section .price-program-box-item {
+  margin-bottom: 20px;
+}
+
+#pricelist-section .price-program-box-item div {
+  font-family: Helvetica Neue;
+  font-size: 22px;
+  font-weight: 200;
+  line-height: 28px;
+}
+
+
+#pricelist-section .price-program-box-item:has(.sub-item) {
+  padding-left: 24px;
+  margin-top: -12px;
+}
+
+#pricelist-section .price-box-additional-text {
+  font-weight: 300;
+}
+
+/* temp */
+
+#pricelist-section .price-program-box .col-txt-title {
+  font-family: Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  margin-bottom: 16px;
+
+}
+#pricelist-section .price-program-box .col-txt {
+  font-family: Helvetica Neue;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 29px;
+  margin-bottom: 16px;
+}
+
+
+
+
+/*  M E M B E R S H I P  */
+#membership-section .image-section {
+  background-image: url('/img/test-final_165.jpg');
+  background-size: cover;
+  background-position: 40%; 
+  box-shadow: inset 200px 0 150px 50px #161616, 
+              inset 0 -50px 50px 0px #161616;
+}
+
+#membership-section .section-title {
+  text-align: left;
+}
+
+#membership-section .here-btn {
+  color: #ED1C24;
+}
+#membership-section .here-btn:hover {
+  text-decoration: underline;
+}
+
+#rule-book .section-title {
+  text-align: left;
+}
+>>>>>>> db1314ee855d47bec742ef620c28001e5926789d
+
+#rule-book .rule-book-text ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+#rule-book .rule-book-text ul li {
+  margin-bottom: 12px;
+}
+
+<<<<<<< HEAD
+=======
+#working-hours .section-title {
+  text-align: left;
+}
+
+#working-hours .time {
+  color: #ED1C24;
+  font-weight: 600;
+}
+
+#working-hours .working-hours-text p{
+  margin-bottom: 20px;
+}
+
+#working-hours .circle {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 2px solid #ED1C24;
+  margin: 0 20px;
+  padding-top: 36px;
+}
+
+#working-hours .circle .time {
+  font-family: Helvetica;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 29px;
+  text-align: center;
+  margin-bottom: 8px;
+  color: #fff;
+}
+
+#working-hours .circle .days {
+  font-family: Helvetica Neue;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 20px;
+  letter-spacing: 0em;
+  margin-top: 8px;
+}
+
 
 /* S I N G L E    P R O G R A M    P A G E */
 
@@ -858,9 +1138,10 @@ h1.program-title {
 
 
 
-
-
-
+@keyframes smoothLoad {
+  0% { opacity: 0 }
+  100% { opacity: 1 }
+}
 
 
 
