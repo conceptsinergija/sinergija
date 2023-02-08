@@ -42,15 +42,33 @@ collections:
 
 
 
-  - name: 'blog'
-    label: 'Blog'
-    folder: '_posts/'
+  - name: 'concepts'
+    label: 'Trening Koncepti'
+    folder: '_posts/concepts'
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    file: '{{fields.layout}}.md'
+    slug: '{{slug}}'
     editor:
       preview: false
     fields:
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Layout', name: 'layout', widget: 'string', default: 'concept' }
+      - { label: 'Naslov', name: 'title', widget: 'string' }
+      - label: "Naša misija"
+        name: 'our_mission'
+        widget: "object"
+        summary: '{{fields.title}}'
+        fields: 
+          - { label: 'Naslov', name: 'title', widget: 'string' }
+          - { label: 'Tekst', name: 'description', widget: 'text' }
+          - { label: 'Slika', name: 'image', widget: "image", choose_url: true }
+      - label: "Cenovnik"
+        name: 'prices'
+        widget: 'list'
+        collapsed: false
+        summary: '{{ fields.title }}'
+        fields: 
+          - { label: "Usluga", name: "service", widget: "string" }
+          - { label: "Cena", name: "price", widget: "string" }
+      - { label: "Cenovnik - dodatno objašnjenje", name: 'additional_description', widget: 'string' }
+
+
