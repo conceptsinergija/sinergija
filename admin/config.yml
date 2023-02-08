@@ -1,0 +1,56 @@
+backend:
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to master)
+media_folder: 'assets/uploads'
+collections:
+  - name: 'pages'
+    label: 'Pages'
+    editor:
+      preview: false
+    files:
+      - label: 'Početna'
+        name: 'index'
+        file: 'index.md'
+        fields:
+          - { label: 'Naslov', name: 'title', widget: 'string', default: 'Pocetna' }
+          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'index' }
+      - label: 'O nama'
+        name: 'about'
+        file: 'about.md'
+        fields:
+          - { label: 'Naslov', name: 'title', widget: 'string', default: 'O namaa' }
+          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about-us' }
+      - label: 'FAQ'
+        name: 'faq'
+        file: 'faq.md'
+        fields:
+          - { label: 'Naslov', name: 'title', widget: 'string', default: 'FAQ - ČESTA PITANJA <br> I ODGOVORI' }
+          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'faq' }
+          - { label: 'Podnaslov', name: 'subtitle', widget: 'string', hint: 'Podnaslov'}
+          - label: 'Kategorije'
+            name: 'categories' 
+            widget: 'list'
+            summary: '{{fields.title}}'
+            fields: 
+              - { lable: "Naslov", name: 'title', widget: 'string', hint: "Ime kategorije"}
+              - label: "Pitanja i odgovori"
+                name: "questions"
+                widget: "list"
+                fields: 
+                  - { label: "Pitanje", name: "question", widget: "string", hint: "Postavi pitanje"}
+                  - { label: "Odgovor", name: "answer", widget: "text", hint: "Dodaj odgovor"}
+
+
+
+  - name: 'blog'
+    label: 'Blog'
+    folder: '_posts/'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
