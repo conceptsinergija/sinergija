@@ -43,4 +43,8 @@ categories:
       - question: I dalje imam puno pitanja. Kako da vas kontaktiram?
         answer: Ne brini, mi imamo odgovore. Možete nam poslati mail (link) ili nas
           pozvati na naš broj 0655442300
+  - title: Fit Pass
+    questions:
+      - question: Da li je naš objekat saradnik Fit Pass sistema?
+        answer: Da.
 ---
