@@ -84,6 +84,7 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
+  /*width: 300px !important;*/
 }
 /**/
 
@@ -1380,4 +1381,63 @@ max-width: 85%;
 #testimonials .closing-quote {
   display: none;
 }
+
+#contact-cta .contact-input,
+#contact-cta .contact-textarea {
+  font-weight: 400;
+  font-size: 18px;
+  padding: 8px;
+  outline: none;
+  border: none;
+  background-color: #464646;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#contact-cta .contact-textarea {
+  font-weight: 400;
+  font-size: 18px;
+  width: 100%;
+  height: 140px;
+  padding: 8px;
+  resize: none;
+}
+
+#our-concept-section .concept-box {
+  width: 47%;
+  height: 150px;
+  margin-bottom: 15px;
+  margin-left:0;
+  margin-right: 2px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 12px;
+  transition: transform .3s ease-in-out;
+  border: 1px solid white;
+} 
+#our-concept-section .concept-box:hover {
+  border: 2px solid red;
+  transform: scale(1.03);
+}
+
+#our-concept-section .concept-box > a > div {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.55);
+}
+
+#our-concept-section .concept-box .title {
+  font-size: 32px;
+  line-height: 36px;
+  /*min-height: px;*/
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+
 }

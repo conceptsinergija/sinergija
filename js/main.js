@@ -127,7 +127,7 @@ import SmoothScroll from './smoothScroll.js'
   if(document.querySelector('#meet-the-team')) {
     var swiper = new Swiper('.meet-the-team-slider', {
       spaceBetween: 30,
-      slidesPerView: 3,
+      slidesPerView: screen.width < 450 ? 1 : 3 ,
       loop: true,
       navigation: {
         nextEl: '.swiper-button-next',
