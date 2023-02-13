@@ -2,6 +2,7 @@ import SmoothScroll from './smoothScroll.js'
 
 (function () {
   const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+  let TOGGLE_MENU = false;
 
   const queryString = window.location.search
   const urlParams = new URLSearchParams(queryString)
@@ -11,12 +12,41 @@ import SmoothScroll from './smoothScroll.js'
   }
 
 
+
+  const burger = document.querySelector('.burger');
+  const mobileMenu = document.querySelector('.mobile-menu');
+  const header = document.querySelector('#header');
+  const logo = document.querySelector('.header-logo')
+  burger.addEventListener('click', () => {
+    console.log('burger click')
+    TOGGLE_MENU = !TOGGLE_MENU
+    if (TOGGLE_MENU) {
+      mobileMenu.classList.remove('hidden');
+      header.classList.add('open-burger')
+      header.classList.add('black')
+      logo.classList.add('transparent')
+
+    }
+    if (!TOGGLE_MENU) {
+      mobileMenu.classList.add('hidden');
+      header.classList.remove('open-burger')
+      logo.classList.remove('transparent')
+      header.classList.remove('black')
+    }
+
+  })
+  
+
+
   if(document.querySelector('#concept-section-cta')){
     const autoplaySpeed = 4000
     // Our concept images Slider
+   
     let ourConceptSliderImages = new Swiper(".conceptSwiperImages", {
-      slidesPerView: 1.3,
-      spaceBetween: 80,
+      /*slidesPerView: 1.3,
+      spaceBetween: 80,*/
+      slidesPerView: 1,
+      spaceBetween: 20,
       loop: true,
       freeMode: false,
       autoplay: {
@@ -157,12 +187,6 @@ import SmoothScroll from './smoothScroll.js'
 
 
 
-
-
-
-
-
-
    var swiper = new Swiper(".topSwiper", {
       loop: true,
       spaceBetween: 10,
@@ -212,19 +236,15 @@ import SmoothScroll from './smoothScroll.js'
     window.onscroll = function () {
     missionBoxes.forEach(box => {
         if(box.getBoundingClientRect().top < 220) {
-          //box.classList.add('active')
           filterItems.forEach( item => {
-            if( box.dataset.category == item.dataset.category) { //box.classList.contains('active')
+            if( box.dataset.category == item.dataset.category) { 
               item.classList.add('active')
             } 
-            if(box.dataset.category !== item.dataset.category) { //box.classList.contains('active') && 
+            if(box.dataset.category !== item.dataset.category) { 
               item.classList.remove('active')
             } 
           })
         } 
-        //if(box.getBoundingClientRect().top > 15) {
-        //box.classList.remove('active') 
-        //}
       })        
     }
   }
@@ -287,17 +307,6 @@ import SmoothScroll from './smoothScroll.js'
 
 
 
-
-
-
-
-
-
-
-
-
-
-
   function defineCustomMargin({ domElementIdentify, left, right }){
     if(!domElementIdentify) return 
     const domElement = document.querySelector(domElementIdentify)
@@ -321,5 +330,5 @@ import SmoothScroll from './smoothScroll.js'
   // window.onbeforeunload = () => {
   //   window.scrollTo(0, 0);
   // }
-
+  
 })()
