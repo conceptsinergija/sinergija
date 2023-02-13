@@ -1,5 +1,5 @@
 ---
-layout: concept
+layout: single_concept
 title: gym
 galery:
   - /assets/uploads/gym1.jpeg
@@ -91,7 +91,6 @@ rule_book: >-
   * Drago nam je što razumete da su pravila propisana zarad Vašeg što prijatnijeg boravka kao i kvalitetnije usluge.
 
 
-  \
 
   Hvala Vam što ista poštujete.
 ---

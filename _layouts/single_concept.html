@@ -1,0 +1,22 @@
+
+{% include head.html %}
+{% include nav.html %}
+
+{% assign current_page = {{ page.layout }} %}
+{% assign page_title =  {{ page.title }} %}
+
+<main class="pt-40 pb-24" style="max-width: 1200px; margin: 0 auto;">
+  <div class="container mx-auto">
+    <h1 class="section-title">{{ page.title }}</h1>
+    
+    {% include gallery-section.html  %}
+    <p class="mt-20 text-lg">{{ page.subtitle }}</p>
+
+    {% include our_mission.html  %}
+  </div>
+</main>
+
+
+{% include pricing.html %}
+{% include location.html %}
+{% include footer.html %}

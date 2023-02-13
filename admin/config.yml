@@ -44,14 +44,14 @@ collections:
 
   - name: 'concepts'
     label: 'Trening Koncepti'
-    folder: '/'
+    folder: '/concepts'
     create: true
     file: '{{fields.layout}}.md'
     slug: '{{slug}}'
     editor:
       preview: false
     fields:
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'concept' }
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'single_concept' }
       - { label: 'Ime Koncepta', name: 'title', widget: 'string' }
       - label: "Galerija"
         name: "galery"
