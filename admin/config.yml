@@ -77,7 +77,7 @@ collections:
         widget: 'list'
         collapsed: false
         label_singular: "Dodaj cenovnu kategoriju"
-        summary: '{{ fields.title }}'
+        summary: '{{fields.service}}: {{fields.price}}'
         fields: 
           - { label: "Usluga", name: "service", widget: "string" }
           - { label: "Cena", name: "price", widget: "string" }
