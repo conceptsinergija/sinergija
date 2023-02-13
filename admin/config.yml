@@ -44,7 +44,7 @@ collections:
 
   - name: 'concepts'
     label: 'Trening Koncepti'
-    folder: '_posts/concepts'
+    folder: '/'
     create: true
     file: '{{fields.layout}}.md'
     slug: '{{slug}}'
