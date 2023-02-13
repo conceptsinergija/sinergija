@@ -1,7 +1,7 @@
 <section>
-  <div class="container mx-auto " id="our_mission">
-    <div class="flex justify-between pt-24 mission-container">
-      <div class="w-1/5">
+  <div class=" mx-auto " id="our_mission"><!--container-->
+    <div class="flex justify-between pt-12 lg:pt-24 mission-container">
+      <div class="w-1/5 hidden lg:block">
         <ul class="filters pt-24">
           {% for mission in page.our_mission %}
 
@@ -16,12 +16,12 @@
         </ul>
       </div>
 
-      <div class="w-4/5 scollingBox">
+      <div class="lg:w-4/5 scollingBox">
         {% for mission in page.our_mission %}
-        <div class="flex mb-10 mission-box pt-10" id="{{mission.title}}" class=""
+        <div class="mb-20 lg:mb-10  mission-box pt-10" id="{{mission.title}}" class=""
           data-category={{ mission.title | slugify}}>
-          <img class="w-1/2 mission-img" src="{{ mission.image }}" />
-          <div class="w-1/2 mission-text">
+          <img class="lg:w-1/2 mission-img" src="{{ mission.image }}" />
+          <div class="lg:w-1/2 mission-text mb-8 lg:mb-0">
             <h2 class="section-little-title">{{mission.title}}</h2>
             <p class="4">{{ mission.description }}
             </p>

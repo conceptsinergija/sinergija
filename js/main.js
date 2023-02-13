@@ -18,7 +18,6 @@ import SmoothScroll from './smoothScroll.js'
   const header = document.querySelector('#header');
   const logo = document.querySelector('.header-logo')
   burger.addEventListener('click', () => {
-    console.log('burger click')
     TOGGLE_MENU = !TOGGLE_MENU
     if (TOGGLE_MENU) {
       mobileMenu.classList.remove('hidden');
@@ -258,7 +257,6 @@ import SmoothScroll from './smoothScroll.js'
     const closeSuccessfullModel = document.querySelector('#closeSuccessfullModel')
 
     if(urlParams.has('show-vaucher')){
-      console.log(urlParams.has('product'))
       vaucherModel.classList.remove('hidden')
     }
 
