@@ -60,7 +60,7 @@ collections:
         allow_add: true
         label_singular: "Dodaj sliku"
         field: { label: Slika, name: image, widget: image } 
-      - { label: "Tekst ispod naslova", name: 'subtitle', widget: 'text' }           
+      - { label: "Tekst ispod naslova", name: 'subtitle', widget: 'text', required: false }           
       - label: "Naša misija"
         name: 'our_mission'
         widget: "list"
@@ -81,8 +81,8 @@ collections:
         fields: 
           - { label: "Usluga", name: "service", widget: "string" }
           - { label: "Cena", name: "price", widget: "string" }
-      - { label: "Cenovnik - dodatno objašnjenje", name: 'additional_description', widget: 'string', hint: "Tekst ispod cenovnika" }
-      - { label: "Pravilnik", name: 'rule_book', widget: 'markdown' }
+      - { label: "Cenovnik - dodatno objašnjenje", name: 'additional_description', widget: 'string', hint: "Tekst ispod cenovnika", required: false }
+      - { label: "Pravilnik", name: 'rule_book', widget: 'markdown', required: false }
 
 
 
