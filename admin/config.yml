@@ -51,8 +51,16 @@ collections:
     editor:
       preview: false
     fields:
-      - { label: 'Layout', name: 'layout', widget: 'string', default: 'concept' }
-      - { label: 'Naslov', name: 'title', widget: 'string' }
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'concept' }
+      - { label: 'Ime Koncepta', name: 'title', widget: 'string' }
+      - { label: "Tekst ispod naslova", name: 'subtitle', widget: 'text' }
+      - label: "Galerija"
+        name: "galery"
+        widget: 'list'
+        collapsed: false
+        allow_add: true
+        label_singular: "Dodaj sliku"
+        field: { label: Slika, name: image, widget: image }            
       - label: "Naša misija"
         name: 'our_mission'
         widget: "object"
@@ -61,14 +69,18 @@ collections:
           - { label: 'Naslov', name: 'title', widget: 'string' }
           - { label: 'Tekst', name: 'description', widget: 'text' }
           - { label: 'Slika', name: 'image', widget: "image", choose_url: true }
+      - { label: "Slika pored Cenovnika", name: 'price_image', widget: "image" }
       - label: "Cenovnik"
         name: 'prices'
         widget: 'list'
         collapsed: false
+        label_singular: "Dodaj cenovnu kategoriju"
         summary: '{{ fields.title }}'
         fields: 
           - { label: "Usluga", name: "service", widget: "string" }
           - { label: "Cena", name: "price", widget: "string" }
-      - { label: "Cenovnik - dodatno objašnjenje", name: 'additional_description', widget: 'string' }
+      - { label: "Cenovnik - dodatno objašnjenje", name: 'additional_description', widget: 'string', hint: "Tekst ispod cenovnika" }
+      - { label: "Pravilnik", name: 'rule_book', widget: 'markdown' }
+
 
 
