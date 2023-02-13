@@ -63,12 +63,14 @@ collections:
       - { label: "Tekst ispod naslova", name: 'subtitle', widget: 'text' }           
       - label: "Naša misija"
         name: 'our_mission'
-        widget: "object"
-        summary: '{{fields.title}}'
+        widget: "list"
+        collapsed: false
+        allow_add: true
+        label_singular: "Dodaj sekciju"
         fields: 
           - { label: 'Naslov', name: 'title', widget: 'string' }
           - { label: 'Tekst', name: 'description', widget: 'text' }
-          - { label: 'Slika', name: 'image', widget: "image", choose_url: true }
+          - { label: 'Slika', name: 'image', widget: "image" }
       - { label: "Slika pored Cenovnika", name: 'price_image', widget: "image" }
       - label: "Cenovnik"
         name: 'prices'
