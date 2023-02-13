@@ -4,12 +4,11 @@
       <div class="w-1/5 hidden lg:block">
         <ul class="filters pt-24">
           {% for mission in page.our_mission %}
-
           <li class="filter flex mb-3  pr-4">
             <a class="w-full flex filter-link align-bottom items-center" href="#{{mission.title}}"
               data-category={{ mission.title | slugify}}>
               <div class="menu-dot mr-8"></div>
-              <div>{{ mission.title }}</div>
+              <div class="uppercase">{{ mission.title }}</div>
             </a>
           </li>
           {% endfor %}
