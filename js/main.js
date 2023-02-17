@@ -334,7 +334,6 @@ import SmoothScroll from './smoothScroll.js'
   if (document.querySelector('#pricelist-section')) {
     const accordions = document.querySelectorAll('.accordion')
     accordions.forEach((a) => {
-      console.log('accordions',accordions)
       a.addEventListener('click', () => {
         if (a.classList.contains('accordion-opened')) {
           a.classList.remove('accordion-opened')
