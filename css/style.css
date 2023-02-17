@@ -979,6 +979,7 @@ footer a {
   border: 2px solid #161616;
   transition: all .3s ease-in-out;
   width: 23%;
+  margin-bottom: 0;
 
 }
 
@@ -1571,5 +1572,68 @@ max-width: 85%;
   font-size: 40px;
   line-height: 42px;
 }
-  
+
+
+#pricelist-section .price-program-box {
+  background-color: #161616;
+  border: 2px solid #161616;
+  transition: all .3s ease-in-out;
+  width: 100%;
+  margin-bottom: 30px;
+  padding-bottom: 16px;
+}
+
+#pricelist-section .price-program-box  .title{
+  margin-bottom: 0;
+  position: relative;
+}
+
+.accordion-description {
+  max-height: 0;
+  overflow: hidden;
+  white-space: pre-line;
+  -webkit-transition: max-height 0.1s ease-in;
+  -o-transition: max-height 0.1s ease-in;
+  transition: max-height 0.1s ease-in;
+  padding-top: 16px;
+}
+
+
+.accordion-opened .accordion-description {
+  padding-top: 16px;
+  max-height: 100%;
+  -webkit-transition: max-height 0.4s ease-in;
+  -o-transition: max-height 0.4s ease-in;
+  transition: max-height 0.4s ease-in;
+  /*padding-bottom: 32px;*/
+
+}
+
+.plus {
+  height: 4px;
+  width: 20px;
+  background-color: white;
+  top:18px;
+  left:0px;
+  position: absolute;
+}
+
+.plus::after {
+  content: '';
+  height: 20px;
+  width: 4px;
+  background-color: white;
+  margin-right: 45px;
+  position: absolute;
+  top: -8px;
+  left: 8px;
+}
+
+.accordion-opened .plus::after {
+  background-color: transparent;
+}
+
+
+
+
 }

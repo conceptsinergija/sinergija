@@ -328,5 +328,36 @@ import SmoothScroll from './smoothScroll.js'
   // window.onbeforeunload = () => {
   //   window.scrollTo(0, 0);
   // }
+
+  //pricing 
+
+  if (document.querySelector('#pricelist-section')) {
+    const accordions = document.querySelectorAll('.accordion')
+    accordions.forEach((a) => {
+      console.log('accordions',accordions)
+      a.addEventListener('click', () => {
+        if (a.classList.contains('accordion-opened')) {
+          a.classList.remove('accordion-opened')
+          return
+        }
+        
+        let useSetTimeout = false
+
+        accordions.forEach((ac) => {
+          if (ac.classList.contains('accordion-opened')) {
+            ac.classList.remove('accordion-opened')
+            useSetTimeout = true
+          }
+        }) 
+
+        setTimeout(() => {
+          a.classList.add('accordion-opened')
+          useSetTimeout = false;
+        }, useSetTimeout ? 1 : 1)
+          
+      })
+    })
+  }
+
   
 })()
