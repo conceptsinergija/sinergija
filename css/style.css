@@ -980,8 +980,12 @@ footer a {
   transition: all .3s ease-in-out;
   width: 23%;
   margin-bottom: 0;
-
 }
+
+#pricelist-section .price-program-box--loayl {
+  width: 48%;
+}
+
 
 #pricelist-section .price-program-box:hover {
   border: 2px solid #ED1C24;
@@ -1158,6 +1162,10 @@ h1.program-title {
 
 .concept-slider {
   height: 600px;
+}
+
+.price-program-box-loyal {
+  width: 48%;
 }
 
 @media  screen and (max-width: 450px) {
@@ -1581,6 +1589,8 @@ max-width: 85%;
   width: 100%;
   margin-bottom: 30px;
   padding-bottom: 16px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 #pricelist-section .price-program-box  .title{
@@ -1633,7 +1643,18 @@ max-width: 85%;
   background-color: transparent;
 }
 
+.price-program-box--loyal {
+  width: 100%;
+}
 
+#pricelist-section .price-program-box .col-txt-title {
+  font-family: Helvetica;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 16px;
+
+}
 
 
 }
