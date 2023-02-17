@@ -870,6 +870,7 @@ footer a {
   color: #ED1C24;
   cursor: pointer;
 }
+
 #vaucher-section .open-vaucher-model:hover {
   text-decoration: underline;
 }
@@ -1540,5 +1541,35 @@ max-width: 85%;
     min-height: 120px;
     text-align: center;
   }
+
+  #faq .section-subtitle {
+    font-size: 20px;
+    line-height: 36px;
+  }
+
+  #faq .faq-question-answer, 
+#faq .faq-question-answer a{
+  font-family: 'Helvetica', sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+#faq .faq-question-question,
+#faq .faq-question-question span {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+#generalno h3 {
+ font-size: 25px;
+ line-height: 25px;
+}
+
+#vaucher-section .section-title {
+  text-align: left;
+  font-size: 40px;
+  line-height: 42px;
+}
   
 }
