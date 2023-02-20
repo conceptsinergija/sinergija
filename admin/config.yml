@@ -36,7 +36,7 @@ collections:
           summary: '{{fields.alt}}'
           fields:
             - { label: "Alt Tekst", name: "alt", widget: "string" }
-            - { label: 'Prikazi u sekcijama po stranama', name: 'show_on_cta', widget: 'boolean', default: false}
+            - { label: 'Prikazi u sekcijama po stranama', name: 'show_on_cta', widget: 'boolean', default: false, required: false}
             - { label: "Slika", name: "image", widget: "image" }
       
       - label: 'FAQ'
