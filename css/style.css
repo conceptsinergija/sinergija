@@ -6,6 +6,8 @@
 body {
   background-color: #161616;
   color: white;
+  animation: smoothLoad;
+  animation-duration: 4s;
 }
 
 img {
@@ -169,6 +171,12 @@ header nav .nav-item {
   background-size: cover;
   background-position: 40%; 
   box-shadow: inset -300px 0 250px -50px #161616;;
+}
+
+#pricing .additional-text {
+  text-align: right;
+  margin-top: 60px;
+  font-size: 18px;
 }
 
 
@@ -401,6 +409,7 @@ header nav .nav-item {
 
 #our-concept-section .concept-box .title {
   font-size: 40px;
+  margin-bottom: 36px;
   line-height: 48px;
   min-height: 96px;
   text-transform: uppercase;
@@ -1168,10 +1177,14 @@ h1.program-title {
   width: 48%;
 }
 
-@media  screen and (max-width: 450px) {
+@media  screen and (max-width: 500px) {
   .custom-vaucher-left-margin {
     padding-left: 16px;
     padding-right: 16px;
+  }
+
+  .homepage-title .white-word {
+    -webkit-text-stroke: 2.2px white;
   }
   
   .container {
@@ -1180,7 +1193,10 @@ h1.program-title {
   }
 
   header {
-   /*background-color: #161616;*/
+   position: fixed;
+  }
+  header.active {
+    background-color: #161616;
   }
 
   .black {
@@ -1194,7 +1210,7 @@ h1.program-title {
   }
 
   header .header-logo {
-    width: 120px;
+    width: 140px;
   }
   
 
@@ -1222,7 +1238,7 @@ h1.program-title {
   }
   
   header .burger {
-    height: 42px;
+    height: 35px;
   }
 
   header.open-burger .burger .burger-line:nth-child(1) {
@@ -1399,6 +1415,16 @@ max-width: 85%;
 
 #testimonials .closing-quote {
   display: none;
+}
+
+#concept-section-cta .concept-title {
+  font-size: 40px;
+  line-height: 52px;
+}
+
+#concept-section-cta .concept-description {
+  font-size: 16px;
+  line-height: 24px;
 }
 
 #contact-cta .contact-input,

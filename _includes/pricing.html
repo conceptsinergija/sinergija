@@ -1,6 +1,6 @@
 <section id="pricing" class="pt-24 pb-40 mr-auto flex ">
   <div class="w-1/2 pricing-section h-screen" style="background-image: url({{page.price_image}});"></div>
-  <div class="w-1/2  pl-24 pr-24 pt-24 text-center">
+  <div class="w-1/2  pl-24 pr-24 pt-24 text-center flex flex-col ">
     <div class="">
       <h2 class="section-little-title mb-1">Cenovnik</h2>
       <div class="flex justify-center mb-16">
@@ -8,15 +8,20 @@
         <div class="price-dot mr-2"></div>
         <div class="price-dot"></div>
       </div>
-    </div>
-
-    <div class="w-full pricing-table">
-      {% for price in page.prices %}
+      
+      <div class="w-full pricing-table">
+        {% for price in page.prices %}
         <div class="flex justify-between mb-6">
           <p>{{ price.service }}</p>
           <strong>{{ price.price }}</strong>
         </div>
-      {% endfor %}
+        {% endfor %}
+      </div>
     </div>
+    {% if page.additional_description %}
+      <div class="additional-text">
+        <span class="text-red-700 text-2xl">*</span> {{page.additional_description}}
+      </div>
+    {% endif %}
   </div>
 </section
