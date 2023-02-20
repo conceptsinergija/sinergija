@@ -12,14 +12,33 @@ collections:
         name: 'index'
         file: 'index.md'
         fields:
-          - { label: 'Naslov', name: 'title', widget: 'string', default: 'Pocetna' }
+          - { label: 'Naslov', name: 'title', widget: 'string', default: 'Početna' }
           - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'index' }
+
       - label: 'O nama'
         name: 'about'
         file: 'about.md'
         fields:
-          - { label: 'Naslov', name: 'title', widget: 'string', default: 'O namaa' }
+          - { label: 'Naslov', name: 'title', widget: 'string', default: 'O nama' }
           - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about-us' }
+
+      - label: 'Galerija'
+        name: 'galery'
+        file: 'galery.md'
+        fields:
+        - { label: 'Naslov', name: 'title', widget: 'string', default: 'Glaerija' }
+        - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'galery' }
+        - label: 'Slike'
+          name: 'images'
+          widget: 'list'
+          allow_add: true
+          label_singular: "Dodaj sliku"
+          summary: '{{fields.alt}}'
+          fields:
+            - { label: "Alt Tekst", name: "alt", widget: "string" }
+            - { label: 'Prikazi u sekcijama po stranama', name: 'show_on_cta', widget: 'boolean', default: false, required: false}
+            - { label: "Slika", name: "image", widget: "image" }
+      
       - label: 'FAQ'
         name: 'faq'
         file: 'faq.md'
@@ -39,7 +58,6 @@ collections:
                 fields: 
                   - { label: "Pitanje", name: "question", widget: "string", hint: "Postavi pitanje"}
                   - { label: "Odgovor", name: "answer", widget: "text", hint: "Dodaj odgovor"}
-
 
 
   - name: 'concepts'
