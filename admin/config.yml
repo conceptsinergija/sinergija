@@ -20,6 +20,19 @@ collections:
         fields:
           - { label: 'Naslov', name: 'title', widget: 'string', default: 'O namaa' }
           - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about-us' }
+
+      - label: 'Galerija'
+        name: 'galery'
+        file: 'galery.md'
+        - label: 'Slike'
+          name: 'images'
+          widget: 'list'
+          allow_add: true
+          label_singular: "Dodaj sliku"
+          summary: '{{fields.image}}'
+          fields:
+            - { label: "Slika", name: "image", widget: "image" }
+            - { label: "Alt Tekst", name: "alt", widget: "string" }
       - label: 'FAQ'
         name: 'faq'
         file: 'faq.md'
@@ -39,7 +52,6 @@ collections:
                 fields: 
                   - { label: "Pitanje", name: "question", widget: "string", hint: "Postavi pitanje"}
                   - { label: "Odgovor", name: "answer", widget: "text", hint: "Dodaj odgovor"}
-
 
 
   - name: 'concepts'
