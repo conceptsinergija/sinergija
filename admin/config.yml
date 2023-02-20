@@ -12,18 +12,22 @@ collections:
         name: 'index'
         file: 'index.md'
         fields:
-          - { label: 'Naslov', name: 'title', widget: 'string', default: 'Pocetna' }
+          - { label: 'Naslov', name: 'title', widget: 'string', default: 'Početna' }
           - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'index' }
+
       - label: 'O nama'
         name: 'about'
         file: 'about.md'
         fields:
-          - { label: 'Naslov', name: 'title', widget: 'string', default: 'O namaa' }
+          - { label: 'Naslov', name: 'title', widget: 'string', default: 'O nama' }
           - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about-us' }
 
       - label: 'Galerija'
         name: 'galery'
         file: 'galery.md'
+        fields:
+        - { label: 'Naslov', name: 'title', widget: 'string', default: 'Glaerija' }
+        - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'galery' }
         - label: 'Slike'
           name: 'images'
           widget: 'list'
@@ -33,6 +37,7 @@ collections:
           fields:
             - { label: "Slika", name: "image", widget: "image" }
             - { label: "Alt Tekst", name: "alt", widget: "string" }
+      
       - label: 'FAQ'
         name: 'faq'
         file: 'faq.md'
