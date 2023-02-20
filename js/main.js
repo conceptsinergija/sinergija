@@ -358,5 +358,18 @@ import SmoothScroll from './smoothScroll.js'
     })
   }
 
+
+  window.addEventListener('scroll', function() {
+    let scroll = window.scrollY;
+    const header = document.querySelector('#header')
+    if (scroll > 80 && !header.classList.contains('active')) {
+      header.classList.add('active')
+    }
+    else if (scroll < 80 ) {
+      header.classList.remove('active')
+    }
+});
+
+
   
 })()
