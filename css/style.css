@@ -982,6 +982,7 @@ footer a {
 #pricelist-section .pricelist-overlay {
   backdrop-filter: blur(6px) opacity(0.85);
 }
+
 #pricelist-section .price-program-box {
   padding: 40px 32px;
   background-color: #161616;
@@ -1619,7 +1620,7 @@ max-width: 85%;
   border: 2px solid #161616;
   transition: all .3s ease-in-out;
   width: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   padding-bottom: 16px;
   padding-left: 10px;
   padding-right: 10px;
@@ -1688,5 +1689,23 @@ max-width: 85%;
 
 }
 
+#pricelist-section {
+  background-image:none;
+  background-size: cover;
+  background-position: center;
+}
 
+#pricelist-section .price-program-box .col-txt {
+  font-family: Helvetica Neue;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+
+#pricelist-section .price-program-box:hover {
+  border: 2px solid #ED1C24;
+  transform: none;
+}
 }
