@@ -1196,6 +1196,7 @@ h1.program-title {
   header {
    position: fixed;
   }
+
   header.active {
     background-color: #161616;
   }
@@ -1707,5 +1708,9 @@ max-width: 85%;
 #pricelist-section .price-program-box:hover {
   border: 2px solid #ED1C24;
   transform: none;
+}
+
+.mobile-menu-height {
+height: 100vh;
 }
 }

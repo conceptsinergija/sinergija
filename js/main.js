@@ -23,6 +23,7 @@ import SmoothScroll from './smoothScroll.js'
       mobileMenu.classList.remove('hidden');
       header.classList.add('open-burger')
       header.classList.add('black')
+      header.classList.add('mobile-menu-height')
       logo.classList.add('transparent')
 
     }
@@ -30,6 +31,7 @@ import SmoothScroll from './smoothScroll.js'
       mobileMenu.classList.add('hidden');
       header.classList.remove('open-burger')
       logo.classList.remove('transparent')
+      header.classList.remove('mobile-menu-height')
       header.classList.remove('black')
     }
 
