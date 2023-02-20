@@ -5,11 +5,11 @@
         <ul class="filters pt-24">
           {% for mission in page.our_mission %}
           <li class="filter flex mb-3  pr-4">
-            <a class="w-full flex filter-link align-bottom items-center" href="#{{mission.title}}"
+            <span class="w-full flex filter-link align-bottom items-center"
               data-category={{ mission.title | slugify}}>
               <div class="menu-dot mr-8"></div>
               <div class="uppercase">{{ mission.title }}</div>
-            </a>
+            </span>
           </li>
           {% endfor %}
         </ul>

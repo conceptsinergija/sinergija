@@ -10,7 +10,7 @@ galery:
   - /assets/uploads/gym6.png
 subtitle: ""
 our_mission:
-  - title: DIJAGNOSTIKA I ISHRANA s
+  - title: DIJAGNOSTIKA I ISHRANA
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam, elit
       libero nunc sagittis orci nunc. Volutpat sagittis ipsum rutrum mauris,
       urna. Volutpat duis laoreet amet sit cursus non habitant lobortis.
