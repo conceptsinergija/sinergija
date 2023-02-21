@@ -61,7 +61,7 @@ collections:
           - { label: 'Slika', name: 'image', widget: 'image'}
           - { label: "Tekst ispod naslova", name: 'text', widget: 'markdown', required: false }
           - { label: "Pravinlink naslov", name: "rules", widget: "string", required: true }
-          - { label: "Pravilnik tekst", name: 'text', widget: 'markdown', required: true }
+          - { label: "Pravilnik tekst", name: 'rules_text', widget: 'markdown', required: true }
 
 
       - label: 'Vaučer'
