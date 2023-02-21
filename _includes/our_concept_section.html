@@ -9,7 +9,8 @@
 
   <div class="flex flex-wrap items-center justify-between lg:justify-start mt-20">
     {% for page in pages %}
-    <div class="concept-box" style="background-image: url('../img/6O6A0374.jpg')">
+
+    <div class="concept-box" style="background-image: url({{page.galery[0]}})">
       <a href="{{ page.url }}">
         <div class="lg:py-12 lg:px-10 flex flex-col items-center justify-center">
           <h4 class="title oswald font-bold text-center">

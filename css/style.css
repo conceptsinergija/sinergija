@@ -108,7 +108,8 @@ h3 {
   opacity: 0.6;
 }
 
-.swiper-button-next, .swiper-button-prev {
+#meet-the-team .swiper-button-next, 
+#meet-the-team .swiper-button-prev {
   top: 40%;
 }
 
