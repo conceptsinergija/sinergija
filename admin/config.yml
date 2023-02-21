@@ -87,6 +87,25 @@ collections:
                   - { label: "Cena", name: "price", widget: "string", required: false }
               - { label: "Dodatni tekst", name: "additional_text", widget: "string", required: false }
 
+      - label: Galerija
+        name: 'galery'
+        file: 'galery.md'
+        widget: list
+        fields: 
+          - { label: 'Naslov', name: 'title', widget: 'string', default: 'Glaerija' }
+          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'galery' }
+          - label: 'Slike'
+            name: 'images'
+            widget: 'list'
+            allow_add: true
+            label_singular: "Dodaj sliku"
+            summary: '{{fields.alt}}'
+            fields:
+              - { label: "Alt Tekst", name: "alt", widget: "string" }
+              - { label: 'Prikazi u sekcijama po stranama', name: 'show_on_cta', widget: 'boolean', default: false, required: false}
+              - { label: "Slika", name: "image", widget: "image" }
+
+
       - label: 'Kontakt'
         name: contact
         file: contact.md
@@ -120,28 +139,6 @@ collections:
                 fields: 
                   - { label: "Pitanje", name: "question", widget: "string", hint: "Postavi pitanje"}
                   - { label: "Odgovor", name: "answer", widget: "text", hint: "Dodaj odgovor"}
-
-
-  - label: Galerija
-    name: 'galery'
-    file: 'galery.md'
-    folder: '/'
-    slug: '{{slug}}'
-    editor: 
-      preview: false
-    fields: 
-      - { label: 'Naslov', name: 'title', widget: 'string', default: 'Glaerija' }
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'galery' }
-      - label: 'Slike'
-        name: 'images'
-        widget: 'list'
-        allow_add: true
-        label_singular: "Dodaj sliku"
-        summary: '{{fields.alt}}'
-        fields:
-          - { label: "Alt Tekst", name: "alt", widget: "string" }
-          - { label: 'Prikazi u sekcijama po stranama', name: 'show_on_cta', widget: 'boolean', default: false, required: false}
-          - { label: "Slika", name: "image", widget: "image" }
       
 
 
