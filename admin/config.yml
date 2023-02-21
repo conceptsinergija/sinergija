@@ -71,6 +71,13 @@ collections:
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'single_concept' }
       - { label: 'Ime Koncepta', name: 'title', widget: 'string' }
+      - label: "Ukratko o konceptu"
+        name: 'short_description'
+        widget: 'list'
+        allow_add: false
+        fileds: 
+          - { label: 'Tekst', name: 'text', widget: 'string'}
+          - { label: 'Prikazi na početnoj strani', name: 'show_on_homepage',  widget: 'boolean', default: false, required: false }
       - label: "Galerija"
         name: "galery"
         widget: 'list'

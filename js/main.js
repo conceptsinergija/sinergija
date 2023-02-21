@@ -96,20 +96,22 @@ import SmoothScroll from './smoothScroll.js'
   }
 
   if(document.querySelector('#galery-cta') && document.querySelector('.galerySwiper')) {
-    let galerySwiper = new Swiper(".galerySwiper", {
-      spaceBetween: 30,
-      centeredSlides: true,
-      loop: true,
-      // autoplay: {
-      //   delay: 2500,
-      //   disableOnInteraction: false,
-      //   pauseOnMouseEnter: true
-      // },
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-    })
+    if(window.innerWidth < 768) {
+      new Swiper(".galerySwiper", {
+        centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+          loop: true,
+          disableOnInteraction: false,
+          // waitForTransition: false
+        },
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      })
+    }
   }
 
   if(document.querySelector('#testimonials') && document.querySelector('.testimonialSwiper')) {

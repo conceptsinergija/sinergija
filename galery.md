@@ -1,5 +1,6 @@
 ---
 title: Galerija
+layout: galery
 images:
   - image: /assets/uploads/galery1.jpg
     alt: galerija 1
