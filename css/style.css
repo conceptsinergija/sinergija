@@ -1105,10 +1105,10 @@ footer a {
   text-align: left;
 }
 
-#membership-section .here-btn {
+#membership-section a {
   color: #ED1C24;
 }
-#membership-section .here-btn:hover {
+#membership-section a:hover {
   text-decoration: underline;
 }
 

@@ -14,6 +14,36 @@ collections:
         fields:
           - { label: 'Naslov', name: 'title', widget: 'string', default: 'Početna' }
           - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'index' }
+          - { label: 'Koncept Naslov', name: 'our_concept_title', widget: "string" }
+          - label: 'Naš Tim'
+            name: 'our_team'
+            widget: 'list'
+            allow_add: true
+            label_singular: 'trenera'
+            summary: '{{fields.name}}'
+            fields: 
+              - { label: "Ime i prezime", name: "name", widget: "string", required: true }
+              - { label: "Slika", name: "image", widget: "image", required: true }
+          - label: 'Članstvo'
+            name: 'membership'
+            widget: list
+            allow_add: false
+            summary: '{{fields.title}}'
+            fields: 
+              - { label: "Naslov", name: "title", widget: "string", required: true }
+              - { label: "Text", name: 'text', widget: 'markdown', required: false }
+          - label: 'Radno vreme'
+            name: 'working_hours'
+            widget: list
+            allow_add: false
+            summary: '{{fields.title}}'
+            fields: 
+              - { label: "Naslov", name: "title", widget: "string", required: true }
+              - { label: "Text", name: 'text', widget: 'markdown', required: false }
+              - { label: Početak radnog vremena radnim danima, name: start_hours_working_days, widget: 'string', required: true }
+              - { label: Kraj radnog vremena radnim danima, name: end_hours_working_days, widget: 'string', required: true }
+              - { label: Početak radnog vremena vikendom, name: start_hours_weekend, widget: 'string', required: true }
+              - { label: Poceatk radnog vremena vikendom, name: end_hours_weekend, widget: 'string', required: true }
 
       - label: 'O nama'
         name: 'about'
@@ -21,24 +51,56 @@ collections:
         fields:
           - { label: 'Naslov', name: 'title', widget: 'string', default: 'O nama' }
           - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about-us' }
+          - { label: "Text", name: 'text', widget: 'markdown', required: false }
 
-      - label: 'Galerija'
-        name: 'galery'
-        file: 'galery.md'
-        fields:
-        - { label: 'Naslov', name: 'title', widget: 'string', default: 'Glaerija' }
-        - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'galery' }
-        - label: 'Slike'
-          name: 'images'
-          widget: 'list'
-          allow_add: true
-          label_singular: "Dodaj sliku"
-          summary: '{{fields.alt}}'
-          fields:
-            - { label: "Alt Tekst", name: "alt", widget: "string" }
-            - { label: 'Prikazi u sekcijama po stranama', name: 'show_on_cta', widget: 'boolean', default: false, required: false}
-            - { label: "Slika", name: "image", widget: "image" }
-      
+      - label: 'Članstvo'
+        name: 'membership'
+        file: 'membership.md'
+        fileds: 
+          - { label: "Naslov", name: "title", widget: "string", required: true }
+          - { label: 'Slika', name: 'image', widget: 'image'}
+          - { label: "Tekst ispod naslova", name: 'text', widget: 'markdown', required: false }
+          - { label: "Pravinlink naslov", name: "rules", widget: "string", required: true }
+          - { label: "Pravilnik tekst", name: 'text', widget: 'markdown', required: true }
+
+
+      - label: 'Vaučer'
+        name: 'vaucher'
+        file: 'vaucher.md'
+        fileds: 
+          - { label: 'Slika', name: 'image', widget: 'image'}
+          - { label: "Poklon vaučer text", name: "vaucher_gift_text", widget: "text", required: true }
+          - { label: "Ponude za firme", name: "vaucher_companies_text", widget: "text", required: true }
+          - label: 'Cenovnik (max 4)'
+            name: 'pricing'
+            widget: list
+            allow_add: true
+            summary: '{{fields.title}}'
+            fileds: 
+              - { label: "Naslov", name: "title", widget: "string", required: true }
+              - label: 'Pojedinacne stavke'
+                widget: list
+                allow_add: true
+                summary: '{{fields.name}}'
+                fields: 
+                  - { label: "Ime", name: "name", widget: "string", required: true }
+                  - { label: "Cena", name: "price", widget: "string", required: false }
+              - { label: "Dodatni tekst", name: "additional_text", widget: "string", required: false }
+
+      - label: 'Kontakt'
+        name: contact
+        file: contact.md
+        widget: list
+        summary: '{{fields.title}}'
+        fields: 
+          - { label: "Naslov", name: "title", widget: "string", required: true }
+          - { label: "Text", name: 'text', widget: 'markdown', required: false }
+          - { label: Početak radnog vremena radnim danima, name: start_hours_working_days, widget: 'string', required: true }
+          - { label: Kraj radnog vremena radnim danima, name: end_hours_working_days, widget: 'string', required: true }
+          - { label: Početak radnog vremena vikendom, name: start_hours_weekend, widget: 'string', required: true }
+          - { label: Poceatk radnog vremena vikendom, name: end_hours_weekend, widget: 'string', required: true }
+
+
       - label: 'FAQ'
         name: 'faq'
         file: 'faq.md'
@@ -60,6 +122,28 @@ collections:
                   - { label: "Odgovor", name: "answer", widget: "text", hint: "Dodaj odgovor"}
 
 
+  - label: Galerija
+    name: 'galery'
+    file: galery.md
+    slug: '{{slug}}'
+    editor: 
+      preview: false
+    fields: 
+      - { label: 'Naslov', name: 'title', widget: 'string', default: 'Glaerija' }
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'galery' }
+      - label: 'Slike'
+        name: 'images'
+        widget: 'list'
+        allow_add: true
+        label_singular: "Dodaj sliku"
+        summary: '{{fields.alt}}'
+        fields:
+          - { label: "Alt Tekst", name: "alt", widget: "string" }
+          - { label: 'Prikazi u sekcijama po stranama', name: 'show_on_cta', widget: 'boolean', default: false, required: false}
+          - { label: "Slika", name: "image", widget: "image" }
+      
+
+
   - name: 'concepts'
     label: 'Trening Koncepti'
     folder: '/concepts'
@@ -76,7 +160,7 @@ collections:
         widget: 'list'
         allow_add: false
         fileds: 
-          - { label: 'Tekst', name: 'text', widget: 'string'}
+          - { label: 'Tekst', name: 'text', widget: 'text', required: false}
           - { label: 'Prikazi na početnoj strani', name: 'show_on_homepage',  widget: 'boolean', default: false, required: false }
       - label: "Galerija"
         name: "galery"
