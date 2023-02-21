@@ -1,0 +1,32 @@
+
+{% include head.html %}
+{% include nav.html %}
+
+{% assign current_page = 'galery' %}
+{% assign page_title = 'galery' %}
+
+
+<main class="container mx-auto mt-40">
+    <div class="">
+    <img src=" /assets/uploads/galery1.jpg" alt="sport"
+    class="animate__animated animate__fadeInUp animate__slow mb-12 reveal-top">
+    <div class="sm:flex sm:justify-between">
+      <div class="w-full sm:w-1/2 text-center sm:mr-8 relative">
+        <img class="reveal-left mb-12 sm:mb-8" src="/assets/uploads/galery2.jpg" alt="sport">
+      </div>
+      <div class="w-full sm:w-1/2 sm:ml-8">
+        <img class="reveal-right mt-12 lg:mt-0" src="/assets/uploads/galery2.jpg" alt="sport">
+      </div>
+    </div>
+    <img class="mt-12 mb-12 reveal-top-delay" src="/assets/uploads/galery2.jpg" alt="sport" >
+    </div>
+    <div class="sm:flex sm:justify-between">
+      <div class="w-full sm:w-1/2 text-center sm:mr-8">
+        <img class="reveal-left mb-12" src="/assets/uploads/galery2.jpg" alt="sport" >
+      </div>
+      <div class="w-full sm:w-1/2 sm:ml-8">
+        <img class="reveal-right mt-12 lg:mt-0" src="/assets/uploads/galery2.jpg" alt="sport">
+      </div>
+    </div>
+  </main>
+{% include footer.html %}
