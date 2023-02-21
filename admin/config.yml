@@ -56,7 +56,7 @@ collections:
       - label: 'Članstvo'
         name: 'membership'
         file: 'membership.md'
-        fileds: 
+        fields: 
           - { label: "Naslov", name: "title", widget: "string", required: true }
           - { label: 'Slika', name: 'image', widget: 'image'}
           - { label: "Tekst ispod naslova", name: 'text', widget: 'markdown', required: false }
@@ -67,7 +67,7 @@ collections:
       - label: 'Vaučer'
         name: 'vaucher'
         file: 'vaucher.md'
-        fileds: 
+        fields: 
           - { label: 'Slika', name: 'image', widget: 'image'}
           - { label: "Poklon vaučer text", name: "vaucher_gift_text", widget: "text", required: true }
           - { label: "Ponude za firme", name: "vaucher_companies_text", widget: "text", required: true }
@@ -124,7 +124,8 @@ collections:
 
   - label: Galerija
     name: 'galery'
-    file: galery.md
+    file: 'galery.md'
+    folder: '/'
     slug: '{{slug}}'
     editor: 
       preview: false
