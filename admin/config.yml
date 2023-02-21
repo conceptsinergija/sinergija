@@ -26,7 +26,7 @@ collections:
               - { label: "Slika", name: "image", widget: "image", required: true }
           - label: 'Članstvo'
             name: 'membership'
-            widget: list
+            widget: object
             allow_add: false
             summary: '{{fields.title}}'
             fields: 
@@ -34,7 +34,7 @@ collections:
               - { label: "Text", name: 'text', widget: 'markdown', required: false }
           - label: 'Radno vreme'
             name: 'working_hours'
-            widget: list
+            widget: object
             allow_add: false
             summary: '{{fields.title}}'
             fields: 
