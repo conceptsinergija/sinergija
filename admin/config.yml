@@ -26,7 +26,7 @@ collections:
               - { label: "Slika", name: "image", widget: "image", required: true }
           - label: 'Članstvo'
             name: 'membership'
-            widget: list
+            widget: object
             allow_add: false
             summary: '{{fields.title}}'
             fields: 
@@ -34,7 +34,7 @@ collections:
               - { label: "Text", name: 'text', widget: 'markdown', required: false }
           - label: 'Radno vreme'
             name: 'working_hours'
-            widget: list
+            widget: object
             allow_add: false
             summary: '{{fields.title}}'
             fields: 
@@ -56,18 +56,18 @@ collections:
       - label: 'Članstvo'
         name: 'membership'
         file: 'membership.md'
-        fileds: 
+        fields: 
           - { label: "Naslov", name: "title", widget: "string", required: true }
           - { label: 'Slika', name: 'image', widget: 'image'}
           - { label: "Tekst ispod naslova", name: 'text', widget: 'markdown', required: false }
           - { label: "Pravinlink naslov", name: "rules", widget: "string", required: true }
-          - { label: "Pravilnik tekst", name: 'text', widget: 'markdown', required: true }
+          - { label: "Pravilnik tekst", name: 'rules_text', widget: 'markdown', required: true }
 
 
       - label: 'Vaučer'
         name: 'vaucher'
         file: 'vaucher.md'
-        fileds: 
+        fields: 
           - { label: 'Slika', name: 'image', widget: 'image'}
           - { label: "Poklon vaučer text", name: "vaucher_gift_text", widget: "text", required: true }
           - { label: "Ponude za firme", name: "vaucher_companies_text", widget: "text", required: true }
@@ -86,6 +86,25 @@ collections:
                   - { label: "Ime", name: "name", widget: "string", required: true }
                   - { label: "Cena", name: "price", widget: "string", required: false }
               - { label: "Dodatni tekst", name: "additional_text", widget: "string", required: false }
+
+      - label: Galerija
+        name: 'galery'
+        file: 'galery.md'
+        widget: list
+        fields: 
+          - { label: 'Naslov', name: 'title', widget: 'string', default: 'Glaerija' }
+          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'galery' }
+          - label: 'Slike'
+            name: 'images'
+            widget: 'list'
+            allow_add: true
+            label_singular: "Dodaj sliku"
+            summary: '{{fields.alt}}'
+            fields:
+              - { label: "Alt Tekst", name: "alt", widget: "string" }
+              - { label: 'Prikazi u sekcijama po stranama', name: 'show_on_cta', widget: 'boolean', default: false, required: false}
+              - { label: "Slika", name: "image", widget: "image" }
+
 
       - label: 'Kontakt'
         name: contact
@@ -120,27 +139,6 @@ collections:
                 fields: 
                   - { label: "Pitanje", name: "question", widget: "string", hint: "Postavi pitanje"}
                   - { label: "Odgovor", name: "answer", widget: "text", hint: "Dodaj odgovor"}
-
-
-  - label: Galerija
-    name: 'galery'
-    file: galery.md
-    slug: '{{slug}}'
-    editor: 
-      preview: false
-    fields: 
-      - { label: 'Naslov', name: 'title', widget: 'string', default: 'Glaerija' }
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'galery' }
-      - label: 'Slike'
-        name: 'images'
-        widget: 'list'
-        allow_add: true
-        label_singular: "Dodaj sliku"
-        summary: '{{fields.alt}}'
-        fields:
-          - { label: "Alt Tekst", name: "alt", widget: "string" }
-          - { label: 'Prikazi u sekcijama po stranama', name: 'show_on_cta', widget: 'boolean', default: false, required: false}
-          - { label: "Slika", name: "image", widget: "image" }
       
 
 
