@@ -1,6 +1,9 @@
 backend:
-  name: git-gateway
+  # name: git-gateway
+  [github | gitlab]
+  repo: parkic/sinergija
   branch: main # Branch to update (optional; defaults to master)
+  base_url: sinergija.vercel.app
 media_folder: 'assets/uploads'
 collections:
   - name: 'pages'
