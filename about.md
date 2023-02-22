@@ -1,4 +1,4 @@
 ---
+title: O nama
 layout: about-us
-title: About
 ---
