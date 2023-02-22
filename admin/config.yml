@@ -20,9 +20,10 @@ collections:
             widget: 'list'
             allow_add: true
             label_singular: 'trenera'
-            summary: '{{fields.name}}'
+            summary: '{{fields.name}} - {{fields.role}}'
             fields: 
-              - { label: "Ime i prezime", name: "name", widget: "string", required: true }
+              - { label: "Ime i prezime", name: "name", widget: "string" }
+              - { label: "Pozicija", name: 'role', widget: 'string'}
               - { label: "Slika", name: "image", widget: "image", required: true }
           - label: 'Članstvo'
             name: 'membership'
@@ -51,7 +52,15 @@ collections:
         fields:
           - { label: 'Naslov', name: 'title', widget: 'string', default: 'O nama' }
           - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about-us' }
-          - { label: "Text", name: 'text', widget: 'markdown', required: false }
+          - label: 'Sekcije'
+            name: 'secitons'
+            widget: list
+            allow_add: true
+            label_singular: Sekciju
+            summary: '{{fileds.title}}'
+            fields: 
+              - { label: "Naslov", name: "title", widget: "string" }
+              - { label: "Tekst", name: 'text', widget: 'markdown' }
 
       - label: 'Članstvo'
         name: 'membership'
