@@ -1690,7 +1690,7 @@ max-width: 85%;
   -o-transition: max-height 0.1s ease-in;
   transition: max-height 0.1s ease-in;*/
   transition-property: max-height, opacity;
-  transition-duration: 0.1s, 0.4s;
+  transition-duration: 0.3s, 0.4s;
   transition-timing-function: ease-in;
   
 }
