@@ -132,6 +132,7 @@ header {
   left: 0;
   right: 0;
   z-index: 10;
+  transition: all .3s ease-in-out;
 }
 
 
@@ -411,10 +412,10 @@ header nav .nav-item {
 }
 
 #our-concept-section .concept-box .title {
-  font-size: 40px;
+  font-size: 38px;
   margin-bottom: 36px;
-  line-height: 48px;
-  min-height: 96px;
+  line-height: 44px;
+  min-height: 88px;
   text-transform: uppercase;
   display: flex;
   justify-content: center;
@@ -451,10 +452,13 @@ header nav .nav-item {
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
+  padding: 60px 0;
 }
 
 #contact-cta .overlay {
-  background-color: rgb(0, 0, 0, .75);
+  background-color:unset;
+  z-index: 1;
+  backdrop-filter: brightness(0.3);
 }
 
 #contact-cta .title {
@@ -489,7 +493,8 @@ header nav .nav-item {
   outline: 1px solid #ED1C24;
 }
 
-#contact-cta .cta-btn {
+#contact-cta .cta-btn,
+#galery-cta .cta-btn{
   font-family: 'Helvetica', sans-serif;
   font-size: 16px;
   line-height: 24px;
@@ -1095,7 +1100,7 @@ footer a {
 
 /*  M E M B E R S H I P  */
 #membership-section .image-section {
-  background-image: url('/img/test-final_165.jpg');
+  background-image: url('/assets/uploads/gym2.jpeg');
   background-size: cover;
   background-position: 40%; 
   box-shadow: inset 200px 0 150px 50px #161616, 
@@ -1222,8 +1227,37 @@ h1.program-title {
 .price-program-box-loyal {
   width: 48%;
 }
+.mobile-show {
+  display: none;
+}
+.mobile-hide {
+  display: block;
+}
+.mobile-hide.flex {
+  display: flex;
+}
+
+#galery .inner-container {
+  max-width: 1200px;
+}
+
+.open-burger .header-logo {
+  animation: smoothLoad .8s ease-in-out;
+}
 
 @media  screen and (max-width: 500px) {
+  .mobile-show {
+    display: block;
+  }
+  .flex.mobile-show {
+    display: flex;
+  }
+  .mobile-hide {
+    display: none;
+  }
+  .mobile-hide.flex {
+    display: none;
+  }
   .custom-vaucher-left-margin {
     padding-left: 16px;
     padding-right: 16px;
@@ -1240,6 +1274,7 @@ h1.program-title {
 
   header {
    position: fixed;
+   z-index: 10000;
   }
 
   header.active {
@@ -1285,7 +1320,7 @@ h1.program-title {
   }
   
   header .burger {
-    height: 35px;
+    height: 40px;
   }
 
   header.open-burger .burger .burger-line:nth-child(1) {
@@ -1360,18 +1395,23 @@ header nav .nav-item {
 .section-title {
   font-size: 40px;
   line-height: 42px;
+  margin-bottom: 60px;
 }
 
 .free_training_cta h2 {
   font-size: 46px;
   line-height: 50px;
-  max-width: 200px;
-}
+  width: 100%;}
 
 .free_training_cta {
   background-image: url('../img/homepage_cta.jpg');
   background-position: center;
   background-size: cover;
+}
+
+.free_training_cta .cta-btn {
+  font-size: 16px;
+  padding: 10px 32px;
 }
 
 #working-hours .circle {
@@ -1419,19 +1459,19 @@ header nav .nav-item {
 }
 
 .working-hours-text { 
-max-width: 85%;
+  margin-top: 40px;
+}
+#working-hours .section-title {
+  text-align: center;
 }
 
 #concept-section-cta .section-title  {
   margin-bottom: 40px;
 }
 
-#membership-section {
-   
-}
 
 .membership {
-  background-image: url('/img/test-final_165.jpg');
+  background-image: url('/assets/uploads/gym2.jpeg');
   background-size: cover;
   background-position: 40%;
   box-shadow: inset 200px 0 150px 50px #161616, 
@@ -1488,6 +1528,7 @@ max-width: 85%;
   background-color: #464646;
   width: 100%;
   margin-bottom: 10px;
+  margin-top: 10px;
   margin-left: 0;
   margin-right: 0;
 }
@@ -1525,13 +1566,14 @@ max-width: 85%;
 }
 
 #our-concept-section .concept-box .title {
-  font-size: 32px;
-  line-height: 36px;
-  /*min-height: px;*/
-  text-transform: uppercase;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
+  font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    min-height: 48px;
+    margin-bottom: 20px;
 }
 
 
@@ -1606,7 +1648,7 @@ max-width: 85%;
   }
 
   #pricing {
-      background-image: url('/img/test-final_165.jpg');
+      background-image: url('/assets/uploads/gym2.jpeg');
       background-size: cover;
       background-position: 60%; 
       box-shadow: inset -300px 0 250px -50px #161616;
@@ -1761,12 +1803,56 @@ max-width: 85%;
 }
 
 
-#pricelist-section .price-program-box:hover {
-  border: 2px solid #ED1C24;
-  transform: none;
-}
+  #pricelist-section .price-program-box:hover {
+    border: 2px solid #ED1C24;
+    transform: none;
+  }
 
-.mobile-menu-height {
-height: 100vh;
-}
+  .mobile-menu-height {
+    height: 100vh;
+    animation: smoothLoad .5s ease-in-out;
+  }
+
+  #galery-cta .galery-btn { 
+    margin-top: 60px;
+  }
+  
+  #concept #galery-cta {
+    padding-top: 2rem;
+  }
+
+  #gallery-slider .topSwiper2 {
+    height: 100%;
+  }
+
+  #our_mission .section-title {
+    margin-bottom: 40px;
+  }
+
+  #pricing .pricing-text-box {
+    backdrop-filter: blur(4px);
+  }
+  
+  
+  #galery .inner-container {
+    max-width: 100%
+  }
+
+  .conceptMobileSwiper .swiper-slide {
+    height: auto;
+  }
+  .swiper-pagination-mobile-concept{
+    margin-top: 10px;
+    text-align: center;
+  }
+  .swiper-pagination-mobile-concept .swiper-pagination-bullet{
+    background-color: #ffffffac;
+    width: 10px;
+    height: 10px;
+  }
+  .swiper-pagination-mobile-concept .swiper-pagination-bullet-active {
+    background-color: #ED1C24;
+  }
+
+
 }

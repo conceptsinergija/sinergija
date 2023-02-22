@@ -1,32 +1,51 @@
+{% assign current_page = 'galery' %}
+{% assign page_title = 'galery' %}
 
 {% include head.html %}
 {% include nav.html %}
 
-{% assign current_page = 'galery' %}
-{% assign page_title = 'galery' %}
-
 
 <main class="container mx-auto mt-40">
-    <div class="">
-    <img src=" /assets/uploads/galery1.jpg" alt="sport"
-    class="animate__animated animate__fadeInUp animate__slow mb-12 reveal-top">
-    <div class="sm:flex sm:justify-between">
-      <div class="w-full sm:w-1/2 text-center sm:mr-8 relative">
-        <img class="reveal-left mb-12 sm:mb-8" src="/assets/uploads/galery2.jpg" alt="sport">
+  <h1 class="section-title">
+    {{ page.title}}</h1>
+  </h1>
+  <div class="inner-container">
+    <div class="first-image mb-12">
+      <img src=" /assets/uploads/galery1.jpg" alt="sport" 
+          class="animate__animated animate__fadeInUp animate__slow"
+      >
+    </div>
+    <div class="md:flex md:justify-between mb-12 sm:mb-8">
+      <div class="second-image  mb-12 sm:mb-8 sm:mr-8">
+        <img class="reveal-left" src="/assets/uploads/galery2.jpg" alt="sport">
       </div>
-      <div class="w-full sm:w-1/2 sm:ml-8">
-        <img class="reveal-right mt-12 lg:mt-0" src="/assets/uploads/galery2.jpg" alt="sport">
+      <div class="third-image  mb-12 sm:mb-8 sm:ml-8">
+        <img class="reveal-right " src="/assets/uploads/galery3.jpg" alt="sport">
       </div>
     </div>
-    <img class="mt-12 mb-12 reveal-top-delay" src="/assets/uploads/galery2.jpg" alt="sport" >
+
+
+    <div class="first-image mb-12">
+      <img src=" /assets/uploads/gym2.jpeg" alt="sport" 
+          class="reveal"
+      >
     </div>
-    <div class="sm:flex sm:justify-between">
-      <div class="w-full sm:w-1/2 text-center sm:mr-8">
-        <img class="reveal-left mb-12" src="/assets/uploads/galery2.jpg" alt="sport" >
+
+    <div class="md:flex md:justify-between mb-12 sm:mb-8">
+      <div class="second-image  mb-12 sm:mb-8 sm:mr-8">
+        <img class="reveal-left" src="/assets/uploads/galery4.jpg" alt="sport">
       </div>
-      <div class="w-full sm:w-1/2 sm:ml-8">
-        <img class="reveal-right mt-12 lg:mt-0" src="/assets/uploads/galery2.jpg" alt="sport">
+      <div class="third-image  mb-12 sm:mb-8 sm:ml-8">
+        <img class="reveal-right " src="/assets/uploads/galery5.jpg" alt="sport">
       </div>
     </div>
-  </main>
+
+    <div class="first-image mb-12">
+      <img src=" /assets/uploads/galery6.jpg" alt="sport" 
+          class="reveal"
+      >
+    </div>
+
+  </div>
+</main>
 {% include footer.html %}

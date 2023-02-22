@@ -58,7 +58,7 @@ our_mission:
       Fermentum diam a adipiscing adipiscing curabitur. Massa condimentum purus
       augue ante tortor.
     image: /assets/uploads/gym5.jpeg
-price_image: /assets/uploads/test-final_165.jpg
+price_image: /assets/uploads/gym2.jpeg
 prices:
   - service: Dnevna karta
     price: "600"

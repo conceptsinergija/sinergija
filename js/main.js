@@ -16,7 +16,6 @@ import SmoothScroll from './smoothScroll.js'
   const burger = document.querySelector('.burger');
   const mobileMenu = document.querySelector('.mobile-menu');
   const header = document.querySelector('#header');
-  const logo = document.querySelector('.header-logo')
   burger.addEventListener('click', () => {
     TOGGLE_MENU = !TOGGLE_MENU
     if (TOGGLE_MENU) {
@@ -24,15 +23,24 @@ import SmoothScroll from './smoothScroll.js'
       header.classList.add('open-burger')
       header.classList.add('black')
       header.classList.add('mobile-menu-height')
-      logo.classList.add('transparent')
-
+      document.body.style.top = `-${window.scrollY}px`
+      document.body.style.right = `0px`
+      document.body.style.left = `0px`
+      document.body.style.position = 'fixed'
     }
     if (!TOGGLE_MENU) {
       mobileMenu.classList.add('hidden');
       header.classList.remove('open-burger')
-      logo.classList.remove('transparent')
       header.classList.remove('mobile-menu-height')
       header.classList.remove('black')
+      const scrollY = document.body.style.top
+      document.body.style.position = ''
+      document.body.style.top = ''
+      document.body.style.right = ``
+      document.body.style.left = ``
+
+      window.scrollTo({top: parseInt(scrollY || '0') * -1, behavior: 'instant' })
+
     }
 
   })
@@ -110,6 +118,24 @@ import SmoothScroll from './smoothScroll.js'
         loop: true,
         pagination: {
           el: ".swiper-pagination",
+          clickable: true,
+        },
+      })
+    }
+  }
+  if(document.querySelector('#galery-cta') && document.querySelector('.conceptMobileSwiper')) {
+    if(window.innerWidth < 768) {
+      new Swiper(".conceptMobileSwiper", {
+        centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+          loop: true,
+          disableOnInteraction: false,
+          // waitForTransition: false
+        },
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination-mobile-concept",
           clickable: true,
         },
       })
@@ -336,9 +362,9 @@ import SmoothScroll from './smoothScroll.js'
 
   // document.body.addEventListener('onload', init())
 
-  // window.onbeforeunload = () => {
-  //   window.scrollTo(0, 0);
-  // }
+  window.onbeforeunload = () => {
+    window.scrollTo(0, 0);
+  }
 
   //pricing 
 

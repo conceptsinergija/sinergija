@@ -1,15 +1,18 @@
 
+{% assign current_page = 'concept' %}
+{% assign page_title = 'Naš koncept' %}
+
 {% include head.html %}
 {% include nav.html %}
 
-{% assign current_page = 'concept' %}
-{% assign page_title = 'Naš koncept' %}
 
 <main class="pt-40 "><!--lg:pb-24-->
   
   {% include our_concept_section.html %}
 
   {% include galery_cta.html %}
+
+  {% include contact_cta.html %}
 
    <!-- include testimonials.html  -->
 
