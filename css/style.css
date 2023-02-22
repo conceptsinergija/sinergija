@@ -1668,7 +1668,7 @@ max-width: 85%;
 #pricelist-section .price-program-box {
   background-color: #161616;
   border: 2px solid #161616;
-  transition: all .3s ease-in-out;
+  transition: all 0.7s ease-in-out;
   width: 100%;
   margin-bottom: 15px;
   padding-bottom: 16px;
@@ -1681,25 +1681,26 @@ max-width: 85%;
   position: relative;
 }
 
-.accordion-description {
+#pricelist-section .accordion-description {
   max-height: 0;
   overflow: hidden;
   white-space: pre-line;
-  -webkit-transition: max-height 0.1s ease-in;
-  -o-transition: max-height 0.1s ease-in;
-  transition: max-height 0.1s ease-in;
   padding-top: 16px;
+  opacity: 0;
+ /* -webkit-transition: max-height 0.1s ease-in;
+  -o-transition: max-height 0.1s ease-in;
+  transition: max-height 0.1s ease-in;*/
+  transition-property: max-height, opacity;
+  transition-duration: 0.3s, 0.4s;
+  transition-timing-function: ease-in;
+  
 }
 
 
-.accordion-opened .accordion-description {
+#pricelist-section .accordion-opened .accordion-description {
   padding-top: 16px;
   max-height: 100%;
-  -webkit-transition: max-height 0.4s ease-in;
-  -o-transition: max-height 0.4s ease-in;
-  transition: max-height 0.4s ease-in;
-  /*padding-bottom: 32px;*/
-
+  opacity: 1;
 }
 
 .plus {
@@ -1709,6 +1710,7 @@ max-width: 85%;
   top:18px;
   left:0px;
   position: absolute;
+  transition: all 0.4s ease-out;
 }
 
 .plus::after {
@@ -1720,9 +1722,14 @@ max-width: 85%;
   position: absolute;
   top: -8px;
   left: 8px;
+  transition: all 0.2s ease-out;
 }
 
 .accordion-opened .plus::after {
+  transform: rotate(90deg);
+}
+
+.accordion-opened .plus {
   background-color: transparent;
 }
 

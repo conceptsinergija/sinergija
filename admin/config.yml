@@ -147,7 +147,7 @@ collections:
                 widget: "list"
                 fields: 
                   - { label: "Pitanje", name: "question", widget: "string", hint: "Postavi pitanje"}
-                  - { label: "Odgovor", name: "answer", widget: "text", hint: "Dodaj odgovor"}
+                  - { label: "Odgovor", name: "answer", widget: "markdown", hint: "Dodaj odgovor"}
       
 
 
