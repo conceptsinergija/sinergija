@@ -1,3 +1,5 @@
+{% assign concepts = site.pages | where:'layout','single_concept' %}
+
 <section id="concept-section-cta" class="pt-24 pb-20">
   <div class="container mx-auto">
     <h2 class="section-title">
@@ -10,13 +12,9 @@
       <div class="concept-slider">
         <div class="swiper conceptSwiperImages h-full" dir="rtl">
           <div class="swiper-wrapper h-full">
-            <div class="swiper-slide" style="background-image: url('https://picsum.photos/700/700');"> </div>
-            <div class="swiper-slide" style="background-image: url('https://picsum.photos/710/710');"> </div>
-            <div class="swiper-slide" style="background-image: url('https://picsum.photos/720/720');"> </div>
-            <div class="swiper-slide" style="background-image: url('https://picsum.photos/730/730');"> </div>
-            <div class="swiper-slide" style="background-image: url('https://picsum.photos/740/740');"> </div>
-            <div class="swiper-slide" style="background-image: url('https://picsum.photos/750/750');"> </div>
-            <div class="swiper-slide" style="background-image: url('https://picsum.photos/760/760');"> </div>
+            {% for concept in concepts %}
+            <div class="swiper-slide" style="background-image: url({{concept.galery[0]}});"> </div>
+            {% endfor %}
           </div>
         </div>
       </div>
@@ -24,157 +22,25 @@
     <div class="lg:w-1/2 px-12 lg:px-24">
       <div class="swiper conceptSwiperText h-full" dir="rtl">
         <div class="swiper-wrapper h-full pt-8">
-          <div class="swiper-slide">
-            <div>
-              <h3 class="concept-title mb-8">
-                GYM
-              </h3>
-              <div class="concept-description">
-                <div>
-                  Naš GYM departman predstavlja jednu od najopremljenijih i najlepših teretana na našim prostorima. U stvaranju ovog departmana vodili smo se načelima organizovanosti, funkcionalnosti i estetike, praćenjem tendencija u svetu zdravlja, sporta i fitnesa, a sve to zarad što prijatnijeg boravka i uživanja u vremenu provedenom u GYM-u.
+          {% for concept in concepts %}
+            <div class="swiper-slide">
+              <div>
+                <h3 class="concept-title mb-8">
+                  {{concept.title}}
+                </h3>
+                <div class="concept-description">
+                  <div>
+                    {{concept.short_description}}
+                  </div>
+                </div>
+                <div class="mt-6">
+                  <a href="{{ concept.url }}" class="concept-read-more z-20">
+                    Detaljnije
+                  </a>
                 </div>
               </div>
-              <div class="mt-6">
-                <a href="#" class="concept-read-more z-20">
-                  Detaljnije
-                </a>
-              </div>
             </div>
-          </div>
-          <div class="swiper-slide">
-            <div>
-              <h3 class="concept-title mb-8">
-                CROSS TRAINING
-              </h3>
-              <div class="concept-description">
-                CrossTraning trening predstavlja grupne programe vođenih treninga od strane naših
-                stručnih trenera koji služeći se načelima funkcionalnig treninga, Cross Fit metodologije,
-                Olimpijskog dizanja tegova, vežbi sa opterećenjem, Ruskim zvonima (eng. Ketlebells),
-                Concept Ergometrima, gimnastičkim elementima programiraju učinkovite i
-                interesantne trening cikluse i sve to u viskokom intezitetu.
-              </div>
-              <div class="mt-6">
-                <a href="#" class="concept-read-more z-20">
-                  Detaljnije
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div>
-              <h3 class="concept-title mb-8">
-                BASKETBALL
-              </h3>
-              <div class="concept-description">
-                Naša sala za basket 3x3 je punih dimenzija 15m x 11m, sa sportskom podlogom koju
-                će vaša kolena i zglobovi obožavati. Imamo profesionalan koš i puno svetlosti i
-                vazduha ne bi li vaš basket bio odigran u što lepšem ambijentu.
-                Termini su 60 minuta i
-                počinju na pun sat.
-                Cena jednog termina je
-                3000 RSD.
-                Neophodno je zakazati
-                termine i oni se plaćaju
-                unapred.
-                U pripremi je
-                formiranje 3x3
-                basket lige ekipa
-                koje treniraju i
-                igraju basket kod
-                nas.
-              </div>
-              <div class="mt-6">
-                <a href="#" class="concept-read-more z-20">
-                  Detaljnije
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div>
-              <h3 class="concept-title mb-8">
-                MIND & BODY
-              </h3>
-              <div class="concept-description">
-                MInd & Body je naš studio posebno projektovan i uređen za mirnije
-                programe. Prilikom realizacije studija, vodili smo računa da svaki detalj bude
-                na svom mestu, i da stvorimo što lepši i prijatniji ambijent. U ovom departmanu sprovodimo programe Hatha Yoge, Prenatal Yoge, a u
-                pripremi je još nekoliko interesantnih mirnih programa.
-              </div>
-              <div class="mt-6">
-                <a href="#" class="concept-read-more z-20">
-                  Detaljnije
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div>
-              <h3 class="concept-title mb-8">
-                CROSS TRAINING
-              </h3>
-              <div class="concept-description">
-                CrossTraning trening predstavlja grupne programe vođenih treninga od strane naših
-                stručnih trenera koji služeći se načelima funkcionalnig treninga, Cross Fit metodologije,
-                Olimpijskog dizanja tegova, vežbi sa opterećenjem, Ruskim zvonima (eng. Ketlebells),
-                Concept Ergometrima, gimnastičkim elementima programiraju učinkovite i
-                interesantne trening cikluse i sve to u viskokom intezitetu.
-              </div>
-              <div class="mt-6">
-                <a href="#" class="concept-read-more z-20">
-                  Detaljnije
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div>
-              <h3 class="concept-title mb-8">
-                BASKETBALL
-              </h3>
-              <div class="concept-description">
-                Naša sala za basket 3x3 je punih dimenzija 15m x 11m, sa sportskom podlogom koju
-                će vaša kolena i zglobovi obožavati. Imamo profesionalan koš i puno svetlosti i
-                vazduha ne bi li vaš basket bio odigran u što lepšem ambijentu.
-                Termini su 60 minuta i
-                počinju na pun sat.
-                Cena jednog termina je
-                3000 RSD.
-                Neophodno je zakazati
-                termine i oni se plaćaju
-                unapred.
-                U pripremi je
-                formiranje 3x3
-                basket lige ekipa
-                koje treniraju i
-                igraju basket kod
-                nas.
-              </div>
-              <div class="mt-6">
-                <a href="#" class="concept-read-more z-20">
-                  Detaljnije
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div>
-              <h3 class="concept-title mb-8">
-                MIND & BODY
-              </h3>
-              <div class="concept-description">
-                MInd & Body je naš studio posebno projektovan i uređen za mirnije
-              programe. Prilikom realizacije studija, vodili smo računa da svaki detalj bude
-              na svom mestu, i da stvorimo što lepši i prijatniji ambijent. U ovom departmanu sprovodimo programe Hatha Yoge, Prenatal Yoge, a u
-              pripremi je još nekoliko interesantnih mirnih programa.
-              </div>
-              <div class="mt-6">
-                <a href="#" class="concept-read-more z-20">
-                  Detaljnije
-                </a>
-              </div>
-            </div>
-          </div>
+          {% endfor %}
         </div>
       </div>
 
@@ -233,136 +99,24 @@
     <div class="relative">
       <div class="swiper galerySwiper">
         <div class="swiper-wrapper">
-          <div class="swiper-slide single-image">
-            <img src="../img/galery1.jpeg" alt="">  
-            <div class="px-4 mt-6">
-              <h3 class="concept-title mb-8">
-               Test
-              </h3>
-              <div class="concept-description">
-                CrossTraning trening predstavlja grupne programe vođenih treninga od strane naših
-                stručnih trenera koji služeći se načelima funkcionalnig treninga, Cross Fit metodologije,
-                Olimpijskog dizanja tegova, vežbi sa opterećenjem, Ruskim zvonima (eng. Ketlebells),
-                Concept Ergometrima, gimnastičkim elementima programiraju učinkovite i
-                interesantne trening cikluse i sve to u viskokom intezitetu.
-              </div>
-              <div class="mt-6">
-                <a href="#" class="concept-read-more z-20">
-                  Detaljnije
-                </a>
-              </div>
-            </div> 
-          </div>
-          <div class="swiper-slide single-image">
-            <img src="../img/galery2.jpeg" alt="">
-            <div class="px-4 mt-6">
-              <h3 class="concept-title mb-8">
-                Vlada
-              </h3>
-              <div class="concept-description">
-                CrossTraning trening predstavlja grupne programe vođenih treninga od strane naših
-                stručnih trenera koji služeći se načelima funkcionalnig treninga, Cross Fit metodologije,
-                Olimpijskog dizanja tegova, vežbi sa opterećenjem, Ruskim zvonima (eng. Ketlebells),
-                Concept Ergometrima, gimnastičkim elementima programiraju učinkovite i
-                interesantne trening cikluse i sve to u viskokom intezitetu.
-              </div>
-              <div class="mt-6">
-                <a href="#" class="concept-read-more z-20">
-                  Detaljnije
-                </a>
-              </div>
-            </div>   
-          </div>
-          <div class="swiper-slide single-image">
-            <img src="../img/galery3.jpeg" alt=""> 
-            <div class="px-4 mt-6">
-              <h3 class="concept-title mb-8">
-                CROSS TRAINING
-              </h3>
-              <div class="concept-description">
-                CrossTraning trening predstavlja grupne programe vođenih treninga od strane naših
-                stručnih trenera koji služeći se načelima funkcionalnig treninga, Cross Fit metodologije,
-                Olimpijskog dizanja tegova, vežbi sa opterećenjem, Ruskim zvonima (eng. Ketlebells),
-                Concept Ergometrima, gimnastičkim elementima programiraju učinkovite i
-                interesantne trening cikluse i sve to u viskokom intezitetu.
-              </div>
-              <div class="mt-6">
-                <a href="#" class="concept-read-more z-20">
-                  Detaljnije
-                </a>
-              </div>
-            </div> 
-          </div>
-          <div class="swiper-slide single-image">
-            <img src="../img/galery4.jpeg" alt=""> 
-            <div class="px-4 mt-6">
-              <h3 class="concept-title mb-8">
-                CROSS TRAINING
-              </h3>
-              <div class="concept-description">
-                CrossTraning trening predstavlja grupne programe vođenih treninga od strane naših
-                stručnih trenera koji služeći se načelima funkcionalnig treninga, Cross Fit metodologije,
-                Olimpijskog dizanja tegova, vežbi sa opterećenjem, Ruskim zvonima (eng. Ketlebells),
-                Concept Ergometrima, gimnastičkim elementima programiraju učinkovite i
-                interesantne trening cikluse i sve to u viskokom intezitetu.
-              </div>
-              <div class="mt-6">
-                <a href="#" class="concept-read-more z-20">
-                  Detaljnije
-                </a>
-              </div>
-            </div> 
-          </div>
-          <div class="swiper-slide single-image">
-            <img src="../img/galery5.jpeg" alt="">  
-            <div class="px-4 mt-6">
-              <h3 class="concept-title mb-8">
-                BASKETBALL
-              </h3>
-              <div class="concept-description">
-                Naša sala za basket 3x3 je punih dimenzija 15m x 11m, sa sportskom podlogom koju
-                će vaša kolena i zglobovi obožavati. Imamo profesionalan koš i puno svetlosti i
-                vazduha ne bi li vaš basket bio odigran u što lepšem ambijentu.
-                Termini su 60 minuta i
-                počinju na pun sat.
-                Cena jednog termina je
-                3000 RSD.
-                Neophodno je zakazati
-                termine i oni se plaćaju
-                unapred.
-                U pripremi je
-                formiranje 3x3
-                basket lige ekipa
-                koje treniraju i
-                igraju basket kod
-                nas.
-              </div>
-              <div class="mt-6">
-                <a href="#" class="concept-read-more z-20">
-                  Detaljnije
-                </a>
-              </div>
+          {% for concept in concepts %}
+            <div class="swiper-slide single-image">
+              <img src="{{concept.galery[0]}}" alt="">  
+              <div class="px-4 mt-6">
+                <h3 class="concept-title mb-8">
+                  {{concept.title}}
+                </h3>
+                <div class="concept-description">
+                  {{concept.short_description}}
+                </div>
+                <div class="mt-6">
+                  <a href="{{ concept.url }}" class="concept-read-more z-20">
+                    Detaljnije
+                  </a>
+                </div>
+              </div> 
             </div>
-          </div>
-          <div class="swiper-slide single-image">
-            <img src="../img/galery6.jpeg" alt="">  
-            <div class="px-4 mt-6">
-              <h3 class="concept-title mb-8">
-                MIND & BODY
-              </h3>
-              <div class="concept-description">
-                MInd & Body je naš studio posebno projektovan i uređen za mirnije
-              programe. Prilikom realizacije studija, vodili smo računa da svaki detalj bude
-              na svom mestu, i da stvorimo što lepši i prijatniji ambijent. U ovom departmanu sprovodimo programe Hatha Yoge, Prenatal Yoge, a u
-              pripremi je još nekoliko interesantnih mirnih programa.
-              </div>
-              <div class="mt-6">
-                <a href="#" class="concept-read-more z-20">
-                  Detaljnije
-                </a>
-              </div>
-            </div>
-          </div>
+          {% endfor %}
         </div>
       </div>
       <div class="swiper-pagination"></div>

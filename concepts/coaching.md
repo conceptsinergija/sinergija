@@ -2,7 +2,7 @@
 layout: single_concept
 title: Coaching
 galery:
-  - /assets/uploads/gym1.jpeg
+  - /assets/uploads/gym5.jpeg
   - /assets/uploads/gym2.jpeg
   - /assets/uploads/gym3.jpeg
   - /assets/uploads/gym4.jpeg
