@@ -1,5 +1,5 @@
 backend:
-  name: [github | gitlab] # name: git-gateway
+  name: github # name: git-gateway
   repo: parkic/sinergija
   branch: main # Branch to update (optional; defaults to master)
   base_url: sinergija.vercel.app
