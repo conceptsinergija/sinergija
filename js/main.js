@@ -373,7 +373,7 @@ import SmoothScroll from './smoothScroll.js'
 
   // document.body.addEventListener('onload', init())
 
-  window.onbeforeunload = () => {
+  window.onload = () => {
     window.scrollTo(0, 0);
   }
 
