@@ -1937,7 +1937,7 @@ header nav .nav-item {
     -o-transition: max-height 0.1s ease-in;
     transition: max-height 0.1s ease-in;*/
     transition-property: max-height, opacity;
-    transition-duration: 0.3s, 0.1s;
+    transition-duration: 0.1s, 0.1s;
     transition-timing-function: ease-in;  
   }
 
@@ -1960,6 +1960,9 @@ header nav .nav-item {
     font-size: 30px;
     line-height: 38px;
     font-weight: 700;
+    -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none;
     /*margin-bottom: 40px;*/
     text-transform: uppercase;
   }
