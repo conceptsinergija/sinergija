@@ -373,7 +373,7 @@ import SmoothScroll from './smoothScroll.js'
 
   // document.body.addEventListener('onload', init())
 
-  window.onbeforeunload = () => {
+  window.onload = () => {
     window.scrollTo(0, 0);
   }
 
@@ -417,6 +417,34 @@ import SmoothScroll from './smoothScroll.js'
       header.classList.remove('active')
     }
 });
+
+
+//Loading screen animation
+
+if(document.getElementById('loading-screen')) {
+
+  document.getElementById('skip-loading').addEventListener('click', (e) => {
+    clearTimeout(loadingScreenTimeout)
+    document.getElementById('loading-screen').classList.add('finish')
+    setTimeout(() => {
+      document.getElementById('loading-screen').remove()
+    }, 1000)
+    //document.getElementById('loading-screen').remove()
+    document.body.style.overflow = ''
+    document.getElementById('index').classList.add('slow-loading-skip')
+  })
+
+  let loadingScreenTimeout =  setTimeout(() => {
+    document.getElementById('index').classList.add('slow-loading')
+    if(document.querySelector('.finish') === null)
+      document.getElementById('loading-screen').classList.add('finish')
+      setTimeout(() => {
+        document.getElementById('loading-screen').remove()
+      }, 1000)
+      document.body.style.overflow = ''
+  }, 4000);
+}
+
 
 
   

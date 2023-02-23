@@ -1,0 +1,17 @@
+<section id="loading-screen" class="h-screen w-full flex items-center justify-center">
+    <video width="100%" height="100%" autoplay muted>
+        <source src="/assets/uploads/loading_video_small.mp4" type="video/mp4">
+      </video>
+    <div id="skip-loading" class="w-full absolute flex justify-center right-20 bottom-0 mb-32 lg:mb-12 z-50">
+      <div class=" cursor-pointer">
+        <div class="mr-3 uppercase">Enter Site</div>
+      </div>
+    </div>
+  </section>
+  <script>
+    // remove animation if clicked on home link in nav
+    (function() {
+    if(window.location.search === '?a=hidden' && document.getElementById('loading-screen'))
+     document.getElementById('loading-screen').remove()
+    })()
+  </script>

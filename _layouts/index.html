@@ -3,6 +3,12 @@
 {% include head.html %}
 {% include nav.html %}
 
+{% include loading.html %}
+<script>
+  if(window.location.search !== '?a=hidden')
+    document.body.style.overflow = 'hidden'
+  </script>
+
 <main>
   <div class="cover-image">
     <div class="container mx-auto flex flex-col justify-center h-full mt-10">
