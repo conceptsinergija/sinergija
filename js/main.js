@@ -390,12 +390,12 @@ import SmoothScroll from './smoothScroll.js'
         
         let useSetTimeout = false
 
-        accordions.forEach((ac) => {
+        /*accordions.forEach((ac) => {
           if (ac.classList.contains('accordion-opened')) {
             ac.classList.remove('accordion-opened')
             useSetTimeout = true
           }
-        }) 
+        }) */
 
         setTimeout(() => {
           a.classList.add('accordion-opened')
@@ -419,12 +419,12 @@ import SmoothScroll from './smoothScroll.js'
         
         let useSetTimeout = false
 
-        accordions.forEach((ac) => {
+        /*accordions.forEach((ac) => {
           if (ac.classList.contains('accordion-opened')) {
             ac.classList.remove('accordion-opened')
             useSetTimeout = true
           }
-        }) 
+        }) */
 
         setTimeout(() => {
           a.classList.add('accordion-opened')
