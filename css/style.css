@@ -679,10 +679,15 @@ header nav .nav-item {
 }
  
 #faq .faq-question-answer, 
+#faq .faq-question-answer p, 
 #faq .faq-question-answer a{
   font-family: 'Helvetica', sans-serif;
   font-size: 20px;
   line-height: 28px;
+}
+
+#faq .faq-question-answer p {
+  display: inline;
 }
 
 #faq .faq-question-question,
@@ -1677,12 +1682,13 @@ header nav .nav-item {
     line-height: 36px;
   }
 
-  #faq .faq-question-answer, 
-#faq .faq-question-answer a{
-  font-family: 'Helvetica', sans-serif;
-  font-size: 16px;
-  line-height: 26px;
-}
+  #faq .faq-question-answer,
+  #faq .faq-question-answer p,
+  #faq .faq-question-answer a{
+    font-family: 'Helvetica', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+  }
 
 #faq .faq-question-question,
 #faq .faq-question-question span {
