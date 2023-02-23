@@ -1910,4 +1910,10 @@ header nav .nav-item {
   #about .accordion-opened .plus {
     background-color: transparent;
   }
+
+  .social-mobile-menu {
+    padding: 4px 12px;
+    margin-left: 16px;
+  }
+  /*padding: 4px 12px;*/
 }

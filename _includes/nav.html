@@ -1,65 +1,53 @@
-<header class="container mx-auto flex flex-col lg:flex-row items-between
-  justify-between pt-4 md:pt-8 pb-4 md:pb-12" id="header">
-  <div class="flex justify-between md:px-4 py-2 md:py-4 items-baseline logo-burger-container ">
-    <div class="header-logo">
-      <a href="/">
-        <img src="/img/logo.png" alt="sinergija_logo">
-      </a>
-    </div>
-    <div class="burger">
-      <div class="burger-line mb-2"></div>
-      <div class="burger-line mb-2"></div>
-      <div class="burger-line"></div>
-    </div>
+<header
+  class="container mx-auto flex flex-col lg:flex-row items-between
+  justify-start pt-4 md:pt-8 pb-4 md:pb-12"
+  id="header">
+<div class="flex justify-between px-4 py-4 items-baseline logo-burger-container">
+  <div class="header-logo">
+    <a href="/">
+      <img src="/img/logo.png" alt="sinergija_logo">
+    </a>
   </div>
-  <div class="mobile-menu pt-8 lg:pt-2 hidden lg:block">
-    <nav class="flex flex-col lg:flex-row lg:items-start lg:block">
-      <a href="/concept" class="nav-item">
-        Naš koncept
+  <div class="burger">
+    <div class="burger-line mb-2"></div>
+    <div class="burger-line mb-2"></div>
+    <div class="burger-line"></div>
+  </div>
+  </div>
+  <div class="mobile-menu lg:pt-2 hidden lg:block flex justify-evenly flex-col h-full">
+  <nav class="flex flex-col lg:flex-row lg:items-start lg:block">
+    <a href="/concept" class="nav-item">
+      Naš koncept
+    </a>
+    <a href="/membership" class="nav-item">
+      Članstvo
+    </a>
+    <a href="/galery" class="nav-item">
+      Galerija
+    </a>
+    <a href="/about" class="nav-item">
+      O nama
+    </a>
+    <a href="/faq" class="nav-item">
+      FAQ
+    </a>
+    <a href="/vaucher" class="nav-item">
+      Vaučer
+    </a>
+    <a href="/contact" class="nav-item">
+      Kontakt
+    </a>
+  </nav>
+    <div class="flex items-center justify-start mb-12 social-mobile-menu">
+      <a class="mr-2" href="https://www.instagram.com/sinergija.concept/">
+        <img class="w-8 h-8" src="../img/instagram.svg" alt="instagram">
       </a>
-      <a href="/membership" class="nav-item">
-        Članstvo
+      <a class="mx-2" href="https://www.facebook.com/sinergija.concept/">
+        <img class="w-8 h-8" src="../img/facebook.svg" alt="facebook">
       </a>
-      <a href="/galery" class="nav-item">
-        Galerija
+      <a class="mx-2" href="https://www.youtube.com/@sinergija.concept">
+        <img class="w-8 h-8" src="../img/youtube.svg" alt="youtube">
       </a>
-      <a href="/about" class="nav-item">
-        O nama
-      </a>
-      <a href="/faq" class="nav-item">
-        FAQ
-      </a>
-      <a href="/vaucher" class="nav-item">
-        Vaučer
-      </a>
-      <a href="/contact" class="nav-item">
-        Kontakt
-      </a>
-    </nav>
-    <div class=" lg:hidden flex flex-col items-between justify-between mobile-nav-container pt-4">
-      <div class="mobile-nav-text mb-12">
-        <span class="transparent-word" data-text="Činimo ljude"></span>
-        <div class="nav-word">
-          Zdravijim
-        </div>
-        <div class="nav-word">
-          Sposobnijim
-        </div>
-        <div class="nav-word">
-          Srećnijim
-        </div>
-      </div>
-      <div class="flex items-center justify-start mb-4">
-        <a class="mr-2" href="https://www.instagram.com/sinergija.concept/">
-          <img class="w-8 h-8" src="../img/instagram.svg" alt="instagram">
-        </a>
-        <a class="mx-2" href="https://www.facebook.com/sinergija.concept/">
-          <img class="w-8 h-8" src="../img/facebook.svg" alt="facebook">
-        </a>
-        <a class="mx-2" href="https://www.youtube.com/@sinergija.concept">
-          <img class="w-8 h-8" src="../img/youtube.svg" alt="youtube">
-        </a>
-      </div>
-    </div>
+  </div>
   </div>
 </header>
