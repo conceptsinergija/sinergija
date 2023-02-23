@@ -177,7 +177,10 @@ import SmoothScroll from './smoothScroll.js'
       }
     })
 
-    faqTitlesItems.forEach((fi) => {
+    faqTitlesItems.forEach((fi, idx) => {
+      if(idx === 0) {
+        fi.classList.add('active')
+      }
       fi.addEventListener('click', () => {
         faqTitlesItems.forEach(fit => {
           if(fit.classList.contains('active'))
@@ -282,6 +285,14 @@ import SmoothScroll from './smoothScroll.js'
           })
         } 
       })        
+    }
+  }
+
+  if(document.querySelector('#vaucher')) {
+    if(urlParams.has('pricing')){
+      const pricelistSection = document.getElementById('pricelist-section')
+
+      pricelistSection.scrollIntoView({behavior: 'smooth'})
     }
   }
 
@@ -394,38 +405,6 @@ import SmoothScroll from './smoothScroll.js'
       })
     })
   }
-
-
-  //about us 
-
-  if (document.querySelector('#about')) {
-    console.log('about')
-    const accordions = document.querySelectorAll('.accordion')
-    accordions.forEach((a) => {
-      a.addEventListener('click', () => {
-        if (a.classList.contains('accordion-opened')) {
-          a.classList.remove('accordion-opened')
-          return
-        }
-        
-        let useSetTimeout = false
-
-        accordions.forEach((ac) => {
-          if (ac.classList.contains('accordion-opened')) {
-            ac.classList.remove('accordion-opened')
-            useSetTimeout = true
-          }
-        }) 
-
-        setTimeout(() => {
-          a.classList.add('accordion-opened')
-          useSetTimeout = false;
-        }, useSetTimeout ? 1 : 1)
-          
-      })
-    })
-  }
-
 
 
   window.addEventListener('scroll', function() {

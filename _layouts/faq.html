@@ -16,145 +16,26 @@
 
   <section class="container mx-auto">
     <div class="faq-categories lg:pt-32 lg:pb-24 pb-6 pt-6 flex flex-wrap  items-center">
-      <div class="faq-category mb-2 active" data-category-name="generalno">generalno</div>
-      <div class="faq-category mb-2" data-category-name="fit-pass">fit pass</div>
-      <div class="faq-category mb-2" data-category-name="gym">gym</div>
-      <div class="faq-category mb-2" data-category-name="cross-training">cross training</div>
-      <div class="faq-category mb-2" data-category-name="basketball">basketball</div>
+      {% for category in page.categories %}
+        <div class="faq-category mb-2" data-category-name="{{ category.title }}">{{ category.title }}</div>
+      {% endfor %}
     </div>
 
     <div class="faq-section">
-
+      
       <!-- GENERALNO -->
-      <div id="generalno" class="faq-category-section mb-40">
-        <h3 class="faq-section-title mb-8 lg:mb-16">GENERALNO</h3>
+      {% for category in page.categories %}
+        <div id="{{ category.title }}" class="faq-category-section mb-40">
+          <h3 class="faq-section-title mb-16">{{ category.title }}</h3>
 
-        <div class="faq-question-section">
-          <h5 class="faq-question-question">P: <span>Šta je Sinergija?</span></h5>
-          <p class="faq-question-answer">O: Sinergija je uknikatan koncept zdravlja i fitnessa. jedinstveno mesto gde povodiš svoje omiljeno vreme i se osmehom se vraćaš. Pristupamo fitnesu i zdravlju veoma široko sa dubokim specijalizacijama. U sklopu Sinergije nalazi se 6 različitih sala sa specijalizovanim pristupom i ispred svega snažan tim kvalitetnih ljudi koji sa puno ljubavi pristupaju svojoj profesiji, čineći ljude boljim.
-          Sale u sastavu su GYM, CROSSTRAINING, BASKETBALL, ACTIVITY KIDS, ENERGY, MIND & BODY, RECOVERY. Više o svakom departmanu možete pogledati klikom na isti a o timu i radu u departmanu COACHING.</p>
-
-          <h5 class="faq-question-question">P: <span>Koliko košta članarina?</span></h5>
-          <p class="faq-question-answer">O: Članarine su različite po departmanima, a sve članarine i pakete možete pogledati klikom na <a href="/vaucher">CENOVNIK.</a></p>
-
-          <h5 class="faq-question-question">P: <span>Gde ste tačno nalazite?</span></h5>
-          <p class="faq-question-answer">O: nalazimo se na <a href="https://www.google.com/maps/place/SINERGIJA/@44.8111681,20.4016704,17z/data=!3m1!4b1!4m6!3m5!1s0x475a6f8209644def:0xf8380497f5905a5e!8m2!3d44.8111681!4d20.4038591!16s%2Fg%2F11c54h7wwv"
-            target="_blank">Novom Beogradu u ulici Omladinskih brigada 31.</a> u neposrdnoj blizini nalazi se Raiffaiesen Banka; Airport city, West 65, Wellport, Belvill i A blok.</p>
-
-          <h5 class="faq-question-question">P: <span>Kakvo vam je radno vreme?</span></h5>
-          <p class="faq-question-answer">O: Otvoreni smo tokom cele godine svim radnim danima od 6:30 do 22:00 i subotom od 08:00 do 20:00. <br>
-            Neradni dani su: • 31. decembar • 01. januar • 06. januar • 07. januar • Uskrs • 01. maj. <br>
-            Ukoliko donesemo odluku i o drugim neradnim danima, članovi će biti blagovremeno obavešteni najmanje pet dana unapred.
-          </p>
-
-          <h5 class="faq-question-question">P: <span>Da li imamte svlačionice i tuševe?</span></h5>
-          <p class="faq-question-answer">O: Da. imamo veoma prostrane i čiste svlačionice sa 10 tuševa, NIvea sredstva za ličnu higijenu, fenove i prese za kosu i preko 200 ormarića za lične stvari. takodje možete iznajmiti ili kupiti naše peškire za kupanje za recepciji.</p>
-
-          <h5 class="faq-question-question">P: <span>Ja sam iz drugog kluba, da li primate goste?</span></h5>
-          <p class="faq-question-answer">O: Da, naravno! ukoliko dolazite u posetu na treningu ( DROP IN ) (link) možete platiit 1200 RSD ili moćete kupiti našu majicu koja iznosi 1500 RSD i Drop In je na račun kuće.
-
-          </p>
-
-          <h5 class="faq-question-question">P: <span>I dalje imam puno pitanja. Kako da vas kontaktiram?</span></h5>
-          <p class="faq-question-answer">O: Ne brini, mi imamo odgovore. Možete nam poslati <a href="mailto::info@sinergijaconcept.com">mail</a> ili nas pozvati na naš broj <a href="tel:+381655442300">0655442300</a></p>
+          <div class="faq-question-section">
+            {% for questions in category.questions %}
+              <h5 class="faq-question-question">P: <span>{{ questions.question }}</span></h5>
+              <div class="faq-question-answer">O: {{ questions.answer | markdownify }}</div>
+            {% endfor %}
+          </div>
         </div>
-      </div>
-
-      <!-- FIT PASS -->
-      <div id="fit-pass" class="faq-category-section mb-40">
-        <h3 class="faq-section-title mb-16">Fit Pass korisnici</h3>
-
-        <div class="faq-question-section">
-          <h5 class="faq-question-question">P: <span>Da li je naš objekat saradnik Fit Pass sistema?</span></h5>
-          <p class="faq-question-answer">O: Da.</p>
-
-          <h5 class="faq-question-question">P: <span>Da li postoji doplata preko fit pass-a za gym?</span></h5>
-          <p class="faq-question-answer">O: Trenutno je promo akcija za korisnike Fit Pass-a i  GYM departman se može koristiti bez doplate.</p>
-
-          <h5 class="faq-question-question">P: <span> Kolko je doplata za treninge?</span></h5>
-          <p class="faq-question-answer">O: </p>
-        </div>
-      </div>
-
-      <!-- Gym -->
-      <div id="gym" class="faq-category-section mb-40">
-        <h3 class="faq-section-title mb-16">Gym</h3>
-
-        <div class="faq-question-section">
-          <h5 class="faq-question-question">P: <span>Da li postoji probi trening za gym? </span></h5>
-          <p class="faq-question-answer">O: Ne, ali imamo dnevne karte u ponudi.</p>
-
-          <h5 class="faq-question-question">P: <span>Da li sa GYM-om može da se koristi i cardio zona?</span></h5>
-          <p class="faq-question-answer">O:  Da. Kardio zona je sastavni deo GYM departmana. Imamo 28 kardio jedinica iz Technogym programa. <br>
-            Pored kardio zone, GYM dpartman ima još pet zona uvezanih u jednu celinu i to su Pin loaded, Plate Loaded, Free Weights and Racks, Green Parter i Streatching. Sve GYM članarine uključuju korišćenje svih zona GYM-a.</p>
-
-          <h5 class="faq-question-question">P: <span>Da li postoji paket koji objedinjuje grupne treninge cross fit-a i gym-a?</span></h5>
-          <p class="faq-question-answer">O: Da. Mi smo zvoj život započeli kao CrossTraining klub, stoga sa članarinom za CrossTraining možete koristiti i GYM departman bez doplate.</p>
-
-          <h5 class="faq-question-question">P: <span> Da li mesečni GYM paket podrazumeva neograničen broj dolazaka?</span></h5>
-          <p class="faq-question-answer">O: Da. </p>
-        </div>
-      </div>
-
-      <!-- CROSS TRAINING -->
-      <div id="cross-training" class="faq-category-section mb-40">
-        <h3 class="faq-section-title mb-16">CROSS TRAINING</h3>
-
-        <div class="faq-question-section">
-          <h5 class="faq-question-question">P: <span>Šta je crossfit? </span></h5>
-          <p class="faq-question-answer">O: CrossFit je metodologija rada koju i mi koristimo ali naglašavamo da mi nismo CrossFit Affilliate. Mi smatramo da smo više od toga jer u našem radu i odnosu koristimo dosta različitih pristupa treningu i na taj način dobijamo najblje od svega. Nismo isključivi već gledamo da imamo što širi i celishodniji pristup treningu. <br>
-            Časove sprovodimo po nekoliko različitih programa, i vi možete izabrati onaj koji vam najviše pristaje (link programi).</p>
-
-          <h5 class="faq-question-question">P: <span>Da li je CrossTraining za mene?</span></h5>
-          <p class="faq-question-answer">O:  Da! aposlutno! svako je za neki od naših CrossTraining programa bez obzira na pol, godine i trenutni nivo fizičke spreme. Naši treneri su tu da prilagode svaki program da bi uspeli u tome vas učinimo sposobnijim i zdravijim. I stariji i mlađi mogu raditi varijacije istih vežbi prilagođenih svakome pojedinačno.</p>
-
-          <h5 class="faq-question-question">P: <span>Da li postoji početnička grupa za cross fit?</span></h5>
-          <p class="faq-question-answer">O: Da. Raspored Basic grupa možeš pogledati klikom na RASPORED.</p>
-
-          <h5 class="faq-question-question">P: <span> Da li je CrossTraining bezbedan?</span></h5>
-          <p class="faq-question-answer">O: Da! Svakako! Naši treneri su tu i veoma su kredibilni da vas vode kroz treninge i na taj način sprovedu najbezbedniji i celishodan pristup uz koji ćete biti zdraviji i sposobniji, a istovremeno pomognu vam da izbegnete mnoge bolesti današnjice. </p>
-
-          <h5 class="faq-question-question">P: <span>Da li moram biti u formi da bi krenuo sa CrossTraining treningom?</span></h5>
-          <p class="faq-question-answer">O: Ne. Naši programi su skalabilni i prilagodljivi. To znači da ne moraš da čekaš jer te nista neće spremiti za naš trening kao što će on sam to učiniti. Bez obzira na trenutni nivo forme, možeš trenirati sa nama. Kako budeš poboljšavao svoju formu, treninzi će postati izazovniji. Naši treninzi su tako programirani da ti pomažu da napreduješ i ostvaruješ svoje fitness ciljeve.</p>
-
-          <h5 class="faq-question-question">P: <span>Šta je WOD?</span></h5>
-          <p class="faq-question-answer">O: WOD (eng. Workout Of the Day) je trening dana koji je napisan na našoj beloj tabli koja je centralno mesto okupljanja u našem Box-u (CrossTraining sali).</p>
-
-          <h5 class="faq-question-question">P: <span>Šta je BOX?</span></h5>
-          <p class="faq-question-answer">O: Poslednju deceniju ustalila se praksa da se prostori u kojima se trenira funkcionalni trening, CrossFit, performance trening i slično nazivaju Box jer su to najčešće magacinski ili slični prostori koji izgledaju poput kutiija pravougaonih oblika. Za razliku od klasičnih teretana gde vidite bezbroj sprva poređanih u prostoru u Box-evima je verovatnije da ćete videti uredno naslagane tegove, puno olimpijskih šipki, kavez (eng. Rig) za zgibove i gimnastičke vezbe, kanape za penjanje i mnogo slobodnog prostora.</p>
-
-          <h5 class="faq-question-question">P: <span> Šta ako ne mogu da treniram sa propisano kilažom ili ne umem da izvedem neke vežbe?</span></h5>
-          <p class="faq-question-answer">O: Ne brinite. Sve što vežbamo je prilagodljivo. Naši treneri su tu da trening prilagode vama i sprovedu najbezbedniji i najefikasniji trening za vas.</p>
-
-          <h5 class="faq-question-question">P: <span> Da li postoji paket koji objedinjuje grupne treninge cross fit-a i gym-a?</span></h5>
-          <p class="faq-question-answer">O: Za sve članove koji imaju aktivnu CrossTraining članarinu, korišćenje GYM departmana je bez doplate. </p>
-
-          <h5 class="faq-question-question">P: <span>  Želim da vam se pridružim! Šta i kako?</span></h5>
-          <p class="faq-question-answer">O: Javite nam se i prijavite se za probni trening ovde (link) ili nam se odmah pridružite. Molimo vas da prilikom prvog dolaska poranite barem 10 minuta da biste se upoznali sa nama i popunili pristupnicu. </p>
-        </div>
-      </div>
-
-      <!-- Basketball -->
-      <div id="basketball" class="faq-category-section mb-40">
-        <h3 class="faq-section-title mb-16">BASKETBALL</h3>
-
-        <div class="faq-question-section">
-          <h5 class="faq-question-question">P: <span>Kako mogu koristiti BASKET salu? </span></h5>
-          <p class="faq-question-answer">O: Da bi koristili BASKET salu morate proveriti raspoloživost termina, poželjno je rezervisanje, i platiti termin. Termini su 60 minuta na pun sat. Cena termina je 3000 RSD.</p>
-
-          <h5 class="faq-question-question">P: <span>Koliko ljudi može biti u basket sali? </span></h5>
-          <p class="faq-question-answer">O: Do 9 ljudi po terminu, što znači da više ljudi može uzeti blok termina, npr. 2 termina vezano.</p>
-
-          <h5 class="faq-question-question">P: <span>Da li je sala pravih dimenzija ili je manja?</span></h5>
-          <p class="faq-question-answer">O: Naša sala je pavih punish dimenzija za 3X3 basket.</p>
-
-          <h5 class="faq-question-question">P: <span>Da li mogu da koristim i drudge departmane kada dođem na Basket?</span></h5>
-          <p class="faq-question-answer">O: Možeš, ali moraš imate aktivnu članarinu ili dnevnu kartu za departman koji želiš da koristiš. </p>
-
-          <h5 class="faq-question-question">P: <span>Da li mogu da koristim svlačionicu i tuševe?</span></h5>
-          <p class="faq-question-answer">O: Naravno, ceo propratni sadržaj je na raspolaganju. </p>
-        </div>
-      </div>
+      {% endfor %}
 
     </div>
   </section>

@@ -162,6 +162,7 @@ collections:
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'single_concept' }
       - { label: 'Ime Koncepta', name: 'title', widget: 'string' }
+      - { laabel: 'Youtube video', name: 'youtube_src', widget: 'string' }
       - label: "Ukratko o konceptu"
         name: 'short_description'
         widget: 'list'
