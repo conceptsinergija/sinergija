@@ -1,6 +1,9 @@
 ---
 layout: single_concept
 title: Coaching
+short_description: Ovo je neki kratki tekst o Coaching sekciji koji se vidi na
+  pocetnoj strani ako je opcija ispod (PRIKAZI NA POČETNOJ STRANI) izabrana.
+show_on_homepage: true
 galery:
   - /assets/uploads/gym5.jpeg
   - /assets/uploads/gym2.jpeg
