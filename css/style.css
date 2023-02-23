@@ -1252,7 +1252,7 @@ h1.program-title {
 
 #loading-screen {
   position: fixed;
-  background-color: rgb(153,	148,	139);
+  background-color: #161616;
   left: 0; top: 0;
   z-index: 20;
   transition: transform 8s cubic-bezier(0.25,1.05,1,1);
