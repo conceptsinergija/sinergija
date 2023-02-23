@@ -431,8 +431,9 @@ if(document.getElementById('loading-screen')) {
     }, 1000)
     //document.getElementById('loading-screen').remove()
     document.body.style.overflow = ''
-    document.getElementById('index').classList.add('slow-loading')
+    document.getElementById('index').classList.add('slow-loading-skip')
   })
+
   let loadingScreenTimeout =  setTimeout(() => {
     document.getElementById('index').classList.add('slow-loading')
     if(document.querySelector('.finish') === null)
@@ -441,7 +442,7 @@ if(document.getElementById('loading-screen')) {
         document.getElementById('loading-screen').remove()
       }, 1000)
       document.body.style.overflow = ''
-  }, 4500);
+  }, 4000);
 }
 
 

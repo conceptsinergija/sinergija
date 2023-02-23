@@ -277,7 +277,33 @@ header nav .nav-item {
 }
 
 
+.slow-loading .homepage-title .white-word span {
+  display: block;
+  transform: translate(0, 120px);
+  animation: jumpUp 0.8s forwards; 
+  animation-delay: 4000ms;
+}
 
+.slow-loading .homepage-title .white-word:nth-child(3) span {
+  animation-delay: 5000ms;
+}
+.slow-loading .homepage-title .white-word:nth-child(4) span {
+  animation-delay: 6000ms;
+}
+
+.slow-loading-skip .homepage-title .white-word span {
+  display: block;
+  transform: translate(0, 120px);
+  animation: jumpUp 0.8s forwards; 
+  animation-delay: 4000ms;
+}
+
+.slow-loading-skip .homepage-title .white-word:nth-child(3) span {
+  animation-delay: 5000ms;
+}
+.slow-loading-skip .homepage-title .white-word:nth-child(4) span {
+  animation-delay: 6000ms;
+}
 
 
 
@@ -1209,10 +1235,14 @@ h1.program-title {
   animation: smoothLoadindex 4s ease;
 }
 
+.slow-loading-skip {
+  animation: smoothLoadindex 4s ease;
+}
+
 @keyframes smoothLoadindex {
  
   0% { opacity: 0 }
-  60% { opacity: 0.7 }
+  40% { opacity: 0.4 }
   100% { opacity: 1 }
 }
 
@@ -1424,34 +1454,6 @@ header nav .nav-item {
   margin-left: 22px;
   margin-right: 22px;
 }
-
-
-/*.mobile-nav-container .transparent-word {
-  display: block;
-  color: #464646;
-  text-transform: uppercase;
-}
-
-
-.mobile-nav-container .transparent-word::before,
-.mobile-nav-container .transparent-word::after {
-  content: attr(data-text);
-  display: block;
-  position: relative;
-  z-index: 1;
-  font-size: 26px;
-}
-
-.mobile-nav-container .transparent-word::before {
-  position: absolute;
-  -webkit-text-stroke: 0.075em white;
-  z-index: 0;
-}
-
-.mobile-nav-container {
-  border-top: 3px solid #464646;
-  border-radius: 2px;
-}*/
 
 .homepage-title span {
   font-size: 42px;
