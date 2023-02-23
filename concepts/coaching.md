@@ -1,6 +1,7 @@
 ---
 layout: single_concept
 title: Coaching
+show_on_homepage: true
 galery:
   - /assets/uploads/gym5.jpeg
   - /assets/uploads/gym2.jpeg
