@@ -13,7 +13,9 @@
         <div class="swiper conceptSwiperImages h-full" dir="rtl">
           <div class="swiper-wrapper h-full">
             {% for concept in concepts %}
-            <div class="swiper-slide" style="background-image: url({{concept.galery[0]}});"> </div>
+              {% if concept.show_on_homepage %}
+              <div class="swiper-slide" style="background-image: url({{concept.galery[0]}});"> </div>
+              {% endif %}
             {% endfor %}
           </div>
         </div>
@@ -23,23 +25,25 @@
       <div class="swiper conceptSwiperText h-full" dir="rtl">
         <div class="swiper-wrapper h-full pt-8">
           {% for concept in concepts %}
-            <div class="swiper-slide">
-              <div>
-                <h3 class="concept-title mb-8">
-                  {{concept.title}}
-                </h3>
-                <div class="concept-description">
-                  <div>
-                    {{concept.short_description}}
+            {% if concept.show_on_homepage %}
+              <div class="swiper-slide">
+                <div>
+                  <h3 class="concept-title mb-8">
+                    {{concept.title}}
+                  </h3>
+                  <div class="concept-description">
+                    <div>
+                      {{concept.short_description}}
+                    </div>
+                  </div>
+                  <div class="mt-6">
+                    <a href="{{ concept.url }}" class="concept-read-more z-20">
+                      Detaljnije
+                    </a>
                   </div>
                 </div>
-                <div class="mt-6">
-                  <a href="{{ concept.url }}" class="concept-read-more z-20">
-                    Detaljnije
-                  </a>
-                </div>
               </div>
-            </div>
+            {% endif %}
           {% endfor %}
         </div>
       </div>
@@ -100,22 +104,24 @@
       <div class="swiper conceptMobileSwiper">
         <div class="swiper-wrapper">
           {% for concept in concepts %}
-            <div class="swiper-slide single-image">
-              <img src="{{concept.galery[0]}}" alt="">  
-              <div class="px-4 mt-6">
-                <h3 class="concept-title mb-8">
-                  {{concept.title}}
-                </h3>
-                <div class="concept-description">
-                  {{concept.short_description}}
-                </div>
-                <div class="mt-6">
-                  <a href="{{ concept.url }}" class="concept-read-more z-20">
-                    Detaljnije
-                  </a>
-                </div>
-              </div> 
-            </div>
+            {% if concept.show_on_homepage %}
+              <div class="swiper-slide single-image">
+                <img src="{{concept.galery[0]}}" alt="">  
+                <div class="px-4 mt-6">
+                  <h3 class="concept-title mb-8">
+                    {{concept.title}}
+                  </h3>
+                  <div class="concept-description">
+                    {{concept.short_description}}
+                  </div>
+                  <div class="mt-6">
+                    <a href="{{ concept.url }}" class="concept-read-more z-20">
+                      Detaljnije
+                    </a>
+                  </div>
+                </div> 
+              </div>
+            {% endif %}
           {% endfor %}
         </div>
       </div>
