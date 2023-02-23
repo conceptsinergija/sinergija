@@ -162,9 +162,9 @@ collections:
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'single_concept' }
       - { label: 'Ime Koncepta', name: 'title', widget: 'string' }
-      - { label: 'Ukratko o konceptu', name: short_description, widget: 'text'}
+      - { label: 'Ukratko o konceptu', name: short_description, widget: 'text', required: false}
       - { label: 'Prikazi na početnoj strani', name: 'show_on_homepage',  widget: 'boolean', default: false, required: false }
-      - { laabel: 'Youtube video', name: 'youtube_src', widget: 'string' }
+      - { laabel: 'Youtube video', name: 'youtube_src', widget: 'string', required: false }
 
       - label: "Galerija"
         name: "galery"
@@ -184,7 +184,7 @@ collections:
           - { label: 'Naslov', name: 'title', widget: 'string' }
           - { label: 'Tekst', name: 'description', widget: 'text' }
           - { label: 'Slika', name: 'image', widget: "image" }
-      - { label: "Slika pored Cenovnika", name: 'price_image', widget: "image" }
+      - { label: "Slika pored Cenovnika", name: 'price_image', widget: "image", default: '/assets/uploads/gym2.jpeg' }
       - label: "Cenovnik"
         name: 'prices'
         widget: 'list'
