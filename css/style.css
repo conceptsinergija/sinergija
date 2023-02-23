@@ -1943,6 +1943,8 @@ header nav .nav-item {
 
   #about .custom-container {
     max-width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
   }
   #about .custom-container .accordion-description{
     font-size: 16px;
