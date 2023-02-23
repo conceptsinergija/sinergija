@@ -422,48 +422,28 @@ import SmoothScroll from './smoothScroll.js'
 //Loading screen animation
 
 if(document.getElementById('loading-screen')) {
-  /*let tl = gsap.timeline()
-  tl.from("#loading-animated-text path", { duration: 2, delay: 1, fill: "#99948b", stagger: 0.2, drawSVG: 0 })*/
 
   document.getElementById('skip-loading').addEventListener('click', (e) => {
-    console.log('skip')
     clearTimeout(loadingScreenTimeout)
     document.getElementById('loading-screen').classList.add('finish')
     setTimeout(() => {
       document.getElementById('loading-screen').remove()
-    }, 3000)
-    setTimeout(() => {
-      //welcomeMsgAnimation.play()
     }, 1000)
+    //document.getElementById('loading-screen').remove()
     document.body.style.overflow = ''
+    document.getElementById('index').classList.add('slow-loading')
   })
   let loadingScreenTimeout =  setTimeout(() => {
+    document.getElementById('index').classList.add('slow-loading')
     if(document.querySelector('.finish') === null)
       document.getElementById('loading-screen').classList.add('finish')
       setTimeout(() => {
         document.getElementById('loading-screen').remove()
-       // welcomeMsgAnimation.play()
-      }, 2000)
-      setTimeout(() => {
-       // welcomeMsgAnimation.play()
       }, 1000)
       document.body.style.overflow = ''
-  }, 5000);
+  }, 4500);
 }
 
-if(window.location.search === '?a=hidden'){
-  if(document.getElementById('loading-screen')){
-    setTimeout(()=> {
-      //welcomeMsgAnimation.play()
-    }, 1200)
-  }
-  else {
-    setTimeout(()=> {
-      welcomeMsgAnimation.play()
-    }, 1100)
-  }
- 
-}
 
 
   

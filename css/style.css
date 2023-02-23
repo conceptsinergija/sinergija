@@ -1205,6 +1205,16 @@ h1.program-title {
   height: 100%;
 }
 
+.slow-loading {
+  animation: smoothLoadindex 4s ease;
+}
+
+@keyframes smoothLoadindex {
+ 
+  0% { opacity: 0 }
+  60% { opacity: 0.7 }
+  100% { opacity: 1 }
+}
 
 
 @keyframes smoothLoad {
@@ -1252,9 +1262,9 @@ h1.program-title {
 
 #loading-screen {
   position: fixed;
-  background-color: #161616;
+  background-color: black;
   left: 0; top: 0;
-  z-index: 20;
+  z-index: 40000;
   transition: transform 8s cubic-bezier(0.25,1.05,1,1);
 }
 
@@ -1416,7 +1426,7 @@ header nav .nav-item {
 }
 
 
-.mobile-nav-container .transparent-word {
+/*.mobile-nav-container .transparent-word {
   display: block;
   color: #464646;
   text-transform: uppercase;
@@ -1441,7 +1451,7 @@ header nav .nav-item {
 .mobile-nav-container {
   border-top: 3px solid #464646;
   border-radius: 2px;
-}
+}*/
 
 .homepage-title span {
   font-size: 42px;
