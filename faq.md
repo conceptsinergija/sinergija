@@ -17,7 +17,7 @@ categories:
           timu i radu u departmanu COACHING.
       - question: Koliko košta članarina?
         answer: Članarine su različite po departmanima, a sve članarine i pakete možete
-          pogledati klikom na [CENOVNIK](vaucher/?pricing=true).
+          pogledati klikom na [CENOVNIK](/vaucher/?pricing=true).
   - title: Fit Pass
     questions:
       - question: Da li je naš objekat saradnik Fit Pass sistema?
