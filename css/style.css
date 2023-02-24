@@ -1948,7 +1948,7 @@ header nav .nav-item {
   #about .accordion-description {
     max-height: 0;
     overflow: hidden;
-    white-space: pre-line;
+    /*white-space: pre-line;*/
     opacity: 0;
   /* -webkit-transition: max-height 0.1s ease-in;
     -o-transition: max-height 0.1s ease-in;
@@ -1991,7 +1991,7 @@ header nav .nav-item {
     top:18px;
     left:0px;
     position: absolute;
-    transition: all 0.4s ease-out;
+    transition: all 0.2s ease-out;
   }
 
   #about .plus::after {
