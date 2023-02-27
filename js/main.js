@@ -460,9 +460,10 @@ if(document.getElementById('loading-screen')) {
     document.getElementById('index').classList.add('slow-loading')
     if(document.querySelector('.finish') === null)
       document.getElementById('loading-screen').classList.add('finish')
-      setTimeout(() => {
+     /* setTimeout(() => {
         document.getElementById('loading-screen').remove()
-      }, 1000)
+      }, 700)*/
+      document.getElementById('loading-screen').remove()
       document.body.style.overflow = ''
   }, 4000);
 }
