@@ -293,14 +293,14 @@ header nav .nav-item {
   display: block;
   transform: translate(0, 120px);
   animation: jumpUp 0.8s forwards; 
-  animation-delay: 4000ms;
+  animation-delay: 2000ms;
 }
 
 .slow-loading-skip .homepage-title .white-word:nth-child(3) span {
-  animation-delay: 5000ms;
+  animation-delay: 3000ms;
 }
 .slow-loading-skip .homepage-title .white-word:nth-child(4) span {
-  animation-delay: 6000ms;
+  animation-delay: 4000ms;
 }
 
 
