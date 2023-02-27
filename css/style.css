@@ -208,9 +208,7 @@ header nav .nav-item {
   position: relative;
   mix-blend-mode: screen;
   width: 100%;
-
   transform: translate(0, 50px);
-  /* transform: translate(0, -50px); */
 }
 
 .homepage-title span {
@@ -1365,6 +1363,22 @@ h1.program-title {
     }
   }
 
+  @media  screen  and  (min-width: 501px)  and (max-width: 1367px) {
+    .homepage-title span {
+  font-size: 60px;
+  line-height: 72px;
+  }
+
+  .homepage-title span:nth-child(1) {
+    transform: translate(0, -90px);
+    overflow: hidden;
+    padding-top: 4px;
+    padding-bottom: 4px; 
+  }
+  }
+
+
+
 @media  screen and (max-width: 500px) {
   .mobile-show {
     display: block;
@@ -2070,4 +2084,5 @@ header nav .nav-item {
   .vaucher-model-box .section-title {
     font-size: 36px;
   }
+
 }
