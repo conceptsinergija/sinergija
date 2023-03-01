@@ -13,6 +13,7 @@ collections:
         file: 'index.md'
         fields:
           - { label: 'Naslov', name: 'title', widget: 'string', default: 'Početna' }
+          - { label: "Naslovna Pozadinska slika", name: "cover_image", widget: "image", required: true }
           - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'index' }
           - { label: 'Koncept Naslov', name: 'our_concept_title', widget: "string" }
           - label: 'Naš Tim'
