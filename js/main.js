@@ -419,13 +419,6 @@ import SmoothScroll from './smoothScroll.js'
         
         let useSetTimeout = false
 
-        /*accordions.forEach((ac) => {
-          if (ac.classList.contains('accordion-opened')) {
-            ac.classList.remove('accordion-opened')
-            useSetTimeout = true
-          }
-        }) */
-
         setTimeout(() => {
           a.classList.add('accordion-opened')
           useSetTimeout = false;
@@ -455,10 +448,10 @@ if(document.getElementById('loading-screen')) {
   document.getElementById('skip-loading').addEventListener('click', (e) => {
     clearTimeout(loadingScreenTimeout)
     document.getElementById('loading-screen').classList.add('finish')
-    setTimeout(() => {
+   /* setTimeout(() => {
       document.getElementById('loading-screen').remove()
-    }, 1000)
-    //document.getElementById('loading-screen').remove()
+    }, 1000)*/
+    document.getElementById('loading-screen').remove()
     document.body.style.overflow = ''
     document.getElementById('index').classList.add('slow-loading-skip')
   })
@@ -467,9 +460,10 @@ if(document.getElementById('loading-screen')) {
     document.getElementById('index').classList.add('slow-loading')
     if(document.querySelector('.finish') === null)
       document.getElementById('loading-screen').classList.add('finish')
-      setTimeout(() => {
+     /* setTimeout(() => {
         document.getElementById('loading-screen').remove()
-      }, 1000)
+      }, 700)*/
+      document.getElementById('loading-screen').remove()
       document.body.style.overflow = ''
   }, 4000);
 }
