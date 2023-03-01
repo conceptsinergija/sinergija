@@ -1,6 +1,6 @@
 ---
 title: Početna
-cover_image: /assets/uploads/6o6a9833-1-.jpg
+cover_image: /assets/uploads/6o6a0644.jpg
 layout: index
 our_concept_title: NAŠ KONCEPT
 our_team: []
