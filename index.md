@@ -1,7 +1,7 @@
 ---
-layout: index
 title: Početna
-cover_image: '../img/homepage.jpg'
+cover_image: /assets/uploads/6o6a9833-1-.jpg
+layout: index
 our_concept_title: NAŠ KONCEPT
 our_team: []
 membership:
