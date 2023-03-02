@@ -46,7 +46,6 @@ import SmoothScroll from './smoothScroll.js'
   })
   
 
-
   if(document.querySelector('#concept-section-cta')){
     const autoplaySpeed = 4000
     // Our concept images Slider
@@ -465,10 +464,16 @@ if(document.getElementById('loading-screen')) {
       }, 700)*/
       document.getElementById('loading-screen').remove()
       document.body.style.overflow = ''
-  }, 4000);
-}
+    }, 4000);
+  }
 
 
+  if(window.location.hash == '#contact-form' && document.getElementById('contact-cta')){
+    const contactSection = document.getElementById('contact-cta')
+    setTimeout(() => {
+      contactSection.scrollIntoView({ behavior: 'smooth' })
+    }, 1000)
+  }
 
   
 })()
