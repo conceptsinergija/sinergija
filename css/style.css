@@ -541,6 +541,12 @@ header nav .nav-item {
   width: 1360px;
   max-width: 100%;
 }
+#galery-cta .hide-insta-widget-info{
+  background-color: #161616;
+  height: 50px;
+  width: 100%;
+  transform: translateY(-40px);
+}
 
 #galery-cta .custom-grid {
   margin-bottom: 80px;
