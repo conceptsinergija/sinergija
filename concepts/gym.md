@@ -1,6 +1,6 @@
 ---
 layout: single_concept
-title: gym
+title: GYM
 short_description: Naš GYM departman predstavlja jednu od najopremljenijih i
   najlepših teretana na našim prostorima. U stvaranju ovog departmana vodili smo
   se načelima organizovanosti funkcionalnosti i estetike praćenjem tendencija u
