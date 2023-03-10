@@ -3,7 +3,7 @@ title: Galerija
 layout: galery
 images:
   - image: /assets/uploads/galery1.jpg
-    alt: galerija 1
+    alt: Sinergija Showdown
     show_on_cta: true
   - image: /assets/uploads/galery2.jpg
     alt: Galerija 2
@@ -26,4 +26,10 @@ images:
     show_on_cta: true
   - image: /assets/uploads/gym4.jpeg
     alt: Galerija 9
+  - show_on_cta: false
+    image: /assets/uploads/6o6a0644.jpg
+    alt: " "
+  - show_on_cta: false
+    image: /assets/uploads/6o6a9833-1-.jpg
+    alt: " "
 ---
