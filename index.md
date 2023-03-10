@@ -3,7 +3,10 @@ title: Početna
 cover_image: /assets/uploads/111.jpg
 layout: index
 our_concept_title: NAŠ KONCEPT
-our_team: []
+our_team:
+  - name: Jovan Ilic
+    role: Head coach
+    image: /assets/uploads/mar_3707.jpg
 membership:
   title: ČLANSTVO
   text: >-
