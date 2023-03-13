@@ -65,6 +65,7 @@ collections:
         fields:
           - { label: 'Naslov', name: 'title', widget: 'string', default: 'O nama' }
           - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about-us' }
+           - { label: "Value", name: 'value', widget: 'string' }
           - label: 'Sekcije'
             name: 'secitons'
             widget: list
