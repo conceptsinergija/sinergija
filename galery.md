@@ -28,8 +28,8 @@ images:
     alt: Galerija 9
   - show_on_cta: false
     image: /assets/uploads/6o6a0644.jpg
-    alt: " "
+    alt: " Galerija 10"
   - show_on_cta: false
     image: /assets/uploads/6o6a9833-1-.jpg
-    alt: " "
+    alt: " Galerija 11"
 ---
