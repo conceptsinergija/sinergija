@@ -113,21 +113,19 @@ collections:
           - { label: "Ponude za firme naslov", name: "vaucher_companies_title", widget: "string", required: true }
           - { label: "Ponude za firme", name: "vaucher_companies_text", widget: "text", required: true }
           - { label: "Ponude za firme email", name: "vaucher_companies_email", widget: "string", required: true }
-          - label: Cenovnik
-            name: pricelist
-            widget: list
-            allow_add: true
+          - label: 'Cenovnik'
+            name: 'pricelist' 
+            widget: 'list'
             summary: '{{fields.title}}'
-            fileds: 
-              - { lable: "Naslov", name: 'title', widget: 'string', hint: "Ime kategorije"}
-              - label: Usluge
-                name: 'services'
-                widget: list
-                allow_add: true
-                summary: '{{fields.service}}'
+            fields: 
+              - { lable: "Naslov", name: 'title', widget: 'string' }
+              - label: "Usluge"
+                name: "services"
+                widget: "list"
                 fields: 
-                - { label: "Naziv usluge", name: "service", widget: "string"}
-                - { label: "Cena", name: "price", widget: "string"}
+                  - { label: "Usluga", name: "service", widget: "string", hint: "Postavi uslugu"}
+                  - { label: "Cena", name: "price", widget: "string", hint: "Dodaj cenu"}
+              - { lable: "Dodatni opis", name: 'description', widget: 'string' }
 
 
       - label: Galerija
