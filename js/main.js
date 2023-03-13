@@ -12,30 +12,6 @@ import SmoothScroll from './smoothScroll.js'
   }
 
 
-  // const navItems = document.querySelectorAll('.nav-item')
-  // const letters = 'ABVGDEŽZIJKLMNOPRSTĆUFHCČŠ'
-  // navItems.forEach((navItem, idx) => {
-  //   let iterations = 0
-  //   navItem.onmouseenter = event => {
-
-  //     let interval = setInterval(() => {
-  //       event.target.innerText =  event.target.innerText.split('').map((letter, idx) => {
-  //         if(idx < iterations) {
-  //           return event.target.dataset.value[idx]
-  //         }
-
-  //         return letters[Math.floor(Math.random() * 26)]
-  //       }).join('')
-        
-  //       if(iterations >= event.target.dataset.value.length) 
-  //         clearInterval(interval)
-
-  //       iterations += 1/3
-  //     }, 30)
-      
-  //   }
-  // })
-
 
 
   const burger = document.querySelector('.burger');
