@@ -53,4 +53,20 @@ secitons:
       dobre odluke. Duboko verujemo da vreme provedeno sa nama vrlo brzo postaje
       najbolji i najzabavniji deo dana i da zbog toga SINERGIJA postaje bitan
       deo svakodnevnice i nalazi mesto u srcu svakog našeg člana.
+  - title: VREDNOSTI
+    text: V﻿rednosti
+  - title: TIM
+    text: Naš tim je bogat jer imamo izuzetne ljude koji pre svega biramo
+      sagledavajući karakterne osobine, a u isto vreme zahtevamo visok nivo
+      znanja i posvećenosti kao i otvorenost za učenjem i konstantnim
+      napredovanjem.
+  - title: DRUŠTVENA ODGOVORNOST
+    text: Svi naši događaji koje organizujemo imaju humanitarni karakter i to je
+      jedan od načina kako se trudimo da učinimo nešto dobro i dodamo vrednost
+      društvu.
+  - title: KARIJERA
+    text: Mi smo uvek otvoreni da upoznamo sjajne ljude. Ukoliko smatraš da možeš da
+      budeš karika u našem lancu i imaš veliku goruću želju da postaneš deo
+      našeg tima, pošalji nam CV sa motivacionim pismom, a mi ćemo uraditi naš
+      deo.
 ---
