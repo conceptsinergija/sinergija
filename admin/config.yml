@@ -66,12 +66,12 @@ collections:
           - { label: 'Naslov', name: 'title', widget: 'string', default: 'O nama' }
           - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about-us' }
           - { label: 'Values', name: 'values', widget: 'list' }
-          - label: 'Sekcije'
+        - label: 'Sekcije'
             name: 'secitons'
             widget: list
             allow_add: true
             label_singular: Sekciju
-            summary: '{{fields.title}}'
+            summary: '{{fields.title}}' 
             fields: 
               - { label: "Naslov", name: "title", widget: "string" }
               - { label: "Tekst", name: 'text', widget: 'markdown' }
