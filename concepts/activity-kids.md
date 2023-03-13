@@ -5,7 +5,7 @@ short_description: Ukratko neki tekst o koncpetu
 show_on_homepage: true
 youtube_src: https://www.youtube.com/watch?v=KQXOUjzMbuY
 galery:
-  - /assets/uploads/kids1.png
+  - /assets/uploads/screenshot_20220531-145754_gallery.jpg
   - /assets/uploads/kids2.png
   - /assets/uploads/kids3.png
   - /assets/uploads/kids1.png
