@@ -185,9 +185,9 @@ header nav .nav-item {
 
 #concept-role-book ul {
   list-style-type: disc;
-  list-style: inside;
   margin-top: 20px;
   margin-bottom: 20px;
+  padding-left: 16px;
 }
 #concept-role-book ul li {
   line-height: 2em;
