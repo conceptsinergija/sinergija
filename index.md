@@ -36,8 +36,8 @@ working_hours:
 
 
     Ukoliko donesemo odluku o drugim neradnim danima, članovi će biti blagovremeno obavešteni.
-  start_hours_working_days: 630
-  end_hours_working_days: 123
-  start_hours_weekend: 123
-  end_hours_weekend: 116
+  start_hours_working_days: 06:30
+  end_hours_working_days: 22:00
+  start_hours_weekend: 08:00
+  end_hours_weekend: 20:00
 ---
