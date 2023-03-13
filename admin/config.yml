@@ -74,20 +74,6 @@ collections:
             fields: 
               - { label: "Naslov", name: "title", widget: "string" }
               - { label: "Tekst", name: 'text', widget: 'markdown' }
-              - label: "Vrednosti"
-                name: "values"
-                widget: list
-                allow_add: true
-                default: ["vrednosti"]
-                field: 
-              - { label: "Vrednost", name: "value", widget: "string"}
-              - label: "Drugi Vrednosti"
-                name: "second values"
-                widget: list
-                allow_add: true
-                default: ["drugi vrednosti"]
-                field: 
-              - { label: "Druga Vrednost", name: "second value", widget: "string"}
 
 
 
