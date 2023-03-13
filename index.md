@@ -4,7 +4,7 @@ cover_image: /assets/uploads/111.jpg
 layout: index
 our_concept_title: NAŠ KONCEPT
 free_training:
-  image: /assets/uploads/galery3.jpg
+  image: /assets/uploads/3z6a1663-copy.jpg
   title: BESPLATAN PROBNI TRENING
   button_text: SAZNAJ VIŠE
   button_url: membership
