@@ -54,10 +54,10 @@ collections:
             fields: 
               - { label: "Naslov", name: "title", widget: "string", required: true }
               - { label: "Text", name: 'text', widget: 'markdown', required: false }
-              - { label: Početak radnog vremena radnim danima, name: start_hours_working_days, widget: 'number', required: true }
-              - { label: Kraj radnog vremena radnim danima, name: end_hours_working_days, widget: 'number', required: true }
-              - { label: Početak radnog vremena vikendom, name: start_hours_weekend, widget: 'number', required: true }
-              - { label: Poceatk radnog vremena vikendom, name: end_hours_weekend, widget: 'number', required: true }
+              - { label: Početak radnog vremena radnim danima, name: start_hours_working_days, widget: 'string', required: true }
+              - { label: Kraj radnog vremena radnim danima, name: end_hours_working_days, widget: 'string', required: true }
+              - { label: Početak radnog vremena vikendom, name: start_hours_weekend, widget: 'string', required: true }
+              - { label: Poceatk radnog vremena vikendom, name: end_hours_weekend, widget: 'string', required: true }
 
       - label: 'O nama'
         name: 'about'
@@ -136,10 +136,10 @@ collections:
         fields: 
           - { label: "Naslov", name: "title", widget: "string", required: true }
           - { label: "Text", name: 'text', widget: 'markdown', required: false }
-          - { label: Početak radnog vremena radnim danima, name: start_hours_working_days, widget: 'number', required: true }
-          - { label: Kraj radnog vremena radnim danima, name: end_hours_working_days, widget: 'number', required: true }
-          - { label: Početak radnog vremena vikendom, name: start_hours_weekend, widget: 'number', required: true }
-          - { label: Poceatk radnog vremena vikendom, name: end_hours_weekend, widget: 'number', required: true }
+          - { label: Početak radnog vremena radnim danima, name: start_hours_working_days, widget: 'string', required: true }
+          - { label: Kraj radnog vremena radnim danima, name: end_hours_working_days, widget: 'string', required: true }
+          - { label: Početak radnog vremena vikendom, name: start_hours_weekend, widget: 'string', required: true }
+          - { label: Poceatk radnog vremena vikendom, name: end_hours_weekend, widget: 'string', required: true }
 
 
       - label: 'FAQ'
