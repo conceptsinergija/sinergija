@@ -9,7 +9,7 @@ our_team:
     role: Head coach
     image: /assets/uploads/mar_3707.jpg
 free_training:
-  - image: '/assets/uploads/gym1.jpeg'
+    image: '/assets/uploads/gym1.jpeg'
     title: 'BESPLATAN PROBNI TRENING'
     button_text: 'saznaj više'
     button_url: '/contact'
