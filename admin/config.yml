@@ -94,8 +94,12 @@ collections:
         file: 'vaucher.md'
         fields: 
           - { label: 'Slika', name: 'image', widget: 'image'}
+          - { label: "Poklon vaučer naslov", name: "vaucher_gift_title", widget: "string", required: true }
           - { label: "Poklon vaučer text", name: "vaucher_gift_text", widget: "text", required: true }
+          - { label: "Poklon vaučer dugme tekst", name: "vaucher_gift_button", widget: "string", required: true }
+          - { label: "Ponude za firme naslov", name: "vaucher_companies_title", widget: "string", required: true }
           - { label: "Ponude za firme", name: "vaucher_companies_text", widget: "text", required: true }
+          - { label: "Ponude za firme email", name: "vaucher_companies_email", widget: "string", required: true }
           - label: 'Cenovnik (max 4)'
             name: 'pricing'
             widget: list
@@ -127,7 +131,6 @@ collections:
             summary: '{{fields.alt}}'
             fields:
               - { label: "Alt Tekst", name: "alt", widget: "string" }
-              - { label: 'Prikazi u sekcijama po stranama', name: 'show_on_cta', widget: 'boolean', default: false, required: false}
               - { label: "Slika", name: "image", widget: "image" }
 
 
