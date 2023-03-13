@@ -99,7 +99,7 @@ collections:
           - { label: "Poklon vaučer dugme tekst", name: "vaucher_gift_button", widget: "string", required: true }
           - { label: "Ponude za firme naslov", name: "vaucher_companies_title", widget: "string", required: true }
           - { label: "Ponude za firme", name: "vaucher_companies_text", widget: "text", required: true }
-          - { label: "Ponude za firme email", name: "vaucher_companies_email, widget: "string", required: true }
+          - { label: "Ponude za firme email", name: "vaucher_companies_email", widget: "string", required: true }
           - label: 'Cenovnik (max 4)'
             name: 'pricing'
             widget: list
