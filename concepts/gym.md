@@ -40,7 +40,7 @@ our_mission:
       urna. Volutpat duis laoreet amet sit cursus non habitant lobortis.
       Fermentum diam a adipiscing adipiscing curabitur. Massa condimentum purus
       augue ante tortor.
-    image: /assets/uploads/gym3.jpeg
+    image: /assets/uploads/3z6a1308.jpg
   - title: TURF & PARTER ZONE
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam, elit
       libero nunc sagittis orci nunc. Volutpat sagittis ipsum rutrum mauris,
