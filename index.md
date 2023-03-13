@@ -3,16 +3,28 @@ title: Početna
 cover_image: /assets/uploads/111.jpg
 layout: index
 our_concept_title: NAŠ KONCEPT
+free_training:
+  image: /assets/uploads/galery3.jpg
+  title: BESPLATAN PROBNI TRENING
+  button_text: SAZNAJ VIŠE
+  button_url: membership
 our_team_title: UPOZNAJ NAŠ TIM!
 our_team:
   - name: Jovan Ilic
-    role: Head coach
+    role: Dj
     image: /assets/uploads/mar_3707.jpg
-free_training:
-  - image: '/assets/uploads/gym1.jpeg'
-    title: 'BESPLATAN PROBNI TRENING'
-    button_text: 'saznaj više'
-    button_url: '/contact'
+  - name: Marko Finci
+    role: Vikinski portugalac
+    image: /assets/uploads/image-1-.jpg
+  - name: Radomir Kostic
+    role: CEO
+    image: /assets/uploads/mar_3907.jpg
+  - name: Zelja
+    role: Head Coach
+    image: /assets/uploads/mar_3680.jpg
+  - name: Nacka
+    role: CEO na Rasu
+    image: /assets/uploads/mar_3863.jpg
 membership:
   title: ČLANSTVO
   text: >-

@@ -54,11 +54,17 @@ secitons:
       najbolji i najzabavniji deo dana i da zbog toga SINERGIJA postaje bitan
       deo svakodnevnice i nalazi mesto u srcu svakog našeg člana.
   - title: VREDNOSTI
-    text: V﻿rednosti
-    values:
-      - value: Kako mogu koristiti BASKET salu?
-      - value: Koliko ljudi može biti u basket sali?
-      - value: Da li je sala pravih dimenzija ili je manja?
+    text: >-
+      Naša najveća vrednost su ljudi. U isto vreme, u našem radu vodimo se
+      osnovnim i pomoćnim vrednostima ne bi li bili što efikasniji. Osnovne
+      vrednosti predstavljaju najviši prioritet našeg koncepta, naša verovanja i
+      temelj svega što radimo.
+
+
+      ![](/assets/uploads/3b7a8872.jpg "prvi")
+
+
+      ![](/assets/uploads/3z6a1308.jpg "drugi")
   - title: TIM
     text: Naš tim je bogat jer imamo izuzetne ljude koji pre svega biramo
       sagledavajući karakterne osobine, a u isto vreme zahtevamo visok nivo

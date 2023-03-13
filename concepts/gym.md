@@ -40,7 +40,7 @@ our_mission:
       urna. Volutpat duis laoreet amet sit cursus non habitant lobortis.
       Fermentum diam a adipiscing adipiscing curabitur. Massa condimentum purus
       augue ante tortor.
-    image: /assets/uploads/gym3.jpeg
+    image: /assets/uploads/3z6a1308.jpg
   - title: TURF & PARTER ZONE
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam, elit
       libero nunc sagittis orci nunc. Volutpat sagittis ipsum rutrum mauris,
@@ -89,14 +89,13 @@ rule_book: >-
 
   * Vraćanje opreme na svoje mesto je obavezno.
 
-  * Sva oprema se može koristiti za datu spravu na predviđen način. Na svakoj spravi postoji slikoviti prikaz, a ukoliko vam je potrebna dodatna instrukcija naši treneri će vam rado pojasniti.
-
+  * Sva oprema se može koristiti za datu spravu na predviđen način. Na svakoj spravi postoji slikoviti prikaz, a ukoliko vam je potrebna dodatna instrukcija naši treneri će vam \
+    rado pojasniti.
   * Uvođenje kućnih ljubimaca u departman nije dozvoljeno.
 
   * Unošenje hrane u departman nije dozvoljeno.
 
   * Drago nam je što razumete da su pravila propisana zarad Vašeg što prijatnijeg boravka kao i kvalitetnije usluge.
-
 
 
   Hvala Vam što ista poštujete.
