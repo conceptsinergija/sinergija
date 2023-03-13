@@ -106,12 +106,15 @@ collections:
           - label: Cenovnik
             name: pricelist
             widget: list
+            allow_add: true
             summary: '{{fields.title}}'
             fileds: 
               - { lable: "Naslov", name: 'title', widget: 'string', hint: "Ime kategorije"}
               - label: Usluge
                 name: 'services'
                 widget: list
+                allow_add: true
+                summary: '{{fields.service}}'
                 fields: 
                 - { label: "Naziv usluge", name: "service", widget: "string"}
                 - { label: "Cena", name: "price", widget: "string"}
