@@ -89,14 +89,13 @@ rule_book: >-
 
   * Vraćanje opreme na svoje mesto je obavezno.
 
-  * Sva oprema se može koristiti za datu spravu na predviđen način. Na svakoj spravi postoji slikoviti prikaz, a ukoliko vam je potrebna dodatna instrukcija naši treneri će vam rado pojasniti.
-
+  * Sva oprema se može koristiti za datu spravu na predviđen način. Na svakoj spravi postoji slikoviti prikaz, a ukoliko vam je potrebna dodatna instrukcija naši treneri će vam \
+    rado pojasniti.
   * Uvođenje kućnih ljubimaca u departman nije dozvoljeno.
 
   * Unošenje hrane u departman nije dozvoljeno.
 
   * Drago nam je što razumete da su pravila propisana zarad Vašeg što prijatnijeg boravka kao i kvalitetnije usluge.
-
 
 
   Hvala Vam što ista poštujete.
