@@ -118,6 +118,7 @@ collections:
                 fields: 
                   - { label: "Usluga", name: "service", widget: "string", hint: "Postavi uslugu"}
                   - { label: "Cena", name: "price", widget: "string", hint: "Dodaj cenu"}
+              - { lable: "Dodatni opis", name: 'description', widget: 'string' }
 
 
       - label: Galerija
