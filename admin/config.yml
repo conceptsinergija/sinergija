@@ -22,10 +22,10 @@ collections:
             allow_add: false
             summary: '{{fields.title}}'
             fields: 
-              - { label: "Pozadinska Slika", name: "image", widget: "image" }
-              - { label: "Naslov", name: "title", widget: "string" }
-              - { label: "Tekst Dugmeta", name: 'button_text', widget: 'string'}
-              - { label: 'Gde treba da vodi', name: 'button_url', widgtet: 'string' }
+              - { label: "Pozadinska Slika", name: "image", widget: "image", default: '/img/homepage_cta.jpg' }
+              - { label: "Naslov", name: "title", widget: "string",  default: "Besplatni probni trening" }
+              - { label: "Tekst Dugmeta", name: 'button_text', widget: 'string', default: 'Saznaj više'}
+              - { label: 'Gde treba da vodi', name: 'button_url', widgtet: 'string', default: 'membership' }
           - { label: "Naš Tim Naslov", name: our_team_title, widget: 'string' }
           - label: 'Naš Tim'
             name: 'our_team'
