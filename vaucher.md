@@ -7,7 +7,7 @@ first-text: Uvideli smo da je poklon kao što je članarina kod nas jedna
   zdravlja i fitnesa. Stoga u ponudi imamo vaučere koje možete kupiti za sebi
   drage ljude. Na taj način, stvarno ćete im pokazati da ih volite!
 layout: vaucher
-vaucher_gift_title: POKLON VAUČER
+vaucher_gift_title: POKLON VAUČER 1
 vaucher_companies_title: PONUDA ZA FIRME
 vaucher_companies_text: Ukoliko želite da uradite nešto odlično za svoju firmu i
   svoje zaposlene, paketi članarina kod nas doprineće zdravlju i zadovoljstvu
