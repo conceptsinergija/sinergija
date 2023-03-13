@@ -54,7 +54,10 @@ secitons:
       najbolji i najzabavniji deo dana i da zbog toga SINERGIJA postaje bitan
       deo svakodnevnice i nalazi mesto u srcu svakog našeg člana.
   - title: VREDNOSTI
-    text: "V﻿rednosti:"
+    text: Naša najveća vrednost su ljudi. U isto vreme, u našem radu vodimo se
+      osnovnim i pomoćnim vrednostima ne bi li bili što efikasniji. Osnovne
+      vrednosti predstavljaju najviši prioritet našeg koncepta, naša verovanja i
+      temelj svega što radimo.
   - title: TIM
     text: Naš tim je bogat jer imamo izuzetne ljude koji pre svega biramo
       sagledavajući karakterne osobine, a u isto vreme zahtevamo visok nivo
