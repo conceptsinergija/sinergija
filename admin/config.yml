@@ -80,7 +80,14 @@ collections:
                 allow_add: true
                 default: ["vrednosti"]
                 fields: 
-                - { label: "Vrednost", name: "value", widget: "string"}
+              - { label: "Vrednost", name: "value", widget: "string"}
+              - label: "Drugi Vrednosti"
+                name: "second values"
+                widget: list
+                allow_add: true
+                default: ["drugi vrednosti"]
+                fields: 
+              - { label: "Druga Vrednost", name: "second value", widget: "string"}
 
 
 

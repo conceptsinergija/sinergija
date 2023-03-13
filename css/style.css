@@ -1251,6 +1251,10 @@ h1.program-title {
   animation: smoothLoadindex 4s ease;
 }
 
+.accordion-description p {
+  margin-top: 18px;
+}
+
 @keyframes smoothLoadindex {
  
   0% { opacity: 0 }
