@@ -19,6 +19,7 @@ pricelist:
         price: od 4000
       - service: Trening kod vas
         price: od 2700
+    description: Cena za treninge je po osobi po času
   - title: GYM
     services:
       - service: Dnevna karta
@@ -31,6 +32,7 @@ pricelist:
         price: "20900"
       - service: Godišnja (12 meseci)
         price: "38900"
+    description: Uz mesečnu članarinu drugih departmana doplata za korišćenje GYM departmana je 1950 
   - title: Cross training
     services:
       - service: Dnevna karta
@@ -47,6 +49,7 @@ pricelist:
         price: "36900"
       - service: Godišnja (12 meseci)
         price: "69900"
+    description: Uz mesečnu članarinu drugih departmana doplata za korišćenje GYM departmana je 1950 
   - title: Activity kids
     services:
       - service: Školica sporta
@@ -63,6 +66,7 @@ pricelist:
         price: "20900"
       - service: Sportski rođendan
         price: od 30000
+    description: ''
 first-text: Uvideli smo da je poklon kao što je članarina kod nas jedna
   fantastična stvar jer onome koji prima poklon otvara jedan novi prozor u svet
   zdravlja i fitnesa. Stoga u ponudi imamo vaučere koje možete kupiti za sebi
