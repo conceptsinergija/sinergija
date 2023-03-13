@@ -13,6 +13,12 @@ our_team:
   - name: Jovan Ilic
     role: Dj
     image: /assets/uploads/mar_3707.jpg
+  - name: Marko Finci
+    role: Vikinski portugalac
+    image: /assets/uploads/image-1-.jpg
+  - name: Radomir Kostic
+    role: CEO
+    image: /assets/uploads/mar_3907.jpg
 membership:
   title: ČLANSTVO
   text: >-
