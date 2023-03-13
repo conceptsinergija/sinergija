@@ -59,6 +59,15 @@ secitons:
       osnovnim i pomoćnim vrednostima ne bi li bili što efikasniji. Osnovne
       vrednosti predstavljaju najviši prioritet našeg koncepta, naša verovanja i
       temelj svega što radimo.
+
+
+      Osnovne vrednosti kojima se vodimo u pristupanju zadacima su:
+    values:
+      - value: pravimo rezultate i razvijamo kvalitetne odnose
+      - value: naši članovi su naš kvalitet
+      - value: obožavamo ono što radimo
+      - value: ovde smo da činimo dobro sebi i drugima
+      - value: slušamo i rastemo
   - title: TIM
     text: Naš tim je bogat jer imamo izuzetne ljude koji pre svega biramo
       sagledavajući karakterne osobine, a u isto vreme zahtevamo visok nivo
