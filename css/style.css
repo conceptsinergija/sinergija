@@ -1303,6 +1303,12 @@ h1.program-title {
   max-width: 1200px;
 }
 
+#galery .second-image,
+#galery .third-image {
+  display: inline-block;
+  width: calc(50% - 2.5rem);
+}
+
 .open-burger .header-logo {
   animation: smoothLoad .8s ease-in-out;
 }
@@ -1854,6 +1860,11 @@ header nav .nav-item {
   
 }
 
+#galery .second-image,
+#galery .third-image {
+  display: block;
+  width: 100%
+}
 
 #pricelist-section .accordion-opened .accordion-description {
   padding-top: 16px;

@@ -12,6 +12,31 @@ import SmoothScroll from './smoothScroll.js'
   }
 
 
+  // const navItems = document.querySelectorAll('.nav-item')
+  // const letters = 'ABVGDEŽZIJKLMNOPRSTĆUFHCČŠ'
+  // navItems.forEach((navItem, idx) => {
+  //   let iterations = 0
+  //   navItem.onmouseenter = event => {
+
+  //     let interval = setInterval(() => {
+  //       event.target.innerText =  event.target.innerText.split('').map((letter, idx) => {
+  //         if(idx < iterations) {
+  //           return event.target.dataset.value[idx]
+  //         }
+
+  //         return letters[Math.floor(Math.random() * 26)]
+  //       }).join('')
+        
+  //       if(iterations >= event.target.dataset.value.length) 
+  //         clearInterval(interval)
+
+  //       iterations += 1/3
+  //     }, 30)
+      
+  //   }
+  // })
+
+
 
   const burger = document.querySelector('.burger');
   const mobileMenu = document.querySelector('.mobile-menu');
@@ -51,8 +76,6 @@ import SmoothScroll from './smoothScroll.js'
     // Our concept images Slider
    
     let ourConceptSliderImages = new Swiper(".conceptSwiperImages", {
-      /*slidesPerView: 1.3,
-      spaceBetween: 80,*/
       slidesPerView: 1,
       spaceBetween: 20,
       loop: true,
@@ -389,13 +412,6 @@ import SmoothScroll from './smoothScroll.js'
         
         let useSetTimeout = false
 
-        /*accordions.forEach((ac) => {
-          if (ac.classList.contains('accordion-opened')) {
-            ac.classList.remove('accordion-opened')
-            useSetTimeout = true
-          }
-        }) */
-
         setTimeout(() => {
           a.classList.add('accordion-opened')
           useSetTimeout = false;
@@ -447,9 +463,6 @@ if(document.getElementById('loading-screen')) {
   document.getElementById('skip-loading').addEventListener('click', (e) => {
     clearTimeout(loadingScreenTimeout)
     document.getElementById('loading-screen').classList.add('finish')
-   /* setTimeout(() => {
-      document.getElementById('loading-screen').remove()
-    }, 1000)*/
     document.getElementById('loading-screen').remove()
     document.body.style.overflow = ''
     document.getElementById('index').classList.add('slow-loading-skip')
@@ -459,9 +472,6 @@ if(document.getElementById('loading-screen')) {
     document.getElementById('index').classList.add('slow-loading')
     if(document.querySelector('.finish') === null)
       document.getElementById('loading-screen').classList.add('finish')
-     /* setTimeout(() => {
-        document.getElementById('loading-screen').remove()
-      }, 700)*/
       document.getElementById('loading-screen').remove()
       document.body.style.overflow = ''
     }, 4000);
@@ -474,6 +484,7 @@ if(document.getElementById('loading-screen')) {
       contactSection.scrollIntoView({ behavior: 'smooth' })
     }, 1000)
   }
+
 
   
 })()

@@ -1,31 +1,9 @@
 <section id="rule-book" class="container mx-auto lg:mt-32 mb-40">
   <h2 class="section-title">
-    PRAVILNIK
+    {{ page.rules }}
   </h2>
 
   <div class="rule-book-text">
-    <p>Trudimo se da stvorimo što bolju i veću zajednicu na koju su svi ponosni.</p>
-    <ul class="mt-8">
-      <li>Kada dođeš kod nas, ostavi probleme i ego na parkingu.</li>
-      <li>Budi društven i pozdravi članove koje srećeš.</li>
-      <li>Član Sinergije se postaje popunjavanjem pristupnice i uplatom članarine.</li>
-      <li>Član dobija prvu čansku karticu na poklon, a istom se prijavljuje na recepciji prilikom svake posete i ne može je prenositi na druga lica.</li>
-      <li>Članarina se uplaćuje na recepciji gotovinom ili uplatom na naš račun. Ukoliko želiš, zatraži da ti izdamo profakturu za uplate preko računa.</li>
-      <li>Po prijavljivanju članovi mogu zadužiti ključ ormarića u svlačionici za jednokratno korišćenje koji po odlasku razdužuju na racepciji.</li>
-      <li>Prva članska kartica je besplatna, a eventualno gubljenje ili uništavanje kartice/ključa povlači izradu nove koju naplaćujemo 1000 RSD.</li>
-      <li>Zamrzavanje članarine nije moguće.</li>
-      <li>Članovi moraju imati čistu sportsku opremu adekvatnu pravilniku departmana koji koriste.</li>
-      <li>Refundaciju ne vršimo.</li>
-      <li>Članovi treniraju i borave na ličnu odgovornost.</li>
-      <li>Ne snosimo odgovornost za lične stvari članova.</li>
-      <li>Ukoliko nešto zaboraviš, pogledaj u sekciji IZGUBLJENO-NAĐENO pored donjeg stepeništa.</li>
-      <li>Članovi koji pričine štetu, dužni su da istu nadoknade.</li>
-      <li>Zadržavamo pravo fotografisanja i objavljivanja slika i videa u svrhu promocije.</li>
-      <li>Objekat je pod video i audio nadzorom.</li>
-      <li>Isključivo članovi našeg tima mogu pružati usluge treninga, savetovanja, profesionalnog fotografisanja, snimanja, dok drugima nije dozvoljeno bez saglasnosti menadžmenta.</li>
-      <li>O eventualnim izmenama rasporeda, cenovnika i slično članovi će biti blagovremeno obavešteni.</li>
-      <li>Zadržavamo pravo da individuama koje ne poštuju naša pravila, uskratimo članstvo i zamolimo ih da odu.</li>
-      <li>Drago nam je što razumete da su pravila propisana zarad Vašeg što prijatnijeg boravka kao i kvalitetnije usluge. Hvala Vam što ista poštujete.</li>
-    </ul>
+    {{ page.rules_text | markdownify}}
   </div>
 </section>
