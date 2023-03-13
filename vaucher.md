@@ -31,6 +31,38 @@ pricelist:
         price: "20900"
       - service: Godišnja (12 meseci)
         price: "38900"
+  - title: Cross training
+    services:
+      - service: Dnevna karta
+        price: "1000"
+      - service: Nedeljna članarina
+        price: "3500"
+      - service: 8 časova mesečno
+        price: "5200"
+      - service: Mesečna
+        price: "6900"
+      - service: Kvartalna (3 meseca)
+        price: "19500"
+      - service: Polugodišnja (6 meseci)
+        price: "36900"
+      - service: Godišnja (12 meseci)
+        price: "69900"
+  - title: Activity kids
+    services:
+      - service: Školica sporta
+        price: "3900"
+      - service: Škola sporta
+        price: "3900"
+      - service: Kvartalna (3 meseca)
+        price: "10900"
+      - service: Polugodišnja (6 meseci)
+        price: "20900"
+      - service: Godišnja (12 meseci)
+        price: od 2500
+      - service: Individualni čas
+        price: "20900"
+      - service: Sportski rođendan
+        price: od 30000
 first-text: Uvideli smo da je poklon kao što je članarina kod nas jedna
   fantastična stvar jer onome koji prima poklon otvara jedan novi prozor u svet
   zdravlja i fitnesa. Stoga u ponudi imamo vaučere koje možete kupiti za sebi
