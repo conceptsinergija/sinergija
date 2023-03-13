@@ -3,6 +3,7 @@ title: Početna
 cover_image: /assets/uploads/111.jpg
 layout: index
 our_concept_title: NAŠ KONCEPT
+our_team_title: UPOZNAJ NAŠ TIM!
 our_team:
   - name: Jovan Ilic
     role: Head coach
@@ -18,7 +19,7 @@ membership:
 
 
     Ukoliko nisi posvećen sebi i ne zeliš promenu na bolje, molimo te da ne trošiš svoje a ni naše vreme.
-
+  image: /assets/uploads/gym2.jpeg
 working_hours:
   title: RADNO VREME
   text: >-
@@ -30,8 +31,8 @@ working_hours:
 
 
     Ukoliko donesemo odluku o drugim neradnim danima, članovi će biti blagovremeno obavešteni.
-  start_hours_working_days: "06:30"
-  end_hours_working_days: "22:00"
-  start_hours_weekend: "08:00"
-  end_hours_weekend: "20:00"
+  start_hours_working_days: 06:30
+  end_hours_working_days: 22:00
+  start_hours_weekend: 08:00
+  end_hours_weekend: 20:00
 ---
