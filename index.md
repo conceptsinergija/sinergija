@@ -19,8 +19,6 @@ membership:
 
     Ukoliko nisi posvećen sebi i ne zeliš promenu na bolje, molimo te da ne trošiš svoje a ni naše vreme.
 
-
-    [Ovde](/membership/) možeš zakazati trening ili konsultacije.
 working_hours:
   title: RADNO VREME
   text: >-

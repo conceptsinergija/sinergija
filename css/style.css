@@ -1150,7 +1150,6 @@ footer a {
 
 /*  M E M B E R S H I P  */
 #membership-section .image-section {
-  background-image: url('/assets/uploads/gym2.jpeg');
   background-size: cover;
   background-position: 40%; 
   box-shadow: inset 200px 0 150px 50px #161616, 

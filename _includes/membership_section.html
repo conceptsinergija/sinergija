@@ -1,20 +1,14 @@
 <section id="membership-section" class="">
   <div class="membership lg:flex lg:items-center lg:justify-between lg:min-h-screen ">
     <div class="lg:w-2/5 custom-membership-left-margin pt-20">
-      <h1 class="section-title">članstvo</h1>
+      <h1 class="section-title">{{ page.membership.title }}</h1>
       <div class="lg:pr-20">
-        <p>
-          Kada poželite da postanete naš član. mi smo vam zahvali što svoje poverenje poklanjate nam i dajete nam da se brinemo u vašem zdravlju i fitnesu, ali trebate da znate da mi nismo mesto za sve. Trudimo se da okupimo dobre ljude koji će biti naši najbolji predstavnici i koji sa ponosom ističu to što su člannovi SINERGIJE. 
-        </p>
-        <p>
-          Ukoliko nisi posvećen sebi i ne zeliš promenu na bolje, molimo te da ne trošiš svoje a ni naše vreme.
-        </p>
-        
+        {{ page.membership.text }}
       </div>
-       <div class="mt-6">
+      <div class="mt-6">
         <a href="/contact/#contact-form" class="here-btn">Ovde</a> možeš zakazati trening ili konsultacije.
       </div>
     </div>
-    <div class="image-section lg:w-3/5 lg:min-h-screen hidden lg:block"></div>
+    <div class="image-section lg:w-3/5 lg:min-h-screen hidden lg:block" style="background-image: url('  {{ page.membership.image }}')"></div>
   </div>
 </section>
