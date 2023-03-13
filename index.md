@@ -25,6 +25,9 @@ our_team:
   - name: Nacka
     role: CEO na Rasu
     image: /assets/uploads/mar_3863.jpg
+  - name: Maja
+    role: Group trainer
+    image: /assets/uploads/mar_3648.jpg
 membership:
   title: ČLANSTVO
   text: >-
