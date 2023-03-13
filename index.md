@@ -19,6 +19,9 @@ our_team:
   - name: Radomir Kostic
     role: CEO
     image: /assets/uploads/mar_3907.jpg
+  - name: Zelja
+    role: Head Coach
+    image: /assets/uploads/mar_3680.jpg
 membership:
   title: ČLANSTVO
   text: >-
