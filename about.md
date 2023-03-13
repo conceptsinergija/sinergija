@@ -55,6 +55,10 @@ secitons:
       deo svakodnevnice i nalazi mesto u srcu svakog našeg člana.
   - title: VREDNOSTI
     text: V﻿rednosti
+    values:
+      - value: Kako mogu koristiti BASKET salu?
+      - value: Koliko ljudi može biti u basket sali?
+      - value: Da li je sala pravih dimenzija ili je manja?
   - title: TIM
     text: Naš tim je bogat jer imamo izuzetne ljude koji pre svega biramo
       sagledavajući karakterne osobine, a u isto vreme zahtevamo visok nivo
