@@ -3,11 +3,7 @@ title: Početna
 cover_image: /assets/uploads/111.jpg
 layout: index
 our_concept_title: NAŠ KONCEPT
-our_team_title: UPOZNAJ NAŠ TIM!
-our_team:
-  - name: Jovan Ilic
-    role: Head coach
-    image: /assets/uploads/mar_3707.jpg
+our_team: []
 membership:
   title: ČLANSTVO
   text: >-
@@ -19,7 +15,9 @@ membership:
 
 
     Ukoliko nisi posvećen sebi i ne zeliš promenu na bolje, molimo te da ne trošiš svoje a ni naše vreme.
-  image: /assets/uploads/gym2.jpeg
+
+
+    [Ovde](/membership/) možeš zakazati trening ili konsultacije.
 working_hours:
   title: RADNO VREME
   text: >-
