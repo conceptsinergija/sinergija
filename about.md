@@ -54,7 +54,7 @@ secitons:
       najbolji i najzabavniji deo dana i da zbog toga SINERGIJA postaje bitan
       deo svakodnevnice i nalazi mesto u srcu svakog našeg člana.
   - title: VREDNOSTI
-    text: V﻿rednosti
+    text: "V﻿rednosti:"
   - title: TIM
     text: Naš tim je bogat jer imamo izuzetne ljude koji pre svega biramo
       sagledavajući karakterne osobine, a u isto vreme zahtevamo visok nivo
