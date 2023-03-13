@@ -74,7 +74,7 @@ collections:
             fields: 
               - { label: "Naslov", name: "title", widget: "string" }
               - { label: "Tekst", name: 'text', widget: 'markdown' }
-              - { label: "Value", name: 'value', widget: 'markdown' }
+              - { label: "Value", name: 'value', widget: 'string' }
 
       - label: 'Članstvo'
         name: 'membership'
