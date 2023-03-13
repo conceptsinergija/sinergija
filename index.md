@@ -9,7 +9,10 @@ free_training:
   button_text: SAZNAJ VIŠE
   button_url: membership
 our_team_title: UPOZNAJ NAŠ TIM!
-our_team: []
+our_team:
+  - name: Jovan Ilic
+    role: Dj
+    image: /assets/uploads/mar_3707.jpg
 membership:
   title: ČLANSTVO
   text: >-
