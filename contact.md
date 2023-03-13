@@ -1,6 +1,6 @@
 ---
 layout: contact
-title: contact
+title: Kontakt
 
 
 working_hours:
