@@ -75,7 +75,7 @@ collections:
             fields: 
               - { label: "Naslov", name: "title", widget: "string" }
               - { label: "Tekst", name: 'text', widget: 'markdown' }
-            - label: "Vrednosti"
+              - label: "Vrednosti"
               name: "values"
               widget: list
               allow_add: true
