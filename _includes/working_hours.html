@@ -2,41 +2,36 @@
   <div class="lg:flex lg:justify-between lg:items-start">
     <div class="md:w-3/5">
       <h2 class="section-title">
-        Radno vreme
+        {{ page.working_hours.title }}
       </h2>
       <!-- Working hours -->
       <div class="flex justify-evenly mobile-show">
         <div class="circle flex flex-col items-center justify-start">
-          <div class="time">06:30</div>
-          <div class="time">22:00</div>
+          <div class="time">{{ page.working_hours.start_hours_working_days }} </div>
+          <div class="time">{{ page.working_hours.end_hours_working_days }}</div>
           <div class="days">radnim <br> danima</div>
         </div>
         <div class="circle flex flex-col items-center justify-start">
-          <div class="time">08:00</div>
-          <div class="time">20:00</div>
+          <div class="time">{{ page.working_hours.start_hours_weekend }}</div>
+          <div class="time">{{ page.working_hours.end_hours_weekend }}</div>
           <div class="days">subotom</div>
         </div>
       </div>
       <!-- end Working hours -->
       <div class="working-hours-text">
-        <p>Otvoreni smo tokom cele godine, radnim danima od <span class="time">6:30</span> do <span class="time">22:00</span> i subotom od <span class="time">08:00</span> do <span class="time">20:00</span>.
-        </p>
-        <p>
-          Neradni dani su: <span class="px-3">•</span>  31. decembar <span class="px-3">•</span> 01. januar <span class="px-3">•</span> 06. januar <span class="px-3">•</span> 07. januar <span class="px-3">•</span>  Uskrs <span class="px-3">•</span> 01. maj
-        </p>
-        <p>Ukoliko donesemo odluku o drugim neradnim danima, članovi će biti blagovremeno obavešteni.</p>
+        {{ page.working_hours.text | markdownify }}
       </div>
     </div>
     <!-- Working hours -->
     <div class="md:w-2/5 flex w-full justify-start mobile-hide">
       <div class="circle flex flex-col items-center justify-start">
-        <div class="time">06:30</div>
-        <div class="time">22:00</div>
+        <div class="time">{{ page.working_hours.start_hours_working_days }}</div>
+        <div class="time">{{ page.working_hours.end_hours_working_days }}</div>
         <div class="days">radnim <br> danima</div>
       </div>
       <div class="circle flex flex-col items-center justify-start">
-        <div class="time">08:00</div>
-        <div class="time">20:00</div>
+        <div class="time">{{ page.working_hours.start_hours_weekend }}</div>
+        <div class="time">{{ page.working_hours.end_hours_weekend }}</div>
         <div class="days">subotom</div>
       </div>
     </div>

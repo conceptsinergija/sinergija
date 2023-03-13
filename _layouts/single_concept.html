@@ -31,7 +31,21 @@
   </div>
 </main>
 
-
 {% include pricing.html %}
+
+{% if page.rule_book != "" and page.rule_book != null %}
+  <div id="concept-role-book" class="inner-container mx-auto pb-12 md:pb-40">
+    <h2 class="section-title"> {{ page.rule_book_title }} </h2>
+    <div class="flex items-center justify-center gap-x-4 mb-16 lg:mb-20">
+      <div class="price-dot"></div>
+      <div class="price-dot"></div>
+      <div class="price-dot"></div>
+    </div>
+    <div>
+      {{ page.rule_book | markdownify }}
+    </div>
+  </div>
+{% endif %}
+
 {% include location.html %}
 {% include footer.html %}

@@ -6,31 +6,14 @@
 
   <div class="swiper meet-the-team-slider">
     <div class="swiper-wrapper">
-      <div class="swiper-slide flex flex-col">
-        <img src="/img/trainer-1.jpeg" class="h-full object-cover">
-        <h2 class="mt-12 person-name">Maria Maria</h2>
-        <p class="mt-1 person-job">Trainer</p>
-      </div>
-      <div class="swiper-slide flex flex-col">
-        <img src="/img/trainer-2.jpeg" class="h-full object-cover">
-        <h2 class="mt-12 person-name">Maria Maria</h2>
-        <p class="mt-1 person-job">Trainer</p>
-      </div>
-      <div class="swiper-slide flex flex-col">
-        <img src="/img/trainer-3.jpeg" class="h-full object-cover">
-        <h2 class="mt-12 person-name">Maria Maria</h2>
-        <p class="mt-1 person-job">Trainer</p>
-      </div>
-      <div class="swiper-slide flex flex-col">
-        <img src="/img/trainer-1.jpeg" class="h-full object-cover">
-        <h2 class="mt-12 person-name">Maria Maria</h2>
-        <p class="mt-1 person-job">Trainer</p>
-      </div>
-      <div class="swiper-slide flex flex-col">
-        <img src="/img/trainer-2.jpeg" class="h-full object-cover">
-        <h2 class="mt-12 person-name">Maria Maria</h2>
-        <p class="mt-1 person-job">Trainer</p>
-      </div>
+      {% for team_member in page.our_team %}
+        <div class="swiper-slide flex flex-col">
+          <img src="{{ team_member.image }}" class="h-full object-cover">
+          <h2 class="mt-12 person-name">{{ team_member.name }}</h2>
+          <p class="mt-1 person-job">{{ team_member.role }}</p>
+        </div>
+
+      {% endfor %}
     </div>
     <div class="swiper-button-next"></div>
     <div class="swiper-button-prev"></div>

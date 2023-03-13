@@ -16,6 +16,17 @@ collections:
           - { label: "Naslovna Pozadinska slika", name: "cover_image", widget: "image", required: true }
           - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'index' }
           - { label: 'Koncept Naslov', name: 'our_concept_title', widget: "string" }
+          - label: "Poziv Na Akciju"
+            name: 'free_training'
+            widget: list
+            allow_add: false
+            summary: '{{fields.title}}'
+            fields: 
+              - { label: "Pozadinska Slika", name: "image", widget: "image" }
+              - { label: "Naslov", name: "title", widget: "string" }
+              - { label: "Tekst Dugmeta", name: 'button_text', widget: 'string'}
+              - { label: 'Gde treba da vodi', name: 'button_url', widgtet: 'string' }
+          - { label: "Naš Tim Naslov", name: our_team_title, widget: 'string' }
           - label: 'Naš Tim'
             name: 'our_team'
             widget: 'list'
@@ -32,6 +43,7 @@ collections:
             allow_add: false
             summary: '{{fields.title}}'
             fields: 
+              - { label: "Slika", name: "image", widget: "image" }
               - { label: "Naslov", name: "title", widget: "string", required: true }
               - { label: "Text", name: 'text', widget: 'markdown', required: false }
           - label: 'Radno vreme'
@@ -196,6 +208,7 @@ collections:
           - { label: "Usluga", name: "service", widget: "string" }
           - { label: "Cena", name: "price", widget: "string" }
       - { label: "Cenovnik - dodatno objašnjenje", name: 'additional_description', widget: 'string', hint: "Tekst ispod cenovnika", required: false }
+      - { label: "Pravilnik Naslov", name: 'rule_book_title', widget: 'string', required: false }
       - { label: "Pravilnik", name: 'rule_book', widget: 'markdown', required: false }
 
 

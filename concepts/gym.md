@@ -71,6 +71,7 @@ prices:
     price: "38900"
 additional_description: Uz mesečnu članarinu drugih departmana doplata za
   korišćenje GYM departmana je 1950
+rule_book_title: pravilnik
 rule_book: >-
   Ovo je pravilnik GYM departmana. Svaki od naših departmana ima specifičan
   pravilnik koji je u skladu sa prirodom i potrebama različitih departmana.

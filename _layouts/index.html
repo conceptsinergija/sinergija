@@ -32,8 +32,11 @@
   </div>
 
   {% include our_concept_cta.html %}
+  
+  {% if page.free_training != "" and page.free_training != null %}
+    {% include free_training_cta.html %}
+  {% endif %}
 
-  {% include free_training_cta.html %}
 
   {% include meet_the_team.html %}
 
