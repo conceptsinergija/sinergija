@@ -2,6 +2,35 @@
 second-text: Ukoliko želite da uradite nešto odlično za svoju firmu i svoje
   zaposlene, paketi članarina kod nas doprineće zdravlju i zadovoljstvu vaših
   zaposlenih, a posledično i produktivnosti cele firme.
+pricelist:
+  - title: COACHING
+    services:
+      - service: Pregled i merenje
+        price: "2000"
+      - service: Individualni personalni treninzi
+        price: od 1800
+      - service: Dualni personalni treninzi
+        price: od 1200
+      - price: od 1000
+        service: Trojni personalni treninzi
+      - service: Vođeni treninzi
+        price: od 7750
+      - service: Trening programi
+        price: od 4000
+      - service: Trening kod vas
+        price: od 2700
+  - title: GYM
+    services:
+      - service: Dnevna karta
+        price: "600"
+      - service: Nedeljna članarina
+        price: "2100"
+      - service: Kvartalna (3 meseca)
+        price: "10900"
+      - service: Polugodišnja (6 meseci)
+        price: "20900"
+      - service: Godišnja (12 meseci)
+        price: "38900"
 first-text: Uvideli smo da je poklon kao što je članarina kod nas jedna
   fantastična stvar jer onome koji prima poklon otvara jedan novi prozor u svet
   zdravlja i fitnesa. Stoga u ponudi imamo vaučere koje možete kupiti za sebi
