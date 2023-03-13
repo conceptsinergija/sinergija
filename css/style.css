@@ -950,12 +950,6 @@ footer a {
 
 /*vaucher*/
 
-/*.vaucher-img {
-    background-image: url('/img/vaucer.jpeg');
-    background-size: cover;
-    background-position: 40%; 
-    box-shadow: inset 200px 0 150px 50px #161616;
-}*/
 #vaucher-section .image-section {
   background-image: url('/img/vaucer.jpeg');
   background-size: cover;
