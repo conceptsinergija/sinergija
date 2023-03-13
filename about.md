@@ -59,12 +59,6 @@ secitons:
       osnovnim i pomoćnim vrednostima ne bi li bili što efikasniji. Osnovne
       vrednosti predstavljaju najviši prioritet našeg koncepta, naša verovanja i
       temelj svega što radimo.
-
-
-      ![](/assets/uploads/3b7a8872.jpg "prvi")
-
-
-      ![](/assets/uploads/3z6a1308.jpg "drugi")
   - title: TIM
     text: Naš tim je bogat jer imamo izuzetne ljude koji pre svega biramo
       sagledavajući karakterne osobine, a u isto vreme zahtevamo visok nivo

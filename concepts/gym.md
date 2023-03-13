@@ -8,12 +8,12 @@ short_description: Naš GYM departman predstavlja jednu od najopremljenijih i
   uživanja u vremenu provedenom u GYM-u.
 show_on_homepage: true
 galery:
-  - /assets/uploads/gym1.jpeg
-  - /assets/uploads/gym2.jpeg
-  - /assets/uploads/gym3.jpeg
-  - /assets/uploads/gym4.jpeg
-  - /assets/uploads/gym5.jpeg
-  - /assets/uploads/gym6.png
+  - /assets/uploads/6o6a0644.jpg
+  - /assets/uploads/3z6a1308.jpg
+  - /assets/uploads/3z6a1663-copy.jpg
+  - /assets/uploads/6o6a9833-1-.jpg
+  - /assets/uploads/3z6a1314.jpg
+  - /assets/uploads/3z6a1305.jpg
 subtitle: Naš GYM departman predstavlja jednu od najopremljenijih i najlepših
   teretana na našim prostorima. U stvaranju ovog departmana vodili smo se
   načelima organizovanosti, funkcionalnosti i estetike, praćenjem tendencija u
@@ -26,14 +26,14 @@ our_mission:
       urna. Volutpat duis laoreet amet sit cursus non habitant lobortis.
       Fermentum diam a adipiscing adipiscing curabitur. Massa condimentum purus
       augue ante tortor.
-    image: /assets/uploads/gym2.jpeg
+    image: /assets/uploads/3z6a1298.jpg
   - title: PLATE LOADED ZONE
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam, elit
       libero nunc sagittis orci nunc. Volutpat sagittis ipsum rutrum mauris,
       urna. Volutpat duis laoreet amet sit cursus non habitant lobortis.
       Fermentum diam a adipiscing adipiscing curabitur. Massa condimentum purus
       augue ante tortor.
-    image: /assets/uploads/gym2.jpeg
+    image: /assets/uploads/3z6a1310.jpg
   - title: FREE WEIGHTS & RACKS
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam, elit
       libero nunc sagittis orci nunc. Volutpat sagittis ipsum rutrum mauris,
@@ -47,15 +47,15 @@ our_mission:
       urna. Volutpat duis laoreet amet sit cursus non habitant lobortis.
       Fermentum diam a adipiscing adipiscing curabitur. Massa condimentum purus
       augue ante tortor.
-    image: /assets/uploads/gym1.jpeg
+    image: /assets/uploads/3z6a1319.jpg
   - title: CARDIO ZONE
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam, elit
       libero nunc sagittis orci nunc. Volutpat sagittis ipsum rutrum mauris,
       urna. Volutpat duis laoreet amet sit cursus non habitant lobortis.
       Fermentum diam a adipiscing adipiscing curabitur. Massa condimentum purus
       augue ante tortor.
-    image: /assets/uploads/gym5.jpeg
-price_image: /assets/uploads/gym2.jpeg
+    image: /assets/uploads/3z6a1316.jpg
+price_image: /assets/uploads/3z6a1308.jpg
 prices:
   - service: Dnevna karta
     price: "600"
