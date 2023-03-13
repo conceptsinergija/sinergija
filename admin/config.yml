@@ -77,8 +77,8 @@ collections:
               - { label: "Tekst", name: 'text', widget: 'markdown' }
             - label: "Vrednosti"
               name: "values"
-              widget: "list"
-              allow_add: false
+              widget: list
+              allow_add: true
               default: ["vrednosti"]
 
 
