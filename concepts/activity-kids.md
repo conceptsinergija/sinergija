@@ -24,7 +24,7 @@ our_mission:
       ćete vi izabrati nešto od naših sportskih programa i raditi na sebi.
 
       Naši treneri su potkovani znanjem i sa puno strpljenja i ljubavi pristupaju svom pozivu. Uživaćete dok gledate svoje mališane kako napreduju i raduju se sportu.
-    image: /assets/uploads/kids1.png
+    image: /assets/uploads/screenshot_20220531-145754_gallery.jpg
   - title: SPORTSKI ROĐENDANI
     description: >-
       Program proslave najboljeg i nezaboravnog rodjendana Vaših mališana.
@@ -46,7 +46,7 @@ our_mission:
 
       radimo.
     image: /assets/uploads/kids3.png
-price_image: /assets/uploads/kids1.png
+price_image: /assets/uploads/screenshot_20220531-145754_gallery.jpg
 prices:
   - service: Školica sporta
     price: "3900"
