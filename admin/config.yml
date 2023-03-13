@@ -76,6 +76,13 @@ collections:
               - { label: "Naslov", name: "title", widget: "string" }
               - { label: "Tekst", name: 'text', widget: 'markdown' }
               - { label: "Value", name: 'value', widget: 'string', required: false }
+            - label: "Pitanja i odgovori"
+              name: "questions"
+              widget: "list"
+              fields: 
+              - { label: "Pitanje", name: "question", widget: "string", hint: "Postavi pitanje"}
+              - { label: "Odgovor", name: "answer", widget: "markdown", hint: "Dodaj odgovor"}
+
 
       - label: 'Članstvo'
         name: 'membership'
