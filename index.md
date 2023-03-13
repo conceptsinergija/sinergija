@@ -22,6 +22,9 @@ our_team:
   - name: Zelja
     role: Head Coach
     image: /assets/uploads/mar_3680.jpg
+  - name: Nacka
+    role: CEO na Rasu
+    image: /assets/uploads/mar_3863.jpg
 membership:
   title: ČLANSTVO
   text: >-
