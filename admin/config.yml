@@ -78,7 +78,7 @@ collections:
                 name: "values"
                 widget: list
                 allow_add: true
-                default: ["vrednosti"]
+                
       
                
       - label: 'Članstvo'
