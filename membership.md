@@ -69,4 +69,70 @@ rules_text: >-
   * Zadržavamo pravo da individuama koje ne poštuju naša pravila, uskratimo članstvo i zamolimo ih da odu.
 
   * Drago nam je što razumete da su pravila propisana zarad Vašeg što prijatnijeg boravka kao i kvalitetnije usluge. Hvala Vam što ista poštujete.
+
+pricelist:
+  - title: COACHING
+    services:
+      - service: Pregled i merenje
+        price: "2000"
+      - service: Individualni personalni treninzi
+        price: od 1800
+      - service: Dualni personalni treninzi
+        price: od 1200
+      - price: od 1000
+        service: Trojni personalni treninzi
+      - service: Vođeni treninzi
+        price: od 7750
+      - service: Trening programi
+        price: od 4000
+      - service: Trening kod vas
+        price: od 2700
+    description: Cena za treninge je po osobi po času
+  - title: GYM
+    services:
+      - service: Dnevna karta
+        price: "600"
+      - service: Nedeljna članarina
+        price: "2100"
+      - service: Kvartalna (3 meseca)
+        price: "10900"
+      - service: Polugodišnja (6 meseci)
+        price: "20900"
+      - service: Godišnja (12 meseci)
+        price: "38900"
+    description: Uz mesečnu članarinu drugih departmana doplata za korišćenje GYM departmana je 1950 
+  - title: Cross training
+    services:
+      - service: Dnevna karta
+        price: "1000"
+      - service: Nedeljna članarina
+        price: "3500"
+      - service: 8 časova mesečno
+        price: "5200"
+      - service: Mesečna
+        price: "6900"
+      - service: Kvartalna (3 meseca)
+        price: "19500"
+      - service: Polugodišnja (6 meseci)
+        price: "36900"
+      - service: Godišnja (12 meseci)
+        price: "69900"
+    description: Uz mesečnu članarinu drugih departmana doplata za korišćenje GYM departmana je 1950 
+  - title: Activity kids
+    services:
+      - service: Školica sporta
+        price: "3900"
+      - service: Škola sporta
+        price: "3900"
+      - service: Kvartalna (3 meseca)
+        price: "10900"
+      - service: Polugodišnja (6 meseci)
+        price: "20900"
+      - service: Godišnja (12 meseci)
+        price: od 2500
+      - service: Individualni čas
+        price: "20900"
+      - service: Sportski rođendan
+        price: od 30000
+    description: ''
 ---
