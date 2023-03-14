@@ -154,6 +154,9 @@ loyalty:
         discount: 20%
     descriptions:
       - description: Popusti se ne sabiraju
+      - description: Godina se sagledava na kalendarskom nivou
+      - description: Popust koji se ostvari po ovom programu je stalan i ne može se
+          prenositi na druga lica
 layout: membership
 membership:
   title: ČLANSTVO
