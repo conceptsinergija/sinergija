@@ -139,8 +139,6 @@ collections:
                 widget: "list"
                 fields: 
                   - { label: "Opis", name: "description", widget: "string", hint: "Postavi uslugu"}
-              - { lable: "Dodatni opis", name: 'description', widget: 'string' }
-
 
       - label: 'Vaučer'
         name: 'vaucher'
@@ -199,7 +197,6 @@ collections:
                 widget: "list"
                 fields: 
                   - { label: "Opis", name: "description", widget: "string", hint: "Postavi uslugu"}
-              - { lable: "Dodatni opis", name: 'description', widget: 'string' }
 
 
       - label: Galerija
