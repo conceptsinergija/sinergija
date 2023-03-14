@@ -81,8 +81,6 @@ collections:
                 default: ["vrednosti"]
       
                
-
-
       - label: 'Članstvo'
         name: 'membership'
         file: 'membership.md'
