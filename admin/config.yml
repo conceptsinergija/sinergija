@@ -84,6 +84,51 @@ collections:
           - { label: "Tekst ispod naslova", name: 'text', widget: 'markdown', required: false }
           - { label: "Pravinlink naslov", name: "rules", widget: "string", required: true }
           - { label: "Pravilnik tekst", name: 'rules_text', widget: 'markdown', required: true }
+          - label: 'Cenovnik'
+            name: 'pricelist' 
+            widget: 'list'
+            summary: '{{fields.title}}'
+            fields: 
+              - { lable: "Naslov", name: 'title', widget: 'string' }
+              - label: "Usluge"
+                name: "services"
+                widget: "list"
+                fields: 
+                  - { label: "Usluga", name: "service", widget: "string", hint: "Postavi uslugu"}
+                  - { label: "Cena", name: "price", widget: "string", hint: "Dodaj cenu"}
+              - { lable: "Dodatni opis", name: 'description', widget: 'string' }
+          - label: 'Popusti'
+            name: 'discounts' 
+            widget: 'list'
+            summary: '{{fields.title}}'
+            fields: 
+              - { lable: "Naslov", name: 'title', widget: 'string' }
+              - label: "Usluge"
+                name: "services"
+                widget: "list"
+                fields: 
+                  - { label: "Usluga", name: "service", widget: "string", hint: "Postavi uslugu"}
+              - { lable: "Dodatni opis", name: 'description', widget: 'string' }
+          - label: 'PROGRAM LOJALNOSTI'
+            name: 'loyalty' 
+            widget: 'list'
+            summary: '{{fields.title}}'
+            fields: 
+              - { lable: "Naslov", name: 'title', widget: 'string' }
+              - label: "Usluge"
+                name: "services"
+                widget: "list"
+                fields: 
+                  - { label: "Vreme", name: "time", widget: "string", hint: "Vreme trajanja"}
+                  - { label: "Članarine", name: "membership", widget: "string" }
+                  - { label: "Kartica", name: "card", widget: "string" }
+                  - { label: "Popust", name: "discount", widget: "string" }
+              - label: "Dodatni opisi"
+                name: "descriptions"
+                widget: "list"
+                fields: 
+                  - { label: "Opis", name: "description", widget: "string", hint: "Postavi uslugu"}
+              - { lable: "Dodatni opis", name: 'description', widget: 'string' }
 
 
       - label: 'Vaučer'
@@ -109,6 +154,38 @@ collections:
                 fields: 
                   - { label: "Usluga", name: "service", widget: "string", hint: "Postavi uslugu"}
                   - { label: "Cena", name: "price", widget: "string", hint: "Dodaj cenu"}
+              - { lable: "Dodatni opis", name: 'description', widget: 'string' }
+          - label: 'Popusti'
+            name: 'discounts' 
+            widget: 'list'
+            summary: '{{fields.title}}'
+            fields: 
+              - { lable: "Naslov", name: 'title', widget: 'string' }
+              - label: "Usluge"
+                name: "services"
+                widget: "list"
+                fields: 
+                  - { label: "Usluga", name: "service", widget: "string", hint: "Postavi uslugu"}
+              - { lable: "Dodatni opis", name: 'description', widget: 'string' }
+          - label: 'PROGRAM LOJALNOSTI'
+            name: 'loyalty' 
+            widget: 'list'
+            summary: '{{fields.title}}'
+            fields: 
+              - { lable: "Naslov", name: 'title', widget: 'string' }
+              - label: "Usluge"
+                name: "services"
+                widget: "list"
+                fields: 
+                  - { label: "Vreme", name: "time", widget: "string", hint: "Vreme trajanja"}
+                  - { label: "Članarine", name: "membership", widget: "string" }
+                  - { label: "Kartica", name: "card", widget: "string" }
+                  - { label: "Popust", name: "discount", widget: "string" }
+              - label: "Dodatni opisi"
+                name: "descriptions"
+                widget: "list"
+                fields: 
+                  - { label: "Opis", name: "description", widget: "string", hint: "Postavi uslugu"}
               - { lable: "Dodatni opis", name: 'description', widget: 'string' }
 
 
