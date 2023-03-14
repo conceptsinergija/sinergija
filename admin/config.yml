@@ -79,6 +79,13 @@ collections:
                 widget: list
                 allow_add: true
                 default: ["vrednosti"]
+                - label: "Usluge1"
+                name: "services1"
+                widget: "list"
+                fields: 
+                  - { label: "Usluga1", name: "service1", widget: "string", hint: "Postavi uslugu1"}
+                  - { label: "Cena1", name: "price1", widget: "string", hint: "Dodaj cenu1"}
+              - { lable: "Dodatni opis1", name: 'description1', widget: 'string' }
                
 
 
