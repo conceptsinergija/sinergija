@@ -74,7 +74,16 @@ collections:
             fields: 
               - { label: "Naslov", name: "title", widget: "string" }
               - { label: "Tekst", name: 'text', widget: 'markdown' }
-
+              - label: "Vrednosti"
+                name: "values"
+                widget: list
+                allow_add: true
+                fields: 
+                  - { label: "vrednost", name: "value", widget: "string", required: false }
+                  - { label: "slika", name: "image", widget: "image", required: false }
+                
+      
+               
       - label: 'Članstvo'
         name: 'membership'
         file: 'membership.md'
