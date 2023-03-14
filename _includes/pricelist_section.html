@@ -4,181 +4,31 @@
       <h2 class="section-title">
         cenovnik
       </h2>
-    
-      <div class="lg:flex lg:justify-between mt-20">
+
+      <div class="lg:flex lg:justify-start flex-wrap mt-12">
         <!-- COACHING -->
-        <div class="price-program-box accordion">
-          <div class="flex flex-col lg:h-full justify-between">
+        {% for pricelist in page.pricelist %}
+          <div class="price-program-box accordion my-6">
+            <div class="flex flex-col lg:h-full justify-between">
               <div class="title">
                 <div class="md:hidden plus"></div>
-                <h2 class="ml-10 lg:ml-0">coaching</h2>
+                <h2 class="ml-10 lg:ml-0">{{ pricelist.title }}</h2>
               </div>
               <div class="h-full accordion-description flex flex-col justify-between">
-              <div class="price-program-box-item flex justify-between items-center">
-                <div>Pregled i merenje</div>
-                <div>2000</div>
-              </div>
-              <div class="price-program-box-item flex justify-between items-center">
-                <div>Personalni treninzi</div>
-              </div>
-                <div class="price-program-box-item flex justify-between items-center">
-                  <div class="sub-item">Individualni</div>
-                  <div>od 1800</div>
+                {% for service in pricelist.services %}
+                  <div class="price-program-box-item flex justify-between items-center">
+                    <div class="pricelist-service-title">{{ service.service }}</div>
+                    <div class="pricelist-price">{{ service.price }}</div>
+                  </div>
+                {% endfor %}
+                <div class="price-box-additional-text">
+                  * Cena za treninge je po osobi po času
                 </div>
-                <div class="price-program-box-item flex justify-between items-center">
-                  <div class="sub-item">Dualni</div>
-                  <div>od 1200</div>
-                </div>
-                <div class="price-program-box-item flex justify-between items-center">
-                  <div class="sub-item">Trojni</div>
-                  <div>od 1000</div>
-                </div>
-    
-              <div class="price-program-box-item flex justify-between items-center">
-                <div>Vođeni treninzi</div>
-                <div>od 7750</div>
-              </div>
-              <div class="price-program-box-item flex justify-between items-center">
-                <div>Trening programi</div>
-                <div>od 4000</div>
-              </div>
-              <div class="price-program-box-item flex justify-between items-center">
-                <div>Trening kod vas</div>
-                <div>od 2700</div>
-              </div>
-            
-            <div class="price-box-additional-text">
-              * Cena za treninge je po osobi po času
-            </div>      
-          </div>
-        </div>
-      </div>
-    
-
-        <!-- GYM -->
-        <div class="price-program-box accordion">
-          <div class="flex flex-col h-full justify-between">
-              <div class="title">
-                <div class="md:hidden plus"></div>
-                <h2 class="ml-10 lg:ml-0">Gym</h2>              
-              </div>
-              <div class="h-full accordion-description flex flex-col justify-between">
-                
-              <div class="price-program-box-item flex justify-between items-center">
-                <div>Dnevna karta</div>
-                <div>600</div>
-              </div>
-              <div class="price-program-box-item flex justify-between items-center">
-                <div>Nedeljna članarina</div>
-                <div>2100</div>
-              </div>
-              <div class="price-program-box-item flex justify-between items-center">
-                <div>Kvartalna <br>(3 meseca)</div>
-                <div>10900</div>
-              </div>
-              <div class="price-program-box-item flex justify-between items-center">
-                <div>Polugodišnja <br> (6 meseci)</div>
-                <div>20900</div>
-              </div>
-              <div class="price-program-box-item flex justify-between items-center">
-                <div>Godišnja <br> (12 meseci)</div>
-                <div>38900</div>
-              </div>
-            
-            <div class="price-box-additional-text">
-              *Uz mesečnu članarinu drugih departmana doplata za korišćenje GYM departmana je 1950 
-            </div>
-          </div>
-          </div>
-          </div>
-
-        <!-- cross training -->
-        <div class="price-program-box accordion">
-          <div class="flex flex-col h-5/6 justify-between">
-            <div class="price-box-text">
-              <div class="title">
-                <div class="md:hidden plus"></div>
-                <h2 class="ml-10 lg:ml-0">Cross training</h2>  
-              </div>
-              <div class="h-full accordion-description flex flex-col justify-between">
-              <div class="price-program-box-item flex justify-between items-center">
-                <div>Dnevna karta</div>
-                <div>1000</div>
-              </div>
-              <div class="price-program-box-item flex justify-between items-center">
-                <div>Nedeljna članarina</div>
-                <div>3500</div>
-              </div>
-              <div class="price-program-box-item flex justify-between items-center">
-                <div>8 časova mesečno</div>
-                <div>5200</div>
-              </div>
-              <div class="price-program-box-item flex justify-between items-center">
-                <div>Mesečna</div>
-                <div>6900</div>
-              </div>
-              <div class="price-program-box-item flex justify-between items-center">
-                <div>Kvartalna <br>(3 meseca)</div>
-                <div>19500</div>
-              </div>
-              <div class="price-program-box-item flex justify-between items-center">
-                <div>Polugodišnja <br> (6 meseci)</div>
-                <div>36900</div>
-              </div>
-              <div class="price-program-box-item flex justify-between items-center">
-                <div>Godišnja <br> (12 meseci)</div>
-                <div>69900</div>
-              </div>
-           
-            <div class="price-box-additional-text">
-              *Uz mesečnu članarinu drugih departmana doplata za korišćenje GYM departmana je 1950 
-            </div>
-          </div>
-          </div>
-          </div>
-        </div>
-
-        <!-- activity kids -->
-        <div class="price-program-box accordion">
-          <div class="flex flex-col h-full justify-between">
-            <div class="price-box-text">
-              <div class="title">
-                <div class="md:hidden plus"></div>
-                <h2 class="ml-10 lg:ml-0">Activity kids</h2>  
-              </div>
-              <div class="h-full accordion-description flex flex-col justify-between">
-              <div class="price-program-box-item flex justify-between items-center">
-                <div>Školica sporta</div>
-                <div>3900</div>
-              </div>
-              <div class="price-program-box-item flex justify-between items-center">
-                <div>Škola sporta</div>
-                <div>3900</div>
-              </div>
-              <div class="price-program-box-item flex justify-between items-center">
-                <div>Kvartalna <br>(3 meseca)</div>
-                <div>10900</div>
-              </div>
-              <div class="price-program-box-item flex justify-between items-center">
-                <div>Polugodišnja <br> (6 meseci)</div>
-                <div>20900</div>
-              </div>
-              <div class="price-program-box-item flex justify-between items-center">
-                <div>Godišnja <br> (12 meseci)</div>
-                <div>38900</div>
-              </div>
-              <div class="price-program-box-item flex justify-between items-center">
-                <div>Individualni čas</div>
-                <div>od 2500</div>
-              </div>
-              <div class="price-program-box-item flex justify-between items-center">
-                <div>Sportski rođendan</div>
-                <div>od 30000</div>
               </div>
             </div>
           </div>
-          </div>
-        </div>
+        {% endfor %}
+
       </div>
 
       <h2 class="section-title mt-20">
@@ -190,21 +40,21 @@
         <div class="price-program-box accordion">
           <div class="flex flex-col h-full justify-between">
             <div class="price-box-text">
-              <div class="title">        
+              <div class="title">
                 <div class="md:hidden plus"></div>
-                <h2 class="ml-10 lg:ml-0"> povlašćene kategorije</h2> 
+                <h2 class="ml-10 lg:ml-0"> povlašćene kategorije</h2>
               </div>
               <div class="accordion-description">
-              <div class="price-program-box-item flex justify-between items-center">
-                <div>Aktivni studenti</div>
+                <div class="price-program-box-item flex justify-between items-center">
+                  <div>Aktivni studenti</div>
+                </div>
+                <div class="price-program-box-item flex justify-between items-center">
+                  <div>Aktivni pripadnici policije, vojske i vatrogasnih brigada</div>
+                </div>
+                <div class="price-program-box-item flex justify-between items-center">
+                  <div>Lica starija od 65 godina</div>
+                </div>
               </div>
-              <div class="price-program-box-item flex justify-between items-center">
-                <div>Aktivni pripadnici policije, vojske i vatrogasnih brigada</div>
-              </div>
-              <div class="price-program-box-item flex justify-between items-center">
-                <div>Lica starija od 65 godina</div>
-              </div>
-            </div>
             </div>
           </div>
         </div>
@@ -212,75 +62,75 @@
         <div class="price-program-box accordion">
           <div class="flex flex-col h-full justify-between">
             <div class="price-box-text">
-              <div class="title"> 
+              <div class="title">
                 <div class="md:hidden plus"></div>
-                <h2 class="ml-10 lg:ml-0">porodični paket</h2> 
+                <h2 class="ml-10 lg:ml-0">porodični paket</h2>
               </div>
               <div class="accordion-description">
-              <div class="price-program-box-item flex justify-between items-center">
-                <div>Drugi član porodice popust od 20%</div>
+                <div class="price-program-box-item flex justify-between items-center">
+                  <div>Drugi član porodice popust od 20%</div>
+                </div>
+                <div class="price-program-box-item flex justify-between items-center">
+                  <div>Treći član porodice popust od 30%</div>
+                </div>
+                <div class="price-program-box-item flex justify-between items-center">
+                  <div>Četvrti član i naredni BESPLATNO</div>
+                </div>
+
+                <div class="price-box-additional-text">
+                  *Uz mesečnu članarinu drugih departmana doplata za korišćenje GYM departmana je 1950
+                </div>
               </div>
-              <div class="price-program-box-item flex justify-between items-center">
-                <div>Treći član porodice popust od 30%</div>
-              </div>
-              <div class="price-program-box-item flex justify-between items-center">
-                <div>Četvrti član i naredni BESPLATNO</div>
-              </div>
-           
-            <div class="price-box-additional-text">
-              *Uz mesečnu članarinu drugih departmana doplata za korišćenje GYM departmana je 1950 
             </div>
-          </div>
-          </div>
           </div>
         </div>
 
-        <div class="price-program-box price-program-box--loayl accordion" >
+        <div class="price-program-box price-program-box--loayl accordion">
           <div class="flex flex-col h-full justify-between">
             <div class="title">
               <div class="md:hidden plus"></div>
-              <h2 class="ml-10 lg:ml-0"> program lojalnosti</h2>      
+              <h2 class="ml-10 lg:ml-0"> program lojalnosti</h2>
             </div>
             <div class="accordion-description">
-            <div class="flex justify-between items-center">
-              <div class="w-1/4 col-txt-title">vreme</div>
-              <div class="w-1/4 col-txt-title">članarine</div>
-              <div class="w-1/4 col-txt-title">kartica</div>
-              <div class="w-1/4 col-txt-title">popust</div>
+              <div class="flex justify-between items-center">
+                <div class="w-1/4 col-txt-title">vreme</div>
+                <div class="w-1/4 col-txt-title">članarine</div>
+                <div class="w-1/4 col-txt-title">kartica</div>
+                <div class="w-1/4 col-txt-title">popust</div>
+              </div>
+              <div class="flex justify-between items-center">
+                <div class="w-1/4 col-txt">1. godina</div>
+                <div class="w-1/4 col-txt">10+</div>
+                <div class="w-1/4 col-txt">crvena</div>
+                <div class="w-1/4 col-txt">10%</div>
+              </div>
+              <div class="flex justify-between items-center">
+                <div class="w-1/4 col-txt">2. godina</div>
+                <div class="w-1/4 col-txt">10+</div>
+                <div class="w-1/4 col-txt">crna</div>
+                <div class="w-1/4 col-txt">15%</div>
+              </div>
+              <div class="flex justify-between items-center">
+                <div class="w-1/4 col-txt">3. godina</div>
+                <div class="w-1/4 col-txt">10+</div>
+                <div class="w-1/4 col-txt">zlatna</div>
+                <div class="w-1/4 col-txt">20%</div>
+              </div>
+              <div class="price-box-additional-text">
+                * Popusti se ne sabiraju
+              </div>
+              <div class="price-box-additional-text">
+                * Godina se sagledava na kalendarskom nivou
+              </div>
+              <div class="price-box-additional-text">
+                * Popust koji se ostvari po ovom programu je stalan i ne može se prenositi na druga lica
+              </div>
             </div>
-            <div class="flex justify-between items-center">
-              <div class="w-1/4 col-txt">1. godina</div>
-              <div class="w-1/4 col-txt">10+</div>
-              <div class="w-1/4 col-txt">crvena</div>
-              <div class="w-1/4 col-txt">10%</div>
-            </div>
-            <div class="flex justify-between items-center">
-              <div class="w-1/4 col-txt">2. godina</div>
-              <div class="w-1/4 col-txt">10+</div>
-              <div class="w-1/4 col-txt">crna</div>
-              <div class="w-1/4 col-txt">15%</div>
-            </div>
-            <div class="flex justify-between items-center">
-              <div class="w-1/4 col-txt">3. godina</div>
-              <div class="w-1/4 col-txt">10+</div>
-              <div class="w-1/4 col-txt">zlatna</div>
-              <div class="w-1/4 col-txt">20%</div>
-            </div>
-            <div class="price-box-additional-text">
-              * Popusti se ne sabiraju
-            </div>
-            <div class="price-box-additional-text">
-              * Godina se sagledava na kalendarskom nivou
-            </div>
-            <div class="price-box-additional-text">
-              * Popust koji se ostvari po ovom programu je  stalan i ne može se prenositi na druga lica
-            </div>
-          </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  
+
 
 </section>

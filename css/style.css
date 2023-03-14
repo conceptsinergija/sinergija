@@ -1073,19 +1073,18 @@ footer a {
 }
 
 #pricelist-section .price-program-box {
-  padding: 40px 32px;
+  padding: 36px 24px;
   background-color: #161616;
   border: 2px solid #161616;
   transition: all .3s ease-in-out;
   width: 23%;
+  margin-left: 1%;
+  margin-right: 1%;
   margin-bottom: 0;
 }
-
 #pricelist-section .price-program-box--loayl {
   width: 48%;
 }
-
-
 #pricelist-section .price-program-box:hover {
   border: 2px solid #ED1C24;
   transform: scale(1.03);
@@ -1120,6 +1119,14 @@ footer a {
 #pricelist-section .price-box-additional-text {
   font-weight: 300;
 }
+
+#pricelist-section .pricelist-title {
+  width: 84px; 
+}
+
+#pricelist-section .pricelist-service-title {
+  width: calc(100% - 100px);
+} 
 
 /* temp */
 
