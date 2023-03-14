@@ -306,7 +306,7 @@ collections:
 
   - name: 'team'
     label: 'Naš tim'
-    create: true
+    folder: '/'
     file: 'team_members.md'
     slug: '{{slug}}'
     editor:
