@@ -79,7 +79,7 @@ collections:
                 widget: list
                 allow_add: true
                 default: ["vrednosti"]
-                field: 
+                fields: 
                   - { label: "Vrednost", name: "value", widget: "string"}
 
 
