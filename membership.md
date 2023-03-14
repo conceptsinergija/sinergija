@@ -1,18 +1,5 @@
 ---
-layout: membership
 title: ČLANSTVO
-membership:
-  title: ČLANSTVO
-  text: >-
-    Kada poželite da postanete naš član. mi smo vam zahvali što svoje poverenje
-    poklanjate nam i dajete nam da se brinemo u vašem zdravlju i fitnesu, ali
-    trebate da znate da mi nismo mesto za sve. Trudimo se da okupimo dobre ljude
-    koji će biti naši najbolji predstavnici i koji sa ponosom ističu to što su
-    člannovi SINERGIJE.
-
-
-    Ukoliko nisi posvećen sebi i ne zeliš promenu na bolje, molimo te da ne trošiš svoje a ni naše vreme.
-  image: /assets/uploads/gym2.jpeg
 image: /assets/uploads/gym2.jpeg
 text: >-
   Kada poželite da postanete naš član. mi smo vam zahvali što svoje poverenje
@@ -69,7 +56,6 @@ rules_text: >-
   * Zadržavamo pravo da individuama koje ne poštuju naša pravila, uskratimo članstvo i zamolimo ih da odu.
 
   * Drago nam je što razumete da su pravila propisana zarad Vašeg što prijatnijeg boravka kao i kvalitetnije usluge. Hvala Vam što ista poštujete.
-
 pricelist:
   - title: COACHING
     services:
@@ -100,7 +86,8 @@ pricelist:
         price: "20900"
       - service: Godišnja (12 meseci)
         price: "38900"
-    description: Uz mesečnu članarinu drugih departmana doplata za korišćenje GYM departmana je 1950 
+    description: Uz mesečnu članarinu drugih departmana doplata za korišćenje GYM
+      departmana je 1950
   - title: Cross training
     services:
       - service: Dnevna karta
@@ -117,7 +104,8 @@ pricelist:
         price: "36900"
       - service: Godišnja (12 meseci)
         price: "69900"
-    description: Uz mesečnu članarinu drugih departmana doplata za korišćenje GYM departmana je 1950 
+    description: Uz mesečnu članarinu drugih departmana doplata za korišćenje GYM
+      departmana je 1950
   - title: Activity kids
     services:
       - service: Školica sporta
@@ -134,5 +122,49 @@ pricelist:
         price: "20900"
       - service: Sportski rođendan
         price: od 30000
-    description: ''
+    description: "-"
+discounts:
+  - title: POVLAŠĆENE KATEGORIJE
+    services:
+      - service: Aktivni studenti
+      - service: Aktivni pripadnici policije, vojske i vatrogasnih brigada
+      - service: Lica starija od 65 godina
+    description: "-"
+  - title: PORODIČNI PAKET
+    services:
+      - service: Drugi član porodice popust od 20%
+      - service: Treći član porodice popust od 30%
+      - service: Četvrti član i naredni BESPLATNO
+    description: Uz mesečnu članarinu drugih departmana doplata za korišćenje GYM
+      departmana je 1950
+loyalty:
+  - title: PROGRAM LOJALNOSTI
+    services:
+      - time: 1. godina
+        membership: 10+
+        card: crvena
+        discount: 10%
+      - time: 2. godina
+        membership: " 10+"
+        card: crna
+        discount: 15%
+      - time: 3. godina
+        membership: " 10+"
+        card: zlatna
+        discount: 20%
+    descriptions:
+      - description: Popusti se ne sabiraju
+layout: membership
+membership:
+  title: ČLANSTVO
+  text: >-
+    Kada poželite da postanete naš član. mi smo vam zahvali što svoje poverenje
+    poklanjate nam i dajete nam da se brinemo u vašem zdravlju i fitnesu, ali
+    trebate da znate da mi nismo mesto za sve. Trudimo se da okupimo dobre ljude
+    koji će biti naši najbolji predstavnici i koji sa ponosom ističu to što su
+    člannovi SINERGIJE.
+
+
+    Ukoliko nisi posvećen sebi i ne zeliš promenu na bolje, molimo te da ne trošiš svoje a ni naše vreme.
+  image: /assets/uploads/gym2.jpeg
 ---
