@@ -4,6 +4,8 @@
 {% include nav.html %}
 
 
+{% assign team_page = site.pages | where:'layout','team' | first %}
+
 <main class="pt-48">
   <div class="container mx-auto">
     <h2 class="section-title">
@@ -16,55 +18,86 @@
     </div>
   </div>
 
-      <div class="custom-container mx-auto lg:mb-24 pb-12">
-      {% for seciton in page.secitons %}
-   
+  <div class="custom-container mx-auto lg:mb-24 pb-12">
+    {% for seciton in page.secitons %}
+      {% if seciton.hidden_title == 'team' %}
         <div class="accordion">
           <div class="relative">
             <div class="plus md:hidden"></div>
-          <h3 class="ml-8 md:ml-0 mb-8">
-            {{seciton.title}}
-          </h3>   
+            <h3 class="ml-8 md:ml-0 mb-8">
+              {{seciton.title}}
+            </h3>
           </div>
-          <div class="about-text accordion-description mb-8">
+          <div class="about-text accordion-description mb-12">
             {{seciton.text | markdownify}}
-            {%if seciton.values%}
-            <div class="mt-12 flex justify-evenly flex-wrap">
-              {% for values in seciton.values limit:5 %}
-              <div class="flex flex-col items-center justify-start w-56 mb-8">
-                <div class="border-2 border-red-500 w-48 h-48 rounded-full"
-                style="background-image: url({{values.image}}); background-repeat: no-repeat; background-position: center;">      
-                </div>
-                <div class="mt-4 text-center">
-                  {{values.value}}
-                </div>
-              </div>  
-                {% endfor %}
-            <p class="mb-12">{{seciton.second-text}}</p>
-            <div class="flex justify-evenly lg:w-full flex-wrap text-center">
-             {% for values in seciton.values  offset:5 %}
-              <div class="flex flex-col items-center justify-start w-56 mb-8">
-                <div class="border-2 border-red-500 w-48 h-48 rounded-full"
-                style="background-image: url({{values.image}}); background-repeat: no-repeat; background-position: center;">      
-                </div>
-                <div class="mt-4 text-center">
-                  {{values.value}}
-                </div>
-              </div>  
-                {% endfor %}     
+
+            <div class="mt-10 mb-8 flex flex-wrap">
+              {% for team_member in team_page.our_team %}
+              {% assign image_url = team_member.image | strip %}
+              {% assign image_name = image_url | split:"/" | reverse | first %}
+              {% assign temp_id = image_name | split:"." | first  %}
+  
+              <div class="about-member-box">
+                <a href="/team/#{{ temp_id }}" class="w-full">
+                  <img src="{{ team_member.image }}" class="h-full w-full object-cover">
+                </a>
+              </div>
+              {% endfor %}
             </div>
           </div>
-          {% endif %}
-          <p class="mb-12">{{seciton.third-text | markdownify}}</p>
-        </div>      
-      </div>      
-        
-          {% endfor %}     
-        </div>          
-      </div> 
-     
-</div>
-</div>
+        </div>
+      {% endif %}
+    {% endfor %}
+
+
+    {% for seciton in page.secitons %}
+    {% if seciton.hidden_title != 'team' %}
+    <div class="accordion">
+      <div class="relative">
+        <div class="plus md:hidden"></div>
+        <h3 class="ml-8 md:ml-0 mb-8">
+          {{seciton.title}}
+        </h3>
+      </div>
+      <div class="about-text accordion-description mb-8">
+        {{seciton.text | markdownify}}
+        {%if seciton.values%}
+        <div class="mt-12 flex justify-evenly flex-wrap">
+          {% for values in seciton.values limit:5 %}
+          <div class="flex flex-col items-center justify-start w-56 mb-8">
+            <div class="border-2 border-red-500 w-48 h-48 rounded-full"
+              style="background-image: url({{values.image}}); background-repeat: no-repeat; background-position: center;">
+            </div>
+            <div class="mt-4 text-center">
+              {{values.value}}
+            </div>
+          </div>
+          {% endfor %}
+          <p class="mb-12">{{seciton.second-text}}</p>
+          <div class="flex justify-evenly lg:w-full flex-wrap text-center">
+            {% for values in seciton.values  offset:5 %}
+            <div class="flex flex-col items-center justify-start w-56 mb-8">
+              <div class="border-2 border-red-500 w-48 h-48 rounded-full"
+                style="background-image: url({{values.image}}); background-repeat: no-repeat; background-position: center;">
+              </div>
+              <div class="mt-4 text-center">
+                {{values.value}}
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+        {% endif %}
+        <p class="mb-12">{{seciton.third-text | markdownify}}</p>
+      </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+  </div>
+
+  </div>
+  </div>
 
 
   {% include contact_cta.html %}

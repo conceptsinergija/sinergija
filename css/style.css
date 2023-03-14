@@ -1365,6 +1365,16 @@ h1.program-title {
   padding: 40px;
 }
 
+.about-member-box {
+  width: calc(20% - 2em);
+  margin: 1em auto 1em 0;
+  transition: transform .3s ease-in-out;
+}
+.about-member-box:hover {
+  transform: scale(1.27);
+}
+
+
 
 
   @keyframes fadeOut {
@@ -2134,4 +2144,12 @@ header nav .nav-item {
     margin-top: 8px;
   }
 
+
+  .about-member-box {
+    width: calc(33% - .5em);
+    margin: 0.25em auto 0.2em 0;
+  }
+  .about-member-box:hover {
+    transform: scale(1);
+  }
 }

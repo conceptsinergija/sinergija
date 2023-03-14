@@ -132,6 +132,7 @@ secitons:
 
       MI SMO SINERGIJA!
   - title: TIM
+    hidden_title: team
     text: Naš tim je bogat jer imamo izuzetne ljude koji pre svega biramo
       sagledavajući karakterne osobine, a u isto vreme zahtevamo visok nivo
       znanja i posvećenosti kao i otvorenost za učenjem i konstantnim
