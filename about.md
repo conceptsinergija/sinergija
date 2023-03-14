@@ -64,7 +64,9 @@ secitons:
       Osnovne vrednosti kojima se vodimo u pristupanju zadacima su:
     values:
       - value: pravimo rezultate i razvijamo kvalitetne odnose
+        image: /assets/uploads/trener5.png
       - value: naši članovi su naš kvalitet
+        image: /assets/uploads/trener9.png
       - value: obožavamo ono što radimo
       - value: ovde smo da činimo dobro sebi i drugima
       - value: slušamo i rastemo
