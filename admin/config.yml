@@ -79,7 +79,7 @@ collections:
                 widget: list
                 allow_add: true
                 default: ["vrednosti"]
-                - label: "Usluge1"
+              - label: "Usluge1"
                 name: "services1"
                 widget: "list"
                 allow_add: true
