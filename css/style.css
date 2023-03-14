@@ -1260,6 +1260,7 @@ h1.program-title {
 
 .accordion-description p {
   margin-top: 18px;
+  width: 100%;
 }
 
 @keyframes smoothLoadindex {
