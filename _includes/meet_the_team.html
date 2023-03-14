@@ -1,3 +1,6 @@
+{% assign team_page = site.pages | where:'layout','team' | first %}
+
+
 <section id="meet-the-team" class="container mx-auto py-20 mt-12 mb-12 lg:mb-20 ">
   <h2 class="section-title">
     Upoznaj naš tim!
@@ -6,17 +9,24 @@
 
   <div class="swiper meet-the-team-slider">
     <div class="swiper-wrapper">
-      {% for team_member in page.our_team %}
-        <div class="swiper-slide flex flex-col">
-          <img src="{{ team_member.image }}" class="h-full object-cover">
-          <h2 class="mt-12 person-name">{{ team_member.name }}</h2>
-          <p class="mt-1 person-job">{{ team_member.role }}</p>
-        </div>
+      {% for team_member in team_page.our_team %}
+        {% if team_member.show_on_homepage == true %}
 
+        {% assign image_url = team_member.image | strip %}
+        {% assign image_name = image_url | split:"/" | reverse | first %}
+        {% assign temp_id = image_name | split:"." | first  %}
+        
+        <div class="swiper-slide flex flex-col">
+          <a href="/team/#{{ temp_id }}">
+            <img src="{{ team_member.image }}" class="h-full object-cover">
+            <h2 class="mt-12 person-name">{{ team_member.name }}</h2>
+            <p class="mt-1 person-job">{{ team_member.role }}</p>
+          </a>
+        </div>
+        {% endif %}
       {% endfor %}
     </div>
     <div class="swiper-button-next"></div>
     <div class="swiper-button-prev"></div>
   </div>
-  <!----->
 </section>

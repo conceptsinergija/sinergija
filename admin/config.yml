@@ -272,7 +272,7 @@ collections:
             - { label: "Slika", name: "image", widget: "image", required: true }
             - { label: "Ime i prezime", name: "name", widget: "string" }
             - { label: "Pozicija", name: 'role', widget: 'string'}
-            - { label: "Opis", name: 'description', widget: 'text'}
+            - { label: "Opis", name: 'description', widget: 'text', required: false}
       
 
 

@@ -1318,6 +1318,10 @@ h1.program-title {
   animation: smoothLoad .8s ease-in-out;
 }
 
+#team h4 {
+  font-size: 28px;
+}
+
 #loading-screen {
   position: fixed;
   background-color: black;
@@ -1355,6 +1359,11 @@ h1.program-title {
   width: 100%;
   height: 100%;
 }
+
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+  padding: 40px;
+}
+
 
 
   @keyframes fadeOut {
@@ -2112,6 +2121,16 @@ header nav .nav-item {
 
   .vaucher-model-box .section-title {
     font-size: 36px;
+  }
+
+  #team h3 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  #team h4 {
+    font-size: 20px;
+    margin-top: 8px;
   }
 
 }

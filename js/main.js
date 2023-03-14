@@ -461,6 +461,21 @@ if(document.getElementById('loading-screen')) {
     }, 1000)
   }
 
+  if(window.location.hash && document.getElementById('team')){
+    let memberId = window.location.hash
+    memberId = memberId.substring(1)
+
+    console.log(memberId)
+    const memberBox = document.getElementById(memberId)
+
+    console.log(memberBox)
+
+    setTimeout(() => {
+      memberBox.scrollIntoView({ behavior: 'smooth' })
+    }, 1000)
+
+
+  }
 
   
 })()
