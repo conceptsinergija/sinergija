@@ -73,8 +73,9 @@ collections:
             summary: '{{fields.title}}' 
             fields: 
               - { label: "Naslov", name: "title", widget: "string" }
-              - { label: "Tekst", name: 'text', widget: 'markdown' }
-              - { label: "Drugi Tekst", name: 'second-text', widget: 'markdown', required: false  }
+              - { label: "Pocetni text", name: 'text', widget: 'markdown' }
+              - { label: "Tekst izmedu slikama", name: 'second-text', widget: 'markdown', required: false  }
+              - { label: "Posledni text", name: 'third-text', widget: 'markdown', required: false  }
               - label: "Vrednosti"
                 name: "values"
                 widget: list
