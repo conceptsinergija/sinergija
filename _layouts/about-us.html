@@ -29,7 +29,7 @@
           <div class="about-text accordion-description mb-8">
             {{seciton.text | markdownify}}
             <div class="mt-12 flex justify-evenly flex-wrap">
-              {% for values in seciton.values %}
+              {% for values in seciton.values limit:5 %}
               <div class="flex flex-col items-center justify-start w-56 mb-8">
                 <div class="border-2 border-red-500 w-48 h-48 rounded-full"
                 style="background-image: url(/img/1.svg); background-repeat: no-repeat; background-position: center;">      
@@ -39,259 +39,23 @@
                 </div>
               </div>  
                 {% endfor %}
-             
+             <!--<p>Naše pomoćne vrednosti su tu da ojačaju naše osnovne i da nas učine još moćnijim.Pomoćne vrednosti su:</p>-->
+             {% for values in seciton.values  offset:5 %}
+              <div class="flex flex-col items-center justify-start w-56 mb-8">
+                <div class="border-2 border-red-500 w-48 h-48 rounded-full"
+                style="background-image: url(/img/2.svg); background-repeat: no-repeat; background-position: center;">      
+                </div>
+                <div class="mt-4 text-center">
+                  {{values.value}}
+                </div>
+              </div>  
+                {% endfor %}
           </div>
           </div>
             {% endfor %}
       </div>
 
-  <!--<div class="custom-container mx-auto lg:mb-24 pb-12">
-    <div class="accordion">
-      <div class="relative">
-        <div class="plus md:hidden"></div>
-      <h3 class="ml-8 md:ml-0">
-        Istorija
-      </h3>   
-      </div>
-      <div class="about-text accordion-description">
-      <p class=" lg:mt-16">
-        Naša priča počinje u maštarenju jednog tada studenta, sada već davne 2012. godine o tome kako bi bilo dobro okupiti ekipu, stvoriti klub gde bi svi zajedno trenirali, napredovali, družili se i uz sve to se sjajno zabavljali. Posle izvesnog vremena smišljanja, istaživanja, edukovanja, nadanja, brzo premotavamo u 2015. kada Sinergija počinje svoj život kakav je danas poznat javnosti. Svoju priču smo započeli u objektu koji se nalazi na 500m razdljine od današnjeg, iza Roda Centra, i za veoma kratko vreme pokazali smo visok nivo organizovanosti i kvaliteta. Uspeli smo veoma brzo da steknemo kredibilitet, okupimo mnoštvo dobrih ljudi u moćnu zajednicu i pozicioniramo se kao lideri u svetu funkcionalnog treninga. Tada smo imali samo CrossTraining, a danas je to jedan od naših departamana u sastavu. Hiljade trening časova, stotine članova i slobodno možemo da kažemo unapređenih života, naš su naveći ponos. Nakon dve godine, stvorila se prilika da se preselimo na sadašnju lokaciju, gde smo od 2017. i gde iz godine u godinu rastemo i proširujemo usluge i kapacitete. Ovako je od tada izgledala naša centrala sala u kojoj smo sprovodili CrossTraining, a danas je CrossTraining jedan od naših departmana. 
-      </p>
-      <p class="mt-2 lg:mt-16">
-        Nastavili smo tamo gde smo stali i dodatno proširili svoju zajednicu. Pridružilo nam se puno sjajnih ljudi i mnogima smo postali druga kuća. Organizovali smo takmičenja, kako klupska za naše članove, tako i internacionalna i pokazali zavidan nivo organizovanosti i ambicije. Mnoštvo sjajnih takmičara i zavidnih rezultata koji su ostvarili su takođe naš veliki ponos i dokaz tome da kvalitetno i posvećeno radimo. Od mnogobrojnijh takmičara, posebno izdvajamo naše trenere Tamaru Trumbetaš i braću Lazara i Luku Đukić koji su dostigli najviše moguće visine u takmičarskom CrossFit-u, takmičili se na najprestižnijem takmičenju 'CrossFit Games-u' i godinama predstavljaju svetsku elitu.
-      </p>
-      <p class="mt-2 lg:mt-16">
-        Trenutno se prostiremo na oko 2500 m² i u sastavu imamo pet sala sa različitim pristupom treningu, lounge bar-om i još puno toga što doprinosi da se članovi osećaju kao kod svoje kuće. Poznati smo od samih početaka po fantastičnoj zajednici i sjajnoj prijateljskoj atmosferi. Mi smo druga kuća puno sjajnih ljudi ali i nekoliko životinja. 
-      </p>
-      <p class="mt-2 lg:mt-16">
-        SINERGIJA je mnogo više od sportskog centra. Mi smo zajednica visoko motivisanih individua koji udruženi ostvarijemo veću vrednost. Postavljamo ciljeve, dostižemo ih i proslavljamo zajedno!
-        Ako želiš da budeš odličnog zdravlja, treniraš, zabavljaš se i napreduješ, mi smo tu za tebe!
-      </p>
-      </div>
-    </div>
-
-    <div class="mt-8 lg:mt-24 accordion">
-      <div class="relative">
-        <div class="plus md:hidden"></div>
-      <h3 class="ml-8 md:ml-0">
-        Svrha
-      </h3>
-      </div>
-     <div class="accordion-description"> 
-      <p class="mt-16">
-        SINERGIJA je mnogo više od sportskog centra. Mi smo zajednica visoko motivisanih individua koji udruženi ostvarijemo veću vrednost. Postavljamo ciljeve, dostižemo ih i proslavljamo zajedno!
-        Ako želiš da budeš odličnog zdravlja, treniraš, zabavljaš se i napreduješ, mi smo tu za tebe!
-      </p>
-      </div>
-    </div>
-
-
-    <div class="mt-8 lg:mt-24 accordion">
-      <div class="relative">
-        <div class="plus md:hidden"></div>
-      <h3 class="ml-8 md:ml-0">
-        Vizija
-      </h3>
-      </div>
-      <div class="accordion-description">
-      <p class="mt-8 lg:mt-16">
-        Biti najrenomiraniji i najrespektabilniji klub sa moćnom zajednicom izuzetnih, vrednih i časnih ljudi posvećenih konstantnom napretku i uživanju u radostima života.
-      </p>
-      </div>
-    </div>
-
-
-    <div class="mt-8 lg:mt-24 accordion">
-      <div class="relative">
-        <div class="plus md:hidden"></div>
-      <h3 class="ml-8 md:ml-0">
-        Misija
-      </h3>
-      </div>
-      <div class="accordion-description"> 
-      <p class="mt-8 lg:mt-16">
-        Naša misija je da zajedno rastemo, napredujemo i razvijamo se. Kroz stručan i profesionalan odnos tima koji obožava svoj posao, stvaramo sjajne odnose sa članovima, prijateljsku atmosferu i ambijent u kojem svi uživaju. Vodeći se načelima profesionalsnosti, organizovanosti, funkcionalnosti, efikasnosti, praćenjem tendencija u svetu zdravlja, sporta i fitnesa, kao i konstantnim učenjem unapredjujemo sebe, a time i uslove za celokupniji napredak svih naših članova i što kvalitetniju uslugu. Želimo da inspirišemo ljude da se pokrenu, misle na svoje zdravlje, steknu zdrave navike i isto tako motivišu svoje okruženje na dobre odluke.
-        Duboko verujemo da vreme provedeno sa nama vrlo brzo postaje najbolji i najzabavniji deo dana i da zbog toga SINERGIJA postaje bitan deo svakodnevnice i nalazi mesto u srcu svakog našeg člana.
-      </p>
-    </div>
-    </div>
-
-
-    <div class="mt-8 lg:mt-24 accordion">
-      <div class="relative">
-      <div class="plus md:hidden"></div>
-      <h3 class="ml-8 md:ml-0">
-        Vrednosti
-      </h3>
-      </div>
-      <div class="accordion-description"> 
-      <p class="mt-8 lg:mt-16">
-        Naša najveća vrednost su ljudi. U isto vreme, u našem radu vodimo se osnovnim i pomoćnim vrednostima ne bi li bili što efikasniji. Osnovne vrednosti predstavljaju najviši prioritet našeg koncepta, naša verovanja i temelj svega što radimo.
-      </p>
-      <p class="mt-8 lg:mt-16">
-        Osnovne vrednosti kojima se vodimo u pristupanju zadacima su: 
-      </p>
-
   
-      <div class="mt-12 flex justify-evenly  flex-wrap">
-        <div class="flex flex-col items-center justify-start w-56 mb-8">
-          <div class="border-2 border-red-500 w-48 h-48 rounded-full"
-          style="background-image: url(/img/1.svg); background-repeat: no-repeat; background-position: center;">      
-          </div>
-          <div class="mt-4 text-center">
-            pravimo rezultate i razvijamo kvalitetne odnose
-          </div>
-        </div>
-        <div class="flex flex-col items-center justify-start w-56 mb-8">
-          <div class="border-2 border-red-500 w-48 h-48 rounded-full" 
-          style="background-image: url(/img/2.svg); background-repeat: no-repeat; background-position: center;" ></div>
-          <div class="mt-4 text-center">
-            naši članovi su naš kvalitet
-          </div>
-        </div>
-        <div class="flex flex-col items-center justify-start w-56 mb-8">
-          <div class="border-2 border-red-500 w-48 h-48 rounded-full"
-          style="background-image: url(/img/3.svg); background-repeat: no-repeat; background-position: center;" ></div>
-          <div class="mt-4 text-center">
-            obožavamo ono što radimo
-          </div>
-        </div>
-        <div class="flex flex-col items-center justify-start w-56 mb-8">
-          <div class="border-2 border-red-500 w-48 h-48 rounded-full"
-          style="background-image: url(/img/4.svg); background-repeat: no-repeat; background-position: center;"></div>
-          <div class="mt-4 text-center">
-            ovde smo da činimo dobro sebi i drugima
-          </div>
-        </div>
-        <div class="flex flex-col items-center justify-start w-56 mb-8">
-          <div class="border-2 border-red-500 w-48 h-48 rounded-full"
-          style="background-image: url(/img/5.svg); background-repeat: no-repeat; background-position: center;"></div>
-          <div class="mt-4 text-center">
-            slušamo i rastemo
-          </div>
-        </div>
-      </div>
-
-      <p class="mt-24">
-        Naše pomoćne vrednosti su tu da ojačaju naše osnovne i da nas učine još moćnijim.Pomoćne vrednosti su:
-      </p>
-
-
-      <div class="mt-12 flex justify-evenly flex-wrap">
-        <div class="flex flex-col items-center justify-start w-56 mb-8">
-          <div class="border-2 border-red-500 w-48 h-48 rounded-full"
-          style="background-image: url(/img/6.svg); background-repeat: no-repeat; background-position: center;"></div>
-          <div class="mt-4 text-center">
-            timski rad
-          </div>
-        </div>
-        <div class="flex flex-col items-center justify-start w-56 mb-8">
-          <div class="border-2 border-red-500 w-48 h-48 rounded-full"
-          style="background-image: url(/img/7.svg); background-repeat: no-repeat; background-position: center;"></div>
-          <div class="mt-4 text-center">
-            edukacija
-          </div>
-        </div>
-        <div class="flex flex-col items-center justify-start w-56 mb-8">
-          <div class="border-2 border-red-500 w-48 h-48 rounded-full"
-          style="background-image: url(/img/8.svg); background-repeat: no-repeat; background-position: center;"></div>
-          <div class="mt-4 text-center">
-            čast
-          </div>
-        </div>
-        <div class="flex flex-col items-center justify-start w-56 mb-8">
-          <div class="border-2 border-red-500 w-48 h-48 rounded-full"
-          style="background-image: url(/img/9.svg); background-repeat: no-repeat; background-position: center;"></div>
-          <div class="mt-4 text-center">
-            zabava
-          </div>
-        </div>
-        <div class="flex flex-col items-center justify-start w-56 mb-8">
-          <div class="border-2 border-red-500 w-48 h-48 rounded-full"
-          style="background-image: url(/img/10.svg); background-repeat: no-repeat; background-position: center;"></div>
-          <div class="mt-4 text-center">
-            motivacija i inspiracija
-          </div>
-        </div>
-      </div>
-
-    <div>
-      <p class="mt-16">
-        To što imamo skoro 2500m2 koji smo odlično funkcionalno organizovali i uredili, kao i besprekorna higijena kojoj težimo su super, ali…
-      </p>
-      <p class="mt-16">
-        To što se nalazimo u samom srcu Novog Beograda, a imamo veliki parking i lako smo dostupni iz svakog dela grada je super, ali…
-      </p>
-      <p class="mt-16">
-        To što imamo veliki, a ujedno i raznovrsan kapacitet, efikasnu ventilaciju uz puno prirodnog svetla i vazduha je super, ali…
-      </p>
-      <p class="mt-16">
-        To što imamo veliku količinu najrazličitije opreme prestižnih svetskih proizvođača je super, ali…
-      </p>
-      <p class="mt-16">
-        ALI NAJPONOSNIJI SMO NA IZUZETNE LJUDE KOJE IMAMO U TIMU I SJAJNE ČLANOVE KOJI SINERGIJU DOŽIVLJAVAJU KAO DRUGU KUĆU!
-        Pozitivna enrgija i sinergija koju svi zajedno stvaramo, zajednica dobrih ljudi i radosti života koje delimo je teško rečima opisati.
-        To se mora osetiti!
-      </p>
-      <p class="mt-16">
-        U nažem fokusu su ljudi. <br>
-        Bas zbog toga mi nismo ni nalik drugim sportskim centrima koji u prvi plan stavljaju sprave ili zidove. <br>
-        Mi smo krenuli od grupice ljudi koji su zajedno vežbali i družili se, <br>
-        i baš zbog toga je nastalo ovo - jedinstven koncept koji je mnogo više od sportskog centra.
-        Mi smo zajednica, <br>
-        Mi smo motivacija, <br>
-        Mi smo disciplina, <br>
-        Mi smo progres, <br>
-        Mi smo zabava, <br>
-        Mi smo radost života, <br>
-        Mi smo kultura, <br>
-        Mi smo životni stil, <br>
-        MI SMO SINERGIJA!
-      </p>
-    </div>
-</div>
-    <div class="mt-8 lg:mt-24 accordion">
-      <div class="relative">
-        <div class="plus md:hidden"></div>
-      <h3 class="ml-8 md:ml-0">
-        Tim
-      </h3>
-      </div>
-      <div class="accordion-description"> 
-      <p class="mt-16">
-        Naš tim je bogat jer imamo izuzetne ljude koji pre svega biramo sagledavajući karakterne osobine, a u isto vreme zahtevamo visok nivo znanja i posvećenosti kao i otvorenost za učenjem i konstantnim napredovanjem.
-      </p>
-      </div>
-    </div>
-
-    <div class="mt-8 lg:mt-24 accordion">
-      <div class="relative">
-      <div class="plus md:hidden"></div>
-      <h3 class="ml-8 md:ml-0">
-        DRUŠTVENA ODGOVORNOST
-      </h3>
-      </div>
-      <div class="accordion-description"> 
-      <p class="mt-16">
-        Svi naši dogadjaji koje organizujemo imaju humanitarni karakter i to je jedan od načina kako se trudimo da učinimo nešto dobro i dodamo vrednost društvu.
-      </p>
-      </div>
-    </div>
-
-
-    <div class="mt-8 lg:mt-24 accordion">
-      <div class="relative">
-        <div class="plus md:hidden"></div>
-      <h3 class="ml-8 md:ml-0">
-        KARIJERA
-      </h3>
-      </div>
-      <div class="accordion-description"> 
-      <p class="mt-16">
-        Mi smo uvek otvoreni da upoznamo sjajne ljude. Ukoliko smatraš da možeš da budeš karika u našem lancu i imaš veliku goruću želju da postaneš deo našeg tima, pošalji nam CV sa motivacionim pismom, a mi ćemo uraditi naš deo.
-      </p>
-    </div>
-    </div>-->
 </div>
   </div>
 
