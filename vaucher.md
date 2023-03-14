@@ -67,6 +67,41 @@ pricelist:
       - service: Sportski rođendan
         price: od 30000
     description: ''
+
+discounts:
+  - title: POVLAŠĆENE KATEGORIJE
+    services:
+      - service: Aktivni studenti
+      - service: Aktivni pripadnici policije, vojske i vatrogasnih brigada
+      - service: Lica starija od 65 godina
+    description: "-"
+  - title: PORODIČNI PAKET
+    services:
+      - service: Drugi član porodice popust od 20%
+      - service: Treći član porodice popust od 30%
+      - service: Četvrti član i naredni BESPLATNO
+    description: Uz mesečnu članarinu drugih departmana doplata za korišćenje GYM
+      departmana je 1950
+loyalty:
+  - title: PROGRAM LOJALNOSTI
+    services:
+      - time: 1. godina
+        membership: 10+
+        card: crvena
+        discount: 10%
+      - time: 2. godina
+        membership: " 10+"
+        card: crna
+        discount: 15%
+      - time: 3. godina
+        membership: " 10+"
+        card: zlatna
+        discount: 20%
+    descriptions:
+      - description: Popusti se ne sabiraju
+      - description: Godina se sagledava na kalendarskom nivou
+      - description: Popust koji se ostvari po ovom programu je stalan i ne može se
+          prenositi na druga lica
 first-text: Uvideli smo da je poklon kao što je članarina kod nas jedna
   fantastična stvar jer onome koji prima poklon otvara jedan novi prozor u svet
   zdravlja i fitnesa. Stoga u ponudi imamo vaučere koje možete kupiti za sebi
