@@ -64,15 +64,27 @@ secitons:
       Osnovne vrednosti kojima se vodimo u pristupanju zadacima su:
     values:
       - value: pravimo rezultate i razvijamo kvalitetne odnose
+        image: /assets/uploads/1.svg
       - value: naši članovi su naš kvalitet
+        image: /assets/uploads/2.svg
       - value: obožavamo ono što radimo
+        image: /assets/uploads/3.svg
       - value: ovde smo da činimo dobro sebi i drugima
+        image: /assets/uploads/4.svg
       - value: slušamo i rastemo
+        image: /assets/uploads/5.svg
       - value: timski rad
+        image: /assets/uploads/6.svg
       - value: edukacija
+        image: /assets/uploads/7.svg
       - value: čast
+        image: /assets/uploads/8.svg
       - value: zabava
+        image: /assets/uploads/9.svg
       - value: motivacija i inspiracija
+        image: /assets/uploads/10.svg
+    second-text: "Naše pomoćne vrednosti su tu da ojačaju naše osnovne i da nas
+      učine još moćnijim. Pomoćne vrednosti su:"
   - title: TIM
     text: Naš tim je bogat jer imamo izuzetne ljude koji pre svega biramo
       sagledavajući karakterne osobine, a u isto vreme zahtevamo visok nivo
