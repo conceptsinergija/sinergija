@@ -102,6 +102,8 @@ collections:
               - label: "Usluge"
                 name: "services"
                 widget: "list"
+                summary: '{{fields.service}}'
+                allow_add: true
                 fields: 
                   - { label: "Usluga", name: "service", widget: "string", hint: "Postavi uslugu"}
                   - { label: "Cena", name: "price", widget: "string", hint: "Dodaj cenu"}
@@ -160,6 +162,8 @@ collections:
               - label: "Usluge"
                 name: "services"
                 widget: "list"
+                summary: '{{fields.service}}'
+                allow_add: true
                 fields: 
                   - { label: "Usluga", name: "service", widget: "string", hint: "Postavi uslugu"}
                   - { label: "Cena", name: "price", widget: "string", hint: "Dodaj cenu"}
