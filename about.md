@@ -85,6 +85,52 @@ secitons:
         image: /assets/uploads/10.svg
     second-text: "Naše pomoćne vrednosti su tu da ojačaju naše osnovne i da nas
       učine još moćnijim. Pomoćne vrednosti su:"
+    third-text: >-
+      To što imamo skoro 2500m2 koji smo odlično funkcionalno organizovali i
+      uredili, kao i besprekorna higijena kojoj težimo su super, ali…
+
+
+      To što se nalazimo u samom srcu Novog Beograda, a imamo veliki parking i lako smo dostupni iz svakog dela grada je super, ali…
+
+
+      To što imamo veliki, a ujedno i raznovrsan kapacitet, efikasnu ventilaciju uz puno prirodnog svetla i vazduha je super, ali…
+
+
+      To što imamo veliku količinu najrazličitije opreme prestižnih svetskih proizvođača je super, ali…
+
+
+      ALI NAJPONOSNIJI SMO NA IZUZETNE LJUDE KOJE IMAMO U TIMU I SJAJNE ČLANOVE KOJI SINERGIJU DOŽIVLJAVAJU KAO DRUGU KUĆU!
+
+      Pozitivna enrgija i sinergija koju svi zajedno stvaramo, zajednica dobrih ljudi i radosti života koje delimo je teško rečima opisati.
+
+      To se mora osetiti!
+
+
+      U nažem fokusu su ljudi. 
+
+      Bas zbog toga mi nismo ni nalik drugim sportskim centrima koji u prvi plan stavljaju sprave ili zidove. 
+
+      Mi smo krenuli od grupice ljudi koji su zajedno vežbali i družili se, 
+
+      i baš zbog toga je nastalo ovo - jedinstven koncept koji je mnogo više od sportskog centra.
+
+      Mi smo zajednica,
+
+      Mi smo motivacija,
+
+      Mi smo disciplina,
+
+      Mi smo progres,
+
+      Mi smo zabava,
+
+      Mi smo radost života,
+
+      Mi smo kultura,
+
+      Mi smo životni stil,
+
+      MI SMO SINERGIJA!
   - title: TIM
     text: Naš tim je bogat jer imamo izuzetne ljude koji pre svega biramo
       sagledavajući karakterne osobine, a u isto vreme zahtevamo visok nivo
