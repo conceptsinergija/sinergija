@@ -73,6 +73,8 @@ secitons:
       - value: čast
       - value: zabava
       - value: motivacija i inspiracija
+    second-text: "Naše pomoćne vrednosti su tu da ojačaju naše osnovne i da nas
+      učine još moćnijim. Pomoćne vrednosti su:"
   - title: TIM
     text: Naš tim je bogat jer imamo izuzetne ljude koji pre svega biramo
       sagledavajući karakterne osobine, a u isto vreme zahtevamo visok nivo
