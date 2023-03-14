@@ -79,7 +79,8 @@ collections:
                 widget: list
                 allow_add: true
                 fields: 
-                  - { label: "value", name: "title", widget: "string", required: false }
+                  - { label: "vrednost", name: "value", widget: "string", required: false }
+                  - { label: "slika", name: "image", widget: "image", required: false }
                 
       
                
