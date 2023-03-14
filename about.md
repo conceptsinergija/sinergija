@@ -68,6 +68,11 @@ secitons:
       - value: obožavamo ono što radimo
       - value: ovde smo da činimo dobro sebi i drugima
       - value: slušamo i rastemo
+      - value: timski rad
+      - value: edukacija
+      - value: čast
+      - value: zabava
+      - value: motivacija i inspiracija
   - title: TIM
     text: Naš tim je bogat jer imamo izuzetne ljude koji pre svega biramo
       sagledavajući karakterne osobine, a u isto vreme zahtevamo visok nivo
