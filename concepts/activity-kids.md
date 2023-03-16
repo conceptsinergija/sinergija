@@ -57,8 +57,6 @@ price_image: /assets/uploads/screenshot_20220531-145754_gallery.jpg
 prices:
   - service: Školica sporta
     price: "3900"
-  - service: Škola sporta
-    price: "3900"
   - service: Kvartalna (3 meseca)
     price: "10900"
   - service: Polugodišnja (6 meseci)
