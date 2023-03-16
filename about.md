@@ -83,8 +83,6 @@ secitons:
       Naše pomoćne vrednosti su tu da ojačaju naše osnovne i da nas učine još
       moćnijim. \
 
-      \
-
       Pomoćne vrednosti su:
     third-text: >-
       To što imamo skoro 2500m2 koji smo odlično funkcionalno organizovali i
