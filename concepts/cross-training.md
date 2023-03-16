@@ -16,10 +16,7 @@ subtitle: >
 our_mission:
   - title: BOX (dvorana)
     description: >-
-      Baš takav je naš BOX, uz fantastičnu porodičnu atmosferu, ali i još mnogo
-      toga...
-
-
+      
       Prostire se na preko 300m2 slobodnog prostora namenski gradjenog za dvoranu ovog tipa.
 
 
