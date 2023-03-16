@@ -8,6 +8,11 @@ short_description: >
   informacije o položaju tela u prostoru, pri čemu beba usvaja posturalne
   aktivnosti.
 show_on_homepage: true
+galery:
+  - /assets/uploads/image-5-.jpg
+  - /assets/uploads/image-6-.jpg
+  - /assets/uploads/image-7-.jpg
+  - /assets/uploads/image-8-.jpg
 subtitle: >-
   Beba se radja sa milionima neurona koji su korisni samo ako se umreže. Na
   umrežavanje neurona utičemo vežbicama, tj. aktivnim pokretima koje beba

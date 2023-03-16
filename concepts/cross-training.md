@@ -8,7 +8,11 @@ short_description: >+
 
 show_on_homepage: true
 galery:
-  - /assets/uploads/gym6.png
+  - /assets/uploads/test-final_163.jpg
+  - /assets/uploads/test-final_6.jpg
+  - /assets/uploads/test-final_223.jpg
+  - /assets/uploads/test-final_222.jpg
+  - /assets/uploads/test-final_159.webp
 subtitle: >
   Posledjnu deceniju ustalila se praksa da se prostori u kojima se trenira
   funkcionalni trening, CrossFit, performance trening i slično nazivaju BOX jer
