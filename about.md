@@ -98,7 +98,7 @@ secitons:
       **ALI NAJPONOSNIJI SMO NA IZUZETNE LJUDE KOJE IMAMO U TIMU I SJAJNE ČLANOVE KOJI SINERGIJU DOŽIVLJAVAJU KAO DRUGU KUĆU!**\
 
 
-      Pozitivna enrgija i sinergija koju svi zajedno stvaramo, zajednica dobrih ljudi i radosti života koje delimo je teško rečima opisati.\
+      Pozitivna enrgija i sinergija koju svi zajedno stvaramo, zajednica dobrih ljudi i radosti života koje delimo je teško rečima opisati.
 
 
       **To se mora osetiti!**

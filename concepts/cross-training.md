@@ -11,7 +11,7 @@ galery:
   - /assets/uploads/test-final_163.jpg
   - /assets/uploads/test-final_6.jpg
   - /assets/uploads/test-final_223.jpg
-  - /assets/uploads/test-final_222.jpg
+  - /assets/uploads/mar_3210.jpg
   - /assets/uploads/test-final_159.webp
 subtitle: >
   Posledjnu deceniju ustalila se praksa da se prostori u kojima se trenira
