@@ -63,6 +63,8 @@ prices:
     price: "4500"
   - service: Body Toning
     price: "4500"
-  - service: Dva Programa
+  - service: 2 ENERGY Programa
     price: "6500"
+  - service: All inclusive ENERGY
+    price: "9900"
 ---
