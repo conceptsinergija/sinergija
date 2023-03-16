@@ -86,17 +86,6 @@ secitons:
       \
 
       Pomoćne vrednosti su:
-
-
-      * T﻿imski rad
-
-      * E﻿dukacija
-
-      * Č﻿ast
-
-      * Z﻿abava
-
-      * M﻿otivacija i inspiracija
     third-text: >-
       To što imamo skoro 2500m2 koji smo odlično funkcionalno organizovali i
       uredili, kao i besprekorna higijena kojoj težimo su super, ali…
