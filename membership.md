@@ -128,6 +128,68 @@ pricelist:
       - service: Termin 60 min
         price: "3000"
     description: Termin traje 60 minuta i počinje na pun sat
+  - title: BABY
+    services:
+      - service: Grupni časovi - mesečna
+        price: "6000"
+      - service: Privatni čas
+        price: od 3000
+    description: " "
+  - title: MIND & BODY
+    services:
+      - service: Dnevna karta
+        price: "600"
+      - service: "8 časova mesečno "
+        price: "3900"
+      - service: Mesečna članarina
+        price: "4500"
+      - service: Privatni čas
+        price: od 2000
+      - service: Kvartalna (3 meseca)
+        price: "12900"
+      - service: Polugodišnja (6 meseci)
+        price: "23900"
+      - service: Godišnja (12 meseci)
+        price: "45900"
+    description: " "
+  - title: ENERGY
+    services:
+      - service: Dnevna karta
+        price: "600"
+      - service: Cardio Kick Box
+        price: "4500"
+      - service: Glute & Abs
+        price: "4500"
+      - service: Funtcional Streching
+        price: "4500"
+      - service: HIIT Power
+        price: "4500"
+      - service: Body Toning
+        price: "4500"
+      - service: 2 ENERGY programa
+        price: "6500"
+      - service: All inclusive ENERGY
+        price: "9900"
+      - service: Privatni čas
+        price: od 2500
+    description: " "
+  - title: RECOVERY
+    services:
+      - service: "Sportska masaža - Parcijalna "
+        price: "1900"
+      - service: Sportska masaža - Celo telo
+        price: "3600"
+      - service: Relax masaža
+        price: "3200"
+      - service: Limfna drenaža
+        price: "700"
+      - service: Compex
+        price: "1000"
+      - service: Krio terapija
+        price: "750"
+      - service: Istezanje
+        price: "2000"
+    description: " "
 discounts:
   - title: POVLAŠĆENE KATEGORIJE
     services:
