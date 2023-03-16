@@ -11,6 +11,13 @@ galery:
   - /assets/uploads/kids1.png
   - /assets/uploads/kids2.png
   - /assets/uploads/kids3.png
+subtitle: >-
+  Kolko je sjajno to da sa svojim mališanima posle posla i vrtića / škole
+  dodjete na jedno mesto gde ćete i Vi i deca raditi nešto dobro za sebe.
+
+  Deca će se na časovima školice sporta sjajno zabavljati i raditi za motorici i razvoju dok ćete vi izabrati nešto od naših sportskih programa i raditi na sebi.
+
+  Naši treneri su potkovani znanjem i sa puno strpljenja i ljubavi pristupaju svom pozivu. Uživaćete dok gledate svoje mališane kako napreduju i raduju se sportu.
 our_mission:
   - title: ŠKOLICA
     description: >-
@@ -34,7 +41,7 @@ our_mission:
       najmladje vratimo prirodnom pokretu, druženju i avanturama u kakvim su im roditelji
 
       nekada uživali.
-    image: /assets/uploads/kids2.png
+    image: /assets/uploads/image-5-.jpg
   - title: INDIVIDUALNI ČASOVI
     description: >-
       Naš trenerski tim je bogat jer u njemu imamo sjajne stručnjake koji
@@ -45,7 +52,7 @@ our_mission:
       Ukoliko je za dete neophodan individualni pristup, mi smo veoma uspešni u tome što
 
       radimo.
-    image: /assets/uploads/kids3.png
+    image: /assets/uploads/image-5-.jpg
 price_image: /assets/uploads/screenshot_20220531-145754_gallery.jpg
 prices:
   - service: Školica sporta
