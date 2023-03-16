@@ -16,7 +16,7 @@ show_on_homepage: true
 galery:
   - /assets/uploads/gym6.png
 our_mission:
-  - title: BOX(dvorana)
+  - title: BOX (dvorana)
     description: >-
       Baš takav je naš BOX, uz fantastičnu porodičnu atmosferu, ali i još mnogo
       toga...
