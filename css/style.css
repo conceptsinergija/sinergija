@@ -2158,3 +2158,7 @@ header nav .nav-item {
     transform: scale(1);
   }
 }
+
+.concept-bottom-slider .swiper-slide{
+  aspect-ratio: 3/2;
+}
