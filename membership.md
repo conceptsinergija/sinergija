@@ -127,7 +127,7 @@ pricelist:
     services:
       - service: Termin 60 min
         price: "3000"
-    description: "*Termin traje 60 minuta i počinje na pun sat"
+    description: Termin traje 60 minuta i počinje na pun sat
 discounts:
   - title: POVLAŠĆENE KATEGORIJE
     services:
