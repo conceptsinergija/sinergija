@@ -8,52 +8,37 @@ short_description: Naš GYM departman predstavlja jednu od najopremljenijih i
   uživanja u vremenu provedenom u GYM-u.
 show_on_homepage: true
 galery:
-  - /assets/uploads/6o6a0644.jpg
+  - /assets/uploads/3z6a1314.jpg
   - /assets/uploads/3z6a1308.jpg
   - /assets/uploads/3z6a1663-copy.jpg
   - /assets/uploads/6o6a9833-1-.jpg
   - /assets/uploads/3z6a1314.jpg
   - /assets/uploads/3z6a1305.jpg
-subtitle: Naš GYM departman predstavlja jednu od najopremljenijih i najlepših
-  teretana na našim prostorima. U stvaranju ovog departmana vodili smo se
-  načelima organizovanosti, funkcionalnosti i estetike, praćenjem tendencija u
-  svetu zdravlja, sporta i fitnesa, a sve to zarad što prijatnijeg boravka i
-  uživanja u vremenu provedenom u GYM-u.
+subtitle: >-
+  Naš GYM departman predstavlja jednu od najopremljenijih i najlepših teretana
+  na našim prostorima. U stvaranju ovog departmana vodili smo se načelima
+  organizovanosti, funkcionalnosti i estetike, praćenjem tendencija u svetu
+  zdravlja, sporta i fitnesa, a sve to zarad što prijatnijeg boravka i uživanja
+  u vremenu provedenom u GYM-u.
+
+  Svaka od zona sadrži opremu renomiranih i najpoznatijih svetskih proizvodjača koja je pažljivo birana kako bi omogućila preduslove za najbolji trening.
 our_mission:
   - title: Pin loaded zone
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam, elit
-      libero nunc sagittis orci nunc. Volutpat sagittis ipsum rutrum mauris,
-      urna. Volutpat duis laoreet amet sit cursus non habitant lobortis.
-      Fermentum diam a adipiscing adipiscing curabitur. Massa condimentum purus
-      augue ante tortor.
+    description: Ako ste se zasitili slobodnih tegova, kompleksin vezbi, deo sa
+      masinama je pravo mesto za vas.
     image: /assets/uploads/3z6a1298.jpg
   - title: PLATE LOADED ZONE
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam, elit
-      libero nunc sagittis orci nunc. Volutpat sagittis ipsum rutrum mauris,
-      urna. Volutpat duis laoreet amet sit cursus non habitant lobortis.
-      Fermentum diam a adipiscing adipiscing curabitur. Massa condimentum purus
-      augue ante tortor.
+    description: Za jake i spremne. Slobodnih tegova u izobilju. Ne morate da cekate
+      da neko zavrsi da bi vi uskocili da uradite seriju.
     image: /assets/uploads/3z6a1310.jpg
   - title: FREE WEIGHTS & RACKS
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam, elit
-      libero nunc sagittis orci nunc. Volutpat sagittis ipsum rutrum mauris,
-      urna. Volutpat duis laoreet amet sit cursus non habitant lobortis.
-      Fermentum diam a adipiscing adipiscing curabitur. Massa condimentum purus
-      augue ante tortor.
-    image: /assets/uploads/3z6a1308.jpg
+    description: Od 1kg do 35kg, za svakoga po nesto.
+    image: /assets/uploads/3z6a1305.jpg
   - title: TURF & PARTER ZONE
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam, elit
-      libero nunc sagittis orci nunc. Volutpat sagittis ipsum rutrum mauris,
-      urna. Volutpat duis laoreet amet sit cursus non habitant lobortis.
-      Fermentum diam a adipiscing adipiscing curabitur. Massa condimentum purus
-      augue ante tortor.
-    image: /assets/uploads/3z6a1319.jpg
+    description: Za istezanje ili pak trcanje, veslanje ili rad na nasem ski ergu.
+    image: /assets/uploads/3z6a1309.webp
   - title: CARDIO ZONE
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam, elit
-      libero nunc sagittis orci nunc. Volutpat sagittis ipsum rutrum mauris,
-      urna. Volutpat duis laoreet amet sit cursus non habitant lobortis.
-      Fermentum diam a adipiscing adipiscing curabitur. Massa condimentum purus
-      augue ante tortor.
+    description: Preko 20 sprava za potpuni kardio trening.
     image: /assets/uploads/3z6a1316.jpg
 price_image: /assets/uploads/3z6a1308.jpg
 prices:
@@ -85,15 +70,15 @@ rule_book: >-
 
   * Zahtevamo pristojno ponašanje, bez buke i bilo koje vrste remećenja drugih članova.
 
-  * Nije dozvoljeno bacanje tegova i korišćenje magnezijuma. Za to je rezervisan departman.
+  * Nije dozvoljeno bacanje tegova i korišćenje magnezijuma. Za to je rezervisan Cross training departman.
 
   * Vraćanje opreme na svoje mesto je obavezno.
 
   * Sva oprema se može koristiti za datu spravu na predviđen način. Na svakoj spravi postoji slikoviti prikaz, a ukoliko vam je potrebna dodatna instrukcija naši treneri će vam \
     rado pojasniti.
-  * Uvođenje kućnih ljubimaca u departman nije dozvoljeno.
+  * Uvođenje kućnih ljubimaca u GYM departman nije dozvoljeno.
 
-  * Unošenje hrane u departman nije dozvoljeno.
+  * Unošenje hrane u GYM departman nije dozvoljeno.
 
   * Drago nam je što razumete da su pravila propisana zarad Vašeg što prijatnijeg boravka kao i kvalitetnije usluge.
 
