@@ -1,16 +1,14 @@
 ---
 layout: single_concept
 title: ACTIVITY Kids
-short_description: Ukratko neki tekst o koncpetu
+short_description: Kolko je sjajno to da sa svojim mališanima posle posla i
+  vrtića / škole dodjete na jedno mesto gde ćete i Vi i deca raditi nešto dobro
+  za sebe.
 show_on_homepage: true
 youtube_src: https://www.youtube.com/watch?v=KQXOUjzMbuY
 galery:
   - /assets/uploads/screenshot_20220531-145754_gallery.jpg
-  - /assets/uploads/kids2.png
-  - /assets/uploads/kids3.png
-  - /assets/uploads/kids1.png
-  - /assets/uploads/kids2.png
-  - /assets/uploads/kids3.png
+  - /assets/uploads/image-5-.jpg
 subtitle: >-
   Kolko je sjajno to da sa svojim mališanima posle posla i vrtića / škole
   dodjete na jedno mesto gde ćete i Vi i deca raditi nešto dobro za sebe.
