@@ -12,7 +12,7 @@ galery:
   - /assets/uploads/3z6a1308.jpg
   - /assets/uploads/3z6a1663-copy.jpg
   - /assets/uploads/6o6a9833-1-.jpg
-  - /assets/uploads/3z6a1314.jpg
+  - /assets/uploads/6o6a0644.jpg
   - /assets/uploads/3z6a1305.jpg
 subtitle: >-
   Naš GYM departman predstavlja jednu od najopremljenijih i najlepših teretana
