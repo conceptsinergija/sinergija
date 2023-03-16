@@ -4,24 +4,21 @@ layout: about-us
 secitons:
   - title: Istorija
     text: >-
-      Naša priča počinje u maštarenju jednog tada studenta, sada već davne 2012.
-      godine o tome kako bi bilo dobro okupiti ekipu, stvoriti klub gde bi svi
-      zajedno trenirali, napredovali, družili se i uz sve to se sjajno
-      zabavljali. Posle izvesnog vremena smišljanja, istaživanja, edukovanja,
-      nadanja, brzo premotavamo u 2015. kada Sinergija počinje svoj život kakav
-      je danas poznat javnosti. Svoju priču smo započeli u objektu koji se
-      nalazi na 500m razdljine od današnjeg, iza Roda Centra, i za veoma kratko
-      vreme pokazali smo visok nivo organizovanosti i kvaliteta. Uspeli smo
-      veoma brzo da steknemo kredibilitet, okupimo mnoštvo dobrih ljudi u moćnu
-      zajednicu i pozicioniramo se kao lideri u svetu funkcionalnog treninga.
-      Tada smo imali samo CrossTraining, a danas je to jedan od naših
-      departamana u sastavu. Hiljade trening časova, stotine članova i slobodno
-      možemo da kažemo unapređenih života, naš su naveći ponos. Nakon dve
-      godine, stvorila se prilika da se preselimo na sadašnju lokaciju, gde smo
-      od 2017. i gde iz godine u godinu rastemo i proširujemo usluge i
-      kapacitete. Ovako je od tada izgledala naša centrala sala u kojoj smo
-      sprovodili CrossTraining, a danas je CrossTraining jedan od naših
-      departmana.
+      
+
+      Naša priča počinje u maštarenju jednog tada studenta, sada već davne 2012. godine o tome kako bi bilo dobro okupiti ekipu, stvoriti klub gde bi svi zajedno trenirali, napredovali, družili se i uz sve to se sjajno zabavljali.
+
+
+      ![](/assets/uploads/3b7a8872.jpg)
+
+       Posle izvesnog vremena smišljanja, istaživanja, edukovanja, nadanja, brzo premotavamo u 2015. kada Sinergija počinje svoj život kakav je danas poznat javnosti. \
+      Svoju priču smo započeli u objektu koji se nalazi na 500m razdljine od današnjeg, iza Roda Centra, i za veoma kratko vreme pokazali smo visok nivo organizovanosti i kvaliteta. 
+
+
+      ![](/assets/uploads/image-10-.jpg)
+
+
+      Uspeli smo veoma brzo da steknemo kredibilitet, okupimo mnoštvo dobrih ljudi u moćnu zajednicu i pozicioniramo se kao lideri u svetu funkcionalnog treninga. Tada smo imali samo CrossTraining, a danas je to jedan od naših departamana u sastavu. Hiljade trening časova, stotine članova i slobodno možemo da kažemo unapređenih života, naš su naveći ponos. Nakon dve godine, stvorila se prilika da se preselimo na sadašnju lokaciju, gde smo od 2017. i gde iz godine u godinu rastemo i proširujemo usluge i kapacitete. Ovako je od tada izgledala naša centrala sala u kojoj smo sprovodili CrossTraining, a danas je CrossTraining jedan od naših departmana.
 
 
       Nastavili smo tamo gde smo stali i dodatno proširili svoju zajednicu. Pridružilo nam se puno sjajnih ljudi i mnogima smo postali druga kuća. Organizovali smo takmičenja, kako klupska za naše članove, tako i internacionalna i pokazali zavidan nivo organizovanosti i ambicije. Mnoštvo sjajnih takmičara i zavidnih rezultata koji su ostvarili su takođe naš veliki ponos i dokaz tome da kvalitetno i posvećeno radimo. Od mnogobrojnijh takmičara, posebno izdvajamo naše trenere Tamaru Trumbetaš i braću Lazara i Luku Đukić koji su dostigli najviše moguće visine u takmičarskom CrossFit-u, takmičili se na najprestižnijem takmičenju 'CrossFit Games-u' i godinama predstavljaju svetsku elitu.
