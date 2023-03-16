@@ -95,11 +95,13 @@ secitons:
       To što imamo veliku količinu najrazličitije opreme prestižnih svetskih proizvođača je super, ali…
 
 
-      ALI NAJPONOSNIJI SMO NA IZUZETNE LJUDE KOJE IMAMO U TIMU I SJAJNE ČLANOVE KOJI SINERGIJU DOŽIVLJAVAJU KAO DRUGU KUĆU!
+      **ALI NAJPONOSNIJI SMO NA IZUZETNE LJUDE KOJE IMAMO U TIMU I SJAJNE ČLANOVE KOJI SINERGIJU DOŽIVLJAVAJU KAO DRUGU KUĆU!**\
 
-      Pozitivna enrgija i sinergija koju svi zajedno stvaramo, zajednica dobrih ljudi i radosti života koje delimo je teško rečima opisati.
 
-      To se mora osetiti!
+      Pozitivna enrgija i sinergija koju svi zajedno stvaramo, zajednica dobrih ljudi i radosti života koje delimo je teško rečima opisati.\
+
+
+      **To se mora osetiti!**
 
 
       U nažem fokusu su ljudi. 
@@ -126,7 +128,7 @@ secitons:
 
       Mi smo životni stil,
 
-      MI SMO SINERGIJA!
+      **MI SMO SINERGIJA!**
   - title: TIM
     hidden_title: team
     text: Naš tim je bogat jer imamo izuzetne ljude koji pre svega biramo
