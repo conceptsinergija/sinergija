@@ -52,13 +52,21 @@ secitons:
       deo svakodnevnice i nalazi mesto u srcu svakog našeg člana.
   - title: VREDNOSTI
     text: >-
-      Naša najveća vrednost su ljudi. U isto vreme, u našem radu vodimo se
-      osnovnim i pomoćnim vrednostima ne bi li bili što efikasniji. Osnovne
-      vrednosti predstavljaju najviši prioritet našeg koncepta, naša verovanja i
-      temelj svega što radimo.
+      Naša najveća vrednost su ljudi. \
+
+      U isto vreme, u našem radu vodimo se osnovnim i pomoćnim vrednostima ne bi li bili što efikasniji. Osnovne vrednosti predstavljaju najviši prioritet našeg koncepta, naša verovanja i temelj svega što radimo.
 
 
       Osnovne vrednosti kojima se vodimo u pristupanju zadacima su:
+
+
+      * Pravimo rezultate i razvijamo kvalitetne odnose
+
+      * Naši članovi su naš prioritet
+
+      * Obožavamo ono što radimo
+
+      * Ovde smo da činimo dobro drugima i sebi Slušamo i rastemo
     values:
       - value: pravimo rezultate i razvijamo kvalitetne odnose
         image: /assets/uploads/1.svg
@@ -80,8 +88,24 @@ secitons:
         image: /assets/uploads/9.svg
       - value: motivacija i inspiracija
         image: /assets/uploads/10.svg
-    second-text: "Naše pomoćne vrednosti su tu da ojačaju naše osnovne i da nas
-      učine još moćnijim. Pomoćne vrednosti su:"
+    second-text: >-
+      Naše pomoćne vrednosti su tu da ojačaju naše osnovne i da nas učine još
+      moćnijim. \
+
+      \
+
+      Pomoćne vrednosti su:
+
+
+      * T﻿imski rad
+
+      * E﻿dukacija
+
+      * Č﻿ast
+
+      * Z﻿abava
+
+      * M﻿otivacija i inspiracija
     third-text: >-
       To što imamo skoro 2500m2 koji smo odlično funkcionalno organizovali i
       uredili, kao i besprekorna higijena kojoj težimo su super, ali…
