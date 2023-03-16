@@ -58,15 +58,6 @@ secitons:
 
 
       Osnovne vrednosti kojima se vodimo u pristupanju zadacima su:
-
-
-      * Pravimo rezultate i razvijamo kvalitetne odnose
-
-      * Naši članovi su naš prioritet
-
-      * Obožavamo ono što radimo
-
-      * Ovde smo da činimo dobro drugima i sebi Slušamo i rastemo
     values:
       - value: pravimo rezultate i razvijamo kvalitetne odnose
         image: /assets/uploads/1.svg
