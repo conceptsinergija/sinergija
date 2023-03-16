@@ -835,8 +835,13 @@ header nav .nav-item {
 
 /*mission box*/
 
+.mission-img-box {
+  top: 20px;
+}
+
 .mission-img {
 padding-right: 50px;
+width: 100%;
 }
 
 .mission-text {

@@ -22,9 +22,11 @@
 
       <div class="lg:w-4/5 scollingBox">
         {% for mission in page.our_mission %}
-        <div class="mb-20 lg:mb-10  mission-box pt-10" id="{{mission.title}}" class=""
+        <div class="mb-20 lg:mb-10  mission-box pt-10 items-start" id="{{mission.title}}" class=""
           data-category={{ mission.title | slugify}}>
-          <img class="lg:w-1/2 mission-img" src="{{ mission.image }}" />
+          <div class="lg:w-1/2 sticky top-4 mission-img-box">
+            <img class="lg:w-1/2 mission-img" src="{{ mission.image }}" />
+          </div>
           <div class="lg:w-1/2 mission-text mb-8 lg:mb-0">
             <h2 class="section-little-title">{{mission.title}}</h2>
             <p class="4">{{ mission.description }}
