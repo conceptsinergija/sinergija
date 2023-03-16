@@ -300,6 +300,7 @@ collections:
         label_singular: "Dodaj sliku"
         field: { label: Slika, name: image, widget: image } 
       - { label: "Tekst ispod naslova", name: 'subtitle', widget: 'text', required: false }           
+      - { label: "Naša misija naslov", name: 'our_mission_title', widget: 'string', required: false }           
       - label: "Naša misija"
         name: 'our_mission'
         widget: "list"

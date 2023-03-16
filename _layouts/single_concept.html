@@ -26,7 +26,7 @@
     {% endif %}
     
     
-    {% page.our_mission %}
+    {% if page.our_mission != "" and page.our_mission != null %}
       {% include our_mission.html  %}
     {% endif %}
   </div>
