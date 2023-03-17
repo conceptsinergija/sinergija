@@ -1,4 +1,4 @@
 ---
 layout: concept
-title: Our Concept
+title: Naš koncept
 ---
