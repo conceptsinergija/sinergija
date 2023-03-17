@@ -1,6 +1,7 @@
 ---
 layout: single_concept
 title: ENERGY
+custom_order: 4
 short_description: >-
   
   Ovaj naš program pozitivno utiče na oslobadjanje od stresa koji moderan život sa sobom nosi, kao i podizanja samopouzdanja i vere u sebe. Uz to što radiš na fizičkoj formi stećićeš i dobro drušrvo sa treninga.

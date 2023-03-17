@@ -1,6 +1,7 @@
 ---
 layout: single_concept
 title: ACTIVITY Kids
+custom_order: 19
 short_description: Kolko je sjajno to da sa svojim mališanima posle posla i
   vrtića / škole dodjete na jedno mesto gde ćete i Vi i deca raditi nešto dobro
   za sebe.

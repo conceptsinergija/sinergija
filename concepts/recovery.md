@@ -1,6 +1,7 @@
 ---
 layout: single_concept
 title: RECOVERY
+custom_order: 27
 short_description: Recovery studio je jedan od departmana u sastavu koji je tu
   zbog vašeg oporavka i uživanja. studio se nalazi na 1. spratu i dok ste u
   njemu pruža se dantastičan pogled na ceo GYM departman. U studiju se nalaze
