@@ -226,7 +226,7 @@ collections:
         summary: '{{fields.title}}'
         fields: 
           - { label: "Naslov", name: "title", widget: "string", required: true }
-          label: 'Radno vreme'
+          - label: 'Radno vreme'
             name: 'working_hours'
             widget: object
             allow_add: false
