@@ -104,29 +104,37 @@ secitons:
       **To se mora osetiti!**
 
 
-      U našem fokusu su ljudi. \
+      U našem fokusu su ljudi. 
 
 
       Bas zbog toga mi nismo ni nalik drugim sportskim centrima koji u prvi plan stavljaju sprave ili zidove. 
 
-      Mi smo krenuli od grupice ljudi koji su zajedno vežbali i družili se, i baš zbog toga je nastalo ovo - jedinstven koncept koji je mnogo više od sportskog centra.\
+      Mi smo krenuli od grupice ljudi koji su zajedno vežbali i družili se, i baš zbog toga je nastalo ovo - jedinstven koncept koji je mnogo više od sportskog centra.
 
 
       Mi smo zajednica,
 
+
       Mi smo motivacija,
+
 
       Mi smo disciplina,
 
+
       Mi smo progres,
+
 
       Mi smo zabava,
 
+
       Mi smo radost života,
+
 
       Mi smo kultura,
 
+
       Mi smo životni stil,
+
 
       **MI SMO SINERGIJA!**
   - title: TIM
