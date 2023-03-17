@@ -140,6 +140,75 @@ header .header-logo {
   width: 260px;
 }
 
+header nav ul {
+  list-style: none; 
+}
+
+header nav ul li {
+  display: inline-block;
+}
+
+header nav ul li {
+  line-height: 24px;
+  padding: 4px 12px 4px 0;
+  margin-bottom: 12px;
+}
+
+.sub-menu {
+  top: 40px;
+  /* top: 140px; */
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 0px;
+  backdrop-filter: blur(3px);
+  padding: 40px 24px;
+  transition: all 0.3s ease-in-out;
+}
+
+header nav ul li:hover > .sub-menu {
+  display: flex;
+  height: auto;
+}
+
+
+header nav .concept-box {
+  width: 160px;
+  aspect-ratio: 1/1;
+  margin: 4px;
+  
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  transition: all .3s ease-in-out;
+  border: 1px solid white;
+} 
+header nav .concept-box:hover {
+  border: 2px solid red;
+  transform: scale(1.08);
+}
+header nav .concept-box:hover .title {
+  font-size: 20px;
+}
+header nav .concept-box > a > div {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.55);
+}
+
+header nav .concept-box .title {
+  font-size: 18px;
+  line-height: 24px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  transition: all .3s ease-in-out;
+}
+
+
+
 header nav .nav-item {
   color: white;
   text-transform: uppercase;
@@ -148,6 +217,11 @@ header nav .nav-item {
   line-height: 24px;
   padding: 4px 12px;
   margin-left: 16px;
+  transition: color .3s ease-in-out;
+}
+
+header nav .nav-item:hover {
+  color: #ED1C24;
 }
 
 .section-title {
@@ -1267,6 +1341,11 @@ h1.program-title {
 .accordion-description p {
   margin-top: 18px;
   width: 100%;
+}
+
+@keyframes loadwidth {
+  0% { width: 0;}
+  100% { width: 100%;}
 }
 
 @keyframes smoothLoadindex {

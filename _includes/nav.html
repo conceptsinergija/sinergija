@@ -1,29 +1,65 @@
-<header
-  class="container mx-auto flex flex-col lg:flex-row items-between
-   pt-4 md:pt-8 pb-4 md:pb-12 justify-start lg:justify-between"
-  id="header">
-<div class="flex justify-between md:px-4 py-2 md:py-4 items-baseline logo-burger-container">
-  <div class="header-logo">
-    <a href="/?a=hidden">
-      <img src="/img/logo.png" alt="sinergija_logo">
-    </a>
+{% if page.layout != 'concept' %}
+  {% assign concepts = site.pages | where:'layout','single_concept' %}
+  {% assign pages = concepts | sort: "custom_order" %}
+{% endif %}
+
+<header class="container mx-auto flex flex-col lg:flex-row items-between
+   pt-4 md:pt-8 pb-4 md:pb-12 justify-start lg:justify-between" id="header">
+  <div class="flex justify-between md:px-4 py-2 md:py-4 items-baseline logo-burger-container">
+    <div class="header-logo">
+      <a href="/?a=hidden">
+        <img src="/img/logo.png" alt="sinergija_logo">
+      </a>
+    </div>
+    <div class="burger">
+      <div class="burger-line mb-2"></div>
+      <div class="burger-line mb-2"></div>
+      <div class="burger-line"></div>
+    </div>
   </div>
-  <div class="burger">
-    <div class="burger-line mb-2"></div>
-    <div class="burger-line mb-2"></div>
-    <div class="burger-line"></div>
-  </div>
-  </div>
-  <div class="mobile-menu lg:pt-2 hidden lg:block flex justify-evenly flex-col h-full ">
-  <nav class="flex flex-col lg:flex-row lg:items-start lg:block">
-    <a href="/concept" class="nav-item" data-value="Naš koncept">Naš koncept</a>
-    <a href="/about" class="nav-item" data-value="O nama">O nama</a>
-    <a href="/membership" class="nav-item" data-value="Članstvo">Članstvo</a>
-    <a href="/vaucher" class="nav-item" data-value="Vaučer">Vaučer</a>
-    <a href="/galery" class="nav-item" data-value="Galerija">Galerija</a>
-    <a href="/contact" class="nav-item" data-value="Kontakt">Kontakt</a>
-    <a href="/faq" class="nav-item" data-value="FAQ">FAQ</a>
-  </nav>
+  <div class="mobile-menu lg:pt-2 hidden lg:block w-full h-full relative">
+    <nav class="flex justify-evenly md:justify-start items-start md:items-end flex-col">
+      <ul class="my-10 md:my-0 flex flex-col lg:flex-row lg:items-start lg:block">
+        <li>
+          <a href="/concept" class="nav-item" data-value="Naš koncept">Naš koncept</a>
+          {% if page.layout != 'concept' %}
+            <div class="sub-menu hidden flex-wrap items-center justify-center">
+              <div class="flex flex-wrap items-center justify-start">
+                {% for page in pages %}
+                  <div class="concept-box" style="background-image: url({{page.galery[0]}})">
+                    <a href="{{ page.url }}">
+                      <div class="lg:py-12 lg:px-10 flex flex-col items-center justify-center">
+                        <h4 class="title oswald font-bold text-center">
+                          {{ page.title }}
+                        </h4>
+                      </div>
+                    </a>
+                  </div>
+                {% endfor %}
+              </div>
+            </div>
+          {% endif %}
+        </li>
+        <li>
+          <a href="/about" class="nav-item" data-value="O nama">O nama</a>
+        </li>
+        <li>
+          <a href="/membership" class="nav-item" data-value="Članstvo">Članstvo</a>
+        </li>
+        <li>
+          <a href="/vaucher" class="nav-item" data-value="Vaučer">Vaučer</a>
+        </li>
+        <li>
+          <a href="/galery" class="nav-item" data-value="Galerija">Galerija</a>
+        </li>
+        <li>
+          <a href="/contact" class="nav-item" data-value="Kontakt">Kontakt</a>
+        </li>
+        <li>
+          <a href="/faq" class="nav-item" data-value="FAQ">FAQ</a>
+        </li>
+      </ul>
+    </nav>
     <div class="flex items-center justify-start mb-12 social-mobile-menu lg:hidden">
       <a class="mr-2" href="https://www.instagram.com/sinergija.concept/">
         <img class="w-8 h-8" src="../img/instagram.svg" alt="instagram">
@@ -34,6 +70,6 @@
       <a class="mx-2" href="https://www.youtube.com/@sinergija.concept">
         <img class="w-8 h-8" src="../img/youtube.svg" alt="youtube">
       </a>
-  </div>
+    </div>
   </div>
 </header>
