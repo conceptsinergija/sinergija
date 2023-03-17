@@ -21,7 +21,7 @@ subtitle: >
   poredjanih u prostoru u Box-evima je verovatnije da ćete videti uredno
   naslagane tegove, puno olimpijskih šipki, kavez (eng. Rig) za zgibove i
   gimnastičke vezbe, kanape za penjanje i mnogo slobodnog prostora.
-our_mission_title: Naša misija
+our_mission_title: Programi
 our_mission:
   - title: BOX (dvorana)
     description: >-

@@ -1,7 +1,7 @@
 ---
+custom_order: 22
 layout: single_concept
 title: BABY GROWTH
-custom_order: 22
 short_description: >
   Beba se radja sa milionima neurona koji su korisni samo ako se umreže. Na
   umrežavanje neurona utičemo vežbicama, tj. aktivnim pokretima koje beba
@@ -24,7 +24,7 @@ subtitle: >-
   Sve informacije koje mozak dobija u toku vežbanja usvaja stvarajući čvrste veze (neuralne puteve). Tačnije dolazi do umrežavanja neurona koje je najintezivnije u toku prve godine života.
 
   Svaka vežba i pokret koji se ponove nekoliko puta, ostaju memorisani kao zapis, zato je izuzetno važno da se sa bebom pravilno postupa još od najranijih dana kako bi sprečili svako odstupanje u senzomotornom razvoju.
-our_mission_title: Naša misija
+our_mission_title: Programi
 our_mission:
   - title: BABY GIMNASTIKA
     description: U toku prve godine beba mora da savlada dosta aktivnosti kako bi
