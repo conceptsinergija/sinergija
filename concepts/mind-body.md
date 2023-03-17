@@ -13,7 +13,7 @@ subtitle: >-
   mestu, i da stvorimo što lepši i prijatniji ambijent.
 
   U ovom departmanu sprovodimo programe Hatha Yoge, Prenatal Yoge, a u pripremi je još nekoliko interesantnih mirnih programa.
-our_mission_title: Naša misija
+our_mission_title: ""
 price_image: /assets/uploads/image-14-.jpg
 prices:
   - service: Dnevna karta

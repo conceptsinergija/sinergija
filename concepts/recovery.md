@@ -18,7 +18,7 @@ subtitle: >-
   i prijemna zona.
 
   Usluge koje pružamo su masaže (sportske i relaks), terapije limfne drenaže, istezanje, krio terapija i Compex tretmani.
-our_mission_title: Naša misija
+our_mission_title: Programi
 our_mission:
   - title: Masaža
     description: >-
