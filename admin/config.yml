@@ -291,7 +291,7 @@ collections:
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'single_concept' }
       - { label: 'Ime Koncepta', name: 'title', widget: 'string' }
-      - { label: 'Redosled', name: 'custom_order', widget: number }
+      - { label: 'Redosled', name: 'custom_order', widget: number, default: 30 }
       - { label: 'Ukratko o konceptu', name: short_description, widget: 'text', required: false}
       - { label: 'Prikazi na početnoj strani', name: 'show_on_homepage',  widget: 'boolean', default: false, required: false }
       - { laabel: 'Youtube video', name: 'youtube_src', widget: 'string', required: false }
