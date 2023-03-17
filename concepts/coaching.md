@@ -23,6 +23,7 @@ subtitle: >-
 
 
   U skladu sa Važim upitom i potrebama naš trening menadzer će vas uputiti na trenera koji će vas na najbolji način voditi do ciljeva i bićete ponosni na ostvarene rezultate.
+our_mission_title: Naša misija
 our_mission:
   - title: DIJAGNOSTIKA I ISHRANA
     description: >-
