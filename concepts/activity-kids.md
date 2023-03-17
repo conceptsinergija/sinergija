@@ -16,7 +16,7 @@ subtitle: >-
   Deca će se na časovima školice sporta sjajno zabavljati i raditi za motorici i razvoju dok ćete vi izabrati nešto od naših sportskih programa i raditi na sebi.
 
   Naši treneri su potkovani znanjem i sa puno strpljenja i ljubavi pristupaju svom pozivu. Uživaćete dok gledate svoje mališane kako napreduju i raduju se sportu.
-our_mission_title: Naša misija
+our_mission_title: ""
 our_mission:
   - title: ŠKOLICA
     description: >-
