@@ -1122,6 +1122,7 @@ footer a {
 }
 
 #pricelist-section .price-box-additional-text {
+  margin-top: auto;
   font-weight: 300;
 }
 
