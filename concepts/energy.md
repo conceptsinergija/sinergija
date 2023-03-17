@@ -13,6 +13,7 @@ galery:
 subtitle: >-
   
   Ovaj naš program pozitivno utiče na oslobadjanje od stresa koji moderan život sa sobom nosi, kao i podizanja samopouzdanja i vere u sebe. Uz to što radiš na fizičkoj formi stećićeš i dobro drušrvo sa treninga.
+our_mission_title: Naša misija
 our_mission:
   - title: CARDIO BOX
     description: >-
