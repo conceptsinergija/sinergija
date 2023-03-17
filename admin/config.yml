@@ -291,7 +291,6 @@ collections:
       - { label: 'Ukratko o konceptu', name: short_description, widget: 'text', required: false}
       - { label: 'Prikazi na početnoj strani', name: 'show_on_homepage',  widget: 'boolean', default: false, required: false }
       - { laabel: 'Youtube video', name: 'youtube_src', widget: 'string', required: false }
-
       - label: "Galerija"
         name: "galery"
         widget: 'list'
@@ -300,7 +299,7 @@ collections:
         label_singular: "Dodaj sliku"
         field: { label: Slika, name: image, widget: image } 
       - { label: "Tekst ispod naslova", name: 'subtitle', widget: 'text', required: false }           
-      - { label: "Naša misija naslov", name: 'our_mission_title', widget: 'string', required: false }           
+      - { label: "Naša misija naslov", name: 'our_mission_title', widget: 'string', default: 'Naša misija', required: false }           
       - label: "Naša misija"
         name: 'our_mission'
         widget: "list"
