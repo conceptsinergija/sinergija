@@ -1,6 +1,7 @@
 ---
 layout: single_concept
 title: BABY GROWTH
+custom_order: 22
 short_description: >
   Beba se radja sa milionima neurona koji su korisni samo ako se umreže. Na
   umrežavanje neurona utičemo vežbicama, tj. aktivnim pokretima koje beba

@@ -1,4 +1,5 @@
-{% assign pages = site.pages | where:'layout','single_concept' | sort "custom_order" %}
+{% assign concepts = site.pages | where:'layout','single_concept' %}
+{% assign pages = concepts | sort: "custom_order" %}
 
 
 <section id="our-concept-section" class="container mx-auto pb-20">
