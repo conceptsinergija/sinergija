@@ -54,10 +54,8 @@ collections:
             fields: 
               - { label: "Naslov", name: "title", widget: "string", required: true }
               - { label: "Text", name: 'text', widget: 'markdown', required: false }
-              - { label: Početak radnog vremena radnim danima, name: start_hours_working_days, widget: 'string', required: true }
-              - { label: Kraj radnog vremena radnim danima, name: end_hours_working_days, widget: 'string', required: true }
-              - { label: Početak radnog vremena vikendom, name: start_hours_weekend, widget: 'string', required: true }
-              - { label: Poceatk radnog vremena vikendom, name: end_hours_weekend, widget: 'string', required: true }
+              - { label: Radno vreme radnim danima, name: working_hours_working_days, widget: 'string', required: true, hint: 'Vreme razdvojiti crticom(-)' }
+              - { label: Radno vreme subotom, name: working_hours_weekend, widget: 'string', required: true, hint: 'Vreme razdvojiti crticom(-)' }
 
       - label: 'O nama'
         name: 'about'
@@ -228,11 +226,16 @@ collections:
         summary: '{{fields.title}}'
         fields: 
           - { label: "Naslov", name: "title", widget: "string", required: true }
-          - { label: "Text", name: 'text', widget: 'markdown', required: false }
-          - { label: Početak radnog vremena radnim danima, name: start_hours_working_days, widget: 'string', required: true }
-          - { label: Kraj radnog vremena radnim danima, name: end_hours_working_days, widget: 'string', required: true }
-          - { label: Početak radnog vremena vikendom, name: start_hours_weekend, widget: 'string', required: true }
-          - { label: Poceatk radnog vremena vikendom, name: end_hours_weekend, widget: 'string', required: true }
+          label: 'Radno vreme'
+            name: 'working_hours'
+            widget: object
+            allow_add: false
+            summary: '{{fields.title}}'
+            fields: 
+              - { label: "Naslov", name: "title", widget: "string", required: true }
+              - { label: "Text", name: 'text', widget: 'markdown', required: false }
+              - { label: Radno vreme radnim danima, name: working_hours_working_days, widget: 'string', required: true, hint: 'Vreme razdvojiti crticom(-)' }
+              - { label: Radno vreme subotom, name: working_hours_weekend, widget: 'string', required: true, hint: 'Vreme razdvojiti crticom(-)' }
 
 
       - label: 'FAQ'

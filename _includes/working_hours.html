@@ -7,13 +7,13 @@
       <!-- Working hours -->
       <div class="flex justify-evenly mobile-show">
         <div class="circle flex flex-col items-center justify-start">
-          <div class="time">{{ page.working_hours.start_hours_working_days }} </div>
-          <div class="time">{{ page.working_hours.end_hours_working_days }}</div>
+          <div class="time">{{ page.working_hours.working_hours_working_days | split:'-' | first }}</div>
+          <div class="time">{{ page.working_hours.working_hours_working_days | split:'-' | last }}</div>
           <div class="days">radnim <br> danima</div>
         </div>
         <div class="circle flex flex-col items-center justify-start">
-          <div class="time">{{ page.working_hours.start_hours_weekend }}</div>
-          <div class="time">{{ page.working_hours.end_hours_weekend }}</div>
+          <div class="time">{{ page.working_hours.working_hours_weekend | split:'-' | first }}</div>
+          <div class="time">{{ page.working_hours.working_hours_weekend | split:'-' | last }}</div>
           <div class="days">subotom</div>
         </div>
       </div>
@@ -25,13 +25,13 @@
     <!-- Working hours -->
     <div class="md:w-2/5 flex w-full justify-start mobile-hide">
       <div class="circle flex flex-col items-center justify-start">
-        <div class="time">{{ page.working_hours.start_hours_working_days }}</div>
-        <div class="time">{{ page.working_hours.end_hours_working_days }}</div>
+        <div class="time">{{ page.working_hours.working_hours_working_days | split:'-' | first }}</div>
+        <div class="time">{{ page.working_hours.working_hours_working_days | split:'-' | last }}</div>
         <div class="days">radnim <br> danima</div>
       </div>
       <div class="circle flex flex-col items-center justify-start">
-        <div class="time">{{ page.working_hours.start_hours_weekend }}</div>
-        <div class="time">{{ page.working_hours.end_hours_weekend }}</div>
+        <div class="time">{{ page.working_hours.working_hours_weekend | split:'-' | first }}</div>
+        <div class="time">{{ page.working_hours.working_hours_weekend | split:'-' | last }}</div>
         <div class="days">subotom</div>
       </div>
     </div>
