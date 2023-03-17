@@ -22,6 +22,7 @@ subtitle: >-
   u vremenu provedenom u GYM-u.
 
   Svaka od zona sadrži opremu renomiranih i najpoznatijih svetskih proizvodjača koja je pažljivo birana kako bi omogućila preduslove za najbolji trening.
+our_mission_title: Naša misija
 our_mission:
   - title: Pin loaded zone
     description: Ako ste se zasitili slobodnih tegova, kompleksin vezbi, deo sa
