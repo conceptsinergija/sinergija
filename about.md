@@ -95,7 +95,7 @@ secitons:
       To što imamo veliku količinu najrazličitije opreme prestižnih svetskih proizvođača je super, ali…
 
 
-      **ALI NAJPONOSNIJI SMO NA IZUZETNE LJUDE KOJE IMAMO U TIMU I SJAJNE ČLANOVE KOJI SINERGIJU DOŽIVLJAVAJU KAO DRUGU KUĆU!**\
+      **ALI NAJPONOSNIJI SMO NA IZUZETNE LJUDE KOJE IMAMO U TIMU I SJAJNE ČLANOVE KOJI SINERGIJU DOŽIVLJAVAJU KAO DRUGU KUĆU!**
 
 
       Pozitivna enrgija i sinergija koju svi zajedno stvaramo, zajednica dobrih ljudi i radosti života koje delimo je teško rečima opisati.
@@ -104,13 +104,13 @@ secitons:
       **To se mora osetiti!**
 
 
-      U nažem fokusu su ljudi. 
+      U našem fokusu su ljudi. \
+
 
       Bas zbog toga mi nismo ni nalik drugim sportskim centrima koji u prvi plan stavljaju sprave ili zidove. 
 
-      Mi smo krenuli od grupice ljudi koji su zajedno vežbali i družili se, 
+      Mi smo krenuli od grupice ljudi koji su zajedno vežbali i družili se, i baš zbog toga je nastalo ovo - jedinstven koncept koji je mnogo više od sportskog centra.\
 
-      i baš zbog toga je nastalo ovo - jedinstven koncept koji je mnogo više od sportskog centra.
 
       Mi smo zajednica,
 
