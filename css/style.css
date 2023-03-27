@@ -6,6 +6,9 @@
 body {
   background-color: #161616;
   color: white;
+}
+
+body.smoothLoad {
   animation: smoothLoad;
   animation-duration: 4s;
 }
@@ -357,19 +360,24 @@ header nav .nav-item:hover {
   animation-delay: 1800ms;
 }
 
+.slow-loading .homepage-title .transparent-word::before,
+.slow-loading .homepage-title .transparent-word::after {
+  animation: jumpUp 0.8s forwards; 
+  animation-delay: 5400ms;
+}
 
 .slow-loading .homepage-title .white-word span {
   display: block;
   transform: translate(0, 120px);
   animation: jumpUp 0.8s forwards; 
-  animation-delay: 4000ms;
+  animation-delay: 6100ms;
 }
 
 .slow-loading .homepage-title .white-word:nth-child(3) span {
-  animation-delay: 5000ms;
+  animation-delay: 6900ms;
 }
 .slow-loading .homepage-title .white-word:nth-child(4) span {
-  animation-delay: 6000ms;
+  animation-delay: 7700ms;
 }
 
 .slow-loading-skip .homepage-title .white-word span {

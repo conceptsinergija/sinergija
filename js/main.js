@@ -8,7 +8,11 @@ import SmoothScroll from './smoothScroll.js'
   const urlParams = new URLSearchParams(queryString)
 
   function init() {
-    new SmoothScroll({ target: document, speed: 40, smooth: 16 })
+    new SmoothScroll({
+      target: document,
+      speed: 40,
+      smooth: 16
+    })
   }
 
 
@@ -40,17 +44,20 @@ import SmoothScroll from './smoothScroll.js'
       document.body.style.right = ``
       document.body.style.left = ``
 
-      window.scrollTo({top: parseInt(scrollY || '0') * -1, behavior: 'instant' })
+      window.scrollTo({
+        top: parseInt(scrollY || '0') * -1,
+        behavior: 'instant'
+      })
 
     }
 
   })
-  
 
-  if(document.querySelector('#concept-section-cta')){
+
+  if (document.querySelector('#concept-section-cta')) {
     const autoplaySpeed = 4000
     // Our concept images Slider
-   
+
     let ourConceptSliderImages = new Swiper(".conceptSwiperImages", {
       slidesPerView: 1,
       spaceBetween: 20,
@@ -81,9 +88,9 @@ import SmoothScroll from './smoothScroll.js'
       },
     })
 
-    
 
-    if(document.querySelector('#ourConceptPauseBtn') && document.querySelector('#ourConceptPlayBtn')) {
+
+    if (document.querySelector('#ourConceptPauseBtn') && document.querySelector('#ourConceptPlayBtn')) {
       const pauseBtn = document.querySelector('#ourConceptPauseBtn')
       const playBtn = document.querySelector('#ourConceptPlayBtn')
 
@@ -103,8 +110,8 @@ import SmoothScroll from './smoothScroll.js'
     }
   }
 
-  if(document.querySelector('#galery-cta') && document.querySelector('.galerySwiper')) {
-    if(window.innerWidth < 768) {
+  if (document.querySelector('#galery-cta') && document.querySelector('.galerySwiper')) {
+    if (window.innerWidth < 768) {
       new Swiper(".galerySwiper", {
         centeredSlides: true,
         autoplay: {
@@ -121,8 +128,8 @@ import SmoothScroll from './smoothScroll.js'
       })
     }
   }
-  if(document.querySelector('#galery-cta') && document.querySelector('.conceptMobileSwiper')) {
-    if(window.innerWidth < 768) {
+  if (document.querySelector('#galery-cta') && document.querySelector('.conceptMobileSwiper')) {
+    if (window.innerWidth < 768) {
       new Swiper(".conceptMobileSwiper", {
         centeredSlides: true,
         autoplay: {
@@ -140,7 +147,7 @@ import SmoothScroll from './smoothScroll.js'
     }
   }
 
-  if(document.querySelector('#testimonials') && document.querySelector('.testimonialSwiper')) {
+  if (document.querySelector('#testimonials') && document.querySelector('.testimonialSwiper')) {
     let testimonialSwiper = new Swiper('.testimonialSwiper', {
       centeredSlides: true,
       loop: true,
@@ -151,45 +158,45 @@ import SmoothScroll from './smoothScroll.js'
     })
   }
 
-  if(document.querySelector('#meet-the-team')) {
+  if (document.querySelector('#meet-the-team')) {
     var swiper = new Swiper('.meet-the-team-slider', {
       spaceBetween: 30,
-      slidesPerView: screen.width < 450 ? 1 : 3 ,
+      slidesPerView: screen.width < 450 ? 1 : 3,
       loop: true,
       navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
       },
     });
-};
+  };
 
 
-  if(document.querySelector('#faq')) {
+  if (document.querySelector('#faq')) {
     const faqTitlesItems = document.querySelectorAll('.faq-category')
     const faqCategorySections = document.querySelectorAll('.faq-category-section')
 
     // set all 'hidden' except 1st
     faqCategorySections.forEach((fcs, index) => {
-      if(index !== 0) {
+      if (index !== 0) {
         fcs.classList.add('hidden')
       }
     })
 
     faqTitlesItems.forEach((fi, idx) => {
-      if(idx === 0) {
+      if (idx === 0) {
         fi.classList.add('active')
       }
       fi.addEventListener('click', () => {
         faqTitlesItems.forEach(fit => {
-          if(fit.classList.contains('active'))
+          if (fit.classList.contains('active'))
             fit.classList.remove('active')
         })
 
         const activeCategory = fi.dataset.categoryName
 
         faqCategorySections.forEach((fcs) => {
-          if(fcs.id === activeCategory){
-            if(fcs.classList.contains('hidden'))
+          if (fcs.id === activeCategory) {
+            if (fcs.classList.contains('hidden'))
               fcs.classList.remove('hidden')
           } else {
             fcs.classList.add('hidden')
@@ -200,7 +207,7 @@ import SmoothScroll from './smoothScroll.js'
     })
   }
 
-  if(document.querySelector('.single-program-page') && document.querySelector('#program-hero-slider')) {
+  if (document.querySelector('.single-program-page') && document.querySelector('#program-hero-slider')) {
     new Swiper('#singleProgramHeroSlider', {
       cssMode: true,
       loop: true,
@@ -217,24 +224,24 @@ import SmoothScroll from './smoothScroll.js'
 
 
 
-   var swiper = new Swiper(".topSwiper", {
-      loop: true,
-      spaceBetween: 10,
-      slidesPerView: 5,
-      freeMode: true,
-      watchSlidesProgress: true,
-    });
-    var swiper2 = new Swiper(".topSwiper2", {
-      loop: true,
-      spaceBetween: 10,
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-      thumbs: {
-        swiper: swiper,
-      },
-    });
+  var swiper = new Swiper(".topSwiper", {
+    loop: true,
+    spaceBetween: 10,
+    slidesPerView: 5,
+    freeMode: true,
+    watchSlidesProgress: true,
+  });
+  var swiper2 = new Swiper(".topSwiper2", {
+    loop: true,
+    spaceBetween: 10,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    thumbs: {
+      swiper: swiper,
+    },
+  });
 
 
   //mission scroll menu
@@ -244,23 +251,25 @@ import SmoothScroll from './smoothScroll.js'
     let filterBox = document.querySelector('.filters')
     let missionBoxes = document.querySelectorAll('.mission-box');
     let filterItems = document.querySelectorAll('.filter-link')
-    
+
     filterBox.addEventListener('click', (e) => {
       filterItems.forEach(fn => {
-        if(fn.classList.contains('active')) {
+        if (fn.classList.contains('active')) {
           fn.classList.remove('active')
-        } 
+        }
       })
 
-      
+
       const closestItem = e.target.closest('.filter-link')
-      missionBoxes.forEach( box => {
-        if( closestItem.dataset.category == box.dataset.category) { 
-          box.scrollIntoView({behavior: 'smooth'})
-        } 
-        
+      missionBoxes.forEach(box => {
+        if (closestItem.dataset.category == box.dataset.category) {
+          box.scrollIntoView({
+            behavior: 'smooth'
+          })
+        }
+
       })
-      if (closestItem)  {
+      if (closestItem) {
         closestItem.classList.add('active')
       }
     })
@@ -271,30 +280,32 @@ import SmoothScroll from './smoothScroll.js'
 
 
     window.onscroll = function () {
-    missionBoxes.forEach(box => {
-        if(box.getBoundingClientRect().top < 220) {
-          filterItems.forEach( item => {
-            if( box.dataset.category == item.dataset.category) { 
+      missionBoxes.forEach(box => {
+        if (box.getBoundingClientRect().top < 220) {
+          filterItems.forEach(item => {
+            if (box.dataset.category == item.dataset.category) {
               item.classList.add('active')
-            } 
-            if(box.dataset.category !== item.dataset.category) { 
+            }
+            if (box.dataset.category !== item.dataset.category) {
               item.classList.remove('active')
-            } 
+            }
           })
-        } 
-      })        
+        }
+      })
     }
   }
 
-  if(document.querySelector('#vaucher')) {
-    if(urlParams.has('pricing')){
+  if (document.querySelector('#vaucher')) {
+    if (urlParams.has('pricing')) {
       const pricelistSection = document.getElementById('pricelist-section')
 
-      pricelistSection.scrollIntoView({behavior: 'smooth'})
+      pricelistSection.scrollIntoView({
+        behavior: 'smooth'
+      })
     }
   }
 
-  if(document.querySelector('.open-vaucher-model') && document.querySelector('#vaucher-model')) {
+  if (document.querySelector('.open-vaucher-model') && document.querySelector('#vaucher-model')) {
     const vaucherModel = document.querySelector('#vaucher-model')
     const vaucherBtn = document.querySelector('.open-vaucher-model')
     const closeVaucherModels = document.querySelectorAll('.close-btn')
@@ -302,7 +313,7 @@ import SmoothScroll from './smoothScroll.js'
     const successfullModel = document.querySelector('#successfull-model')
     const closeSuccessfullModel = document.querySelector('#closeSuccessfullModel')
 
-    if(urlParams.has('show-vaucher')){
+    if (urlParams.has('show-vaucher')) {
       vaucherModel.classList.remove('hidden')
     }
 
@@ -322,14 +333,14 @@ import SmoothScroll from './smoothScroll.js'
       window.location.assign('/');
     })
 
-    
+
     vaucherBtn.addEventListener('click', () => {
       vaucherModel.classList.remove('hidden')
       document.body.style.overflow = 'hidden'
     })
 
     vaucherModel.addEventListener('click', (e) => {
-      if(e.target === vaucherModel){
+      if (e.target === vaucherModel) {
         vaucherModel.classList.add('hidden')
         document.body.style.removeProperty('overflow')
       }
@@ -337,33 +348,49 @@ import SmoothScroll from './smoothScroll.js'
   }
 
 
-  if(document.querySelector('#membership-section') && document.querySelector('.custom-membership-left-margin')) {
-    defineCustomMargin({ domElementIdentify: '.custom-membership-left-margin', left: true })
+  if (document.querySelector('#membership-section') && document.querySelector('.custom-membership-left-margin')) {
+    defineCustomMargin({
+      domElementIdentify: '.custom-membership-left-margin',
+      left: true
+    })
 
-    window.addEventListener('resize', () => defineCustomMargin({ domElementIdentify: '.custom-membership-left-margin', left: true }))
+    window.addEventListener('resize', () => defineCustomMargin({
+      domElementIdentify: '.custom-membership-left-margin',
+      left: true
+    }))
   }
 
-  if(document.querySelector('#vaucher-section') && document.querySelector('.custom-vaucher-left-margin')) {
-    defineCustomMargin({ domElementIdentify: '.custom-vaucher-left-margin', left: true })
+  if (document.querySelector('#vaucher-section') && document.querySelector('.custom-vaucher-left-margin')) {
+    defineCustomMargin({
+      domElementIdentify: '.custom-vaucher-left-margin',
+      left: true
+    })
 
-    window.addEventListener('resize', () => defineCustomMargin({ domElementIdentify: '.custom-vaucher-left-margin', left: true }))
+    window.addEventListener('resize', () => defineCustomMargin({
+      domElementIdentify: '.custom-vaucher-left-margin',
+      left: true
+    }))
   }
 
 
 
-  function defineCustomMargin({ domElementIdentify, left, right }){
-    if(!domElementIdentify) return 
+  function defineCustomMargin({
+    domElementIdentify,
+    left,
+    right
+  }) {
+    if (!domElementIdentify) return
     const domElement = document.querySelector(domElementIdentify)
 
     const windowWidth = innerWidth
     const containerWidth = document.querySelector('.container').offsetWidth
 
-    const marginValue = (windowWidth - containerWidth) / 2 
+    const marginValue = (windowWidth - containerWidth) / 2
 
-    if(left)
+    if (left)
       domElement.style.marginLeft = marginValue + 'px'
 
-    if(right)
+    if (right)
       domElement.style.marginRight = marginValue + 'px'
   }
 
@@ -385,14 +412,14 @@ import SmoothScroll from './smoothScroll.js'
           a.classList.remove('accordion-opened')
           return
         }
-        
+
         let useSetTimeout = false
 
         setTimeout(() => {
           a.classList.add('accordion-opened')
           useSetTimeout = false;
         }, useSetTimeout ? 1 : 1)
-          
+
       })
     })
   }
@@ -407,72 +434,77 @@ import SmoothScroll from './smoothScroll.js'
           a.classList.remove('accordion-opened')
           return
         }
-        
+
         let useSetTimeout = false
 
         setTimeout(() => {
           a.classList.add('accordion-opened')
           useSetTimeout = false;
         }, useSetTimeout ? 1 : 1)
-          
+
       })
     })
   }
 
 
-  window.addEventListener('scroll', function() {
+  window.addEventListener('scroll', function () {
     let scroll = window.scrollY;
     const header = document.querySelector('#header')
     if (scroll > 80 && !header.classList.contains('active')) {
       header.classList.add('active')
-    }
-    else if (scroll < 80 ) {
+    } else if (scroll < 80) {
       header.classList.remove('active')
     }
-});
+  });
 
 
-//Loading screen animation
+  //Loading screen animation
 
-if(document.getElementById('loading-screen')) {
 
-  document.getElementById('skip-loading').addEventListener('click', (e) => {
-    clearTimeout(loadingScreenTimeout)
-    document.getElementById('loading-screen').classList.add('finish')
-    document.getElementById('loading-screen').remove()
-    document.body.style.overflow = ''
-    document.getElementById('index').classList.add('slow-loading-skip')
-  })
-
-  let loadingScreenTimeout =  setTimeout(() => {
-    document.getElementById('index').classList.add('slow-loading')
-    if(document.querySelector('.finish') === null)
-      document.getElementById('loading-screen').classList.add('finish')
-      document.getElementById('loading-screen').remove()
-      document.body.style.overflow = ''
-    }, 4000);
+  window.onload = () => {
+    if (document.getElementById('loading-screen')) {
+      document.getElementById('skip-loading').addEventListener('click', (e) => {
+        clearTimeout(loadingScreenTimeout)
+        document.getElementById('loading-screen').classList.add('finish')
+        document.getElementById('loading-screen').remove()
+        document.body.style.overflow = ''
+        document.getElementById('index').classList.add('slow-loading-skip')
+      })
+  
+      let loadingScreenTimeout = setTimeout(() => {
+        document.getElementById('index').classList.add('slow-loading')
+        if (document.querySelector('.finish') === null)
+          document.getElementById('loading-screen').classList.add('finish')
+        document.getElementById('loading-screen').remove()
+        document.body.style.overflow = ''
+      }, 4000);
+    }
   }
 
 
-  if(window.location.hash == '#contact-form' && document.getElementById('contact-cta')){
+  if (window.location.hash == '#contact-form' && document.getElementById('contact-cta')) {
     const contactSection = document.getElementById('contact-cta')
     setTimeout(() => {
-      contactSection.scrollIntoView({ behavior: 'smooth' })
+      contactSection.scrollIntoView({
+        behavior: 'smooth'
+      })
     }, 1000)
   }
 
-  if(window.location.hash && document.getElementById('team')){
+  if (window.location.hash && document.getElementById('team')) {
     let memberId = window.location.hash
     memberId = memberId.substring(1)
 
     const memberBox = document.getElementById(memberId)
 
     setTimeout(() => {
-      memberBox.scrollIntoView({ behavior: 'smooth' })
+      memberBox.scrollIntoView({
+        behavior: 'smooth'
+      })
     }, 1000)
 
 
   }
 
-  
+
 })()

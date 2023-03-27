@@ -5,9 +5,13 @@
 
 {% include loading.html %}
 <script>
-  if(window.location.search !== '?a=hidden')
+  if(window.location.search !== '?a=hidden'){
     document.body.style.overflow = 'hidden'
-  </script>
+  }
+  else {
+    document.body.classList.add('smoothLoad')
+  }
+</script>
 
 <main>
   <div class="cover-image" style="background-image: linear-gradient(135deg, rgba(0,0,0,0.4) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0) 100%), url({{page.cover_image}});">
