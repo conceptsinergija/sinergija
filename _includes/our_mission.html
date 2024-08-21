@@ -5,7 +5,9 @@
     <div class=" mx-auto pt-6 md:pt-24" id="our_mission">
   {% endif %}
     <h2 class="section-title">{{page.our_mission_title}}</h2>
+
     <div class="flex justify-between  mission-container">
+
       <div class="w-1/5 hidden lg:block">
         <ul class="filters pt-24">
           {% for mission in page.our_mission %}
@@ -29,7 +31,7 @@
           </div>
           <div class="lg:w-1/2 mission-text mb-8 lg:mb-0">
             <h2 class="section-little-title">{{mission.title}}</h2>
-            <p class="4">{{ mission.description }}
+            <p class="4">{{ mission.description | markdownify }}
             </p>
           </div>
         </div>

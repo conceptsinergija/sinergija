@@ -2,28 +2,23 @@
 layout: single_concept
 title: Coaching
 custom_order: 18
-short_description: Poverenje koje nam poklanjate time što nas birate za tim koji
-  se bavi vašim zdravljem i fitnesom veoma cenimo. Baš zbog toga razvili smo
-  sistem kroz koji prolaze naši klijenti i u tom sistemu početna dijagnostika i
-  merenja su kamen temeljac dobrog budućeg rada i rezultata.
+short_description: Hvala što nam posvećujete brigu o vašem zdravlju. Počastvovani smo. Opravdaćemo vasa očekivanja. Baš zbog toga razvili smo sistem kroz koji prolaze naši klijenti i u tom sistemu početna dijagnostika i merenja su kamen temeljac dobrog budućeg rada i rezultata. Od tebe zahtevmo iskrenost i neprećutkivanje, a onda mi možemo da sprovedemo detaljnu analizu i istu tumačimo. U skladu sa Vašim upitom i potrebama naš trening menadzer će vas uputiti na trenera koji će vas na najbolji način voditi do ciljeva i bićete ponosni na ostvarene rezultate.
+
 show_on_homepage: true
 galery:
-  - /assets/uploads/6o6a0327.jpg
-  - /assets/uploads/gym2.jpeg
-  - /assets/uploads/gym3.jpeg
-  - /assets/uploads/gym4.jpeg
-  - /assets/uploads/gym5.jpeg
-  - /assets/uploads/gym6.png
+  - /assets/uploads/coaching5.jpg
+  - /assets/uploads/coaching1.jpg
+  - /assets/uploads/coaching2.jpg
+  - /assets/uploads/coaching3.jpg
+  - /assets/uploads/coaching4.jpg
 subtitle: >-
-  Poverenje koje nam poklanjate time što nas birate za tim koji se bavi vašim
-  zdravljem i fitnesom veoma cenimo. Baš zbog toga razvili smo sistem kroz koji
-  prolaze naši klijenti i u tom sistemu početna dijagnostika i merenja su kamen
-  temeljac dobrog budućeg rada i rezultata.
-
-  Od tebe zahtevmo iskrenost i neprećutkivanje, a onda mi možemo da sprovedemo detaljnu analizu i istu tumačimo.
-
-
-  U skladu sa Važim upitom i potrebama naš trening menadzer će vas uputiti na trenera koji će vas na najbolji način voditi do ciljeva i bićete ponosni na ostvarene rezultate.
+  Hvala što nam posvećujete brigu o vašem zdravlju. Počastvovani smo. Opravdaćemo vasa očekivanja. Baš zbog toga razvili smo sistem kroz koji prolaze naši klijenti i u tom sistemu početna dijagnostika i merenja su kamen temeljac dobrog budućeg rada i rezultata. 
+  
+  
+  Od tebe zahtevmo iskrenost i neprećutkivanje, a onda mi možemo da sprovedemo detaljnu analizu i istu tumačimo. 
+  
+  
+  U skladu sa Vašim upitom i potrebama naš trening menadzer će vas uputiti na trenera koji će vas na najbolji način voditi do ciljeva i bićete ponosni na ostvarene rezultate.
 our_mission_title: Programi
 our_mission:
   - title: DIJAGNOSTIKA I ISHRANA
@@ -35,19 +30,22 @@ our_mission:
     image: /assets/uploads/image-11-.jpg
   - title: PERSONALNI TRENINZI
     description: >
-      Uz pomoć našeg trenera svoje ciljeve ćeš dostići brže, bezbednije,
-      efikasnije i uz maksimum benefita.
+      Uz pomoć našeg trenera svoje ciljeve ćeš dostići brže, bezbednije, efikasnije i uz maksimum benefita. 
+      
 
-      Treneri su tu i posvećeni su klijentu od prvog do poslednjeg minuta treninga, kao i prilokom planiranja i kreiranja trening programa zarad što boljeg i celishodnijeg napredka.
+      Treneri su tu i posvećeni su klijentu od prvog do poslednjeg minuta treninga, kao i prilokom planiranja i kreiranja trening programa zarad što boljeg i celishodnijeg napredka. 
+      
 
+      - **Personalni treninzi se izvode:**
+      
 
-      Personalni treninzi se izode:
+      -- individualni (1 na 1) 
+      
 
-      - individualni (1 na 1) 
+      -- dual (2 na 1) 
+      
 
-      - dual (2 na 1)
-
-      - trojni (3 na 1
+      -- trojni (3 na 1).
     image: /assets/uploads/image-12-.jpg
   - title: VOĐENI I ONLINE TRENINZI
     description: >
@@ -79,19 +77,21 @@ our_mission:
 price_image: /assets/uploads/3z6a1663-copy.jpg
 prices:
   - service: Pregled i merenje
-    price: "2000"
+    price: "3000"
   - service: Personalni individualni treninzi
-    price: " od 1800"
+    price: " od 2400"
   - service: Personalni dualni treninzi
-    price: od 1200
+    price: od 2000
   - service: Personalni trojni treninzi
-    price: od 1000
+    price: od 1500
   - service: Vođeni treninzi
     price: od 7750
   - service: Trening programi
     price: od 4000
   - service: Trening kod vas
     price: od 2700
-additional_description: Cena za treninge je po osobi po času
+additional_description: >
+  Cena za treninge je po osobi po času <br>
+  Za pakete od 8+ treninga odobravamo popust
 rule_book: ""
 ---

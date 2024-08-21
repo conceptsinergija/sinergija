@@ -9,12 +9,14 @@ short_description: Naš GYM departman predstavlja jednu od najopremljenijih i
   uživanja u vremenu provedenom u GYM-u.
 show_on_homepage: true
 galery:
-  - /assets/uploads/3z6a1314.jpg
-  - /assets/uploads/3z6a1308.jpg
-  - /assets/uploads/3z6a1663-copy.jpg
-  - /assets/uploads/6o6a9833-1-.jpg
-  - /assets/uploads/6o6a0644.jpg
-  - /assets/uploads/3z6a1305.jpg
+  - /assets/uploads/gym1.jpg
+  - /assets/uploads/gym2.jpg
+  - /assets/uploads/gym3.jpg
+  - /assets/uploads/gym4.jpg
+  - /assets/uploads/gym5.jpg
+  - /assets/uploads/gym6.jpg
+  - /assets/uploads/gym7.jpg
+  - /assets/uploads/gym8.jpg
 subtitle: >-
   Naš GYM departman predstavlja jednu od najopremljenijih i najlepših teretana
   na našim prostorima. U stvaranju ovog departmana vodili smo se načelima
@@ -26,18 +28,16 @@ subtitle: >-
 our_mission_title: Zone
 our_mission:
   - title: Pin loaded zone
-    description: Ako ste se zasitili slobodnih tegova, kompleksin vezbi, deo sa
-      masinama je pravo mesto za vas.
+    description: Ako ste se zasitili slobodnih tegova, kompleksnih vežbi, deo sa mašinama je pravo mesto za vas.
     image: /assets/uploads/3z6a1298.jpg
   - title: PLATE LOADED ZONE
-    description: Za jake i spremne. Slobodnih tegova u izobilju. Ne morate da cekate
-      da neko zavrsi da bi vi uskocili da uradite seriju.
+    description: Za jake i spremne. Slobodnih tegova u izobilju. Ne morate da čekate da neko završi da bi vi uskočili da uradite seriju.
     image: /assets/uploads/3z6a1310.jpg
   - title: FREE WEIGHTS & RACKS
-    description: Od 1kg do 35kg, za svakoga po nesto.
+    description: Od 1kg do 35kg, za svakoga po nešto.
     image: /assets/uploads/3z6a1305.jpg
   - title: TURF & PARTER ZONE
-    description: Za istezanje ili pak trcanje, veslanje ili rad na nasem ski ergu.
+    description: Za istezanje ili pak trčanje, veslanje ili rad na našem ski ergu.
     image: /assets/uploads/3z6a1309.webp
   - title: CARDIO ZONE
     description: Preko 20 sprava za potpuni kardio trening.
@@ -45,25 +45,24 @@ our_mission:
 price_image: /assets/uploads/3z6a1308.jpg
 prices:
   - service: Dnevna karta
-    price: "600"
+    price: "900"
   - service: Nedeljna članarina
-    price: "2100"
+    price: "2600"
   - service: Mesečna članarina
     price: "3900"
+  - service: Osam termina mesečno
+    price: "4200"
   - service: Kvartalna (3 meseca)
-    price: "10900"
+    price: "13900"
   - service: Polugodišnja (6 meseci)
-    price: "20900"
+    price: "26900"
   - service: Godišnja (12 meseci)
-    price: "38900"
-additional_description: Uz mesečnu članarinu drugih departmana doplata za
-  korišćenje GYM departmana je 1950
+    price: "51900"
+additional_description: Uz mesečnu članarinu drugih departmana doplata za korišćenje GYM departmana je 2450 rsd.
 rule_book_title: pravilnik
 rule_book: >-
-  Ovo je pravilnik GYM departmana. Svaki od naših departmana ima specifičan
-  pravilnik koji je u skladu sa prirodom i potrebama različitih departmana.
-  Pored pravilnika departmana, postoji PRAVILNIK ČLANSTVA koji opšte određuje
-  sve bitne tačke.
+  Ovo je pravilnik GYM departmana. Svaki od naših departmana ima specifičan pravilnik koji je u skladu sa prirodom i potrebama različitih departmana. Pored pravilnika departmana, postoji PRAVILNIK ČLANSTVA koji opšte određuje sve bitne tačke.
+
 
 
   * Članovi moraju imati čistu sportsku opremu i čiste patike.
@@ -72,12 +71,12 @@ rule_book: >-
 
   * Zahtevamo pristojno ponašanje, bez buke i bilo koje vrste remećenja drugih članova.
 
-  * Nije dozvoljeno bacanje tegova i korišćenje magnezijuma. Za to je rezervisan Cross training departman.
+  * Nije dozvoljeno bacanje tegova i korišćenje magnezijuma. Za to je rezervisan Cross Training departman.
 
   * Vraćanje opreme na svoje mesto je obavezno.
 
-  * Sva oprema se može koristiti za datu spravu na predviđen način. Na svakoj spravi postoji slikoviti prikaz, a ukoliko vam je potrebna dodatna instrukcija naši treneri će vam \
-    rado pojasniti.
+  * Sva oprema se može koristiti za datu spravu na predviđen način. Na svakoj spravi postoji slikoviti prikaz, a ukoliko vam je potrebna dodatna instrukcija naši treneri će vam rado pojasniti.
+
   * Uvođenje kućnih ljubimaca u GYM departman nije dozvoljeno.
 
   * Unošenje hrane u GYM departman nije dozvoljeno.

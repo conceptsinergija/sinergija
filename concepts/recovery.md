@@ -1,6 +1,6 @@
 ---
 layout: single_concept
-title: RECOVERY
+title: RECOVERY - u pripremi
 custom_order: 27
 short_description: Recovery studio je jedan od departmana u sastavu koji je tu
   zbog vašeg oporavka i uživanja. studio se nalazi na 1. spratu i dok ste u
@@ -19,6 +19,12 @@ subtitle: >-
   i prijemna zona.
 
   Usluge koje pružamo su masaže (sportske i relaks), terapije limfne drenaže, istezanje, krio terapija i Compex tretmani.
+
+  
+  **U fazi smo oformljivanja Recovery Tima.**
+  
+  
+  **Ukoliko smatraš da poseduješ kompetencije i želiš da budeš deo našeg kolektiva pošalji nam CV na <a href="mailto:info@sinergijaconcept.com" target="_blank">info@sinergijaconcept.com</a>**
 our_mission_title: Programi
 our_mission:
   - title: Masaža
