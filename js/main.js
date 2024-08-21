@@ -373,7 +373,6 @@ import SmoothScroll from './smoothScroll.js'
   }
 
 
-
   function defineCustomMargin({
     domElementIdentify,
     left,
@@ -502,9 +501,5 @@ import SmoothScroll from './smoothScroll.js'
         behavior: 'smooth'
       })
     }, 1000)
-
-
   }
-
-
 })()

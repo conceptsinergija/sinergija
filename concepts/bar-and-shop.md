@@ -4,6 +4,7 @@ layout: single_concept
 title: BAR & SHOP
 short_description: Ponosni smo što u konceptu Sinergije imamo zaseban departman bar i shop u kojem se možete ne samo zasititi i okrepiti već i opremiti. 
 show_on_homepage: true
+show_galery: true
 galery:
   - /assets/uploads/image-9-.jpg
   - /assets/uploads/mutz756i.jpeg.jpg

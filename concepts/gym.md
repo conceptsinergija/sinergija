@@ -8,6 +8,7 @@ short_description: Naš GYM departman predstavlja jednu od najopremljenijih i
   svetu zdravlja sporta i fitnesa a sve to zarad što prijatnijeg boravka i
   uživanja u vremenu provedenom u GYM-u.
 show_on_homepage: true
+show_galery: true
 galery:
   - /assets/uploads/gym1.jpg
   - /assets/uploads/gym2.jpg

@@ -3,7 +3,10 @@
 {% include head.html %}
 {% include nav.html %}
 
-{% include loading.html %}
+{% if page.show_loading %}
+  {% include loading.html %}
+{% endif %}
+
 <script>
   if(window.location.search !== '?a=hidden'){
     document.body.style.overflow = 'hidden'

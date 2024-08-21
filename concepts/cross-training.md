@@ -8,6 +8,9 @@ short_description: >+
   Posledjnu deceniju ustalila se praksa da se prostori u kojima se trenira funkcionalni trening, CrossFit, performance trening i slično nazivaju BOX jer su to najčešće magacinski ili slični prostori koji izgledaju poput kutiija pravougaonih oblika. Za razliku od klasičnih teretana gde vidite mnoštvo sprva poredjanih u prostoru u Box-evima je verovatnije da ćete videti uredno naslagane tegove, puno olimpijskih šipki, kavez (eng. Rig) za zgibove i gimnastičke vezbe, kanape za penjanje i mnogo slobodnog prostora.
 
 show_on_homepage: true
+show_galery: true
+weekly_program_title: Nedeljni program
+weekly_program: /assets/uploads/image-3-.jpg
 galery:
   - /assets/uploads/test-final_163.jpg
   - /assets/uploads/test-final_6.jpg
@@ -24,14 +27,6 @@ subtitle: >
   gimnastičke vezbe, kanape za penjanje i mnogo slobodnog prostora.
 our_mission_title: Programi
 our_mission:
-  - title: BOX (dvorana)
-    description: >-
-      
-      Prostire se na preko 300m2 slobodnog prostora namenski gradjenog za dvoranu ovog tipa.
-
-
-      U okviru iste nalazi se najsavremenija oprema za funkcionalni trening i specifičnu pripremu sportista.
-    image: /assets/uploads/test-final_159.webp
   - title: Sta je CROSS TRAINING
     description: >-
       CrossTraning trening predstavlja grupne programe vodjenih treninga od strane naših stručnih trenera koji služeći se načelima funkcionalnig treninga, Cross Fit metodologije, Olimpijskog dizanja tegova, vežbi sa opterećenjem, Ruskim zvonima (eng. Ketlebells), Concept Ergometrima, gimnastičkim elementima programiraju učinkovite i interesantne trening cikluse i sve to u viskokom intezitetu. Časovi traju 60 minuta, a dodatna lepota je u tome što je trening prilagodljiv i što će suštinski isti trening biti podjednako izazovan nekome ko nije godinama trenirao, kao i profesionalnom sportisti. Metodološkim programiranjem ciklusa treninga i spovođenjem istih uz prave instrukcije postižemo da naši članovi bezbedno savladavaju i izvode sve pokrete i vežbe. Uz to postižemo da se bezbedno i efikasno napreduje u fizičkoj spremi kao i u izgledu.

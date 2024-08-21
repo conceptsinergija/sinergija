@@ -5,6 +5,7 @@ custom_order: 20
 short_description: Program proslave najboljeg i nezaboravnog rodjendana Vaših mališana. U današnje moderno doba nezaustavljivog tehnološkog napretka mi smo rešili da najmladje vratimo prirodnom pokretu, druženju i avanturama u kakvim su im roditelji nekada uživali.
 
 show_on_homepage: true
+show_galery: true
 youtube_src: https://www.youtube.com/embed/KQXOUjzMbuY
 galery:
   - /assets/uploads/image-5-.jpg

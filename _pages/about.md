@@ -47,26 +47,40 @@ secitons:
 
       Osnovne vrednosti kojima se vodimo u pristupanju zadacima su:
     values:
-      - value: pravimo rezultate i razvijamo kvalitetne odnose
+      - value: Zajedništvo
         image: /assets/uploads/1.svg
-      - value: naši članovi su naš kvalitet
+      - value: Profesionalnost
         image: /assets/uploads/2.svg
-      - value: obožavamo ono što radimo
+        sub_values:
+          - value: Stručnost
+          - value: Edukacija
+          - value: Uslužnost
+          - value: Efikasnost
+          - value: Odgovornost
+          - value: Pouzdanost
+          - value: Posvećenost
+          - value: Otvorenost
+      - value: Pionirstvo
         image: /assets/uploads/3.svg
-      - value: ovde smo da činimo dobro sebi i drugima
+        sub_values:
+          - value: Inovativnost
+          - value: Originalnost
+      - value: Radost života
         image: /assets/uploads/4.svg
-      - value: slušamo i rastemo
+        sub_values:
+          - value: Atmosfera
+          - value: Energija
+          - value: Integritet
+          - value: Zadovoljstvo tima
+          - value: Empatija
+      - value: Porodica
         image: /assets/uploads/5.svg
-      - value: timski rad
+        sub_values:
+          - value: Ljudi
+      - value: Kvalitet
         image: /assets/uploads/6.svg
-      - value: edukacija
-        image: /assets/uploads/7.svg
-      - value: čast
-        image: /assets/uploads/8.svg
-      - value: zabava
-        image: /assets/uploads/9.svg
-      - value: motivacija i inspiracija
-        image: /assets/uploads/10.svg
+        sub_values:
+          - value: Funkcionalnost
     second-text: "Naše pomoćne vrednosti su tu da ojačaju naše osnovne i da nas
       učine još moćnijim. Pomoćne vrednosti su:"
     third-text: >-

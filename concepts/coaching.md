@@ -5,6 +5,7 @@ custom_order: 18
 short_description: Hvala što nam posvećujete brigu o vašem zdravlju. Počastvovani smo. Opravdaćemo vasa očekivanja. Baš zbog toga razvili smo sistem kroz koji prolaze naši klijenti i u tom sistemu početna dijagnostika i merenja su kamen temeljac dobrog budućeg rada i rezultata. Od tebe zahtevmo iskrenost i neprećutkivanje, a onda mi možemo da sprovedemo detaljnu analizu i istu tumačimo. U skladu sa Vašim upitom i potrebama naš trening menadzer će vas uputiti na trenera koji će vas na najbolji način voditi do ciljeva i bićete ponosni na ostvarene rezultate.
 
 show_on_homepage: true
+show_galery: true
 galery:
   - /assets/uploads/coaching5.jpg
   - /assets/uploads/coaching1.jpg

@@ -3,6 +3,9 @@ permalink: //
 title: Početna
 cover_image: /assets/uploads/111.jpg
 layout: index
+show_loading: true
+loading_video: /assets/uploads/loading_video_small.mp4
+loading_video_button: Enter Site
 our_concept_title: NAŠ KONCEPT
 free_training:
   image: /assets/uploads/3z6a1663-copy.jpg

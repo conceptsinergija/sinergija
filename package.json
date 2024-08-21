@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "dev": "npx tinacms dev -c 'jekyll serve'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -13,6 +14,7 @@
     "tinacms": "^2.2.0"
   },
   "devDependencies": {
-    "@tinacms/cli": "^1.6.0"
+    "@tinacms/cli": "^1.6.0",
+    "@types/node": "^22.4.2"
   }
 }

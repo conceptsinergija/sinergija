@@ -1,4 +1,5 @@
 import { defineConfig } from "tinacms";
+import { indexFields } from "./templates/homepage";
 
 // Your hosting provider likely exposes this as an environment variable
 const branch =
@@ -10,10 +11,8 @@ const branch =
 export default defineConfig({
   branch,
 
-  // Get this from tina.io
-  clientId: process.env.NEXT_PUBLIC_TINA_CLIENT_ID,
-  // Get this from tina.io
-  token: process.env.TINA_TOKEN,
+  clientId: 'b49aa529-0008-48f4-b07e-5cac8ce76fd0',
+  token: '73db3c1d6fb62aeb12f05212aa2a0e0d57637e33',
 
   build: {
     outputFolder: "admin",
@@ -21,7 +20,7 @@ export default defineConfig({
   },
   media: {
     tina: {
-      mediaRoot: "",
+      mediaRoot: "/assets/uploads",
       publicFolder: "./",
     },
   },
@@ -29,25 +28,18 @@ export default defineConfig({
   schema: {
     collections: [
       {
-        name: "post",
-        label: "Posts",
-        path: "content/posts",
-        fields: [
+        label: 'Pages',
+        name: 'page',
+        path: '_pages',
+        format: 'md',
+        templates: [
           {
-            type: "string",
-            name: "title",
-            label: "Title",
-            isTitle: true,
-            required: true,
+            name: 'homepage',
+            label: 'Homepage',
+            fields: indexFields()
           },
-          {
-            type: "rich-text",
-            name: "body",
-            label: "Body",
-            isBody: true,
-          },
-        ],
+        ]
       },
     ],
-  },
+  }
 });

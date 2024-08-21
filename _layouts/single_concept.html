@@ -21,15 +21,31 @@
         </div>
   
         <p class="my-20 text-lg">{{ page.subtitle }}</p>
-        {% include single_concept_gallery.html  %}
-  
+
+        <!-- Galery -->
+        {% if page.show_galery %}
+          {% include single_concept_gallery.html  %}
+        {% endif %}
+
       {% else %}
-  
-        {% include single_concept_gallery.html  %}
+      
+        <!-- Galery -->
+        {% if page.show_galery %}
+          {% include single_concept_gallery.html  %}
+        {% endif %}
         <p class="my-20 text-lg">{{ page.subtitle | markdownify }}</p>
   
       {% endif %}
     </div>
+
+    {% if page.weekly_program && page.weekly_program_title %}
+      <div class="mt-20 mb-10">
+        <h2 class="section-title"> {{ page.weekly_program_title }} </h2>
+        <img src="{{ page.weekly_program }}" alt="{{ page.weekly_program_title }}" class="w-full h-full object-cover">
+      </div>
+    {% endif %}
+
+
     {% if page.our_mission != "" and page.our_mission != null %}
       {% include our_mission.html  %}
     {% endif %}
