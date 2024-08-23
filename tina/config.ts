@@ -19,8 +19,8 @@ const branch =
 export default defineConfig({
   branch,
 
-  clientId: 'b49aa529-0008-48f4-b07e-5cac8ce76fd0',
-  token: '73db3c1d6fb62aeb12f05212aa2a0e0d57637e33',
+  clientId: 'af08d1e5-6ebb-450e-bbb4-df65dd3aed5f',
+  token: 'bdd6e0f796f1231dc9f63c72d3f289c74b0404d3',
 
   build: {
     outputFolder: "admin",
