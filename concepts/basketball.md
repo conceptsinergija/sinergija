@@ -1,18 +1,23 @@
 ---
 custom_order: 22
 layout: single_concept
+_template: single_concept
 title: BASKETBALL
 short_description: Naša sala za basket 3x3 je punih dimenzija 15 m x 11 m, sa
   sportskom podlogom koju će vaša kolena i zglobovi obožavati. Imamo
   profesionalan koš i puno svetlosti i vazduha ne bi li vaš basket bio odigran u
   što lepšem ambijentu.
 show_on_homepage: true
-show_galery: true
-galery:
-  - /assets/uploads/image-9-.jpg
-  - /assets/uploads/mutz756i.jpeg.jpg
-  - /assets/uploads/nwsaznha.jpeg.webp
-  - /assets/uploads/qceq83fs.jpeg.jpg
+show_gallery: true
+gallery:
+  - image: /assets/uploads/image-9-.jpg
+    alt: image 1
+  - image: /assets/uploads/mutz756i.jpeg.jpg
+    alt: image 2
+  - image: /assets/uploads/nwsaznha.jpeg.webp
+    alt: image 3
+  - image: /assets/uploads/qceq83fs.jpeg.jpg
+    alt: image 4
 subtitle: >-
   
   Naša sala za basket 3x3 je punih dimenzija 15 m x 11 m, sa sportskom podlogom koju će vaša kolena i zglobovi obožavati. Imamo profesionalan koš i puno svetlosti i vazduha ne bi li vaš basket bio odigran u što lepšem ambijentu.

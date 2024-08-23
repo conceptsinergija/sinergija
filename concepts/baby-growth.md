@@ -2,7 +2,7 @@
 custom_order: 23
 layout: single_concept
 title: BABY GROWTH - U Pripremi
-
+_template: single_concept
 short_description: >
   Beba se radja sa milionima neurona koji su korisni samo ako se umreže. Na
   umrežavanje neurona utičemo vežbicama, tj. aktivnim pokretima koje beba
@@ -10,13 +10,17 @@ short_description: >
   informacije o položaju tela u prostoru, pri čemu beba usvaja posturalne
   aktivnosti.
 show_on_homepage: true
-show_galery: false
+show_gallery: false
 
-galery:
-  - /assets/uploads/image-5-.jpg
-  - /assets/uploads/image-6-.jpg
-  - /assets/uploads/image-7-.jpg
-  - /assets/uploads/image-8-.jpg
+gallery:
+  - image: /assets/uploads/image-5-.jpg
+    alt: image1
+  - image: /assets/uploads/image-6-.jpg
+    alt: image2
+  - image: /assets/uploads/image-7-.jpg
+    alt: image3
+  - image: /assets/uploads/image-8-.jpg
+    alt: image4
 subtitle: >-
   Beba se radja sa milionima neurona koji su korisni samo ako se umreže. Na
   umrežavanje neurona utičemo vežbicama, tj. aktivnim pokretima koje beba

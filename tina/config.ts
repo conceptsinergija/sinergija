@@ -1,5 +1,13 @@
 import { defineConfig } from "tinacms";
-import { indexFields } from "./templates/homepage";
+import { homepageFields } from "./templates/homepage";
+import { aboutFields } from "./templates/about";
+import { membershipFields } from "./templates/membership";
+import { vaucherFields } from "./templates/vaucher";
+import { galleryFields } from "./templates/gallery";
+import { contactFields } from "./templates/contact";
+import { faqFields } from "./templates/faq";
+import { teamFields } from "./templates/team";
+import { singleConceptFields } from "./templates/single_concept";
 
 // Your hosting provider likely exposes this as an environment variable
 const branch =
@@ -36,7 +44,55 @@ export default defineConfig({
           {
             name: 'homepage',
             label: 'Homepage',
-            fields: indexFields()
+            fields: homepageFields()
+          },
+          {
+            name: 'about',
+            label: 'About',
+            fields: aboutFields()
+          },
+          {
+            name: 'membership',
+            label: 'Membership',
+            fields: membershipFields()
+          },
+          {
+            name: 'vaucher',
+            label: 'Vaucher',
+            fields: vaucherFields()
+          },
+          {
+            name: 'gallery',
+            label: 'Gallery',
+            fields: galleryFields()
+          },
+          {
+            name: 'contact',
+            label: 'Contact',
+            fields: contactFields()
+          },
+          {
+            name: 'faq',
+            label: 'FAQ',
+            fields: faqFields()
+          },
+          {
+            name: 'team',
+            label: 'Team',
+            fields: teamFields()
+          }
+        ]
+      },
+      {
+        label: 'Concepts',
+        name: 'concepts',
+        path: 'concepts',
+        format: 'md',
+        templates: [
+          {
+            name: 'single_concept',
+            label: 'Concept',
+            fields: singleConceptFields()
           },
         ]
       },

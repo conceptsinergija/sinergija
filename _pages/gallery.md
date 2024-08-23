@@ -1,7 +1,8 @@
 ---
 title: Galerija
-permalink: /galery/
-layout: galery
+permalink: /gallery/
+_template: gallery
+layout: gallery
 images:
   - image: /assets/uploads/galery1.jpg
     alt: Sinergija Showdown

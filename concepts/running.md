@@ -1,6 +1,7 @@
 ---
 custom_order: 26
 layout: single_concept
+_template: single_concept
 title: Running - u pripremi
 
 short_description: >
@@ -17,9 +18,10 @@ short_description: >
   
   **Ukoliko smatraš da poseduješ kompetencije i želiš da budeš deo našeg kolektiva pošalji nam CV na <a href="mailto:info@sinergijaconcept.com" target="_blank">info@sinergijaconcept.com</a>**
 show_on_homepage: true
-show_galery: false
-galery:
-  - /assets/uploads/image-8-.jpg
+show_gallery: false
+gallery:
+  - image: /assets/uploads/image-8-.jpg
+    alt: running 1
 subtitle: >-
   Recovery studio je jedan od departmana u sastavu koji je tu zbog vašeg
   oporavka i uživanja. studio se nalazi na 1. spratu i dok ste u njemu pruža se

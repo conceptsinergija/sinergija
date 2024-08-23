@@ -1,9 +1,9 @@
 <section id="gallery-slider">
    <div class="swiper topSwiper2" style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff">
     <div class="swiper-wrapper">
-      {% for single_image in page.galery %}
+      {% for single_image in page.gallery %}
         <div class="swiper-slide">
-          <img src="{{single_image}}" />
+          <img src="{{ single_image.image }}" alt="{{ single_image.alt }}" />
         </div>
       {% endfor %}
     </div>
@@ -12,9 +12,9 @@
   </div>
   <div thumbsSlider="" class="swiper topSwiper concept-bottom-slider">
     <div class="swiper-wrapper">
-      {% for single_image in page.galery %}
+      {% for single_image in page.gallery %}
         <div class="swiper-slide">
-          <img src="{{single_image}}" />
+          <img src="{{ single_image.image }}" alt="{{ single_image.alt }}" />
         </div>
       {% endfor %}
     </div>

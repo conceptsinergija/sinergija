@@ -1,5 +1,6 @@
 ---
 layout: single_concept
+_template: single_concept
 title: CROSS TRAINING
 custom_order: 2
 short_description: >+
@@ -8,15 +9,20 @@ short_description: >+
   Posledjnu deceniju ustalila se praksa da se prostori u kojima se trenira funkcionalni trening, CrossFit, performance trening i slično nazivaju BOX jer su to najčešće magacinski ili slični prostori koji izgledaju poput kutiija pravougaonih oblika. Za razliku od klasičnih teretana gde vidite mnoštvo sprva poredjanih u prostoru u Box-evima je verovatnije da ćete videti uredno naslagane tegove, puno olimpijskih šipki, kavez (eng. Rig) za zgibove i gimnastičke vezbe, kanape za penjanje i mnogo slobodnog prostora.
 
 show_on_homepage: true
-show_galery: true
+show_gallery: true
 weekly_program_title: Nedeljni program
 weekly_program: /assets/uploads/image-3-.jpg
-galery:
-  - /assets/uploads/test-final_163.jpg
-  - /assets/uploads/test-final_6.jpg
-  - /assets/uploads/test-final_223.jpg
-  - /assets/uploads/mar_3210.jpg
-  - /assets/uploads/test-final_159.webp
+gallery:
+  - image: /assets/uploads/test-final_163.jpg
+    alt: cross-training 1
+  - image: /assets/uploads/test-final_6.jpg
+    alt: cross-training 2
+  - image: /assets/uploads/test-final_223.jpg
+    alt: cross-training 3
+  - image: /assets/uploads/mar_3210.jpg
+    alt: cross-training 4
+  - image: /assets/uploads/test-final_159.webp
+    alt: cross-training 5
 subtitle: >
   Posledjnu deceniju ustalila se praksa da se prostori u kojima se trenira
   funkcionalni trening, CrossFit, performance trening i slično nazivaju BOX jer

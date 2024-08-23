@@ -15,7 +15,15 @@
 
   {% include pricelist_section.html %}
   
-  {% include membership_rule_book.html %}
+  <section id="rule-book" class="container mx-auto lg:mt-32 mb-40">
+    <h2 class="section-title">
+      {{ page.rules }}
+    </h2>
+  
+    <div class="rule-book-text">
+      {{ page.rules_text | markdownify}}
+    </div>
+  </section>
 
    <!-- include testimonials.html  -->
 

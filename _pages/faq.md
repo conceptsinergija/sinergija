@@ -2,6 +2,7 @@
 title: FAQ - ČESTA PITANJA I ODGOVORI
 layout: faq
 permalink: /faq/
+_template: faq
 subtitle: Imate pitanja, mi imamo odgovor.
 categories:
   - title: Generalno

@@ -3,6 +3,7 @@ permalink: //
 title: Početna
 cover_image: /assets/uploads/111.jpg
 layout: index
+_template: homepage
 show_loading: true
 loading_video: /assets/uploads/loading_video_small.mp4
 loading_video_button: Enter Site

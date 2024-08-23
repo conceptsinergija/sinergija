@@ -202,12 +202,12 @@ collections:
 
 
       - label: Galerija
-        name: 'galery'
-        file: 'galery.md'
+        name: 'gallery'
+        file: 'gallery.md'
         widget: list
         fields: 
           - { label: 'Naslov', name: 'title', widget: 'string', default: 'Glaerija' }
-          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'galery' }
+          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'gallery' }
           - label: 'Slike'
             name: 'images'
             widget: 'list'
@@ -296,7 +296,7 @@ collections:
       - { label: 'Prikazi na početnoj strani', name: 'show_on_homepage',  widget: 'boolean', default: false, required: false }
       - { laabel: 'Youtube video', name: 'youtube_src', widget: 'string', required: false }
       - label: "Galerija"
-        name: "galery"
+        name: "gallery"
         widget: 'list'
         collapsed: false
         allow_add: true

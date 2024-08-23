@@ -1,17 +1,23 @@
 ---
 layout: single_concept
+_template: single_concept
 title: Coaching
 custom_order: 18
 short_description: Hvala što nam posvećujete brigu o vašem zdravlju. Počastvovani smo. Opravdaćemo vasa očekivanja. Baš zbog toga razvili smo sistem kroz koji prolaze naši klijenti i u tom sistemu početna dijagnostika i merenja su kamen temeljac dobrog budućeg rada i rezultata. Od tebe zahtevmo iskrenost i neprećutkivanje, a onda mi možemo da sprovedemo detaljnu analizu i istu tumačimo. U skladu sa Vašim upitom i potrebama naš trening menadzer će vas uputiti na trenera koji će vas na najbolji način voditi do ciljeva i bićete ponosni na ostvarene rezultate.
 
 show_on_homepage: true
-show_galery: true
-galery:
-  - /assets/uploads/coaching5.jpg
-  - /assets/uploads/coaching1.jpg
-  - /assets/uploads/coaching2.jpg
-  - /assets/uploads/coaching3.jpg
-  - /assets/uploads/coaching4.jpg
+show_gallery: true
+gallery:
+  - image: /assets/uploads/coaching5.jpg
+    alt: coaching 1
+  - image: /assets/uploads/coaching1.jpg
+    alt: coaching 2
+  - image: /assets/uploads/coaching2.jpg
+    alt: coaching 3
+  - image: /assets/uploads/coaching3.jpg
+    alt: coaching 4
+  - image: /assets/uploads/coaching4.jpg
+    alt: coaching 5
 subtitle: >-
   Hvala što nam posvećujete brigu o vašem zdravlju. Počastvovani smo. Opravdaćemo vasa očekivanja. Baš zbog toga razvili smo sistem kroz koji prolaze naši klijenti i u tom sistemu početna dijagnostika i merenja su kamen temeljac dobrog budućeg rada i rezultata. 
   
@@ -58,7 +64,7 @@ our_mission:
       Po pristupačnoj ceni dobićete programiranje i vodjenje uz povremeni nadzor. 
 
       Redovna komunikacija i raspolaganje trenera se podrazumevaju.
-    image: /assets/uploads/galery4.jpg
+    image: /assets/uploads/gallery4.jpg
   - title: TRENING PROGRAMI
     description: >-
       Kroz dug niz godina rada sa klijentima i programiranja ciklusa stekli smo

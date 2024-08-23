@@ -26,7 +26,7 @@
             <div class="sub-menu hidden flex-wrap items-center justify-center">
               <div class="flex flex-wrap items-center justify-start">
                 {% for page in pages %}
-                  <div class="concept-box" style="background-image: url({{page.galery[0]}})">
+                  <div class="concept-box" style="background-image: url({{page.gallery[0].image}})">
                     <a href="{{ page.url }}">
                       <div class="lg:py-12 lg:px-10 flex flex-col items-center justify-center">
                         <h4 class="title oswald font-bold text-center">
@@ -50,7 +50,7 @@
           <a href="/vaucher" class="nav-item" data-value="Vaučer">Vaučer</a>
         </li>
         <li>
-          <a href="/galery" class="nav-item" data-value="Galerija">Galerija</a>
+          <a href="/gallery" class="nav-item" data-value="Galerija">Galerija</a>
         </li>
         <li>
           <a href="/contact" class="nav-item" data-value="Kontakt">Kontakt</a>

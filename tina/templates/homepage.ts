@@ -1,7 +1,7 @@
 
 
 import type { TinaField } from "tinacms";
-export function indexFields() {
+export function homepageFields() {
   return [
     {
       type: "string",
@@ -62,7 +62,7 @@ export function indexFields() {
           label: "Button Url",
         },
         {
-          type: "string",
+          type: "image",
           name: "image",
           label: "Image",
         }
@@ -84,7 +84,7 @@ export function indexFields() {
           label: "Text",
         },
         {
-          type: "string",
+          type: "image",
           name: "image",
           label: "Image",
         }

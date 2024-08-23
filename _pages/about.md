@@ -2,6 +2,7 @@
 title: O nama
 permalink: /about/
 layout: about-us
+_template: about
 secitons:
   - title: Istorija
     text: >-
@@ -81,9 +82,7 @@ secitons:
         image: /assets/uploads/6.svg
         sub_values:
           - value: Funkcionalnost
-    second-text: "Naše pomoćne vrednosti su tu da ojačaju naše osnovne i da nas
-      učine još moćnijim. Pomoćne vrednosti su:"
-    third-text: >-
+    additiona_text: >- 
       To što imamo skoro 2500m2 koji smo odlično funkcionalno organizovali i
       uredili, kao i besprekorna higijena kojoj težimo su super, ali…
 

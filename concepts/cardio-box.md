@@ -1,20 +1,29 @@
 ---
 layout: single_concept
+_template: single_concept
 title: CARDIO BOX
 custom_order: 4
 short_description: >-
   Cardio box je dinamičan i zabavan trening program višeg inteziteta koji kombinuje eksplozivne ručne i nožne udaračke tehnike kao i vežbe sa sopstvenom težinom zarad povećanja izdržljivosti, razvoja snage, brzine, koordinacije i agilnosti.
 show_on_homepage: true
-show_galery: true
-galery:
-  - /assets/uploads/cardio3.jpg
-  - /assets/uploads/cardio2.jpg
-  - /assets/uploads/cardio1.jpg
-  - /assets/uploads/cardio4.jpg
-  - /assets/uploads/cardio5.jpg
-  - /assets/uploads/cardio6.jpg
-  - /assets/uploads/cardio7.jpg
-  - /assets/uploads/cardio8.jpg
+show_gallery: true
+gallery:
+  - image: /assets/uploads/cardio3.jpg
+    alt: image 1
+  - image: /assets/uploads/cardio2.jpg
+    alt: image 2
+  - image: /assets/uploads/cardio1.jpg
+    alt: image 3
+  - image: /assets/uploads/cardio4.jpg
+    alt: image 4
+  - image: /assets/uploads/cardio5.jpg
+    alt: image 5
+  - image: /assets/uploads/cardio6.jpg
+    alt: image 6
+  - image: /assets/uploads/cardio7.jpg
+    alt: image 7
+  - image: /assets/uploads/cardio8.jpg
+    alt: image 8
 subtitle: >-
   Cardio box je dinamičan i zabavan trening program višeg inteziteta koji kombinuje eksplozivne ručne i nožne udaračke tehnike kao i vežbe sa sopstvenom težinom zarad povećanja izdržljivosti, razvoja snage, brzine, koordinacije i agilnosti.
 

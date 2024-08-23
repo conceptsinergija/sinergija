@@ -110,9 +110,9 @@ import SmoothScroll from './smoothScroll.js'
     }
   }
 
-  if (document.querySelector('#galery-cta') && document.querySelector('.galerySwiper')) {
+  if (document.querySelector('#gallery-cta') && document.querySelector('.gallerySwiper')) {
     if (window.innerWidth < 768) {
-      new Swiper(".galerySwiper", {
+      new Swiper(".gallerySwiper", {
         centeredSlides: true,
         autoplay: {
           delay: 2500,
@@ -128,7 +128,7 @@ import SmoothScroll from './smoothScroll.js'
       })
     }
   }
-  if (document.querySelector('#galery-cta') && document.querySelector('.conceptMobileSwiper')) {
+  if (document.querySelector('#gallery-cta') && document.querySelector('.conceptMobileSwiper')) {
     if (window.innerWidth < 768) {
       new Swiper(".conceptMobileSwiper", {
         centeredSlides: true,

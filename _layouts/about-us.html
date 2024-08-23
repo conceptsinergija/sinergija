@@ -23,7 +23,7 @@
 <main class="pt-48">
   <div class="container mx-auto">
     <h2 class="section-title">
-      O nama
+      {{ page.title}}
     </h2>
     <div class="flex items-center justify-center gap-x-4 mb-16 lg:mb-20">
       <div class="price-dot"></div>
@@ -99,10 +99,9 @@
             {% endif %}
           </div>
           {% endfor %}
-          <p class="mb-12">{{seciton.second-text | markdownify}}</p>
         </div>
         {% endif %}
-        <p class="mb-12">{{seciton.third-text | markdownify}}</p>
+        <p class="mb-12">{{seciton.additiona_text | markdownify}}</p>
       </div>
     </div>
     {% endif %}
@@ -116,7 +115,7 @@
 
   {% include contact_cta.html %}
 
-  {% include galery_cta.html %}
+  {% include instagram.html %}
 
   <!-- include testimonials.html  -->
 

@@ -1,12 +1,13 @@
 ---
 layout: contact
 permalink: /contact/
+_template: contact
 title: Kontakt
 
 
 working_hours:
   title: RADNO VREME
-  text: >-
+  description: >-
     Otvoreni smo tokom cele godine, radnim danima od 6:30 do 22:00 i subotom
     od 08:00 do 20:00.
 

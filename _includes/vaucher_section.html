@@ -30,7 +30,7 @@
 </section>
 
 <div id="vaucher-model" class="hidden">
-  <div class="vaucher-model-box" style="background-image: url('/img/vaucher-model.jpeg');">
+  <div class="vaucher-model-box" style="background-image: url('{{page.vaucher_modal.image}}');">
     <div class="overlay relative overflow-scroll">
       <div class="close-btn absolute top-0 right-0">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="white" class="w-12 h-12 lg:w-16 lg:h-16">
@@ -39,7 +39,7 @@
       </div>
       <div class="md:w-1/2 mx-auto h-full flex flex-col items-center justify-center">
         <h2 class="section-title pt-12">
-          Prijavi se za Vaučer
+         {{ page.vaucher_modal.title }}
         </h2>
         <!-- 3 dots -->
         <div class="flex items-center justify-center gap-x-4 mb-16">
@@ -75,12 +75,9 @@
           <div class="w-full vaucher-text pl-6 mb-2">Tip treninga:</div>
           <select name="training types" id="vaucherModelTrainingType">
             <option value="none" selected disabled hidden>Vrsta usluge</option>
-            <option value="coaching">Coaching</option>
-            <option value="gym">GYM</option>
-            <option value="cross">Cross training</option>
-            <option value="basketball">Basketball</option>
-            <option value="cardio">Cardio Box</option>
-            <option value="mind">Mind & body</option>
+            {% for training in page.vaucher_modal.types_of_training %}
+              <option value="{{ training.value }}"> {{ training.training }} </option>
+            {% endfor %}
           </select>
         </div>
 
@@ -88,11 +85,9 @@
           <div class="w-full vaucher-text pl-6 mb-2">Vreme trajanja:</div>
           <select name="training types" id="vaucherModelTrainingType">
             <option value="none" selected disabled hidden>Vreme trajanja</option>
-            <option value="coaching">1 mesec</option>
-            <option value="gym">3 meseca</option>
-            <option value="cross">6 meseca</option>
-            <option value="basketball">9 meseca</option>
-            <option value="cardio">12 meseci</option>
+            {% for duration in page.vaucher_modal.duration %}
+              <option value="{{ duration.value }}"> {{ duration.time }} </option>
+            {% endfor %}
           </select>
         </div>
   
@@ -114,9 +109,6 @@
       <h3 class="section-title">
         ČESTITAMO!
       </h3>
-      <!-- <p class="w-2/3 mx-auto text-center">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius bibendum amet, suspendisse dictum tempor integer ut. Pellentesque ipsum turpis euismod proin justo mauris lectus. Aliquam blandit molestie odio sed. Orci praesent aliquam sed amet nulla sed ullamcorper elit. Tincidunt enim, orci augue ultrices. Neque mauris diam et commodo ultrices feugiat urna aliquet. Leo purus vivamus purus nullam amet fermentum arcu nisl.
-      </p> -->
 
       <div id="closeSuccessfullModel" class="mt-12 font-bold bg-sinergija-red rounded-full w-48 py-2 text-white uppercase text-center text-xl cursor-pointer mx-auto close-btn">
         Zatvori
