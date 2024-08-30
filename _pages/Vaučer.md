@@ -7,38 +7,27 @@ meta_description: U ponudi imamo vaučere koje možete kupiti za sebi drage ljud
 image: /img/vaucer.jpeg
 vaucher_gift_title: POKLON VAUČER
 vaucher_gift_text: >-
-  Uvideli smo da je poklon kao što je članarina kod nas jedna fantastična stvar
-  jer onome koji prima poklon otvara jedan novi prozor u svet zdravlja i
-  fitnesa. Stoga u ponudi imamo vaučere koje možete kupiti za sebi drage ljude.
-  Na taj način, stvarno ćete im pokazati da ih volite!
+  Ima li lepšeg poklona od dobrog osećaja u svojoj koži? Iako drugima ne možemo
+  da poklonimo sreću, radost, i ono najvrednije- zdravlje, možemo da im otvorimo
+  vrata do postizanja istog. Stoga u ponudi imamo vaučere koje možete kupiti za
+  sebi drage ljude. Na taj način, stvarno ćete im pokazati da ih volite!
 vaucher_gift_button: Kupi vaučer
 vaucher_modal:
-  image: '/img/vaucher-model.jpeg'
-  title:  Prijavi se za Vaučer
-  types_of_training: 
+  title: Prijavi se za Vaučer
+  image: /img/vaucher-model.jpeg
+  types_of_training:
     - training: Coaching
-      value: coaching
     - training: GYM
-      value: gym
     - training: Cross training
-      value: cross
     - training: Basketball
-      value: basketball
     - training: Cardio Box
-      value: cardio
     - training: Mind & body
-      value: mind
-  duration: 
+  duration:
     - time: 1 mesec
-      value: 1mesec
     - time: 3 meseca
-      value: 3meseca
     - time: 6 meseci
-      value: 6meseci
     - time: 9 meseci
-      value: 9meseci
     - time: 12 meseci
-      value: 12meseci
 vaucher_companies_title: PONUDA ZA FIRME
 vaucher_companies_text: >-
   Ukoliko želite da uradite nešto odlično za svoju firmu i svoje zaposlene,
@@ -71,10 +60,10 @@ pricelist:
         price: '900'
       - service: Nedeljna članarina
         price: '2600'
-      - service: Mesečna članarina
-        price: '3900'
       - service: Osam termina mesečno
         price: '4200'
+      - service: Mesečna članarina
+        price: '4900'
       - service: Kvartalna (3 meseca)
         price: '13900'
       - service: Polugodišnja (6 meseci)

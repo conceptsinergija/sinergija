@@ -14,22 +14,20 @@ text: >-
   Ukoliko nisi posvećen sebi i ne zeliš promenu na bolje, molimo te da ne trošiš
   svoje a ni naše vreme.
 layout: membership
+title: ČLANSTVO
 meta_description: >-
   Ukoliko nisi posvećen sebi i ne zeliš promenu na bolje, molimo te da ne trošiš
   svoje a ni naše vreme.
-title: ČLANSTVO
 membership:
   title: ČLANSTVO
   text: >
-    Kada poželite da postanete naš član. Mi smo vam zahvali što svoje poverenje
-    poklanjate nam i dajete nam da se brinemo u vašem zdravlju i fitnesu, ali
-    trebate da znate da mi nismo mesto za sve. Trudimo se da okupimo dobre ljude
-    koji će biti naši najbolji predstavnici i koji sa ponosom ističu to što su
-    člannovi SINERGIJE.
-
-
-    Ukoliko nisi posvećen sebi i ne zeliš promenu na bolje, molimo te da ne
-    trošiš svoje a ni naše vreme.
+    Sinergija je mnogo više od sportskog centra. Mi smo zajednica visoko
+    motivisanih individua koji udruženi ostvaruju veću vrednost. Posvećeni smo
+    konstantnom poboljšanju naših života. Postavljamo ciljeve, dostižemo ih i
+    proslavljamo zajedno. Dajemo sve od sebe da vreme provedeno u Sinergiji
+    postane tvoj omiljeni deo dana, a da kruna svega toga bude ponos što si deo
+    zajednice kao što je Sinergija. Ako želiš da poboljšaš svoje zdravlje,
+    treniras jako, zabavljaš se i napreduješ, mi smo tu za tebe!
   image: /assets/uploads/gym2.jpeg
 pricelist:
   - title: COACHING
@@ -57,10 +55,10 @@ pricelist:
         price: '900'
       - service: Nedeljna članarina
         price: '2600'
-      - service: Mesečna članarina
-        price: '3900'
       - service: Osam termina mesečno
         price: '4200'
+      - service: Mesečna članarina
+        price: '4900'
       - service: Kvartalna (3 meseca)
         price: '13900'
       - service: Polugodišnja (6 meseci)

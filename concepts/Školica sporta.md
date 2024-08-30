@@ -5,6 +5,7 @@ our_mission_title: Programi
 price_image: /assets/uploads/screenshot_20220531-145754_gallery.jpg
 layout: single_concept
 title: ŠKOLICA SPORTA
+show_on_homepage: true
 short_description: >-
   Kolko je sjajno to da sa svojim mališanima posle posla i vrtića / škole
   dodjete na jedno mesto gde ćete i Vi i deca raditi nešto dobro za sebe. Deca
@@ -13,9 +14,8 @@ short_description: >-
   sebi. Naši treneri su potkovani znanjem i sa puno strpljenja i ljubavi
   pristupaju svom pozivu. Uživaćete dok gledate svoje mališane kako napreduju i
   raduju se sportu.
-show_on_homepage: true
-show_youtube_video: true
-youtube_src: 'https://www.youtube.com/embed/KQXOUjzMbuY'
+show_youtube_video: false
+youtube_src: ''
 show_gallery: true
 gallery:
   - image: /assets/uploads/screenshot_20220531-145754_gallery.jpg
