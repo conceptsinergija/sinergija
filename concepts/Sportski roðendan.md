@@ -1,4 +1,5 @@
 ---
+permalink: /concepts/sports-birthday
 layout: single_concept
 _template: single_concept
 title: SPORTSKI ROĐENDAN

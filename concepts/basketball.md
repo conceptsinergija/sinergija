@@ -1,4 +1,5 @@
 ---
+permalink: /concepts/basketball
 custom_order: 22
 layout: single_concept
 _template: single_concept

@@ -1,4 +1,5 @@
 ---
+permalink: /concepts/gym
 custom_order: 1
 our_mission_title: Zone
 price_image: /assets/uploads/3z6a1308.jpg
@@ -7,13 +8,13 @@ additional_description: >-
   2450 rsd.
 layout: single_concept
 title: GYM
+show_on_homepage: true
 short_description: >-
   Naš GYM departman predstavlja jednu od najopremljenijih i najlepših teretana
   na našim prostorima. U stvaranju ovog departmana vodili smo se načelima
   organizovanosti funkcionalnosti i estetike praćenjem tendencija u svetu
   zdravlja sporta i fitnesa a sve to zarad što prijatnijeg boravka i uživanja u
   vremenu provedenom u GYM-u.
-show_on_homepage: true
 show_gallery: true
 gallery:
   - image: /assets/uploads/gym1.jpg
@@ -69,10 +70,10 @@ prices:
     price: '900'
   - service: Nedeljna članarina
     price: '2600'
-  - service: Mesečna članarina
-    price: '3900'
   - service: Osam termina mesečno
     price: '4200'
+  - service: Mesečna članarina
+    price: '4900'
   - service: Kvartalna (3 meseca)
     price: '13900'
   - service: Polugodišnja (6 meseci)
