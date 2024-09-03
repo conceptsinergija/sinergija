@@ -1994,7 +1994,10 @@ header nav .nav-item {
   transition-property: max-height, opacity;
   transition-duration: 0.3s, 0.4s;
   transition-timing-function: ease-in;
-  
+}
+#pricelist-section .accordion-description {
+  display: flex;
+  flex-direction: column;
 }
 
 #gallery .second-image,
@@ -2004,9 +2007,12 @@ header nav .nav-item {
 }
 
 #pricelist-section .accordion-opened .accordion-description {
-  padding-top: 16px;
+  padding-top: 32px;
   max-height: 100%;
   opacity: 1;
+}
+#pricelist-section .price-program-box-item div {
+  font-size: 18px;
 }
 
 #pricelist-section .plus {
