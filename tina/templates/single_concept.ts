@@ -16,6 +16,11 @@ export function singleConceptFields() {
       label: "Title",
     },
     {
+      type: "string",
+      name: "meta_description",
+      label: "Meta Description",
+    },
+    {
       type: "boolean",
       name: "show_on_homepage",
       label: "Show on Homepage",
