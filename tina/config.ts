@@ -37,7 +37,7 @@ export default defineConfig({
   schema: {
     collections: [
       {
-        label: 'Pages',
+        label: 'Stranice',
         name: 'page',
         path: '_pages',
         format: 'md',
@@ -85,7 +85,7 @@ export default defineConfig({
         ]
       },
       {
-        label: 'Concepts',
+        label: 'Koncepti',
         name: 'concepts',
         path: 'concepts',
         format: 'md',
