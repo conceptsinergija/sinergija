@@ -1,5 +1,5 @@
 ---
-permalink: /concepts/bar-&-shop
+permalink: /programi/bar-shop
 custom_order: 23
 layout: single_concept
 _template: single_concept

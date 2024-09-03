@@ -1,6 +1,6 @@
 ---
 title: O nama
-permalink: /about/
+permalink: /o-nama/
 layout: about-us
 _template: about
 secitons:

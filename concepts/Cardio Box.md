@@ -1,5 +1,5 @@
 ---
-permalink: /concepts/cardio-box
+permalink: /programi/cardio-box
 custom_order: 4
 our_mission_title: Programi
 price_image: /assets/uploads/cardio2.jpg

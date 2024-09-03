@@ -1,5 +1,5 @@
 ---
-permalink: /concepts/gym
+permalink: /programi/gym
 custom_order: 1
 our_mission_title: Zone
 price_image: /assets/uploads/3z6a1308.jpg

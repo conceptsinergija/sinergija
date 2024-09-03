@@ -1,6 +1,6 @@
 ---
 title: Galerija
-permalink: /gallery/
+permalink: /galerija/
 _template: gallery
 layout: gallery
 images:

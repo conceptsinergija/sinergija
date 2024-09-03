@@ -1,5 +1,5 @@
 ---
-permalink: /vaucher/
+permalink: /vauceri/
 first-title: POKLON VAUčER
 layout: vaucher
 title: Vaučer

@@ -1,5 +1,5 @@
 ---
-permalink: /concepts/cross-training
+permalink: /programi/cross-training
 custom_order: 2
 weekly_program_title: Nedeljni program
 weekly_program: /assets/uploads/image-3-.jpg

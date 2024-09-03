@@ -1,5 +1,5 @@
 ---
-permalink: /concepts/team-building
+permalink: /programi/team-building
 custom_order: 26
 our_mission_title: Programi
 layout: single_concept

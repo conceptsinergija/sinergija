@@ -1,5 +1,5 @@
 ---
-permalink: /concepts/coaching
+permalink: /programi/coaching
 layout: single_concept
 _template: single_concept
 title: Coaching

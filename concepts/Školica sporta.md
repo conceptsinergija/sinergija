@@ -1,5 +1,5 @@
 ---
-permalink: /concepts/sport-school
+permalink: /programi/sport-school
 custom_order: 19
 our_mission_title: Programi
 price_image: /assets/uploads/screenshot_20220531-145754_gallery.jpg

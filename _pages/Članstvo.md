@@ -1,5 +1,5 @@
 ---
-permalink: /membership/
+permalink: /clanstvo/
 image: /assets/uploads/gym2.jpeg
 text: >-
   Sinergija je mnogo više od sportskog centra. Mi smo zajednica visoko

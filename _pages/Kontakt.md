@@ -1,6 +1,6 @@
 ---
 layout: contact
-permalink: /contact/
+permalink: /kontakt/
 _template: contact
 title: Kontakt
 

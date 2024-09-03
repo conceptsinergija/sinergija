@@ -1,5 +1,5 @@
 ---
-permalink: /concepts/recovery
+permalink: /programi/recovery
 custom_order: 27
 layout: single_concept
 title: RECOVERY

@@ -1,5 +1,5 @@
 ---
-permalink: /concepts/running
+permalink: /programi/running
 custom_order: 26
 layout: single_concept
 _template: single_concept

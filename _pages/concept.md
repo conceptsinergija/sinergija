@@ -1,5 +1,5 @@
 ---
 layout: concept
-permalink: /concept
+permalink: /programi
 title: Naš koncept
 ---
