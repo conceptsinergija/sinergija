@@ -1,18 +1,6 @@
 ---
 permalink: //
-title: Početna
 cover_image: /assets/uploads/111.jpg
-layout: index
-_template: homepage
-show_loading: true
-loading_video: /assets/uploads/loading_video_small.mp4
-loading_video_button: Enter Site
-our_concept_title: NAŠ KONCEPT
-free_training:
-  image: /assets/uploads/3z6a1663-copy.jpg
-  title: BESPLATAN PROBNI TRENING
-  button_text: SAZNAJ VIŠE
-  button_url: membership
 our_team_title: UPOZNAJ NAŠ TIM!
 our_team:
   - name: Jovan Ilic
@@ -33,24 +21,32 @@ our_team:
   - name: Maja
     role: Group trainer
     image: /assets/uploads/mar_3648.jpg
+layout: index
+meta_description: >-
+  SINERGIJA je mnogo više od sportskog centra. Mi smo zajednica visoko
+  motivisanih individua koji udruženi ostvarijemo veću vrednost.
+title: Početna
+show_loading: true
+loading_video: /assets/uploads/loading_video_small.mp4
+loading_video_button: Enter Site
+our_concept_title: NAŠ KONCEPT
+free_training:
+  title: BESPLATAN PROBNI TRENING
+  button_text: SAZNAJ VIŠE
+  button_url: membership
+  image: /assets/uploads/3z6a1663-copy.jpg
 membership:
   title: ČLANSTVO
-  text: >-
-    Sinergija je mnogo više od sportskog centra. 
-    Mi smo zajednica visoko motivisanih individua koji udruženi ostvaruju veću vrednost. 
-    Posvećeni smo konstantnom poboljšanju naših života.
+  text: >
+    Sinergija je mnogo više od sportskog centra.  Mi smo zajednica visoko
+    motivisanih individua koji udruženi ostvaruju veću vrednost.  Posvećeni smo
+    konstantnom poboljšanju naših života.
   image: /assets/uploads/gym2.jpeg
 working_hours:
   title: RADNO VREME
-  text: >-
-    Otvoreni smo tokom cele godine, radnim danima od 6:30 do 22:00 i subotom
-    od 08:00 do 20:00.
-
-
-    Neradni dani su: • 31. decembar • 01. januar • 06. januar • 07. januar • Uskrs • 01. maj
-
-
-    Ukoliko donesemo odluku o drugim neradnim danima, članovi će biti blagovremeno obavešteni.
+  text: "Otvoreni smo tokom cele godine, radnim danima od\_6:30\_do\_22:00\_i subotom od\_08:00\_do\_20:00.\n\nNeradni dani su:\_•\_31. decembar\_•\_01. januar\_•\_06. januar\_•\_07. januar\_•\_Uskrs\_•\_01. maj\n\nUkoliko donesemo odluku o drugim neradnim danima, članovi će biti blagovremeno obavešteni.\n"
   working_hours_working_days: '06:30 - 22:00'
   working_hours_weekend: '08:00 - 20:00'
+_template: homepage
 ---
+
