@@ -278,7 +278,7 @@ categories:
           Trening u školici sporta traje 1h.
       - question: Da li je detetu potrebna neka posebna oprema?
         answer: |
-          Osim listih patika i vode, nije potrebno ništa više od opreme.
+          Osim čistih patika i vode, nije potrebno ništa više od opreme.
       - question: Da li imam pospust na dva ili više deteta?
         answer: |
           Da, u slučaju dvoje ili više dece imate porodični popust.
