@@ -198,7 +198,7 @@ categories:
         answer: >
           Možete biti deo našeg Cross Training departmana i sa Fitpass karticom,
           uz doplatu.
-      - question: Koliko traje cross training?
+      - question: Koliko traje Cross training?
         answer: |
           Cross training traje 60 minuta
       - question: Da li mi je potrebna neka posebna oprema za cross training?
