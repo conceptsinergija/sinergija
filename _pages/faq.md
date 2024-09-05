@@ -132,7 +132,7 @@ categories:
           ili su ranije trenirali CrossFit, Funkcionalni trening i sl, sa
           mogućnošču prilagođavanja nivoa inteziteta i opterećenja u skladu sa
           mogućnostima.
-      - question: Koji su termini cross treninga?
+      - question: Koji su termini Cross treninga?
         answer: >
           Termini basic grupe su od ponedeljka do petka u 11h, 21h;
 
