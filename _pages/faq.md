@@ -226,7 +226,7 @@ categories:
         answer: >
           Da, Cardio Box departman se može koristiti uz Fitpass karticu uz
           doplatu.
-      - question: Da li mi je potrebno nešto od opreme za cardio box?
+      - question: Da li mi je potrebno nešto od opreme za Cardio box?
         answer: >
           Pored čiste garderobe, patika i peškira za Cardio Box  potrebne su
           rukavice i bandažeri.
