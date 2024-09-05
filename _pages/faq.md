@@ -206,7 +206,7 @@ categories:
           Potrebne su vam samo čiste patike, garderoba i peškir.
   - title: CARDIO BOX
     questions:
-      - question: Šta je cardio box?
+      - question: Šta je Cardio Box?
         answer: >
           Cardio box je dinamičan trening u kojem se vrši aktivacija svih grupa
           mišića.
