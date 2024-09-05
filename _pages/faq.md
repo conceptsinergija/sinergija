@@ -91,17 +91,17 @@ categories:
         answer: >
           Da, u ponudi imamo rad sa personalnim trenerima. Treneri su tu i
           posvećeni su klijentu od prvog do poslednjeg minuta treninga, kao i
-          prilokom planiranja i kreiranja trening programa zarad što boljeg i
-          celishodnijeg napredka.
+          prilikom planiranja i kreiranja trening programa zarad što boljeg i
+          celishodnijeg napretka.
 
 
-          Personalni treninzi se izvode: individualni (1 na 1), dual (2 na 1),
+          Personalni treninzi mogu biti: individualni (1 na 1), dual (2 na 1),
           trojni (3 na 1).
 
 
-          Takođe, imamo i povoljniju opciju vođenih i online treninga gde
-          dobijate program koji osmišljava i piše trener, bez prisustva trenera
-          na samim treninzima. Imamo i opciju treninga kod vas.
+          Takođe, imamo i opciju vođenih/ online treninga gde dobijate program
+          koji osmišljava i piše trener, bez prisustva trenera na samim
+          treninzima. Imamo i opciju treninga kod vas.
       - question: Da li sa GYM-om može da se koristi i cardio zona?
         answer: >
           Da. Kardio zona je sastavni deo GYM departmana. Imamo 28 kardio
