@@ -270,7 +270,7 @@ categories:
 
           Ukoliko je za dete neophodan individualni pristup, imamo opciju rada
           1x1.
-      - question: Za koji uzrast je školica sporta?
+      - question: Za koji uzrast je Školica sporta?
         answer: |
           Za decu od 3 godine.
       - question: Koliko traje trening?
