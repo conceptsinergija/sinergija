@@ -311,9 +311,9 @@ categories:
       - question: Koja je procedura zakazivanja?
         answer: >
           Bilo koji paket da odaberete, procedura je da nam potvrdite termin, a
-          mi van šaljemo upitnik koji popunjavate sa slavljenikom/com da bi
-          pripremili kviz "KPS" za drugare i da bi što bolje se upoznali sa
-          interesovanjima.
+          mi vam šaljemo upitnik koji popunjavate sa slavljenikom/com da bi
+          pripremili kviz "KPS" za drugare i da bi se što bolje upoznali sa
+          interesovanjima slavljenika/ce. 
       - question: Gde su roditelji dok se deca igraju?
         answer: >
           U Sinergiji imamo izdvojen, komforan deo za roditelje dok se deca
