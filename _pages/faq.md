@@ -141,10 +141,10 @@ categories:
           19h, 20h.
 
 
-          Subotom je standard grupa u 10h, basic grupau 11h.
+          Subotom je standard grupa u 10h.
 
 
-          Subotom nemamo open gym zbog proslave rođendana.
+          Subotom nemamo Open Gym zbog proslave rođendana.
       - question: Da li je CrossTraining bezbedan?
         answer: >
           Da! svakako! naši treneri su tu i veoma su kredibilni da vas vode kroz
