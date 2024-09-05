@@ -201,7 +201,7 @@ categories:
       - question: Koliko traje Cross training?
         answer: |
           Cross training traje 60 minuta
-      - question: Da li mi je potrebna neka posebna oprema za cross training?
+      - question: Da li mi je potrebna neka posebna oprema za Cross training?
         answer: |
           Potrebne su vam samo čiste patike, garderoba i peškir.
   - title: CARDIO BOX
