@@ -108,7 +108,7 @@ categories:
           jedinica iz Technogym programa.
 
 
-          Pored kardio zone, GYM dpartman ima još pet zona uvezanih u jednu
+          Pored kardio zone, GYM departman ima još pet zona uvezanih u jednu
           celinu i to su Pin loaded, Plate Loaded, Free Weights and Racks, Green
           Parter i Streatching.
 
