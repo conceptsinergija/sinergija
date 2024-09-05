@@ -317,7 +317,8 @@ categories:
       - question: Gde su roditelji dok se deca igraju?
         answer: >
           U Sinergiji imamo izdvojen, komforan deo za roditelje dok se deca
-          igraju.
+          igraju, a ako roditelji žele da gledaju decu u igri u rođendanskoj
+          sali imamo i veliki lounge.
 _template: faq
 ---
 
