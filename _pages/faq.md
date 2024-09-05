@@ -116,7 +116,7 @@ categories:
           Sve GYM članarine uključuju korišćenje svih zona GYM-a.
   - title: CROSS TRAINING
     questions:
-      - question: Šta je crossfit?
+      - question: Šta je CrossFit?
         answer: >
           Cross treninzi su kombinacija kardio vežbi, treninga snage, treninga
           sa opterećenjima, treninga izdržljivosti i gimnastičkih vežbi. U
@@ -124,13 +124,13 @@ categories:
           časova.
 
 
-          Basic Class: Osnovni program prilagodjen upznavanju sa funkciinalnim
+          Basic Class: Osnovni program prilagođen upznavanju sa funkcionalnim
           načinom treniranja, metodologijom i terminologijom rada.
 
 
           Standard Class: Program predvidjen za one koji su ovladali osnovama
           ili su ranije trenirali CrossFit, Funkcionalni trening i sl, sa
-          mogućnošču prilagodjavanja nivoa inteziteta i opterećenja u skladu sa
+          mogućnošču prilagođavanja nivoa inteziteta i opterećenja u skladu sa
           mogućnostima.
       - question: Koji su termini cross treninga?
         answer: >
