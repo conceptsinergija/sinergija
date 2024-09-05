@@ -221,10 +221,10 @@ categories:
         answer: |
           Da, doplata za Gym departman je 2450 za članove Cardio box departmana.
       - question: >-
-          Da li cardio box može da se koristi uz fitpass? Da li je potrebna
+          Da li Cardio box može da se koristi uz Fitpass? Da li je potrebna
           doplata?
         answer: >
-          Da, Cardio Box departman se može koristiti uz FitPass karticu uz
+          Da, Cardio Box departman se može koristiti uz Fitpass karticu uz
           doplatu.
       - question: Da li mi je potrebno nešto od opreme za cardio box?
         answer: >
