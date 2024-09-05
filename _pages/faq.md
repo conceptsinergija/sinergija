@@ -171,7 +171,7 @@ categories:
           Ne. Naši programi su skalabilni i prilagodljivi.
 
 
-          To znači da ne moraš da čekaš jer te nista neće spremiti za naš
+          To znači da ne moraš da čekaš jer te ništa neće spremiti za naš
           trening kao što će on sam to učiniti.
 
 
