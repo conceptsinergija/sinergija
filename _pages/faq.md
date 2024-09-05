@@ -147,9 +147,9 @@ categories:
           Subotom nemamo Open Gym zbog proslave rođendana.
       - question: Da li je CrossTraining bezbedan?
         answer: >
-          Da! svakako! naši treneri su tu i veoma su kredibilni da vas vode kroz
+          Da! Svakako! Naši treneri su tu i veoma su kredibilni da vas vode kroz
           treninge i na taj način sprovedu najbezbedniji i celishodan pristup uz
-          koji ćete biti zdraviji i sposobniji, a istovremeno pomognu vam da
+          koji ćete biti zdraviji i sposobniji, a da vam istovremeno pomognu da
           izbegnete mnoge bolesti današnjice.
       - question: Šta je WOD?
         answer: >
