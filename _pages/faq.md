@@ -158,11 +158,11 @@ categories:
           (CrossTraining sali).
       - question: Šta je BOX?
         answer: >
-          Posledjnu deceniju ustalila se praksa da se prostori u kojima se
+          Poslednju deceniju ustalila se praksa da se prostori u kojima se
           trenira funkcionalni trening, CrossFit, performance trening i slično
           nazivaju Box jer su to najčešće magacinski ili slični prostori koji
-          izgledaju poput kutiija pravougaonih oblika. za razliku od klasičnih
-          teretana gde vidite bezbroj sprva poredjanih u prostoru u Box-evima je
+          izgledaju poput kutiija pravougaonih oblika. Za razliku od klasičnih
+          teretana gde vidite bezbroj sprava poređanih u prostoru u Box-evima je
           verovatnije da ćete videti uredno naslagane tegove, puno olimpijskih
           šipki, kavez (eng. Rig) za zgibove i gimnastičke vezbe, kanape za
           penjanje i mnogo slobodnog prostora.
