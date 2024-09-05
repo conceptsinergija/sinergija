@@ -249,15 +249,15 @@ categories:
       - question: Da li mogu da koristim svlačionicu i tuševe?
         answer: |
           Naravno, ceo propratni sadržaj je na raspolaganju.
-  - title: ŠKOLICA SPORTA ACTIYITY
+  - title: ŠKOLICA SPORTA ACTIVITY
     questions:
       - question: Šta je školica sporta?
         answer: >
           Školica sporta je sjajno mesto za zabavu i rekreaciju vaših najmlađih.
-          Deca će se zabavljati i raditi na motorici i razvoju dok ćete vi
-          izabrati nešto od naših sportskih programa i raditi na sebi.Naši
-          treneri su potkovani znanjem i sa puno strpljenja i ljubavi pristupaju
-          svom pozivu.
+          Deca će se zabavljati i raditi na motorici, agilnosti i koordinaciji
+          dok ćete vi izabrati nešto od naših sportskih programa i raditi na
+          sebi. Naši treneri su potkovani znanjem i sa puno strpljenja i ljubavi
+          pristupaju svom pozivu.
 
 
           Uživaćete dok gledate svoje mališane kako napreduju i raduju se
@@ -268,8 +268,8 @@ categories:
           obožavaju svoj posao.
 
 
-          Ukoliko je za dete neophodan individualni pristup, mi smo veoma
-          uspešni u tome što radimo.
+          Ukoliko je za dete neophodan individualni pristup, imamo opciju rada
+          1x1.
       - question: Za koji uzrast je školica sporta?
         answer: |
           Za decu od 3 godine.
