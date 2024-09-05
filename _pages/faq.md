@@ -48,7 +48,7 @@ categories:
           Nalazimo se na Novom Beogradu u ulici Omladinskih brigada 31. u
           neposrdnoj blizini nalazi se Raiffaiesen Banka; Airport city, West 65,
           Wellport, Belvill i A blok.
-      - question: Da li imamte svlačionice i tuševe?
+      - question: Da li imate svlačionice i tuševe?
         answer: >
           Da. Imamo veoma prostrane i čiste svlačionice sa tuševima, fenove i
           prese za kosu i preko 200 ormarića za lične stvari. Takođe možete
