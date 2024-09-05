@@ -214,7 +214,7 @@ categories:
 
           Uvežbavaju se pokreti box-a i kik box-a. Radi se na džakovima za box,
           fokuserima i ostalim rekvizitima.
-      - question: Koji su termini cardio box-a?
+      - question: Koji su termini Cardio box-a?
         answer: |
           Cardio box treninzi održavaju se  ponedeljkom, sredom i petkom od 19h
       - question: Da li je potrebna doplata za gym uz članarinu za cardio box?
