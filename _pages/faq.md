@@ -217,9 +217,9 @@ categories:
       - question: Koji su termini Cardio box-a?
         answer: |
           Cardio box treninzi održavaju se  ponedeljkom, sredom i petkom od 19h
-      - question: Da li je potrebna doplata za gym uz članarinu za cardio box?
+      - question: Da li je potrebna doplata za Gym uz članarinu za Cardio box?
         answer: |
-          Da, doplata za gym departman je 2450 za članove cardio box-a.
+          Da, doplata za Gym departman je 2450 za članove Cardio box departmana.
       - question: >-
           Da li cardio box može da se koristi uz fitpass? Da li je potrebna
           doplata?
