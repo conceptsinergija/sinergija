@@ -190,7 +190,7 @@ categories:
 
           Naši treneri su tu da trening prilagode vama i sprovedu najbezbedniji
           i najefikasniji trening za Vas.
-      - question: Da li može da se koristi gym uz članarinu cross treninga?
+      - question: Da li može da se koristi Gym uz članarinu Cross treninga?
         answer: >
           Članovi sa CrossTraining članarinom mogu bez doplate koristiti GYM
           departman.
