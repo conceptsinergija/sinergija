@@ -8,6 +8,7 @@ short_description: Hvala što nam posvećujete brigu o vašem zdravlju. Počastv
 
 show_on_homepage: true
 show_gallery: true
+concept_card_image: /assets/uploads/coaching5.jpg
 gallery:
   - image: /assets/uploads/coaching5.jpg
     alt: coaching 1

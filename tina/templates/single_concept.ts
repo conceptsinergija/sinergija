@@ -21,6 +21,11 @@ export function singleConceptFields() {
       label: "Meta Description",
     },
     {
+      type: "image",
+      name: "concept_card_image",
+      label: "Concept Card Image",
+    },
+    {
       type: "boolean",
       name: "show_on_homepage",
       label: "Show on Homepage",

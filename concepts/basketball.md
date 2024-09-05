@@ -10,6 +10,7 @@ short_description: Naša sala za basket 3x3 je punih dimenzija 15 m x 11 m, sa
   što lepšem ambijentu.
 show_on_homepage: true
 show_gallery: true
+concept_card_image: /assets/uploads/image-9-.jpg
 gallery:
   - image: /assets/uploads/image-9-.jpg
     alt: image 1

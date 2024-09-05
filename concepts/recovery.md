@@ -10,6 +10,7 @@ short_description: >-
   dantastičan pogled na ceo GYM departman. U studiju se nalaze četiri prostorije
   i prijemna zona.
 show_gallery: false
+concept_card_image: /assets/uploads/img_6373.jpg
 gallery:
   - image: /assets/uploads/img_6373.jpg
     alt: recovery 1

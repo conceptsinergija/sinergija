@@ -12,6 +12,7 @@ short_description: >-
   težinom zarad povećanja izdržljivosti, razvoja snage, brzine, koordinacije i
   agilnosti.
 show_gallery: true
+concept_card_image: /assets/uploads/cardio3.jpg
 gallery:
   - image: /assets/uploads/cardio3.jpg
     alt: image 1

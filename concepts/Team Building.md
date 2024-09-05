@@ -14,7 +14,7 @@ short_description: >
   doživite kako efikasan team building može unaprediti radnu atmosferu i
   povezati vaš kolektiv!
 show_gallery: false
-gallery:
+concept_card_image: /assets/uploads/image-8-.jpg
   - image: /assets/uploads/image-8-.jpg
     alt: team building 1
 subtitle: >

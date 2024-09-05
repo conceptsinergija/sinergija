@@ -8,6 +8,7 @@ short_description: Program proslave najboljeg i nezaboravnog rodjendana Vaših m
 
 show_on_homepage: true
 show_gallery: true
+concept_card_image: /assets/uploads/image-5-.jpg
 youtube_src: https://www.youtube.com/embed/KQXOUjzMbuY
 gallery:
   - image: /assets/uploads/image-5-.jpg

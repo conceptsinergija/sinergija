@@ -21,6 +21,7 @@ short_description: >+
   gimnastičke vezbe, kanape za penjanje i mnogo slobodnog prostora.
 
 show_gallery: true
+concept_card_image: /assets/uploads/test-final_163.jpg
 gallery:
   - image: /assets/uploads/test-final_163.jpg
     alt: cross-training 1

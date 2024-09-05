@@ -17,6 +17,7 @@ short_description: >-
 show_youtube_video: false
 youtube_src: ''
 show_gallery: true
+concept_card_image: "/assets/uploads/test final_6 (1).jpg"
 gallery:
   - image: /assets/uploads/test final_6 (1).jpg
   - image: /assets/uploads/screenshot_20220531-145754_gallery.jpg

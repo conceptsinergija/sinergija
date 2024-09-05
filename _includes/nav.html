@@ -26,7 +26,7 @@
             <div class="sub-menu hidden flex-wrap items-center justify-center">
               <div class="flex flex-wrap items-center justify-start">
                 {% for page in pages %}
-                  <div class="concept-box" style="background-image: url({{page.gallery[0].image}})">
+                  <div class="concept-box" style="background-image: url(' {{page.concept_card_image}} ')">
                     <a href="{{ page.url }}">
                       <div class="lg:py-12 lg:px-10 flex flex-col items-center justify-center">
                         <h4 class="title oswald font-bold text-center">
