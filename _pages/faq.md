@@ -232,9 +232,9 @@ categories:
           rukavice i bandažeri.
   - title: BASKET
     questions:
-      - question: Kako mogu koristiti BASKET salu?
+      - question: Kako mogu koristiti Basket salu?
         answer: >
-          Da bi koristili BASKET salu morate proveriti raspoloživost termina,
+          Da bi koristili Basket salu morate proveriti raspoloživost termina,
           poželjno je rezervisanje, i plaćanje termina.
 
 
