@@ -291,14 +291,12 @@ categories:
     questions:
       - question: Šta je to dečiji sportski rođendan?
         answer: >
-          Veoma polažemo na tome da rodjendani koje organizujemo budu super
-          interesantni za mališane, sa puno kretanja, trčanja, različitih
-          survivor poligona i zanimljivih grupnih igara.
-
-
-          U današnje moderno vreme nezaustavljivog tehnološkog progresa,  mi se
-          trudimo da decu vratimo prirodnim pokretima i igrama u kakvim su im
-          roditelji uzivali kada su bili deca. U ponudi imamo tri paketa.
+          U današnje moderno vreme nezaustavljivog tehnološkog progresa,  deca
+          su sve češće okupirana malim ekranima.  Zato smo osmislili dečije
+          sportske rođendane koji vašu decu vraćaju prirodnim pokretima i igrama
+          u kojima smo mi nekada uživali. U dva i po sata staje mnogo zabave,
+          poligona, grupnih igara i bezbroj dečijih osmeha. U ponudi imamo tri
+          paketa.
       - question: Koji su termini sportskih rođendana?
         answer: >
           Termini u kojima organizujemo rodjendane su subotom od 15 i 18h i
