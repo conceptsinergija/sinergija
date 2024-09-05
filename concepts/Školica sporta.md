@@ -18,6 +18,7 @@ show_youtube_video: false
 youtube_src: ''
 show_gallery: true
 gallery:
+  - image: /assets/uploads/test final_6 (1).jpg
   - image: /assets/uploads/screenshot_20220531-145754_gallery.jpg
     alt: skolica sporta 1
   - image: /assets/uploads/image-5-.jpg
