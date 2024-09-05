@@ -9,14 +9,9 @@ short_description: >-
   kojem se možete ne samo zasititi i okrepiti već i opremiti.
 show_gallery: true
 gallery:
+  - image: /assets/uploads/6O6A0910.jpg
   - image: /assets/uploads/6O6A0930.jpg
     alt: image 1
-  - image: /assets/uploads/mutz756i.jpeg.jpg
-    alt: image 2
-  - image: /assets/uploads/nwsaznha.jpeg.webp
-    alt: image 3
-  - image: /assets/uploads/qceq83fs.jpeg.jpg
-    alt: image 4
 subtitle: >
   Ponosni smo što u konceptu Sinergije imamo zaseban departman bar i shop u
   kojem se možete ne samo zasititi i okrepiti već i opremiti.
