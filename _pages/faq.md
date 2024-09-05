@@ -194,10 +194,10 @@ categories:
         answer: >
           Članovi sa CrossTraining članarinom mogu bez doplate koristiti GYM
           departman.
-      - question: Da li cross trening može da se koristi uz Fitpass?
+      - question: Da li Cross trening može da se koristi uz Fitpass?
         answer: >
-          Da li je potrebna doplata? Možete biti deo našeg Cross Training
-          departmana is a Fitpass karticom, uz doplatu.
+          Možete biti deo našeg Cross Training departmana i sa Fitpass karticom,
+          uz doplatu.
       - question: Koliko traje cross training?
         answer: |
           Cross training traje 60 minuta
