@@ -81,6 +81,17 @@ export default defineConfig({
             name: 'team',
             label: 'Team',
             fields: teamFields()
+          },
+          {
+            name: 'default',
+            label: 'Default',
+            fields: [
+              {
+                type: "string",
+                name: "title",
+                label: "Title",
+              },
+            ]
           }
         ]
       },
