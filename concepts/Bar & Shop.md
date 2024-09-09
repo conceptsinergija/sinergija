@@ -9,6 +9,7 @@ short_description: >-
   kojem se možete ne samo zasititi i okrepiti već i opremiti.
 show_youtube_video: false
 show_gallery: true
+concept_card_image: /assets/uploads/6O6A0917.jpg
 gallery:
   - image: /assets/uploads/6O6A0917.jpg
   - image: /assets/uploads/6O6A0914.jpg
