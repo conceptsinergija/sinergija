@@ -7,6 +7,7 @@ show_on_homepage: true
 short_description: >-
   Ponosni smo što u konceptu Sinergije imamo zaseban departman bar i shop u
   kojem se možete ne samo zasititi i okrepiti već i opremiti.
+show_youtube_video: false
 show_gallery: true
 gallery:
   - image: /assets/uploads/6O6A0917.jpg
