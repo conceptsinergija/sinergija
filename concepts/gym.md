@@ -8,15 +8,15 @@ additional_description: >-
   2450 rsd.
 layout: single_concept
 title: GYM
+concept_card_image: /assets/uploads/gym1.jpg
 show_on_homepage: true
 short_description: >-
   Naš GYM departman predstavlja jednu od najopremljenijih i najlepših teretana
   na našim prostorima. U stvaranju ovog departmana vodili smo se načelima
   organizovanosti funkcionalnosti i estetike praćenjem tendencija u svetu
-  zdravlja sporta i fitnesa a sve to zarad što prijatnijeg boravka i uživanja u
+  zdravlja sporta i fitnesa, a sve to zarad što prijatnijeg boravka i uživanja u
   vremenu provedenom u GYM-u.
 show_gallery: true
-concept_card_image: /assets/uploads/gym1.jpg
 gallery:
   - image: /assets/uploads/gym1.jpg
     alt: Gym 1
