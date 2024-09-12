@@ -3,14 +3,13 @@ permalink: /programi/recovery
 custom_order: 27
 layout: single_concept
 title: RECOVERY
+concept_card_image: /assets/uploads/img_6373.jpg
 show_on_homepage: true
 short_description: >-
   Recovery studio je jedan od departmana u sastavu koji je tu zbog vašeg
-  oporavka i uživanja. studio se nalazi na 1. spratu i dok ste u njemu pruža se
-  dantastičan pogled na ceo GYM departman. U studiju se nalaze četiri prostorije
-  i prijemna zona.
+  oporavka i uživanja. Studio se nalazi na prvom spratu i dok ste u njemu pruža
+  se fantastičan pogled na ceo GYM departman. 
 show_gallery: false
-concept_card_image: /assets/uploads/img_6373.jpg
 gallery:
   - image: /assets/uploads/img_6373.jpg
     alt: recovery 1
