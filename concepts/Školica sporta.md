@@ -5,19 +5,19 @@ our_mission_title: Programi
 price_image: /assets/uploads/screenshot_20220531-145754_gallery.jpg
 layout: single_concept
 title: ŠKOLICA SPORTA
+concept_card_image: /assets/uploads/test final_6 (1).jpg
 show_on_homepage: true
 short_description: >-
-  Kolko je sjajno to da sa svojim mališanima posle posla i vrtića / škole
-  dodjete na jedno mesto gde ćete i Vi i deca raditi nešto dobro za sebe. Deca
-  će se na časovima školice sporta sjajno zabavljati i raditi za motorici i
-  razvoju dok ćete vi izabrati nešto od naših sportskih programa i raditi na
-  sebi. Naši treneri su potkovani znanjem i sa puno strpljenja i ljubavi
-  pristupaju svom pozivu. Uživaćete dok gledate svoje mališane kako napreduju i
-  raduju se sportu.
+  Kolko je sjajno to da sa svojim mališanima posle posla i vrtića dođete na
+  jedno mesto gde ćete i Vi i deca raditi nešto dobro za sebe. Deca će se na
+  časovima školice sporta sjajno zabavljati i raditi za motorici i razvoju dok
+  ćete vi izabrati nešto od naših sportskih programa i raditi na sebi. Naši
+  treneri su potkovani znanjem i sa puno strpljenja i ljubavi pristupaju svom
+  pozivu. Uživaćete dok gledate svoje mališane kako napreduju i raduju se
+  sportu.
 show_youtube_video: false
 youtube_src: ''
 show_gallery: true
-concept_card_image: "/assets/uploads/test final_6 (1).jpg"
 gallery:
   - image: /assets/uploads/test final_6 (1).jpg
   - image: /assets/uploads/screenshot_20220531-145754_gallery.jpg
@@ -25,13 +25,13 @@ gallery:
   - image: /assets/uploads/image-5-.jpg
     alt: skolica sporta 2
 subtitle: >
-  Kolko je sjajno to da sa svojim mališanima posle posla i vrtića / škole
-  dodjete na jedno mesto gde ćete i Vi i deca raditi nešto dobro za sebe.
+  Kolko je sjajno to da sa svojim mališanima posle posla i vrtića dođete na
+  jedno mesto gde ćete i Vi i deca raditi nešto dobro za sebe. 
 
 
   Deca će se na časovima školice sporta sjajno zabavljati i raditi za motorici i
   razvoju dok ćete vi izabrati nešto od naših sportskih programa i raditi na
-  sebi.
+  sebi. 
 
 
   Naši treneri su potkovani znanjem i sa puno strpljenja i ljubavi pristupaju
