@@ -7,10 +7,10 @@ layout: single_concept
 title: SPORTSKI ROĐENDAN
 show_on_homepage: true
 short_description: >-
-  Program proslave najboljeg i nezaboravnog rodjendana Vaših mališana. U
-  današnje moderno doba nezaustavljivog tehnološkog napretka mi smo rešili da
-  najmladje vratimo prirodnom pokretu, druženju i avanturama u kakvim su im
-  roditelji nekada uživali.
+  Program proslave najboljeg i nezaboravnog rođendana Vaših mališana. U današnje
+  moderno doba nezaustavljivog tehnološkog napretka mi smo rešili da najmlađe
+  vratimo prirodnom pokretu, druženju i avanturama u kakvim su im roditelji
+  nekada uživali.
 show_youtube_video: true
 youtube_src: 'https://www.youtube.com/embed/KQXOUjzMbuY'
 show_gallery: true
@@ -20,11 +20,11 @@ gallery:
   - image: /assets/uploads/screenshot_20220531-145754_gallery.jpg
     alt: sportski rodjendan 2
 subtitle: >
-  Program proslave najboljeg i nezaboravnog rodjendana Vaših mališana.
+  Program proslave najboljeg i nezaboravnog rođendana Vaših mališana.
 
 
   U današnje moderno doba nezaustavljivog tehnološkog napretka mi smo rešili da
-  najmladje vratimo prirodnom pokretu, druženju i avanturama u kakvim su im
+  najmlađe vratimo prirodnom pokretu, druženju i avanturama u kakvim su im
   roditelji nekada uživali.
 our_mission:
   - title: ORGANIZACIJA
