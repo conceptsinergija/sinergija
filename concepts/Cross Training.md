@@ -8,20 +8,20 @@ price_image: /assets/uploads/gym2.jpeg
 additional_description: Članovi sa CrossTraining članarinom mogu bez doplate koristiti GYM departman
 layout: single_concept
 title: CROSS TRAINING
+concept_card_image: /assets/uploads/test-final_163.jpg
 show_on_homepage: true
 short_description: >+
 
 
-  Posledjnu deceniju ustalila se praksa da se prostori u kojima se trenira
+  Poslednju deceniju ustalila se praksa da se prostori u kojima se trenira
   funkcionalni trening, CrossFit, performance trening i slično nazivaju BOX jer
   su to najčešće magacinski ili slični prostori koji izgledaju poput kutiija
-  pravougaonih oblika. Za razliku od klasičnih teretana gde vidite mnoštvo sprva
-  poredjanih u prostoru u Box-evima je verovatnije da ćete videti uredno
+  pravougaonih oblika. Za razliku od klasičnih teretana gde vidite mnoštvo
+  sprava poredjanih u prostoru u Box-evima je verovatnije da ćete videti uredno
   naslagane tegove, puno olimpijskih šipki, kavez (eng. Rig) za zgibove i
   gimnastičke vezbe, kanape za penjanje i mnogo slobodnog prostora.
 
 show_gallery: true
-concept_card_image: /assets/uploads/test-final_163.jpg
 gallery:
   - image: /assets/uploads/test-final_163.jpg
     alt: cross-training 1
@@ -34,19 +34,19 @@ gallery:
   - image: /assets/uploads/test-final_159.webp
     alt: cross-training 5
 subtitle: >
-  Posledjnu deceniju ustalila se praksa da se prostori u kojima se trenira
+  Poslednju deceniju ustalila se praksa da se prostori u kojima se trenira
   funkcionalni trening, CrossFit, performance trening i slično nazivaju BOX jer
   su to najčešće magacinski ili slični prostori koji izgledaju poput kutiija
-  pravougaonih oblika. Za razliku od klasičnih teretana gde vidite mnoštvo sprva
-  poredjanih u prostoru u Box-evima je verovatnije da ćete videti uredno
+  pravougaonih oblika. Za razliku od klasičnih teretana gde vidite mnoštvo
+  sprava poredjanih u prostoru u Box-evima je verovatnije da ćete videti uredno
   naslagane tegove, puno olimpijskih šipki, kavez (eng. Rig) za zgibove i
   gimnastičke vezbe, kanape za penjanje i mnogo slobodnog prostora.
 our_mission:
   - title: Basic Class
     image: /assets/uploads/image-2-.jpg
     description: >
-      Osnovni program prilagodjen upznavanju sa funkciinalnim načinom
-      treniranja, metodologijom i terminologijom rada
+      Osnovni program prilagodjen upoznavanju sa funkciinalnim načinom
+      treniranja, metodologijom i terminologijom rada.
   - title: Standard Class
     image: /assets/uploads/image-3-.jpg
     description: >
