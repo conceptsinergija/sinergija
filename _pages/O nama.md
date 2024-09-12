@@ -154,7 +154,7 @@ secitons:
       ČLANOVE KOJI SINERGIJU DOŽIVLJAVAJU KAO DRUGU KUĆU!**
 
 
-      Pozitivna enrgija i sinergija koju svi zajedno stvaramo, zajednica dobrih
+      Pozitivna energija i sinergija koju svi zajedno stvaramo, zajednica dobrih
       ljudi i radosti života koje delimo je teško rečima opisati.
 
 
