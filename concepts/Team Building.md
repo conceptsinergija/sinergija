@@ -4,6 +4,7 @@ custom_order: 26
 our_mission_title: Programi
 layout: single_concept
 title: Team building
+concept_card_image: ''
 show_on_homepage: true
 short_description: >
   Nudimo jedinstvene aktivnosti koje će ojačati timski duh vaših zaposlenih kroz
@@ -14,7 +15,6 @@ short_description: >
   doživite kako efikasan team building može unaprediti radnu atmosferu i
   povezati vaš kolektiv!
 show_gallery: false
-concept_card_image: /assets/uploads/image-8-.jpg
 subtitle: >
   Nudimo jedinstvene aktivnosti koje će ojačati timski duh vaših zaposlenih kroz
   zabavne i izazovne poligone i igre. Naši iskusni treneri vode timove kroz
@@ -25,7 +25,7 @@ subtitle: >
   povezati vaš kolektiv!
 our_mission:
   - title: ORGANIZACIJA
-    image: /assets/uploads/image-7-.jpg
+    image: ''
     description: >
       Nakon aktivnosti, ekipa se može opustiti i družiti u našem odvojenom baru,
       gde mogu uživati u osvežavajućim pićima.
