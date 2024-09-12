@@ -5,6 +5,7 @@ our_mission_title: Programi
 price_image: /assets/uploads/screenshot_20220531-145754_gallery.jpg
 layout: single_concept
 title: SPORTSKI ROĐENDAN
+concept_card_image: /assets/uploads/assets/uploads/screenshot_20220531-145754_gallery.jpg
 show_on_homepage: true
 short_description: >-
   Program proslave najboljeg i nezaboravnog rođendana Vaših mališana. U današnje
