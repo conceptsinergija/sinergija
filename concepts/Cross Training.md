@@ -45,7 +45,7 @@ our_mission:
   - title: Basic Class
     image: /assets/uploads/image-2-.jpg
     description: >
-      Osnovni program prilagodjen upoznavanju sa funkciinalnim načinom
+      Osnovni program prilagodjen upoznavanju sa funkcionalnim načinom
       treniranja, metodologijom i terminologijom rada.
   - title: Standard Class
     image: /assets/uploads/image-3-.jpg
