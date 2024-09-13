@@ -10,7 +10,7 @@ show_on_homepage: true
 short_description: >-
   Kolko je sjajno to da sa svojim mališanima posle posla i vrtića dođete na
   jedno mesto gde ćete i Vi i deca raditi nešto dobro za sebe. Deca će se na
-  časovima školice sporta sjajno zabavljati i raditi za motorici i razvoju dok
+  časovima školice sporta sjajno zabavljati i raditi na motorici i razvoju dok
   ćete vi izabrati nešto od naših sportskih programa i raditi na sebi. Naši
   treneri su potkovani znanjem i sa puno strpljenja i ljubavi pristupaju svom
   pozivu. Uživaćete dok gledate svoje mališane kako napreduju i raduju se
@@ -26,12 +26,12 @@ gallery:
     alt: skolica sporta 2
 subtitle: >
   Kolko je sjajno to da sa svojim mališanima posle posla i vrtića dođete na
-  jedno mesto gde ćete i Vi i deca raditi nešto dobro za sebe. 
+  jedno mesto gde ćete i Vi i deca raditi nešto dobro za sebe.
 
 
-  Deca će se na časovima školice sporta sjajno zabavljati i raditi za motorici i
+  Deca će se na časovima školice sporta sjajno zabavljati i raditi na motorici i
   razvoju dok ćete vi izabrati nešto od naših sportskih programa i raditi na
-  sebi. 
+  sebi.
 
 
   Naši treneri su potkovani znanjem i sa puno strpljenja i ljubavi pristupaju
