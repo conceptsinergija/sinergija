@@ -38,8 +38,8 @@ subtitle: >
   funkcionalni trening, CrossFit, performance trening i slično nazivaju BOX jer
   su to najčešće magacinski ili slični prostori koji izgledaju poput kutiija
   pravougaonih oblika. Za razliku od klasičnih teretana gde vidite mnoštvo
-  sprava poredjanih u prostoru u Box-evima je verovatnije da ćete videti uredno
-  naslagane tegove, puno olimpijskih šipki, kavez (eng. Rig) za zgibove i
+  sprava poređanih u prostoru u Box-evima je verovatnije da ćete videti uredno
+  naslagane tegove, puno olimpijskih šipki, kavez (eng. Ring) za zgibove i
   gimnastičke vezbe, kanape za penjanje i mnogo slobodnog prostora.
 our_mission:
   - title: Basic Class
