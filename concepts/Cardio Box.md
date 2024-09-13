@@ -5,6 +5,7 @@ our_mission_title: Programi
 price_image: /assets/uploads/cardio2.jpg
 layout: single_concept
 title: CARDIO BOX
+concept_card_image: /assets/uploads/cardio3.jpg
 show_on_homepage: true
 short_description: >-
   Cardio box je dinamičan i zabavan trening program višeg inteziteta koji
@@ -12,7 +13,6 @@ short_description: >-
   težinom zarad povećanja izdržljivosti, razvoja snage, brzine, koordinacije i
   agilnosti.
 show_gallery: true
-concept_card_image: /assets/uploads/cardio3.jpg
 gallery:
   - image: /assets/uploads/cardio3.jpg
     alt: image 1
@@ -41,7 +41,7 @@ our_mission:
     description: >
       Ovaj naš program pozitivno utiče na oslobadjanje od stresa koji moderan
       život sa sobom nosi, kao i podizanja samopouzdanja i vere u sebe. Uz to
-      što radiš na fizičkoj formi stećićeš i dobro drušrvo sa treninga.
+      što radiš na fizičkoj formi stećićeš i dobro društvo sa treninga.
 
 
       Cardio box je preporučljiv svima, kako naprednim vežbačima, tako i
