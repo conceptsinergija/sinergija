@@ -13,7 +13,7 @@ short_description: >-
   vratimo prirodnom pokretu, druženju i avanturama u kakvim su im roditelji
   nekada uživali.
 show_youtube_video: true
-youtube_src: 'https://www.youtube.com/embed/113SA3PniJc?si=l3EiHpBgP4C2yYkD'
+youtube_src: 'https://www.youtube.com/embed/KQXOUjzMbuY'
 show_gallery: true
 gallery:
   - image: /assets/uploads/image-5-.jpg
