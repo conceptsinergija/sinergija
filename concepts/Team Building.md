@@ -14,6 +14,8 @@ short_description: >
   komunikaciju, saradnju i poverenje među članovima tima. Pridružite nam se i
   doživite kako efikasan team building može unaprediti radnu atmosferu i
   povezati vaš kolektiv!
+show_youtube_video: true
+youtube_src: 'https://youtu.be/113SA3PniJc'
 show_gallery: false
 subtitle: >
   Nudimo jedinstvene aktivnosti koje će ojačati timski duh vaših zaposlenih kroz
