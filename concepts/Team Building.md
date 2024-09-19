@@ -15,7 +15,7 @@ short_description: >
   doživite kako efikasan team building može unaprediti radnu atmosferu i
   povezati vaš kolektiv!
 show_youtube_video: true
-youtube_src: 'https://www.youtube.com/embed/113SA3PniJc'
+youtube_src: 'https://www.youtube.com/embed/113SA3PniJc?si=cDQGpMpuc60FPye7'
 show_gallery: false
 subtitle: >
   Nudimo jedinstvene aktivnosti koje će ojačati timski duh vaših zaposlenih kroz
