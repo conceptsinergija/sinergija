@@ -26,6 +26,14 @@ subtitle: >
   doživite kako efikasan team building može unaprediti radnu atmosferu i
   povezati vaš kolektiv!
 our_mission:
+  - title: KONCEPT
+    description: >
+      U našoj ponudi sportskih team buildinga, fokusiramo se na aktivnosti koje
+      podstiču timski rad, zdravu konkurenciju i zabavu. Kroz sportske
+      aktivnosti, zaposleni će učiti kako da efikasno sarađuju, komuniciraju i
+      rešavaju probleme kao tim uz pomoć naših trenera. Naši programi su
+      dizajnirani tako da svi članovi tima, bez obzira na fizičku spremnost,
+      mogu učestvovati i dati svoj doprinos.
   - title: ORGANIZACIJA
     image: ''
     description: >
