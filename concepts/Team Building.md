@@ -4,7 +4,7 @@ custom_order: 26
 our_mission_title: Programi
 layout: single_concept
 title: Team building
-concept_card_image: ''
+concept_card_image: /assets/uploads/purple minimalist Health insurance LinkedIn Banner .jpg
 show_on_homepage: true
 short_description: >
   Nudimo jedinstvene aktivnosti koje će ojačati timski duh vaših zaposlenih kroz
