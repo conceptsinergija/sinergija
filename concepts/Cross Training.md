@@ -34,7 +34,7 @@ gallery:
     alt: cross-training 5
 show_weekly_program: true
 weekly_program_title: Nedeljni program
-weekly_program: /assets/uploads/image-3-.jpg
+weekly_program: /assets/uploads/nedeljni cross za website.png
 subtitle: >
   Poslednju deceniju ustalila se praksa da se prostori u kojima se trenira
   funkcionalni trening, CrossFit, performance trening i slično nazivaju BOX jer
