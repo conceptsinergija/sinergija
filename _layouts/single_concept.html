@@ -50,6 +50,15 @@
       {% include our_mission.html  %}
     {% endif %}
   </div>
+
+  {% if page.show_training_time %}
+    <div class="mt-20 md:pt-20 mb-10">
+      <h2 class="section-title"> {{ page.training_time_title }} </h2>
+      {% if page.training_time_image != "" and page.training_time_image != null %}
+      <img src="{{ page.training_time_image }}" alt="{{ page.training_time_title }}" class="w-full h-full object-cover">
+      {% endif %}
+    </div>
+  {% endif %}
 </main>
 
 {% if page.price_image != "" and page.price_image != null %}

@@ -59,6 +59,9 @@ our_mission:
     description: >
       Funkcionalni trening sa mogućnošču prilagođavanja nivoa inteziteta i
       opterećenja u skladu sa mogućnostima
+show_training_time: false
+training_time_title: Termini
+training_time_image: ''
 prices:
   - service: Dnevna karta
     price: '1200'

@@ -127,6 +127,21 @@ export function singleConceptFields() {
       ]
     },
     {
+      type: "boolean",
+      name: "show_training_time",
+      label: "Prikaz sekcija Termina",
+    },
+    {
+      type: "string",
+      name: 'training_time_title',
+      label: 'Naslov sekcije Termina',
+    },
+    {
+      type: "image",
+      name: "training_time_image",
+      label: "Slika sekcije Termina",
+    },
+    {
       type: "object",
       name: "prices",
       label: "Pricelist",
