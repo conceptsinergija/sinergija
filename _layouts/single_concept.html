@@ -38,7 +38,7 @@
       {% endif %}
     </div>
 
-    {% if page.weekly_program and page.weekly_program_title %}
+    {% if page.show_weekly_program %}
       <div class="mt-20 mb-10">
         <h2 class="section-title"> {{ page.weekly_program_title }} </h2>
         <img src="{{ page.weekly_program }}" alt="{{ page.weekly_program_title }}" class="w-full h-full object-cover">

@@ -1,8 +1,6 @@
 ---
 permalink: /programi/cross-training
 custom_order: 2
-weekly_program_title: Nedeljni program
-weekly_program: /assets/uploads/image-3-.jpg
 our_mission_title: Programi
 price_image: /assets/uploads/gym2.jpeg
 additional_description: Članovi sa CrossTraining članarinom mogu bez doplate koristiti GYM departman
@@ -21,6 +19,7 @@ short_description: >+
   naslagane tegove, puno olimpijskih šipki, kavez (eng. Ring) za zgibove i
   gimnastičke vezbe, kanape za penjanje i mnogo slobodnog prostora.
 
+show_youtube_video: false
 show_gallery: true
 gallery:
   - image: /assets/uploads/test-final_163.jpg
@@ -33,6 +32,9 @@ gallery:
     alt: cross-training 4
   - image: /assets/uploads/test-final_159.webp
     alt: cross-training 5
+show_weekly_program: true
+weekly_program_title: Nedeljni program
+weekly_program: /assets/uploads/image-3-.jpg
 subtitle: >
   Poslednju deceniju ustalila se praksa da se prostori u kojima se trenira
   funkcionalni trening, CrossFit, performance trening i slično nazivaju BOX jer

@@ -78,6 +78,21 @@ export function singleConceptFields() {
       ],
     },
     {
+      type: "boolean",
+      name: "show_weekly_program",
+      label: "Show Weekly Program",
+    },
+    {
+      type: "string",
+      name: 'weekly_program_title',
+      label: 'Weekly Program Title',
+    },
+    {
+      type: "image",
+      name: "weekly_program",
+      label: "Weekly Program Image",
+    },
+    {
       type: "rich-text",
       name: "subtitle",
       label: "Subtitle",
