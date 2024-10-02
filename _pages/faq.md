@@ -141,7 +141,7 @@ categories:
           19h, 20h.
 
 
-          Subotom je standard grupa u 10h.
+          Subotom je standard grupa u 11h, a basic u 10h.
 
 
           Subotom nemamo Open Gym zbog proslave rođendana.
@@ -313,7 +313,7 @@ categories:
           Bilo koji paket da odaberete, procedura je da nam potvrdite termin, a
           mi vam šaljemo upitnik koji popunjavate sa slavljenikom/com da bi
           pripremili kviz "KPS" za drugare i da bi se što bolje upoznali sa
-          interesovanjima slavljenika/ce. 
+          interesovanjima slavljenika/ce.
       - question: Gde su roditelji dok se deca igraju?
         answer: >
           U Sinergiji imamo izdvojen, komforan deo za roditelje dok se deca
