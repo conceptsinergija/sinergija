@@ -61,7 +61,7 @@ our_mission:
       opterećenja u skladu sa mogućnostima
 show_training_time: false
 training_time_title: Termini
-training_time_image: ''
+training_time_image: /assets/uploads/nedeljni cross za website (3).png
 prices:
   - service: Dnevna karta
     price: '1200'
