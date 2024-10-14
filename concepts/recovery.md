@@ -21,6 +21,8 @@ gallery:
     alt: recovery 4
 subtitle: ''
 prices:
+  - service: Ručna limfna drenaža
+    price: '3000'
   - service: Istezanje
     price: '2000'
   - service: Presoterapija
