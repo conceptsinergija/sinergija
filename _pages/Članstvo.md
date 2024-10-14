@@ -32,6 +32,8 @@ membership:
 pricelist:
   - title: Recovery
     services:
+      - service: 'Presoterapija '
+        price: '1000 '
       - service: ' Kinesi tapeing '
         price: '1000 '
   - title: COACHING
