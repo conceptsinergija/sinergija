@@ -11,15 +11,14 @@ short_description: >-
   se fantastičan pogled na ceo GYM departman. 
 
 
-  U našem Recovery Department-u, nudimo širok spektar tretmana za oporavak,
+  U našem Recovery departmanu, nudimo širok spektar tretmana za oporavak,
   rehabilitaciju i relaksaciju, namenjenih sportistima, aktivnim pojedincima,
   ali i svima koji žele da unaprede kvalitet svog života i brinu o svom telu.
 
 
   Bez obzira da li vam je potreban oporavak od intenzivnog treninga, terapija za
-  smanjenje bolova ili jednostavno relaksacija i oslobađanje od stresa, naši
-  stručnjaci su tu da ti pruže personalizovane tretmane prilagođene tvojim
-  potrebama.
+  smanjenje bolova ili jednostavno relaksacija i oslobađanje od stresa, u
+  Recovery-ju pružamo personalizovane tretmane prilagođene vašim potrebama.
 show_gallery: false
 gallery:
   - image: /assets/uploads/img_6373.jpg
@@ -33,7 +32,7 @@ gallery:
 subtitle: >
   Recovery studio je jedan od departmana u sastavu Sinergija fintness concepta
   koji je tu zbog vašeg oporavka i uživanja. Studio se nalazi na prvom spratu i
-  dok ste u njemu pruža se fantastičan pogled na ceo GYM departman. 
+  dok ste u njemu pruža se fantastičan pogled na ceo GYM departman.
 
 
   U našem Recovery Department-u, nudimo širok spektar tretmana za oporavak,
@@ -42,9 +41,8 @@ subtitle: >
 
 
   Bez obzira da li vam je potreban oporavak od intenzivnog treninga, terapija za
-  smanjenje bolova ili jednostavno relaksacija i oslobađanje od stresa, naši
-  stručnjaci su tu da ti pruže personalizovane tretmane prilagođene tvojim
-  potrebama.
+  smanjenje bolova ili jednostavno relaksacija i oslobađanje od stresa, u
+  Recovery-ju pružamo personalizovane tretmane prilagođene vašim potrebama.
 prices:
   - service: Kinesi tapeing
     price: '1000 '
