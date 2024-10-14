@@ -32,6 +32,8 @@ membership:
 pricelist:
   - title: Recovery
     services:
+      - service: Osteopatska terapija
+        price: '5000'
       - service: ' Masaža 90'''
         price: '6000'
       - service: Masaža 60'
