@@ -20,6 +20,9 @@ gallery:
   - image: /assets/uploads/img_6380.jpg
     alt: recovery 4
 subtitle: ''
+prices:
+  - service: Kinesi tapeing
+    price: '1000 '
 rule_book: ''
 _template: single_concept
 ---
