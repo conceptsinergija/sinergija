@@ -30,24 +30,6 @@ membership:
     treniras jako, zabavljaš se i napreduješ, mi smo tu za tebe!
   image: /assets/uploads/gym2.jpeg
 pricelist:
-  - title: Recovery
-    services:
-      - service: Osteopatska terapija
-        price: '5000'
-      - service: ' Masaža 90'''
-        price: '6000'
-      - service: Masaža 60'
-        price: '4000'
-      - service: Fizikalna terapija 45'
-        price: '4000'
-      - service: Ručna limfna drenaža
-        price: '3000'
-      - service: Istezanje
-        price: '2000'
-      - service: 'Presoterapija '
-        price: '1000 '
-      - service: ' Kinesi tapeing '
-        price: '1000 '
   - title: COACHING
     services:
       - service: Pregled i merenje
@@ -136,6 +118,24 @@ pricelist:
       - service: Termin 60 min
         price: '3900'
     description: Termin traje 60 minuta i počinje na pun sat
+  - title: Recovery
+    services:
+      - service: Osteopatska terapija
+        price: '5000'
+      - service: ' Masaža 90'''
+        price: '6000'
+      - service: Masaža 60'
+        price: '4000'
+      - service: Fizikalna terapija 45'
+        price: '4000'
+      - service: Ručna limfna drenaža
+        price: '3000'
+      - service: Istezanje
+        price: '2000'
+      - service: 'Presoterapija '
+        price: '1000 '
+      - service: ' Kinesi tapeing '
+        price: '1000 '
 discounts:
   - title: POVLAŠĆENE KATEGORIJE - 15%
     services:
