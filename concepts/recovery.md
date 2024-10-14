@@ -62,21 +62,7 @@ prices:
     price: '6000 '
   - service: 'Osteopatska terapija '
     price: '5000 '
-rule_book: >
-  Recovery studio je jedan od departmana u sastavu Sinergija fintness concepta
-  koji je tu zbog vašeg oporavka i uživanja. Studio se nalazi na prvom spratu i
-  dok ste u njemu pruža se fantastičan pogled na ceo GYM departman. 
-
-
-  U našem Recovery Department-u, nudimo širok spektar tretmana za oporavak,
-  rehabilitaciju i relaksaciju, namenjenih sportistima, aktivnim pojedincima,
-  ali i svima koji žele da unaprede kvalitet svog života i brinu o svom telu.
-
-
-  Bez obzira da li vam je potreban oporavak od intenzivnog treninga, terapija za
-  smanjenje bolova ili jednostavno relaksacija i oslobađanje od stresa, naši
-  stručnjaci su tu da ti pruže personalizovane tretmane prilagođene tvojim
-  potrebama.
+rule_book: ''
 _template: single_concept
 ---
 
