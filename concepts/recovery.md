@@ -21,22 +21,22 @@ gallery:
     alt: recovery 4
 subtitle: ''
 prices:
-  - service: 'Osteopatska terapija '
-    price: '5000 '
-  - service: Masaža 90'
-    price: '6000 '
-  - service: Masaža 60'
-    price: '4000'
-  - service: 'Fizikalna terapija 45'' '
-    price: '4000'
-  - service: Ručna limfna drenaža
-    price: '3000'
-  - service: Istezanje
-    price: '2000'
-  - service: Presoterapija
-    price: '1000'
   - service: Kinesi tapeing
     price: '1000 '
+  - service: Presoterapija
+    price: '1000'
+  - service: Istezanje
+    price: '2000'
+  - service: Ručna limfna drenaža
+    price: '3000'
+  - service: 'Fizikalna terapija 45'' '
+    price: '4000'
+  - service: Masaža 60'
+    price: '4000'
+  - service: Masaža 90'
+    price: '6000 '
+  - service: 'Osteopatska terapija '
+    price: '5000 '
 rule_book: ''
 _template: single_concept
 ---
