@@ -32,6 +32,8 @@ membership:
 pricelist:
   - title: Recovery
     services:
+      - service: Fizikalna terapija 45'
+        price: '4000'
       - service: Ručna limfna drenaža
         price: '3000'
       - service: Istezanje
