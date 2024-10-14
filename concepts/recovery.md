@@ -21,6 +21,8 @@ gallery:
     alt: recovery 4
 subtitle: ''
 prices:
+  - service: Istezanje
+    price: '2000'
   - service: Presoterapija
     price: '1000'
   - service: Kinesi tapeing
