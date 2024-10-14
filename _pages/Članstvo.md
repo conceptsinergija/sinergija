@@ -30,6 +30,7 @@ membership:
     treniras jako, zabavljaš se i napreduješ, mi smo tu za tebe!
   image: /assets/uploads/gym2.jpeg
 pricelist:
+  - title: Recovery
   - title: COACHING
     services:
       - service: Pregled i merenje
