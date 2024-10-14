@@ -32,6 +32,8 @@ membership:
 pricelist:
   - title: Recovery
     services:
+      - service: Istezanje
+        price: '2000'
       - service: 'Presoterapija '
         price: '1000 '
       - service: ' Kinesi tapeing '
