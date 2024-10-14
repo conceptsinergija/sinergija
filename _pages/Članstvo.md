@@ -31,6 +31,9 @@ membership:
   image: /assets/uploads/gym2.jpeg
 pricelist:
   - title: Recovery
+    services:
+      - service: ' Kinesi tapeing '
+        price: '1000 '
   - title: COACHING
     services:
       - service: Pregled i merenje
