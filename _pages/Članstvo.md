@@ -32,6 +32,8 @@ membership:
 pricelist:
   - title: Recovery
     services:
+      - service: Ručna limfna drenaža
+        price: '3000'
       - service: Istezanje
         price: '2000'
       - service: 'Presoterapija '
