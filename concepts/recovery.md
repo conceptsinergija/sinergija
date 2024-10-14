@@ -21,6 +21,8 @@ gallery:
     alt: recovery 4
 subtitle: ''
 prices:
+  - service: Presoterapija
+    price: '1000'
   - service: Kinesi tapeing
     price: '1000 '
 rule_book: ''
