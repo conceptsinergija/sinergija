@@ -142,6 +142,11 @@ export function singleConceptFields() {
       label: "Slika sekcije Termina",
     },
     {
+      type: "image",
+      name: "price_image",
+      label: "Price Section Image"
+    },
+    {
       type: "object",
       name: "prices",
       label: "Pricelist",
