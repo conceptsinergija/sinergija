@@ -22,6 +22,7 @@ short_description: >-
 show_gallery: true
 gallery:
   - image: /assets/uploads/MAR_5111.jpg
+    alt: recovery 6
   - image: /assets/uploads/MAR_5127.jpg
     alt: recovery 5
   - image: /assets/uploads/MAR_5156.jpg
