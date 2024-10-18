@@ -27,7 +27,7 @@ gallery:
     alt: recovery 2
   - image: /assets/uploads/MAR_5166.jpg
     alt: recovery 3
-  - image: /assets/uploads/img_6380.jpg
+  - image: /assets/uploads/MAR_5149.jpg
     alt: recovery 4
 subtitle: >
   Recovery studio je jedan od departmana u sastavu Sinergija fintness concepta
