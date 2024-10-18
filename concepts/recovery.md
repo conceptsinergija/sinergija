@@ -21,11 +21,8 @@ short_description: >-
   Recovery-ju pružamo personalizovane tretmane prilagođene vašim potrebama.
 show_gallery: true
 gallery:
-  - {}
   - image: /assets/uploads/MAR_5099.jpg
     alt: recovery 7
-  - image: ''
-    alt: recovery 6
   - image: /assets/uploads/MAR_5127.jpg
     alt: recovery 5
   - image: /assets/uploads/MAR_5156.jpg
