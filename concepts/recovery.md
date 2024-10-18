@@ -19,9 +19,9 @@ short_description: >-
   Bez obzira da li vam je potreban oporavak od intenzivnog treninga, terapija za
   smanjenje bolova ili jednostavno relaksacija i oslobađanje od stresa, u
   Recovery-ju pružamo personalizovane tretmane prilagođene vašim potrebama.
-show_gallery: false
+show_gallery: true
 gallery:
-  - image: /assets/uploads/img_6373.jpg
+  - image: /assets/uploads/MAR_5156.jpg
     alt: recovery 1
   - image: /assets/uploads/img_6375.jpg
     alt: recovery 2
