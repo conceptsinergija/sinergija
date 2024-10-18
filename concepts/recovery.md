@@ -24,14 +24,12 @@ gallery:
   - {}
   - image: /assets/uploads/MAR_5099.jpg
     alt: recovery 7
-  - image: /assets/uploads/MAR_5111.jpg
+  - image: ''
     alt: recovery 6
   - image: /assets/uploads/MAR_5127.jpg
     alt: recovery 5
   - image: /assets/uploads/MAR_5156.jpg
     alt: recovery 1
-  - image: /assets/uploads/MAR_5164 (1).jpg
-    alt: recovery 2
   - image: /assets/uploads/MAR_5166.jpg
     alt: recovery 3
   - image: /assets/uploads/MAR_5149.jpg
