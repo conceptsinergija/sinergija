@@ -43,6 +43,7 @@ subtitle: >
   Bez obzira da li vam je potreban oporavak od intenzivnog treninga, terapija za
   smanjenje bolova ili jednostavno relaksacija i oslobađanje od stresa, u
   Recovery-ju pružamo personalizovane tretmane prilagođene vašim potrebama.
+price_image: /assets/uploads/MAR_5142.webp
 prices:
   - service: Kinesi tapeing
     price: '1000 '
