@@ -25,7 +25,7 @@ gallery:
     alt: recovery 1
   - image: /assets/uploads/MAR_5164 (1).jpg
     alt: recovery 2
-  - image: /assets/uploads/img_6377.jpg
+  - image: /assets/uploads/MAR_5166.jpg
     alt: recovery 3
   - image: /assets/uploads/img_6380.jpg
     alt: recovery 4
