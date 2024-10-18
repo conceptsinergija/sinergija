@@ -3,7 +3,7 @@ permalink: /programi/recovery
 custom_order: 27
 layout: single_concept
 title: RECOVERY
-concept_card_image: /assets/uploads/img_6373.jpg
+concept_card_image: /assets/uploads/MAR_5099.jpg
 show_on_homepage: true
 short_description: >-
   Recovery studio je jedan od departmana u sastavu koji je tu zbog vašeg
