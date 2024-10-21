@@ -2,7 +2,6 @@
 permalink: /programi/cross-training
 custom_order: 2
 our_mission_title: Programi
-price_image: /assets/uploads/gym2.jpeg
 additional_description: Članovi sa CrossTraining članarinom mogu bez doplate koristiti GYM departman
 layout: single_concept
 title: CROSS TRAINING
@@ -34,7 +33,7 @@ gallery:
     alt: cross-training 5
 show_weekly_program: true
 weekly_program_title: Nedeljni program
-weekly_program: /assets/uploads/nedeljni cross za website (5).png
+weekly_program: /assets/uploads/nedeljni cross za website (6).png
 subtitle: >
   Poslednju deceniju ustalila se praksa da se prostori u kojima se trenira
   funkcionalni trening, CrossFit, performance trening i slično nazivaju BOX jer
@@ -62,6 +61,7 @@ our_mission:
 show_training_time: true
 training_time_title: Termini
 training_time_image: /assets/uploads/nedeljni cross za website (3).png
+price_image: /assets/uploads/gym2.jpeg
 prices:
   - service: Dnevna karta
     price: '1200'
