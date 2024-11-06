@@ -2,7 +2,6 @@
 permalink: /programi/sports-birthday
 custom_order: 20
 our_mission_title: Programi
-price_image: /assets/uploads/screenshot_20220531-145754_gallery.jpg
 layout: single_concept
 title: SPORTSKI ROĐENDAN
 concept_card_image: /assets/uploads/screenshot_20220531-145754_gallery.jpg
@@ -32,12 +31,13 @@ our_mission:
     image: /assets/uploads/image-5-.jpg
     description: >
       Motivisani konceptom zdravog odrastanja osmislili smo najzabavnije
-      sportske rođendane za decu od 6 do 12 godina u Sinergiji ili napolju.
+      sportske rođendane za decu od 6 do 12 godina u Sinergiji ili napolju. 
 
 
       Jedinstveni na tržištu, naši sportski rođendani pružaju zabavu deci i
       potpuno rasterećenje roditeljima čija je jedina obaveza da se pojave i
       uživaju u druženju sa prijateljima, hrani i piću.
+price_image: /assets/uploads/screenshot_20220531-145754_gallery.jpg
 prices:
   - service: Sportski rođendan
     price: od 39000
