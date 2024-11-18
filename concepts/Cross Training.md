@@ -5,7 +5,7 @@ our_mission_title: Programi
 additional_description: Članovi sa CrossTraining članarinom mogu bez doplate koristiti GYM departman
 layout: single_concept
 title: CROSS TRAINING
-concept_card_image: /assets/uploads/assets/nedeljni cross za website (10).png
+concept_card_image: /assets/uploads/MAR_0583.jpg
 show_on_homepage: true
 short_description: >+
 
