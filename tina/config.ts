@@ -8,6 +8,7 @@ import { contactFields } from "./templates/contact";
 import { faqFields } from "./templates/faq";
 import { teamFields } from "./templates/team";
 import { singleConceptFields } from "./templates/single_concept";
+import { blogPostsFileds } from "./templates/blog_posts";
 
 // Your hosting provider likely exposes this as an environment variable
 const branch =
@@ -105,6 +106,19 @@ export default defineConfig({
             name: 'single_concept',
             label: 'Concept',
             fields: singleConceptFields()
+          },
+        ]
+      },
+      {
+        label: 'Blog',
+        name: 'posts',
+        path: '_posts',
+        format: 'md',
+        templates: [
+          {
+            name: 'blog_posts',
+            label: 'Post',
+            fields: blogPostsFileds()
           },
         ]
       },

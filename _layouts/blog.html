@@ -1,0 +1,57 @@
+
+{% assign current_page = 'blog_posts' %}
+{% assign page_title = 'Naš koncept' %}
+
+{% include head.html %}
+{% include nav.html %}
+
+<script>
+  document.body.classList.add('smoothLoad')
+</script>
+
+<main class="pt-40 "><!--lg:pb-24-->
+
+  <section id="blog-section" class="container mx-auto pb-20">
+    <div class="inner-container">
+  
+      {% if site.posts.size > 0 %}
+        <h2 class="section-title">
+          Pročitajte više
+        </h2>
+        <div class="flex flex-wrap items-center justify-between lg:justify-start mt-20">
+          {% for post in site.posts %}
+    
+          <a href="{{ post.url }}" class="mb-16" style="min-height: 200px; max-width: 100%; display: block;">
+            <div class="flex flex-col lg:flex-row gap-x-4">
+              <div class="concept-box" style="background-image: url(' {{post.card_image}} '); min-width: 360px; min-height: 200px; background-size: cover;"> </div>
+              <div class="lg:py-8 lg:px-4 flex flex-col items-start lg:justify-center pt-4" style="min-height: 200px">
+                <h4 class="post-title title oswald font-bold mb-2">
+                  {{ post.title }}
+                </h4>
+
+                <p class="post-description mb-6">
+                  {{ post.short_description}}
+                </p>
+
+                <div class="hidden lg:block">
+                  <span  class="read-more text-red-500">
+                    Saznaj više
+                  </span>
+                </div>
+              </div>
+            </div>
+          </a>
+          {% endfor %}
+        </div>
+      {% else %}
+        <h2 class="section-title">
+          Blog u izradi
+        </h2>
+      {% endif %}
+    </div>
+  </section>
+
+</main>
+
+
+{% include footer.html %}

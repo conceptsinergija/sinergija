@@ -214,7 +214,7 @@ header nav .nav-item {
   font-size: 18px;
   line-height: 24px;
   padding: 4px 12px;
-  margin-left: 16px;
+  margin-left: 12px;
   transition: color .3s ease-in-out;
 }
 
@@ -1350,6 +1350,33 @@ h1.program-title {
   width: 100%;
 }
 
+#blog_posts main h4.title {
+  font-size: 32px;
+
+}
+#blog_posts .inner-container {
+  width: 1200px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#blog_posts .post-title  {
+  /* height: 48px; */
+  overflow: hidden;
+}
+#blog_posts .post-description {
+  max-height: 48px;
+  overflow: hidden;
+}
+
+#post .post-image {
+  width: 700px;
+  max-width: 100%;
+  margin: 40px auto 60px
+}
+
+
+
 @keyframes loadwidth {
   0% { width: 0;}
   100% { width: 100%;}
@@ -2270,6 +2297,14 @@ header nav .nav-item {
   }
   .about-member-box:hover {
     transform: scale(1);
+  }
+
+  #blog_posts main h4.title {
+    font-size: 24px;
+  }
+  #blog_posts .post-title  {
+    /* max-height: 96px; */
+    overflow: hidden;
   }
 }
 
