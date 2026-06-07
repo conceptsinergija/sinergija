@@ -38,7 +38,7 @@ our_mission:
   - title: Standard Class
     image: /assets/uploads/image-3-.jpg
     description: |
-      Program predviđen za one koji su ovladali osnovama ili su ranije trenirali CrossFit
+      Program predviđen za one koji su ovladali osnovama ili su ranije trenirali.
   - title: Funkcionalni trening
     image: /assets/uploads/image-4-.jpg
     description: |
