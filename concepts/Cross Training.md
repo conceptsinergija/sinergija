@@ -29,7 +29,7 @@ show_weekly_program: true
 weekly_program_title: Nedeljni program
 weekly_program: /assets/uploads/nedeljni cross za website (11).png
 subtitle: |
-  Poslednju deceniju ustalila se praksa da se prostori u kojima se trenira funkcionalni trening, CrossFit, performance trening i slično nazivaju BOX jer su to najčešće magacinski ili slični prostori koji izgledaju poput kutiija pravougaonih oblika. Za razliku od klasičnih teretana gde vidite mnoštvo sprava poređanih u prostoru u Box-evima je verovatnije da ćete videti uredno naslagane tegove, puno olimpijskih šipki, kavez (eng. Ring) za zgibove i gimnastičke vezbe, kanape za penjanje i mnogo slobodnog prostora.
+  Poslednju deceniju ustalila se praksa da se prostori u kojima se trenira funkcionalni trening, performance trening i slično nazivaju BOX jer su to najčešće magacinski ili slični prostori koji izgledaju poput kutiija pravougaonih oblika. Za razliku od klasičnih teretana gde vidite mnoštvo sprava poređanih u prostoru u Box-evima je verovatnije da ćete videti uredno naslagane tegove, puno olimpijskih šipki, kavez (eng. Ring) za zgibove i gimnastičke vezbe, kanape za penjanje i mnogo slobodnog prostora.
 our_mission:
   - title: Basic Class
     image: /assets/uploads/image-2-.jpg
