@@ -70,7 +70,7 @@ categories:
           Sve GYM članarine uključuju korišćenje svih zona GYM-a.
   - title: CROSS TRAINING
     questions:
-      - question: Šta je CrossFit?
+      - question: Šta je Funkcionalni fitnes?
         answer: |
           Funkcionalni treninzi su kombinacija kardio vežbi, treninga snage, treninga sa opterećenjima, treninga izdržljivosti i gimnastičkih vežbi. U okviru ovog departmana imamo nekoliko programa u različitim terminima časova.
 
