@@ -77,7 +77,7 @@ categories:
           Basic Class: Osnovni program prilagođen upznavanju sa funkcionalnim načinom treniranja, metodologijom i terminologijom rada.
 
           Standard Class: Program predvidjen za one koji su ovladali osnovama ili su ranije trenirali Funkcionalni trening i sl, sa mogućnošču prilagođavanja nivoa inteziteta i opterećenja u skladu sa mogućnostima.
-      - question: Koji su termini Cross treninga?
+      - question: Koji su termini Funkcionalnog treninga?
         answer: |
           Termini basic grupe su od ponedeljka do petka u 11h, 21h;
 
