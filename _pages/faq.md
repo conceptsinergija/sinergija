@@ -10,7 +10,7 @@ categories:
         answer: |
           Pozdrav, u Sinergija conceptu imamo širok izbor sportskih aktivnosti. Počevši od teretane u kojoj možete trenirati kao slobodan vežbač, sa trenerom 1x1, 2x1 ili 3x1 imamo i opciju online treninga.
 
-          Imamo i Cross Training departman za basic i napredne vežbače, Cardio Box grupu i opciju rada 1x1 kao i box trening za decu.
+          Imamo i Functional fitness departman za basic i napredne vežbače, Cardio Box grupu i opciju rada 1x1 kao i box trening za decu.
 
           Kada smo već kod toga, u Sinergiji imamo i Školicu sporta kao i proslavu najboljih sportskih rođendana za decu od 6-12 godina.
 
